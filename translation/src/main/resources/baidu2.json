@@ -1,0 +1,587 @@
+{
+    "trans_result": {
+        "phonetic": [
+            {
+                "src_str": "漂",
+                "trg_str": "piào"
+            },
+            {
+                "src_str": "亮",
+                "trg_str": "liang"
+            },
+            {
+                "src_str": "的",
+                "trg_str": "de"
+            }
+        ],
+        "data": [
+            {
+                "result": [
+                    [
+                        0,
+                        "漂亮的",
+                        [
+                            "0|6"
+                        ],
+                        [],
+                        [
+                            "0|6"
+                        ],
+                        [
+                            "0|9"
+                        ]
+                    ]
+                ],
+                "dst": "漂亮的",
+                "src": "pretty",
+                "relation": []
+            }
+        ],
+        "domain": "all",
+        "from": "en",
+        "to": "zh",
+        "type": 2,
+        "status": 0
+    },
+    "dict_result": {
+        "simple_means": {
+            "is_CRI": "1",
+            "word_means": [
+                "漂亮的",
+                "机灵的，聪明的",
+                "相当，颇",
+                "漂亮的人"
+            ],
+            "from": "kingsoft",
+            "exchange": {
+                "word_done": "",
+                "word_est": [
+                    "prettiest"
+                ],
+                "word_pl": [
+                    "pretties"
+                ],
+                "word_third": "",
+                "word_er": [
+                    "prettier"
+                ],
+                "word_ing": "",
+                "word_past": ""
+            },
+            "word_name": "pretty",
+            "symbols": [
+                {
+                    "ph_other": "",
+                    "parts": [
+                        {
+                            "means": [
+                                "漂亮的",
+                                "机灵的，聪明的"
+                            ],
+                            "part": "adj."
+                        },
+                        {
+                            "means": [
+                                "相当，颇"
+                            ],
+                            "part": "adv."
+                        },
+                        {
+                            "means": [
+                                "漂亮的人（或东西）"
+                            ],
+                            "part": "n."
+                        }
+                    ],
+                    "ph_am_mp3": "/1/0/2f/0e/2f0e7ef29748dbf6dacf8381c4cc921c.mp3",
+                    "ph_am": "ˈprɪti",
+                    "ph_tts_mp3": "/2/f/0/2f0e7ef29748dbf6dacf8381c4cc921c.mp3",
+                    "ph_en": "ˈprɪti",
+                    "ph_en_mp3": "/oxford/0/72/f4/72f4793aaaade5311255baec4d7e70b3.mp3"
+                }
+            ]
+        },
+        "edict": {
+            "item": [
+                {
+                    "tr_group": [
+                        {
+                            "similar_word": [],
+                            "tr": [
+                                "pleasing by delicacy or grace",
+                                "not imposing"
+                            ],
+                            "example": [
+                                "pretty girl",
+                                "pretty song",
+                                "pretty room"
+                            ]
+                        },
+                        {
+                            "similar_word": [],
+                            "tr": [
+                                "(used ironically) unexpectedly bad"
+                            ],
+                            "example": [
+                                "a pretty mess",
+                                "a pretty kettle of fish"
+                            ]
+                        }
+                    ],
+                    "pos": "adj"
+                },
+                {
+                    "tr_group": [
+                        {
+                            "similar_word": [
+                                "reasonably",
+                                "moderately",
+                                "jolly",
+                                "somewhat",
+                                "fairly",
+                                "middling",
+                                "passably"
+                            ],
+                            "tr": [
+                                "to a moderately sufficient extent or degree"
+                            ],
+                            "example": [
+                                "pretty big",
+                                "pretty bad",
+                                "jolly decent of him",
+                                "the shoes are priced reasonably",
+                                "he is fairly clever with computers"
+                            ]
+                        }
+                    ],
+                    "pos": "adv"
+                }
+            ],
+            "word": "pretty"
+        },
+        "collins": {
+            "entry": [
+                {
+                    "type": "mean",
+                    "entry_id": "53463",
+                    "value": [
+                        {
+                            "def": "If you describe someone, especially a girl, as <b>pretty</b>, you mean that they look nice and are attractive in a delicate way.",
+                            "mean_type": [
+                                {
+                                    "info_type": "example",
+                                    "info_id": "71786",
+                                    "example": [
+                                        {
+                                            "tts_mp3": "3/8/2/382b66b2612c46a66124b60a652d7c8a.mp3",
+                                            "ex": "She's a very charming and very pretty girl.",
+                                            "tts_size": "13.0",
+                                            "example_id": "68962",
+                                            "tran": "她是一个非常迷人的漂亮女孩。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "posp": [
+                                {
+                                    "label": "ADJ-GRADED"
+                                }
+                            ],
+                            "gramarinfo": [],
+                            "tran": "（尤指女孩）漂亮的，好看的，标致的",
+                            "mean_id": "51162"
+                        }
+                    ]
+                },
+                {
+                    "type": "rnon",
+                    "entry_id": "53464",
+                    "value": [
+                        {
+                            "rnon_id": "3244",
+                            "mean": [
+                                {
+                                    "def": "",
+                                    "mean_type": [
+                                        {
+                                            "info_type": "example",
+                                            "info_id": "71787",
+                                            "example": [
+                                                {
+                                                    "tts_mp3": "f/a/2/fa2d0f6e76d8da3f249f02872c9587d5.mp3",
+                                                    "ex": "She smiled again, prettily.",
+                                                    "example_id": "68963",
+                                                    "tran": "她又微微一笑，非常迷人。"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "posp": [],
+                                    "gramarinfo": [],
+                                    "tran": "",
+                                    "mean_id": "51163"
+                                }
+                            ],
+                            "head_word": "prettily"
+                        }
+                    ]
+                },
+                {
+                    "type": "rnon",
+                    "entry_id": "53465",
+                    "value": [
+                        {
+                            "rnon_id": "3245",
+                            "mean": [
+                                {
+                                    "def": "",
+                                    "mean_type": [
+                                        {
+                                            "info_type": "example",
+                                            "info_id": "71788",
+                                            "example": [
+                                                {
+                                                    "tts_mp3": "3/a/c/3ac687dcaa7828fbf3023eacc2c7a539.mp3",
+                                                    "ex": "Her prettiness had been much admired.",
+                                                    "example_id": "68964",
+                                                    "tran": "她的美貌让众人羡慕不已。"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "posp": [],
+                                    "gramarinfo": [],
+                                    "tran": "",
+                                    "mean_id": "51164"
+                                }
+                            ],
+                            "head_word": "prettiness"
+                        }
+                    ]
+                },
+                {
+                    "type": "mean",
+                    "entry_id": "53466",
+                    "value": [
+                        {
+                            "def": "A place or a thing that is <b>pretty</b> is attractive and pleasant, in a charming but not particularly unusual way.",
+                            "mean_type": [
+                                {
+                                    "info_type": "example",
+                                    "info_id": "71789",
+                                    "example": [
+                                        {
+                                            "tts_mp3": "8/f/c/8fc182c45aca3e2ccd18914bbcb00b59.mp3",
+                                            "ex": "Whitstable is still a very pretty little town.",
+                                            "tts_size": "14.0",
+                                            "example_id": "68965",
+                                            "tran": "惠特斯特布尔仍然是一个非常漂亮的小镇。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "info_type": "example",
+                                    "info_id": "71790",
+                                    "example": [
+                                        {
+                                            "tts_mp3": "6/3/1/6311e36e7bc4a1bfcf15c309f2559a54.mp3",
+                                            "ex": "...comfortable sofas covered in a pretty floral print.",
+                                            "tts_size": "15.0",
+                                            "example_id": "68966",
+                                            "tran": "罩着漂亮的印花布的舒适沙发"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "posp": [
+                                {
+                                    "label": "ADJ-GRADED"
+                                }
+                            ],
+                            "gramarinfo": [],
+                            "tran": "（地方或事物）漂亮的，美丽的（但无特殊之处）",
+                            "mean_id": "51165"
+                        }
+                    ]
+                },
+                {
+                    "type": "rnon",
+                    "entry_id": "53467",
+                    "value": [
+                        {
+                            "rnon_id": "3246",
+                            "mean": [
+                                {
+                                    "def": "",
+                                    "mean_type": [
+                                        {
+                                            "info_type": "example",
+                                            "info_id": "71791",
+                                            "example": [
+                                                {
+                                                    "tts_mp3": "6/8/9/6891093e3298aaa8dd3a43e8955f0598.mp3",
+                                                    "ex": "The living-room was prettily decorated.",
+                                                    "example_id": "68967",
+                                                    "tran": "客厅装修得很漂亮。"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "posp": [],
+                                    "gramarinfo": [],
+                                    "tran": "",
+                                    "mean_id": "51166"
+                                }
+                            ],
+                            "head_word": "prettily"
+                        }
+                    ]
+                },
+                {
+                    "type": "rnon",
+                    "entry_id": "53468",
+                    "value": [
+                        {
+                            "rnon_id": "3247",
+                            "mean": [
+                                {
+                                    "def": "",
+                                    "mean_type": [
+                                        {
+                                            "info_type": "example",
+                                            "info_id": "71792",
+                                            "example": [
+                                                {
+                                                    "tts_mp3": "a/c/4/ac4b0754c9fd46acc519f007508f619f.mp3",
+                                                    "ex": "...shells of quite unbelievable prettiness.",
+                                                    "example_id": "68968",
+                                                    "tran": "漂亮得让人难以置信的贝壳"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "posp": [],
+                                    "gramarinfo": [],
+                                    "tran": "",
+                                    "mean_id": "51167"
+                                }
+                            ],
+                            "head_word": "prettiness"
+                        }
+                    ]
+                },
+                {
+                    "type": "mean",
+                    "entry_id": "53469",
+                    "value": [
+                        {
+                            "def": "You can use <b>pretty</b> before an adjective or adverb to mean 'quite' or 'rather'.",
+                            "mean_type": [
+                                {
+                                    "info_type": "example",
+                                    "info_id": "71793",
+                                    "example": [
+                                        {
+                                            "tts_mp3": "6/2/5/6250a138b17885b52860ef4db6a918f9.mp3",
+                                            "ex": "I had a pretty good idea what she was going to do...",
+                                            "tts_size": "14.0",
+                                            "example_id": "68969",
+                                            "tran": "我很清楚她会怎么做。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "info_type": "example",
+                                    "info_id": "71794",
+                                    "example": [
+                                        {
+                                            "tts_mp3": "c/7/9/c79c73463fa694547c799f45fee7ecf6.mp3",
+                                            "ex": "Pretty soon after my arrival I found lodgings.",
+                                            "tts_size": "15.0",
+                                            "example_id": "68970",
+                                            "tran": "我到达之后，很快就找到了住处。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "info_type": "xrbu",
+                                    "xrbu": [
+                                        {
+                                            "xrbu_id": "107",
+                                            "posc": [],
+                                            "defx": [],
+                                            "xrbu_see": "fairly"
+                                        }
+                                    ],
+                                    "info_id": "71795"
+                                }
+                            ],
+                            "posp": [
+                                {
+                                    "label": "ADV"
+                                }
+                            ],
+                            "gramarinfo": [
+                                {
+                                    "label": "ADV adj/adv",
+                                    "type": "hdgr",
+                                    "tran": ""
+                                },
+                                {
+                                    "label": "INFORMAL",
+                                    "type": "lbrn",
+                                    "tran": "非正式"
+                                }
+                            ],
+                            "tran": "很；颇；相当",
+                            "mean_id": "51168"
+                        }
+                    ]
+                },
+                {
+                    "type": "mean",
+                    "entry_id": "53470",
+                    "value": [
+                        {
+                            "def": "<b>Pretty much</b> or <b>pretty well</b> means 'almost'.",
+                            "mean_type": [
+                                {
+                                    "info_type": "example",
+                                    "info_id": "71796",
+                                    "example": [
+                                        {
+                                            "tts_mp3": "e/6/2/e62ebd8434f66003b12fb646c332e33e.mp3",
+                                            "ex": "His new government looks pretty much like the old one...",
+                                            "tts_size": "14.0",
+                                            "example_id": "68971",
+                                            "tran": "他的新政府看起来和旧政府没什么两样。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "info_type": "example",
+                                    "info_id": "71797",
+                                    "example": [
+                                        {
+                                            "tts_mp3": "2/c/a/2ca8123e14eb4458a56f9924a26e306f.mp3",
+                                            "ex": "I travel pretty well every week.",
+                                            "tts_size": "10.0",
+                                            "example_id": "68972",
+                                            "tran": "我几乎每周都出去旅行。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "posp": [
+                                {
+                                    "label": "PHRASE"
+                                }
+                            ],
+                            "gramarinfo": [
+                                {
+                                    "label": "INFORMAL",
+                                    "type": "lbrn",
+                                    "tran": "非正式"
+                                }
+                            ],
+                            "tran": "几乎；近乎；差不多",
+                            "mean_id": "51169"
+                        }
+                    ]
+                },
+                {
+                    "type": "mean",
+                    "entry_id": "53471",
+                    "value": [
+                        {
+                            "def": "If you say that someone <b>is sitting pretty</b>, you mean that they are in a good, safe, or comfortable position.",
+                            "mean_type": [
+                                {
+                                    "info_type": "example",
+                                    "info_id": "71798",
+                                    "example": [
+                                        {
+                                            "tts_mp3": "6/3/b/63baefce4448ebe17aee23128c666b20.mp3",
+                                            "ex": "When the war started, they thought they were sitting pretty, because they had all that extra grain.",
+                                            "tts_size": "26.0",
+                                            "example_id": "68973",
+                                            "tran": "战争开始的时候，他们认为自己境况不错，因为他们粮食准备充足。"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "posp": [
+                                {
+                                    "label": "PHRASE"
+                                }
+                            ],
+                            "gramarinfo": [
+                                {
+                                    "label": "V inflects",
+                                    "type": "hdgr",
+                                    "tran": ""
+                                },
+                                {
+                                    "label": "INFORMAL",
+                                    "type": "lbrn",
+                                    "tran": "非正式"
+                                }
+                            ],
+                            "tran": "处于有利的位置；处境优越",
+                            "mean_id": "51170"
+                        }
+                    ]
+                },
+                {
+                    "type": "mean",
+                    "entry_id": "53472",
+                    "value": [
+                        {
+                            "def": "",
+                            "mean_type": [
+                                {
+                                    "info_type": "xrse",
+                                    "xrse": [
+                                        {
+                                            "def": "<b>not a pretty sight</b>",
+                                            "xrse_id": "1604",
+                                            "posc": [],
+                                            "xrse_see": "sight",
+                                            "defx": []
+                                        }
+                                    ],
+                                    "info_id": "71799"
+                                }
+                            ],
+                            "posp": [],
+                            "gramarinfo": [],
+                            "tran": "",
+                            "mean_id": "51171"
+                        }
+                    ]
+                },
+                {
+                    "type": "boxu",
+                    "entry_id": "53473",
+                    "value": [
+                        {
+                            "boxu_tran": "当描述人的外貌时，通常用 pretty 和 beautiful 来描述妇女、女孩和婴儿。beautiful 比 pretty 语气强烈很多。描写男性的对应词是 handsome。good-looking 和 attractive 可用来描述两性。pretty也可以用来修饰形容词和副词，但是语气不如 very 强烈。表示这个意义时，pretty为非正式用语。",
+                            "boxu_usage": "When you are describing someone's appearance, you generally use <b>pretty</b> and <b>beautiful</b> to describe women, girls, and babies. <b>Beautiful</b> is a much stronger word than <b>pretty</b>. The equivalent word for a man is <b>handsome</b>. <b>Good-looking</b> and <b>attractive</b> can be used to describe people of either sex. <b>Pretty</b> can also be used to modify adjectives and adverbs but is less strong than <b>very</b>. In this sense, <b>pretty</b> is informal."
+                        }
+                    ]
+                }
+            ],
+            "word_id": "24692",
+            "word_emphasize": "pret|ty",
+            "word_name": "pretty",
+            "frequence": "4"
+        },
+        "zdict": "",
+        "from": "kingsoft",
+        "lang": "1"
+    },
+    "liju_result": {
+        "single": "[[[[\"Dresses\",\"w_0\",0,\" \"],[\"had\",\"w_1\",0,\" \"],[\"shirt\",\"w_2\",0,\" \"],[\"lapel\",\"w_3\",0,\" \"],[\"necks\",\"w_4\",0,\" \"],[\"and\",\"w_5\",0,\" \"],[\"flowed\",\"w_6\",0,\" \"],[\"into\",\"w_7\",0,\" \"],[\"pretty\",\"w_8\",0],[\",\",\"w_9\",0,\" \"],[\"cutaway\",\"w_10\",0,\" \"],[\"chiffon\",\"w_11\",0,\" \"],[\"dresses\",\"w_12\",0,\" \"],[\"sprinkled\",\"w_13\",0,\" \"],[\"with\",\"w_14\",0,\" \"],[\"tiny\",\"w_15\",0,\" \"],[\"flower\",\"w_16\",0,\" \"],[\"prints\",\"w_17\",0,\" \"],[\"and\",\"w_18\",0,\" \"],[\"were\",\"w_19\",0,\" \"],[\"worn\",\"w_20\",0,\" \"],[\"over\",\"w_21\",0,\" \"],[\"pinstripe\",\"w_22\",0,\" \"],[\"narrow\",\"w_23\",0,\" \"],[\"trousers\",\"w_24\",0],[\".\",\"w_25\",0]],\"http://www.chinadaily.com.cn/life/2009-09/29/content_8750275.htm\",1040133],[[[\"\\\"\",\"w_52\",0],[\"It\",\"w_53\",0,\" \"],[\"doesn\",\"w_54\",0],[\"'t\",\"w_55\",0,\" \"],[\"need\",\"w_56\",0,\" \"],[\"to\",\"w_57\",0,\" \"],[\"be\",\"w_58\",0,\" \"],[\"pretty\",\"w_59\",0],[\",\",\"w_60\",0],[\"\\\"\",\"w_61\",0,\" \"],[\"Federer\",\"w_62\",0,\" \"],[\"said\",\"w_63\",0],[\".\",\"w_64\",0]],\"http://www.chinadaily.com.cn/sports/2011-08/31/content_13226563.htm\",19],[[[\"While\",\"w_78\",0,\" \"],[\"some\",\"w_79\",0,\" \"],[\"women\",\"w_80\",0,\" \"],[\"may\",\"w_81\",0,\" \"],[\"enjoy\",\"w_82\",0,\" \"],[\"the\",\"w_83\",0,\" \"],[\"taste\",\"w_84\",0,\" \"],[\"of\",\"w_85\",0,\" \"],[\"scotch\",\"w_86\",0,\" \"],[\"as\",\"w_87\",0,\" \"],[\"much\",\"w_88\",0,\" \"],[\"as\",\"w_89\",0,\" \"],[\"the\",\"w_90\",0,\" \"],[\"next\",\"w_91\",0,\" \"],[\"fella\",\"w_92\",0],[\",\",\"w_93\",0,\" \"],[\"most\",\"w_94\",0,\" \"],[\"would\",\"w_95\",0,\" \"],[\"prefer\",\"w_96\",0,\" \"],[\"a\",\"w_97\",0,\" \"],[\"pretty\",\"w_98\",0,\" \"],[\"looking\",\"w_99\",0,\" \"],[\"drink\",\"w_100\",0,\" \"],[\"that\",\"w_101\",0,\" \"],[\"tingles\",\"w_102\",0,\" \"],[\"the\",\"w_103\",0,\" \"],[\"sweet\",\"w_104\",0,\" \"],[\"tooth\",\"w_105\",0],[\".\",\"w_106\",0]],\"http://www.chinadaily.com.cn/citylife/2007-02/15/content_809968.htm\",1039009],[[[\"Don\",\"w_136\",0],[\"'t\",\"w_137\",0,\" \"],[\"think\",\"w_138\",0,\" \"],[\"posh\",\"w_139\",0,\" \"],[\"little\",\"w_140\",0,\" \"],[\"portions\",\"w_141\",0,\" \"],[\"and\",\"w_142\",0,\" \"],[\"delicate\",\"w_143\",0,\" \"],[\"arrangements\",\"w_144\",0,\" \"],[\"that\",\"w_145\",0,\" \"],[\"are\",\"w_146\",0,\" \"],[\"too\",\"w_147\",0,\" \"],[\"pretty\",\"w_148\",0,\" \"],[\"to\",\"w_149\",0,\" \"],[\"eat\",\"w_150\",0,\" \"],[\"leaving\",\"w_151\",0,\" \"],[\"you\",\"w_152\",0,\" \"],[\"heading\",\"w_153\",0,\" \"],[\"out\",\"w_154\",0,\" \"],[\"to\",\"w_155\",0,\" \"],[\"another\",\"w_156\",0,\" \"],[\"restaurant\",\"w_157\",0,\" \"],[\"to\",\"w_158\",0,\" \"],[\"get\",\"w_159\",0,\" \"],[\"you\",\"w_160\",0,\" \"],[\"fill\",\"w_161\",0],[\".\",\"w_162\",0]],\"http://www.chinadaily.com.cn/cityguide/2008-08/07/content_6920552.htm\",1038552],[[[\"The\",\"w_190\",0,\" \"],[\"trance\",\"w_191\",0,\" \"],[\"is\",\"w_192\",0,\" \"],[\"somewhat\",\"w_193\",0,\" \"],[\"broken\",\"w_194\",0,\" \"],[\"when\",\"w_195\",0,\" \"],[\"pretty\",\"w_196\",0,\" \"],[\"lasses\",\"w_197\",0,\" \"],[\"dressed\",\"w_198\",0,\" \"],[\"in\",\"w_199\",0,\" \"],[\"flirtatious\",\"w_200\",0,\" \"],[\"red\",\"w_201\",0,\" \"],[\"and\",\"w_202\",0,\" \"],[\"white\",\"w_203\",0,\" \"],[\"dance\",\"w_204\",0,\" \"],[\"across\",\"w_205\",0,\" \"],[\"the\",\"w_206\",0,\" \"],[\"stage\",\"w_207\",0,\" \"],[\"to\",\"w_208\",0,\" \"],[\"the\",\"w_209\",0,\" \"],[\"accompaniment\",\"w_210\",0,\" \"],[\"of\",\"w_211\",0,\" \"],[\"music\",\"w_212\",0],[\".\",\"w_213\",0]],\"http://www.chinadaily.com.cn/cndy/2007-07/31/content_5446331.htm\",1038351],[[[\"You\",\"w_238\",0,\" \"],[\"can\",\"w_239\",0,\" \"],[\"pretty\",\"w_240\",0,\" \"],[\"them\",\"w_241\",0,\" \"],[\"up\",\"w_242\",0,\" \"],[\"by\",\"w_243\",0,\" \"],[\"perching\",\"w_244\",0,\" \"],[\"a\",\"w_245\",0,\" \"],[\"walnut\",\"w_246\",0,\" \"],[\"or\",\"w_247\",0,\" \"],[\"pecan\",\"w_248\",0,\" \"],[\"half\",\"w_249\",0,\" \"],[\"on\",\"w_250\",0,\" \"],[\"the\",\"w_251\",0,\" \"],[\"batter\",\"w_252\",0],[\",\",\"w_253\",0,\" \"],[\"or\",\"w_254\",0,\" \"],[\"a\",\"w_255\",0,\" \"],[\"glace\",\"w_256\",0,\" \"],[\"cherry\",\"w_257\",0,\" \"],[\"if\",\"w_258\",0,\" \"],[\"you\",\"w_259\",0,\" \"],[\"can\",\"w_260\",0,\" \"],[\"get\",\"w_261\",0,\" \"],[\"them\",\"w_262\",0],[\".\",\"w_263\",0]],\"http://www.chinadaily.com.cn/food/2011-08/08/content_13069828.htm\",1037997],[[[\"Lovely\",\"w_290\",0,\" \"],[\"sweaters\",\"w_291\",0,\" \"],[\"unsuitable\",\"w_292\",0,\" \"],[\"for\",\"w_293\",0,\" \"],[\"my\",\"w_294\",0,\" \"],[\"age\",\"w_295\",0,\" \"],[\"and\",\"w_296\",0,\" \"],[\"pretty\",\"w_297\",0,\" \"],[\"hair\",\"w_298\",0,\" \"],[\"ties\",\"w_299\",0,\" \"],[\"unworkable\",\"w_300\",0,\" \"],[\"for\",\"w_301\",0,\" \"],[\"my\",\"w_302\",0,\" \"],[\"short\",\"w_303\",0,\" \"],[\"hair\",\"w_304\",0,\" \"],[\"have\",\"w_305\",0,\" \"],[\"been\",\"w_306\",0,\" \"],[\"included\",\"w_307\",0,\" \"],[\"in\",\"w_308\",0,\" \"],[\"my\",\"w_309\",0,\" \"],[\"purchases\",\"w_310\",0,\" \"],[\"in\",\"w_311\",0,\" \"],[\"the\",\"w_312\",0,\" \"],[\"past\",\"w_313\",0],[\".\",\"w_314\",0]],\"http://www.chinadaily.com.cn/life/2010-01/12/content_9307883.htm\",1033658],[[[\"I\",\"w_340\",0],[\"'m\",\"w_341\",0,\" \"],[\"pretty\",\"w_342\",0,\" \"],[\"sure\",\"w_343\",0,\" \"],[\"there\",\"w_344\",0,\" \"],[\"are\",\"w_345\",0,\" \"],[\"probably\",\"w_346\",0,\" \"],[\"fewer\",\"w_347\",0,\" \"],[\"than\",\"w_348\",0,\" \"],[\"300\",\"w_349\",0,\" \"],[\"single\",\"w_350\",0,\" \"],[\"foreign\",\"w_351\",0,\" \"],[\"girls\",\"w_352\",0,\" \"],[\"in\",\"w_353\",0,\" \"],[\"my\",\"w_354\",0,\" \"],[\"current\",\"w_355\",0,\" \"],[\"city\",\"w_356\",0,\" \"],[\"compared\",\"w_357\",0,\" \"],[\"with\",\"w_358\",0,\" \"],[\"upward\",\"w_359\",0,\" \"],[\"of\",\"w_360\",0,\" \"],[\"a\",\"w_361\",0,\" \"],[\"million\",\"w_362\",0,\" \"],[\"single\",\"w_363\",0,\" \"],[\"native\",\"w_364\",0,\" \"],[\"girls\",\"w_365\",0],[\".\",\"w_366\",0]],\"http://www.chinadaily.com.cn/cndy/2010-03/02/content_9522269.htm\",1031818],[[[\"It\",\"w_394\",0,\" \"],[\"is\",\"w_395\",0,\" \"],[\"also\",\"w_396\",0,\" \"],[\"pretty\",\"w_397\",0,\" \"],[\"unlikely\",\"w_398\",0,\" \"],[\"you\",\"w_399\",0,\" \"],[\"will\",\"w_400\",0,\" \"],[\"drive\",\"w_401\",0,\" \"],[\"back\",\"w_402\",0,\" \"],[\"to\",\"w_403\",0,\" \"],[\"downtown\",\"w_404\",0,\" \"],[\"without\",\"w_405\",0,\" \"],[\"a\",\"w_406\",0,\" \"],[\"passenger\",\"w_407\",0,\" \"],[\"since\",\"w_408\",0,\" \"],[\"there\",\"w_409\",0,\" \"],[\"are\",\"w_410\",0,\" \"],[\"few\",\"w_411\",0,\" \"],[\"other\",\"w_412\",0,\" \"],[\"taxis\",\"w_413\",0,\" \"],[\"in\",\"w_414\",0,\" \"],[\"those\",\"w_415\",0,\" \"],[\"big\",\"w_416\",0,\" \"],[\"communities\",\"w_417\",0],[\".\",\"w_418\",0]],\"http://www.chinadaily.com.cn/life/2010-01/19/content_9341950.htm\",1031640],[[[\"Pretty\",\"w_444\",0,\" \"],[\"girls\",\"w_445\",0,\" \"],[\"may\",\"w_446\",0,\" \"],[\"count\",\"w_447\",0,\" \"],[\"on\",\"w_448\",0,\" \"],[\"beauty\",\"w_449\",0,\" \"],[\"to\",\"w_450\",0,\" \"],[\"give\",\"w_451\",0,\" \"],[\"them\",\"w_452\",0,\" \"],[\"advantages\",\"w_453\",0],[\",\",\"w_454\",0,\" \"],[\"but\",\"w_455\",0,\" \"],[\"will\",\"w_456\",0,\" \"],[\"learn\",\"w_457\",0,\" \"],[\"that\",\"w_458\",0,\" \"],[\"the\",\"w_459\",0,\" \"],[\"sense\",\"w_460\",0,\" \"],[\"of\",\"w_461\",0,\" \"],[\"privilege\",\"w_462\",0,\" \"],[\"built\",\"w_463\",0,\" \"],[\"on\",\"w_464\",0,\" \"],[\"their\",\"w_465\",0,\" \"],[\"looks\",\"w_466\",0,\" \"],[\"is\",\"w_467\",0,\" \"],[\"never\",\"w_468\",0,\" \"],[\"reliable\",\"w_469\",0],[\".\",\"w_470\",0]],\"http://www.chinadaily.com.cn/showbiz/2009-03/05/content_7541933.htm\",1030179],[[[\"I\",\"w_498\",0],[\"'ve\",\"w_499\",0,\" \"],[\"sampled\",\"w_500\",0,\" \"],[\"pretty\",\"w_501\",0,\" \"],[\"fair\",\"w_502\",0,\" \"],[\"copies\",\"w_503\",0,\" \"],[\"of\",\"w_504\",0,\" \"],[\"this\",\"w_505\",0,\" \"],[\"Persian\",\"w_506\",0,\" \"],[\"classic\",\"w_507\",0,\" \"],[\"in\",\"w_508\",0,\" \"],[\"restaurants\",\"w_509\",0,\" \"],[\"around\",\"w_510\",0,\" \"],[\"the\",\"w_511\",0,\" \"],[\"world\",\"w_512\",0],[\",\",\"w_513\",0,\" \"],[\"but\",\"w_514\",0,\" \"],[\"Rumi\",\"w_515\",0],[\"'s\",\"w_516\",0,\" \"],[\"rendition\",\"w_517\",0,\" \"],[\"is\",\"w_518\",0,\" \"],[\"closest\",\"w_519\",0,\" \"],[\"to\",\"w_520\",0,\" \"],[\"my\",\"w_521\",0,\" \"],[\"first\",\"w_522\",0,\" \"],[\"romantic\",\"w_523\",0,\" \"],[\"encounter\",\"w_524\",0,\" \"],[\"in\",\"w_525\",0,\" \"],[\"Esfahan\",\"w_526\",0],[\".\",\"w_527\",0]],\"http://www.chinadaily.com.cn/sunday/2012-03/04/content_14748675.htm\",1026155],[[[\"It\",\"w_558\",0,\" \"],[\"is\",\"w_559\",0,\" \"],[\"also\",\"w_560\",0,\" \"],[\"dotted\",\"w_561\",0,\" \"],[\"by\",\"w_562\",0,\" \"],[\"pockets\",\"w_563\",0,\" \"],[\"of\",\"w_564\",0,\" \"],[\"civilization\",\"w_565\",0,\" \"],[\"represented\",\"w_566\",0,\" \"],[\"by\",\"w_567\",0,\" \"],[\"pretty\",\"w_568\",0,\" \"],[\"yurts\",\"w_569\",0,\" \"],[\"or\",\"w_570\",0,\" \"],[\"villages\",\"w_571\",0,\" \"],[\"inhabited\",\"w_572\",0,\" \"],[\"by\",\"w_573\",0,\" \"],[\"various\",\"w_574\",0,\" \"],[\"ethnic\",\"w_575\",0,\" \"],[\"groups\",\"w_576\",0],[\".\",\"w_577\",0]],\"http://www.chinadaily.com.cn/travel/2012-09/29/content_15793042.htm\",1024928],[[[\"I\",\"w_598\",0,\" \"],[\"realized\",\"w_599\",0,\" \"],[\"pretty\",\"w_600\",0,\" \"],[\"quickly\",\"w_601\",0,\" \"],[\"that\",\"w_602\",0,\" \"],[\"not\",\"w_603\",0,\" \"],[\"only\",\"w_604\",0,\" \"],[\"was\",\"w_605\",0,\" \"],[\"it\",\"w_606\",0,\" \"],[\"helping\",\"w_607\",0,\" \"],[\"me\",\"w_608\",0,\" \"],[\"get\",\"w_609\",0,\" \"],[\"into\",\"w_610\",0,\" \"],[\"shape\",\"w_611\",0],[\",\",\"w_612\",0,\" \"],[\"but\",\"w_613\",0,\" \"],[\"also\",\"w_614\",0,\" \"],[\"it\",\"w_615\",0,\" \"],[\"had\",\"w_616\",0,\" \"],[\"the\",\"w_617\",0,\" \"],[\"added\",\"w_618\",0,\" \"],[\"bonus\",\"w_619\",0,\" \"],[\"of\",\"w_620\",0,\" \"],[\"improving\",\"w_621\",0,\" \"],[\"my\",\"w_622\",0,\" \"],[\"Chinese\",\"w_623\",0],[\".\",\"w_624\",0]],\"http://www.chinadaily.com.cn/life/2010-03/04/content_9536547.htm\",1024379],[[[\"Provided\",\"w_652\",0,\" \"],[\"they\",\"w_653\",0,\" \"],[\"possess\",\"w_654\",0,\" \"],[\"a\",\"w_655\",0,\" \"],[\"handsome\",\"w_656\",0,\" \"],[\"or\",\"w_657\",0,\" \"],[\"pretty\",\"w_658\",0,\" \"],[\"figure\",\"w_659\",0,\" \"],[\"and\",\"w_660\",0,\" \"],[\"a\",\"w_661\",0,\" \"],[\"number\",\"w_662\",0,\" \"],[\"of\",\"w_663\",0,\" \"],[\"fans\",\"w_664\",0],[\",\",\"w_665\",0,\" \"],[\"actors\",\"w_666\",0,\" \"],[\"or\",\"w_667\",0,\" \"],[\"actresses\",\"w_668\",0,\" \"],[\"will\",\"w_669\",0,\" \"],[\"also\",\"w_670\",0,\" \"],[\"find\",\"w_671\",0,\" \"],[\"it\",\"w_672\",0,\" \"],[\"easy\",\"w_673\",0,\" \"],[\"to\",\"w_674\",0,\" \"],[\"sign\",\"w_675\",0,\" \"],[\"up\",\"w_676\",0,\" \"],[\"with\",\"w_677\",0,\" \"],[\"local\",\"w_678\",0,\" \"],[\"record\",\"w_679\",0,\" \"],[\"companies\",\"w_680\",0],[\".\",\"w_681\",0]],\"http://www.chinadaily.com.cn/english/doc/2005-01/17/content_409563.htm\",1024366],[[[\"If\",\"w_712\",0,\" \"],[\"wrestling\",\"w_713\",0,\" \"],[\"with\",\"w_714\",0,\" \"],[\"bamboo\",\"w_715\",0,\" \"],[\"leaves\",\"w_716\",0,\" \"],[\"and\",\"w_717\",0,\" \"],[\"reeds\",\"w_718\",0,\" \"],[\"is\",\"w_719\",0,\" \"],[\"beyond\",\"w_720\",0,\" \"],[\"you\",\"w_721\",0],[\",\",\"w_722\",0,\" \"],[\"get\",\"w_723\",0,\" \"],[\"some\",\"w_724\",0,\" \"],[\"pretty\",\"w_725\",0,\" \"],[\"rice\",\"w_726\",0,\" \"],[\"bowls\",\"w_727\",0,\" \"],[\"and\",\"w_728\",0,\" \"],[\"pack\",\"w_729\",0,\" \"],[\"in\",\"w_730\",0,\" \"],[\"the\",\"w_731\",0,\" \"],[\"mixture\",\"w_732\",0,\" \"],[\"and\",\"w_733\",0,\" \"],[\"lotus\",\"w_734\",0,\" \"],[\"nuts\",\"w_735\",0],[\".\",\"w_736\",0]],\"http://www.chinadaily.com.cn/food/2011-05/30/content_12606658.htm\",1023163],[[[\"He\",\"w_762\",0,\" \"],[\"was\",\"w_763\",0,\" \"],[\"very\",\"w_764\",0,\" \"],[\"tall\",\"w_765\",0,\" \"],[\"and\",\"w_766\",0,\" \"],[\"skinny\",\"w_767\",0,\" \"],[\"and\",\"w_768\",0,\" \"],[\"wore\",\"w_769\",0,\" \"],[\"lots\",\"w_770\",0,\" \"],[\"of\",\"w_771\",0,\" \"],[\"ponytails\",\"w_772\",0,\" \"],[\"in\",\"w_773\",0,\" \"],[\"his\",\"w_774\",0,\" \"],[\"hair\",\"w_775\",0,\" \"],[\"and\",\"w_776\",0,\" \"],[\"I\",\"w_777\",0],[\"'m\",\"w_778\",0,\" \"],[\"pretty\",\"w_779\",0,\" \"],[\"sure\",\"w_780\",0,\" \"],[\"I\",\"w_781\",0,\" \"],[\"got\",\"w_782\",0,\" \"],[\"weed\",\"w_783\",0,\" \"],[\"from\",\"w_784\",0,\" \"],[\"him\",\"w_785\",0],[\".\",\"w_786\",0]],\"http://www.chinadaily.com.cn/entertainment/2011-01/21/content_11894246.htm\",1021770],[[[\"It\",\"w_812\",0,\" \"],[\"is\",\"w_813\",0,\" \"],[\"an\",\"w_814\",0,\" \"],[\"evergreen\",\"w_815\",0,\" \"],[\"shrub\",\"w_816\",0,\" \"],[\"that\",\"w_817\",0,\" \"],[\"is\",\"w_818\",0,\" \"],[\"an\",\"w_819\",0,\" \"],[\"ubiquitous\",\"w_820\",0,\" \"],[\"part\",\"w_821\",0,\" \"],[\"of\",\"w_822\",0,\" \"],[\"landscaping\",\"w_823\",0,\" \"],[\"throughout\",\"w_824\",0,\" \"],[\"China\",\"w_825\",0,\" \"],[\"both\",\"w_826\",0,\" \"],[\"for\",\"w_827\",0,\" \"],[\"its\",\"w_828\",0,\" \"],[\"pretty\",\"w_829\",0,\" \"],[\"foliage\",\"w_830\",0,\" \"],[\"and\",\"w_831\",0,\" \"],[\"its\",\"w_832\",0,\" \"],[\"highly\",\"w_833\",0,\" \"],[\"scented\",\"w_834\",0,\" \"],[\"flowers\",\"w_835\",0],[\".\",\"w_836\",0]],\"http://www.chinadaily.com.cn/cndy/2011-05/08/content_12465013.htm\",1018644],[[[\"Local\",\"w_862\",0,\" \"],[\"governments\",\"w_863\",0,\" \"],[\"are\",\"w_864\",0,\" \"],[\"shaping\",\"w_865\",0,\" \"],[\"urban\",\"w_866\",0,\" \"],[\"China\",\"w_867\",0,\" \"],[\"in\",\"w_868\",0,\" \"],[\"similar\",\"w_869\",0,\" \"],[\"ways\",\"w_870\",0],[\",\",\"w_871\",0,\" \"],[\"leaving\",\"w_872\",0,\" \"],[\"a\",\"w_873\",0,\" \"],[\"trail\",\"w_874\",0,\" \"],[\"of\",\"w_875\",0,\" \"],[\"empty\",\"w_876\",0,\" \"],[\"streets\",\"w_877\",0,\" \"],[\"that\",\"w_878\",0,\" \"],[\"look\",\"w_879\",0,\" \"],[\"like\",\"w_880\",0,\" \"],[\"movie\",\"w_881\",0,\" \"],[\"sets\",\"w_882\",0],[\"-\",\"w_883\",0],[\"pretty\",\"w_884\",0,\" \"],[\"but\",\"w_885\",0,\" \"],[\"soulless\",\"w_886\",0],[\".\",\"w_887\",0]],\"http://www.chinadaily.com.cn/opinion/2009-07/11/content_8415692.htm\",1017885],[[[\"Travelers\",\"w_914\",0,\" \"],[\"the\",\"w_915\",0,\" \"],[\"world\",\"w_916\",0,\" \"],[\"over\",\"w_917\",0,\" \"],[\"discover\",\"w_918\",0,\" \"],[\"pretty\",\"w_919\",0,\" \"],[\"early\",\"w_920\",0,\" \"],[\"on\",\"w_921\",0,\" \"],[\"how\",\"w_922\",0,\" \"],[\"easy\",\"w_923\",0,\" \"],[\"it\",\"w_924\",0,\" \"],[\"is\",\"w_925\",0,\" \"],[\"to\",\"w_926\",0,\" \"],[\"offend\",\"w_927\",0,\" \"],[\"their\",\"w_928\",0,\" \"],[\"national\",\"w_929\",0,\" \"],[\"hosts\",\"w_930\",0,\" \"],[\"by\",\"w_931\",0,\" \"],[\"their\",\"w_932\",0,\" \"],[\"ignorance\",\"w_933\",0,\" \"],[\"of\",\"w_934\",0,\" \"],[\"local\",\"w_935\",0,\" \"],[\"customs\",\"w_936\",0],[\".\",\"w_937\",0]],\"http://www.chinadaily.com.cn/opinion/2011-12/06/content_14713518.htm\",1017793],[[[\"In\",\"w_962\",0,\" \"],[\"the\",\"w_963\",0,\" \"],[\"first\",\"w_964\",0,\" \"],[\"half\",\"w_965\",0,\" \"],[\"it\",\"w_966\",0,\" \"],[\"was\",\"w_967\",0,\" \"],[\"pretty\",\"w_968\",0,\" \"],[\"even\",\"w_969\",0,\" \"],[\"but\",\"w_970\",0,\" \"],[\"in\",\"w_971\",0,\" \"],[\"the\",\"w_972\",0,\" \"],[\"second\",\"w_973\",0,\" \"],[\"it\",\"w_974\",0,\" \"],[\"seemed\",\"w_975\",0,\" \"],[\"like\",\"w_976\",0,\" \"],[\"we\",\"w_977\",0,\" \"],[\"were\",\"w_978\",0,\" \"],[\"under\",\"w_979\",0,\" \"],[\"the\",\"w_980\",0,\" \"],[\"cosh\",\"w_981\",0,\" \"],[\"for\",\"w_982\",0,\" \"],[\"about\",\"w_983\",0,\" \"],[\"three\",\"w_984\",0,\" \"],[\"hours\",\"w_985\",0],[\".\",\"w_986\",0]],\"http://www.chinadaily.com.cn/english/doc/2006-01/09/content_510541.htm\",1017598],[[[\"The\",\"w_1012\",0,\" \"],[\"Chinese\",\"w_1013\",0,\" \"],[\"fare\",\"w_1014\",0,\" \"],[\"was\",\"w_1015\",0,\" \"],[\"in\",\"w_1016\",0,\" \"],[\"fact\",\"w_1017\",0,\" \"],[\"pretty\",\"w_1018\",0,\" \"],[\"bland\",\"w_1019\",0,\" \"],[\"with\",\"w_1020\",0,\" \"],[\"the\",\"w_1021\",0,\" \"],[\"fried\",\"w_1022\",0,\" \"],[\"rice\",\"w_1023\",0,\" \"],[\"being\",\"w_1024\",0,\" \"],[\"the\",\"w_1025\",0,\" \"],[\"main\",\"w_1026\",0,\" \"],[\"culprit\",\"w_1027\",0,\" \"],[\"by\",\"w_1028\",0,\" \"],[\"not\",\"w_1029\",0,\" \"],[\"interacting\",\"w_1030\",0,\" \"],[\"with\",\"w_1031\",0,\" \"],[\"the\",\"w_1032\",0,\" \"],[\"taste\",\"w_1033\",0,\" \"],[\"buds\",\"w_1034\",0],[\".\",\"w_1035\",0]],\"http://www.chinadaily.com.cn/citylife/2006-08/08/content_659643.htm\",1017087],[[[\"The\",\"w_1060\",0,\" \"],[\"match\",\"w_1061\",0,\" \"],[\"was\",\"w_1062\",0,\" \"],[\"pretty\",\"w_1063\",0,\" \"],[\"close\",\"w_1064\",0,\" \"],[\"just\",\"w_1065\",0,\" \"],[\"like\",\"w_1066\",0,\" \"],[\"the\",\"w_1067\",0,\" \"],[\"first\",\"w_1068\",0,\" \"],[\"set\",\"w_1069\",0,\" \"],[\"when\",\"w_1070\",0,\" \"],[\"I\",\"w_1071\",0,\" \"],[\"noticed\",\"w_1072\",0,\" \"],[\"that\",\"w_1073\",0,\" \"],[\"my\",\"w_1074\",0,\" \"],[\"opponents\",\"w_1075\",0,\" \"],[\"started\",\"w_1076\",0,\" \"],[\"laughing\",\"w_1077\",0,\" \"],[\"between\",\"w_1078\",0,\" \"],[\"themselves\",\"w_1079\",0,\" \"],[\"when\",\"w_1080\",0,\" \"],[\"they\",\"w_1081\",0,\" \"],[\"made\",\"w_1082\",0,\" \"],[\"mistakes\",\"w_1083\",0],[\".\",\"w_1084\",0]],\"http://www.chinadaily.com.cn/china/2011-05/04/content_12440873.htm\",1017046],[[[\"But\",\"w_1110\",0,\" \"],[\"there\",\"w_1111\",0,\" \"],[\"is\",\"w_1112\",0,\" \"],[\"one\",\"w_1113\",0,\" \"],[\"other\",\"w_1114\",0,\" \"],[\"ingredient\",\"w_1115\",0,\" \"],[\"unrelated\",\"w_1116\",0,\" \"],[\"to\",\"w_1117\",0,\" \"],[\"sporting\",\"w_1118\",0,\" \"],[\"prowess\",\"w_1119\",0,\" \"],[\"that\",\"w_1120\",0,\" \"],[\"gets\",\"w_1121\",0,\" \"],[\"fans\",\"w_1122\",0,\" \"],[\"going\",\"w_1123\",0,\" \"],[\"crazy\",\"w_1124\",0,\" \"],[\"about\",\"w_1125\",0,\" \"],[\"them\",\"w_1126\",0],[\"-\",\"w_1127\",0],[\"they\",\"w_1128\",0,\" \"],[\"are\",\"w_1129\",0,\" \"],[\"all\",\"w_1130\",0,\" \"],[\"pretty\",\"w_1131\",0,\" \"],[\"vocal\",\"w_1132\",0],[\".\",\"w_1133\",0]],\"http://www.chinadaily.com.cn/english/doc/2004-05/27/content_334188.htm\",1016284],[[[\"There\",\"w_1158\",0,\" \"],[\"are\",\"w_1159\",0,\" \"],[\"those\",\"w_1160\",0,\" \"],[\"pieces\",\"w_1161\",0,\" \"],[\"which\",\"w_1162\",0,\" \"],[\"appear\",\"w_1163\",0,\" \"],[\"beautiful\",\"w_1164\",0,\" \"],[\"but\",\"w_1165\",0,\" \"],[\"aren\",\"w_1166\",0],[\"'t\",\"w_1167\",0,\" \"],[\"her\",\"w_1168\",0,\" \"],[\"type\",\"w_1169\",0],[\",\",\"w_1170\",0,\" \"],[\"and\",\"w_1171\",0,\" \"],[\"also\",\"w_1172\",0,\" \"],[\"those\",\"w_1173\",0,\" \"],[\"that\",\"w_1174\",0,\" \"],[\"appear\",\"w_1175\",0,\" \"],[\"mediocre\",\"w_1176\",0,\" \"],[\"but\",\"w_1177\",0,\" \"],[\"suit\",\"w_1178\",0,\" \"],[\"her\",\"w_1179\",0,\" \"],[\"pretty\",\"w_1180\",0,\" \"],[\"well\",\"w_1181\",0],[\".\",\"w_1182\",0]],\"http://www.chinadaily.com.cn/citylife/2008-01/28/content_6424806.htm\",1015760],[[[\"Sweep\",\"w_1208\",0,\" \"],[\"a\",\"w_1209\",0,\" \"],[\"dusting\",\"w_1210\",0,\" \"],[\"of\",\"w_1211\",0,\" \"],[\"this\",\"w_1212\",0,\" \"],[\"pretty\",\"w_1213\",0,\" \"],[\"pink\",\"w_1214\",0,\" \"],[\"shimmer\",\"w_1215\",0,\" \"],[\"powder\",\"w_1216\",0,\" \"],[\"over\",\"w_1217\",0,\" \"],[\"bare\",\"w_1218\",0,\" \"],[\"shoulders\",\"w_1219\",0,\" \"],[\"for\",\"w_1220\",0,\" \"],[\"a\",\"w_1221\",0,\" \"],[\"feminine\",\"w_1222\",0,\" \"],[\"sparkle\",\"w_1223\",0,\" \"],[\"that\",\"w_1224\",0,\" \"],[\"is\",\"w_1225\",0,\" \"],[\"sure\",\"w_1226\",0,\" \"],[\"to\",\"w_1227\",0,\" \"],[\"grab\",\"w_1228\",0,\" \"],[\"attention\",\"w_1229\",0],[\".\",\"w_1230\",0]],\"http://www.chinadaily.com.cn/citylife/2006-11/29/content_745855.htm\",1013805],[[[\"I\",\"w_1254\",0],[\"'m\",\"w_1255\",0,\" \"],[\"pretty\",\"w_1256\",0,\" \"],[\"sure\",\"w_1257\",0,\" \"],[\"if\",\"w_1258\",0,\" \"],[\"they\",\"w_1259\",0,\" \"],[\"suspected\",\"w_1260\",0,\" \"],[\"what\",\"w_1261\",0,\" \"],[\"the\",\"w_1262\",0,\" \"],[\"new\",\"w_1263\",0,\" \"],[\"arrivals\",\"w_1264\",0,\" \"],[\"would\",\"w_1265\",0,\" \"],[\"finally\",\"w_1266\",0,\" \"],[\"do\",\"w_1267\",0,\" \"],[\"to\",\"w_1268\",0,\" \"],[\"them\",\"w_1269\",0],[\",\",\"w_1270\",0,\" \"],[\"the\",\"w_1271\",0,\" \"],[\"Native\",\"w_1272\",0,\" \"],[\"Americans\",\"w_1273\",0,\" \"],[\"would\",\"w_1274\",0,\" \"],[\"have\",\"w_1275\",0,\" \"],[\"served\",\"w_1276\",0,\" \"],[\"up\",\"w_1277\",0,\" \"],[\"a\",\"w_1278\",0,\" \"],[\"very\",\"w_1279\",0,\" \"],[\"different\",\"w_1280\",0,\" \"],[\"menu\",\"w_1281\",0],[\".\",\"w_1282\",0]],\"http://www.chinadaily.com.cn/cndy/2010-10/30/content_11479221.htm\",1013459],[[[\"It\",\"w_1312\",0,\" \"],[\"is\",\"w_1313\",0,\" \"],[\"fortunate\",\"w_1314\",0,\" \"],[\"that\",\"w_1315\",0,\" \"],[\"pressure\",\"w_1316\",0,\" \"],[\"on\",\"w_1317\",0,\" \"],[\"the\",\"w_1318\",0,\" \"],[\"yuan\",\"w_1319\",0,\" \"],[\"is\",\"w_1320\",0,\" \"],[\"coming\",\"w_1321\",0,\" \"],[\"before\",\"w_1322\",0,\" \"],[\"China\",\"w_1323\",0],[\"'s\",\"w_1324\",0,\" \"],[\"nationwide\",\"w_1325\",0,\" \"],[\"industrialization\",\"w_1326\",0],[\",\",\"w_1327\",0,\" \"],[\"when\",\"w_1328\",0,\" \"],[\"half\",\"w_1329\",0,\" \"],[\"of\",\"w_1330\",0,\" \"],[\"the\",\"w_1331\",0,\" \"],[\"country\",\"w_1332\",0,\" \"],[\"is\",\"w_1333\",0,\" \"],[\"still\",\"w_1334\",0,\" \"],[\"pretty\",\"w_1335\",0,\" \"],[\"underdeveloped\",\"w_1336\",0,\" \"],[\"and\",\"w_1337\",0,\" \"],[\"poor\",\"w_1338\",0],[\".\",\"w_1339\",0]],\"http://www.chinadaily.com.cn/cndy/2010-03/17/content_9600193.htm\",1013395],[[[\"He\",\"w_1368\",0,\" \"],[\"took\",\"w_1369\",0,\" \"],[\"pity\",\"w_1370\",0,\" \"],[\"on\",\"w_1371\",0,\" \"],[\"one\",\"w_1372\",0,\" \"],[\"poorly\",\"w_1373\",0,\" \"],[\"prepared\",\"w_1374\",0,\" \"],[\"but\",\"w_1375\",0,\" \"],[\"\\\"\",\"w_1376\",0],[\"pretty\",\"w_1377\",0],[\"\\\"\",\"w_1378\",0,\" \"],[\"female\",\"w_1379\",0,\" \"],[\"student\",\"w_1380\",0],[\",\",\"w_1381\",0,\" \"],[\"helping\",\"w_1382\",0,\" \"],[\"her\",\"w_1383\",0,\" \"],[\"pass\",\"w_1384\",0,\" \"],[\"the\",\"w_1385\",0,\" \"],[\"test\",\"w_1386\",0,\" \"],[\"by\",\"w_1387\",0,\" \"],[\"asking\",\"w_1388\",0,\" \"],[\"her\",\"w_1389\",0,\" \"],[\"a\",\"w_1390\",0,\" \"],[\"series\",\"w_1391\",0,\" \"],[\"of\",\"w_1392\",0,\" \"],[\"helpful\",\"w_1393\",0,\" \"],[\"questions\",\"w_1394\",0],[\".\",\"w_1395\",0]],\"http://www.chinadaily.com.cn/mobile/2011-04/02/content_12270561.htm\",1012310],[[[\"US\",\"w_1424\",0,\" \"],[\"space\",\"w_1425\",0,\" \"],[\"agency\",\"w_1426\",0,\" \"],[\"NASA\",\"w_1427\",0],[\"'s\",\"w_1428\",0,\" \"],[\"mission\",\"w_1429\",0,\" \"],[\"control\",\"w_1430\",0,\" \"],[\"said\",\"w_1431\",0,\" \"],[\"the\",\"w_1432\",0,\" \"],[\"splashdown\",\"w_1433\",0,\" \"],[\"was\",\"w_1434\",0,\" \"],[\"\\\"\",\"w_1435\",0],[\"pretty\",\"w_1436\",0,\" \"],[\"much\",\"w_1437\",0,\" \"],[\"right\",\"w_1438\",0,\" \"],[\"on\",\"w_1439\",0,\" \"],[\"target\",\"w_1440\",0],[\",\",\"w_1441\",0],[\"\\\"\",\"w_1442\",0,\" \"],[\"and\",\"w_1443\",0,\" \"],[\"the\",\"w_1444\",0,\" \"],[\"recovery\",\"w_1445\",0,\" \"],[\"vessels\",\"w_1446\",0,\" \"],[\"were\",\"w_1447\",0,\" \"],[\"headed\",\"w_1448\",0,\" \"],[\"toward\",\"w_1449\",0,\" \"],[\"the\",\"w_1450\",0,\" \"],[\"spot\",\"w_1451\",0],[\".\",\"w_1452\",0]],\"http://www.chinadaily.com.cn/world/2012-06/01/content_15441208.htm\",1010646],[[[\"Zhang\",\"w_1482\",0,\" \"],[\"admitted\",\"w_1483\",0,\" \"],[\"to\",\"w_1484\",0,\" \"],[\"the\",\"w_1485\",0,\" \"],[\"traffic\",\"w_1486\",0,\" \"],[\"police\",\"w_1487\",0,\" \"],[\"that\",\"w_1488\",0,\" \"],[\"he\",\"w_1489\",0,\" \"],[\"deliberately\",\"w_1490\",0,\" \"],[\"reversed\",\"w_1491\",0,\" \"],[\"his\",\"w_1492\",0,\" \"],[\"truck\",\"w_1493\",0,\" \"],[\"to\",\"w_1494\",0,\" \"],[\"get\",\"w_1495\",0,\" \"],[\"a\",\"w_1496\",0,\" \"],[\"second\",\"w_1497\",0,\" \"],[\"look\",\"w_1498\",0,\" \"],[\"at\",\"w_1499\",0,\" \"],[\"the\",\"w_1500\",0,\" \"],[\"pretty\",\"w_1501\",0,\" \"],[\"toll\",\"w_1502\",0,\" \"],[\"collector\",\"w_1503\",0],[\".\",\"w_1504\",0]],\"http://www.chinadaily.com.cn/cndy/2010-11/04/content_11499765.htm\",1010300]]",
+        "double": "[[[[\"She\",\"w_0\",\"w_0,w_10\",0],[\"'s\",\"w_1\",\"w_1,w_11\",0,\" \"],[\"a\",\"w_2\",\"w_2,w_12,w_13\",0,\" \"],[\"very\",\"w_3\",\"w_3,w_14\",0,\" \"],[\"charming\",\"w_4\",\"w_4,w_15\",0,\" \"],[\"and\",\"w_5\",\"w_5\",0,\" \"],[\"very\",\"w_6\",\"w_6,w_14\",0,\" \"],[\"pretty\",\"w_7\",\"w_7,w_17\",1,\" \"],[\"girl\",\"w_8\",\"w_8,w_18\",0],[\".\",\"w_9\",\"w_9,w_19\",0]],[[\"她\",\"w_10\",\"w_0,w_10\",0],[\"是\",\"w_11\",\"w_1,w_11\",0],[\"一\",\"w_12\",\"w_2,w_12,w_13\",0],[\"个\",\"w_13\",\"w_2,w_12,w_13\",0],[\"非常\",\"w_14\",\"w_6,w_14\",0],[\"迷人\",\"w_15\",\"w_4,w_15\",0],[\"的\",\"w_16\",\"\",0],[\"漂亮\",\"w_17\",\"w_7,w_17\",1],[\"女孩\",\"w_18\",\"w_8,w_18\",0],[\"。\",\"w_19\",\"w_9,w_19\",0]],\"《柯林斯高阶英汉双解学习词典》\",47440],[[[\"Whitstable\",\"w_40\",\"w_40,w_49,w_50\",0,\" \"],[\"is\",\"w_41\",\"w_41,w_52\",0,\" \"],[\"still\",\"w_42\",\"w_42,w_51\",0,\" \"],[\"a\",\"w_43\",\"w_43,w_53,w_54\",0,\" \"],[\"very\",\"w_44\",\"w_44,w_55\",0,\" \"],[\"pretty\",\"w_45\",\"w_45,w_56\",1,\" \"],[\"little\",\"w_46\",\"w_46,w_47,w_58\",0,\" \"],[\"town\",\"w_47\",\"w_46,w_47,w_58\",0],[\".\",\"w_48\",\"w_48,w_59\",0]],[[\"惠特斯特\",\"w_49\",\"w_40,w_49,w_50\",0],[\"布尔\",\"w_50\",\"w_40,w_49,w_50\",0],[\"仍然\",\"w_51\",\"w_42,w_51\",0],[\"是\",\"w_52\",\"w_41,w_52\",0],[\"一\",\"w_53\",\"w_43,w_53,w_54\",0],[\"个\",\"w_54\",\"w_43,w_53,w_54\",0],[\"非常\",\"w_55\",\"w_44,w_55\",0],[\"漂亮\",\"w_56\",\"w_45,w_56\",1],[\"的\",\"w_57\",\"\",0],[\"小镇\",\"w_58\",\"w_46,w_47,w_58\",0],[\"。\",\"w_59\",\"w_48,w_59\",0]],\"《柯林斯高阶英汉双解学习词典》\",47441],[[[\"I\",\"w_80\",\"w_80,w_92\",0,\" \"],[\"had\",\"w_81\",\"w_81,w_82,w_83,w_84,w_93\",0,\" \"],[\"a\",\"w_82\",\"w_81,w_82,w_83,w_84,w_93\",0,\" \"],[\"pretty\",\"w_83\",\"w_81,w_82,w_83,w_84,w_93\",1,\" \"],[\"good\",\"w_84\",\"w_81,w_82,w_83,w_84,w_93\",0,\" \"],[\"idea\",\"w_85\",\"w_85,w_94\",0,\" \"],[\"what\",\"w_86\",\"w_86,w_97\",0,\" \"],[\"she\",\"w_87\",\"w_87,w_88,w_95\",0,\" \"],[\"was\",\"w_88\",\"w_87,w_88,w_95\",0,\" \"],[\"going\",\"w_89\",\"w_89,w_96\",0,\" \"],[\"to\",\"w_90\",\"w_90\",0,\" \"],[\"do\",\"w_91\",\"w_91,w_97,w_98\",0]],[[\"我\",\"w_92\",\"w_80,w_92\",0],[\"很\",\"w_93\",\"w_81,w_82,w_83,w_84,w_93\",1],[\"清楚\",\"w_94\",\"w_85,w_94\",0],[\"她\",\"w_95\",\"w_87,w_88,w_95\",0],[\"会\",\"w_96\",\"w_89,w_96\",0],[\"怎么\",\"w_97\",\"w_91,w_97,w_98\",0],[\"做\",\"w_98\",\"w_91,w_97,w_98\",0],[\"。\",\"w_99\",\"\",0]],\"《柯林斯高阶英汉双解学习词典》\",47442],[[[\"When\",\"w_120\",\"w_120,w_143\",0,\" \"],[\"the\",\"w_121\",\"w_121\",0,\" \"],[\"war\",\"w_122\",\"w_122,w_140\",0,\" \"],[\"started\",\"w_123\",\"w_123,w_141\",0],[\",\",\"w_124\",\"w_124,w_144\",0,\" \"],[\"they\",\"w_125\",\"w_125,w_145\",0,\" \"],[\"thought\",\"w_126\",\"w_126,w_146\",0,\" \"],[\"they\",\"w_127\",\"w_127,w_128,w_145\",0,\" \"],[\"were\",\"w_128\",\"w_127,w_128,w_145\",0,\" \"],[\"sitting\",\"w_129\",\"w_129,w_148\",0,\" \"],[\"pretty\",\"w_130\",\"w_130,w_149\",1],[\",\",\"w_131\",\"w_131,w_150\",0,\" \"],[\"because\",\"w_132\",\"w_132,w_151\",0,\" \"],[\"they\",\"w_133\",\"w_133,w_152\",0,\" \"],[\"had\",\"w_134\",\"w_134\",0,\" \"],[\"all\",\"w_135\",\"w_135\",0,\" \"],[\"that\",\"w_136\",\"w_136,w_146\",0,\" \"],[\"extra\",\"w_137\",\"w_137,w_154\",0,\" \"],[\"grain\",\"w_138\",\"w_138,w_153\",0],[\".\",\"w_139\",\"w_139,w_156\",0]],[[\"战争\",\"w_140\",\"w_122,w_140\",0],[\"开始\",\"w_141\",\"w_123,w_141\",0],[\"的\",\"w_142\",\"\",0],[\"时候\",\"w_143\",\"w_120,w_143\",0],[\"，\",\"w_144\",\"w_124,w_144\",0],[\"他们\",\"w_145\",\"w_127,w_128,w_145\",0],[\"认为\",\"w_146\",\"w_136,w_146\",0],[\"自己\",\"w_147\",\"\",0],[\"境况\",\"w_148\",\"w_129,w_148\",0],[\"不错\",\"w_149\",\"w_130,w_149\",1],[\"，\",\"w_150\",\"w_131,w_150\",0],[\"因为\",\"w_151\",\"w_132,w_151\",0],[\"他们\",\"w_152\",\"w_133,w_152\",0],[\"粮食\",\"w_153\",\"w_138,w_153\",0],[\"准备\",\"w_154\",\"w_137,w_154\",0],[\"充足\",\"w_155\",\"\",0],[\"。\",\"w_156\",\"w_139,w_156\",0]],\"《柯林斯高阶英汉双解学习词典》\",47445],[[[\"Pretty\",\"w_194\",\"w_194,w_207\",1,\" \"],[\"soon\",\"w_195\",\"w_195,w_208,w_209\",0,\" \"],[\"after\",\"w_196\",\"w_196,w_205\",0,\" \"],[\"my\",\"w_197\",\"w_197,w_203\",0,\" \"],[\"arrival\",\"w_198\",\"w_198,w_204\",0,\" \"],[\"I\",\"w_199\",\"w_199,w_209\",0,\" \"],[\"found\",\"w_200\",\"w_200,w_210\",0,\" \"],[\"lodgings\",\"w_201\",\"w_201,w_212\",0],[\".\",\"w_202\",\"w_202,w_213\",0]],[[\"我\",\"w_203\",\"w_197,w_203\",0],[\"到达\",\"w_204\",\"w_198,w_204\",0],[\"之后\",\"w_205\",\"w_196,w_205\",0],[\"，\",\"w_206\",\"\",0],[\"很\",\"w_207\",\"w_194,w_207\",1],[\"快\",\"w_208\",\"w_195,w_208,w_209\",0],[\"就\",\"w_209\",\"w_199,w_209\",0],[\"找到\",\"w_210\",\"w_200,w_210\",0],[\"了\",\"w_211\",\"\",0],[\"住处\",\"w_212\",\"w_201,w_212\",0],[\"。\",\"w_213\",\"w_202,w_213\",0]],\"《柯林斯高阶英汉双解学习词典》\",47443],[[[\"I\",\"w_234\",\"w_234,w_241\",0,\" \"],[\"travel\",\"w_235\",\"w_235,w_245,w_246\",0,\" \"],[\"pretty\",\"w_236\",\"w_236,w_242\",1,\" \"],[\"well\",\"w_237\",\"w_237\",0,\" \"],[\"every\",\"w_238\",\"w_238,w_239,w_243,w_244\",0,\" \"],[\"week\",\"w_239\",\"w_238,w_239,w_243,w_244\",0],[\".\",\"w_240\",\"w_240,w_247\",0]],[[\"我\",\"w_241\",\"w_234,w_241\",0],[\"几乎\",\"w_242\",\"w_236,w_242\",1],[\"每周\",\"w_243\",\"w_238,w_239,w_243,w_244\",0],[\"都\",\"w_244\",\"w_238,w_239,w_243,w_244\",0],[\"出去\",\"w_245\",\"w_235,w_245,w_246\",0],[\"旅行\",\"w_246\",\"w_235,w_245,w_246\",0],[\"。\",\"w_247\",\"w_240,w_247\",0]],\"《柯林斯高阶英汉双解学习词典》\",47444],[[[\"This\",\"w_262\",\"w_262,w_268\",0,\" \"],[\"girl\",\"w_263\",\"w_263,w_269,w_270\",0,\" \"],[\"is\",\"w_264\",\"w_264,w_265,w_266,w_271,w_272,w_273\",0,\" \"],[\"very\",\"w_265\",\"w_264,w_265,w_266,w_271,w_272,w_273\",0,\" \"],[\"pretty\",\"w_266\",\"w_264,w_265,w_266,w_271,w_272,w_273\",1],[\".\",\"w_267\",\"w_267,w_274\",0]],[[\"这\",\"w_268\",\"w_262,w_268\",0],[\"姑娘\",\"w_269\",\"w_263,w_269,w_270\",0],[\"生\",\"w_270\",\"w_263,w_269,w_270\",0],[\"得\",\"w_271\",\"w_264,w_265,w_266,w_271,w_272,w_273\",0],[\"十分\",\"w_272\",\"w_264,w_265,w_266,w_271,w_272,w_273\",1],[\"秀丽\",\"w_273\",\"w_264,w_265,w_266,w_271,w_272,w_273\",1],[\"。\",\"w_274\",\"w_267,w_274\",0]],\"《汉英大词典》\",86094],[[[\"He\",\"w_288\",\"w_288,w_296\",0,\" \"],[\"is\",\"w_289\",\"w_289\",0,\" \"],[\"engaged\",\"w_290\",\"w_290,w_291,w_297\",0,\" \"],[\"to\",\"w_291\",\"w_290,w_291,w_297\",0,\" \"],[\"a\",\"w_292\",\"w_292,w_298,w_299\",0,\" \"],[\"pretty\",\"w_293\",\"w_293,w_300\",1,\" \"],[\"girl\",\"w_294\",\"w_294,w_302,w_303\",0],[\".\",\"w_295\",\"w_295,w_305\",0]],[[\"他\",\"w_296\",\"w_288,w_296\",0],[\"跟\",\"w_297\",\"w_290,w_291,w_297\",0],[\"一\",\"w_298\",\"w_292,w_298,w_299\",0],[\"个\",\"w_299\",\"w_292,w_298,w_299\",0],[\"漂亮\",\"w_300\",\"w_293,w_300\",1],[\"的\",\"w_301\",\"\",0],[\"姑娘\",\"w_302\",\"w_294,w_302,w_303\",0],[\"定亲\",\"w_303\",\"w_294,w_302,w_303\",0],[\"了\",\"w_304\",\"\",0],[\"。\",\"w_305\",\"w_295,w_305\",0]],\"《汉英大词典》\",78732],[[[\"I\",\"w_324\",\"w_324,w_331\",0,\" \"],[\"feel\",\"w_325\",\"w_325,w_332,w_333\",0,\" \"],[\"pretty\",\"w_326\",\"w_326,w_335,w_336\",1,\" \"],[\"dead\",\"w_327\",\"w_327,w_337,w_338\",0,\" \"],[\"right\",\"w_328\",\"w_328,w_329,w_334\",0,\" \"],[\"now\",\"w_329\",\"w_328,w_329,w_334\",0],[\".\",\"w_330\",\"w_330,w_339\",0]],[[\"我\",\"w_331\",\"w_324,w_331\",0],[\"觉得\",\"w_332\",\"w_325,w_332,w_333\",0],[\"自己\",\"w_333\",\"w_325,w_332,w_333\",0],[\"现在\",\"w_334\",\"w_328,w_329,w_334\",0],[\"几乎\",\"w_335\",\"w_326,w_335,w_336\",1],[\"快要\",\"w_336\",\"w_326,w_335,w_336\",1],[\"死\",\"w_337\",\"w_327,w_337,w_338\",0],[\"了\",\"w_338\",\"w_327,w_337,w_338\",0],[\"。\",\"w_339\",\"w_330,w_339\",0]],\"《柯林斯高阶英汉双解学习词典》\",15100],[[[\"Oh\",\"w_356\",\"w_356,w_367\",0,\" \"],[\"thank\",\"w_357\",\"w_357,w_370\",0,\" \"],[\"you\",\"w_358\",\"w_358,w_371\",0,\" \"],[\"so\",\"w_359\",\"w_359,w_360,w_369\",0,\" \"],[\"much\",\"w_360\",\"w_359,w_360,w_369\",0],[\"!\",\"w_361\",\"w_361,w_373\",0,\" \"],[\"They\",\"w_362\",\"w_362,w_374\",0],[\"'re\",\"w_363\",\"w_363,w_364,w_375\",0,\" \"],[\"so\",\"w_364\",\"w_363,w_364,w_375\",0,\" \"],[\"pretty\",\"w_365\",\"w_365,w_376\",1],[\"!\",\"w_366\",\"w_366,w_377\",0]],[[\"哦\",\"w_367\",\"w_356,w_367\",0],[\"，\",\"w_368\",\"\",0],[\"太\",\"w_369\",\"w_359,w_360,w_369\",0],[\"感谢\",\"w_370\",\"w_357,w_370\",0],[\"你\",\"w_371\",\"w_358,w_371\",0],[\"了\",\"w_372\",\"\",0],[\"！\",\"w_373\",\"w_361,w_373\",0],[\"它们\",\"w_374\",\"w_362,w_374\",0],[\"真\",\"w_375\",\"w_363,w_364,w_375\",0],[\"漂亮\",\"w_376\",\"w_365,w_376\",1],[\"！\",\"w_377\",\"w_366,w_377\",0]],\"《柯林斯高阶英汉双解学习词典》\",63153],[[[\"I\",\"w_400\",\"w_400,w_415\",0],[\"'m\",\"w_401\",\"w_401,w_420\",0,\" \"],[\"pretty\",\"w_402\",\"w_402,w_421\",1,\" \"],[\"mad\",\"w_403\",\"w_403,w_418,w_419\",0,\" \"],[\"about\",\"w_404\",\"w_404,w_416\",0,\" \"],[\"it\",\"w_405\",\"w_405,w_417\",0],[\",\",\"w_406\",\"w_406,w_414\",0,\" \"],[\"I\",\"w_407\",\"w_407,w_415\",0,\" \"],[\"can\",\"w_408\",\"w_408\",0,\" \"],[\"tell\",\"w_409\",\"w_409,w_412\",0,\" \"],[\"you\",\"w_410\",\"w_410,w_413\",0],[\".\",\"w_411\",\"w_411,w_423\",0]],[[\"告诉\",\"w_412\",\"w_409,w_412\",0],[\"你\",\"w_413\",\"w_410,w_413\",0],[\"，\",\"w_414\",\"w_406,w_414\",0],[\"我\",\"w_415\",\"w_407,w_415\",0],[\"对\",\"w_416\",\"w_404,w_416\",0],[\"这\",\"w_417\",\"w_405,w_417\",0],[\"件\",\"w_418\",\"w_403,w_418,w_419\",0],[\"事\",\"w_419\",\"w_403,w_418,w_419\",0],[\"感到\",\"w_420\",\"w_401,w_420\",0],[\"非常\",\"w_421\",\"w_402,w_421\",1],[\"恼火\",\"w_422\",\"\",0],[\"。\",\"w_423\",\"w_411,w_423\",0]],\"《柯林斯高阶英汉双解学习词典》\",36610],[[[\"I\",\"w_448\",\"w_448,w_462\",0,\" \"],[\"think\",\"w_449\",\"w_449,w_463\",0,\" \"],[\"you\",\"w_450\",\"w_450,w_464\",0],[\"'re\",\"w_451\",\"w_451,w_452,w_466,w_467\",0,\" \"],[\"pretty\",\"w_452\",\"w_451,w_452,w_466,w_467\",1,\" \"],[\"safe\",\"w_453\",\"w_453,w_468\",0],[\",\",\"w_454\",\"w_454,w_461\",0,\" \"],[\"considering\",\"w_455\",\"w_455,w_463\",0],[\".\",\"w_456\",\"w_456,w_469\",0]],[[\"总\",\"w_457\",\"w_451,w_457\",0],[\"的\",\"w_458\",\"\",0],[\"说\",\"w_459\",\"\",0],[\"来\",\"w_460\",\"\",0],[\"，\",\"w_461\",\"w_454,w_461\",0],[\"我\",\"w_462\",\"w_448,w_462\",0],[\"认为\",\"w_463\",\"w_455,w_463\",0],[\"你\",\"w_464\",\"w_450,w_464\",0],[\"的\",\"w_465\",\"\",0],[\"处境\",\"w_466\",\"w_451,w_452,w_466,w_467\",1],[\"很\",\"w_467\",\"w_451,w_452,w_466,w_467\",1],[\"安全\",\"w_468\",\"w_453,w_468\",0],[\"。\",\"w_469\",\"w_456,w_469\",0]],\"《柯林斯高阶英汉双解学习词典》\",12654],[[[\"I\",\"w_492\",\"w_492,w_508\",0,\" \"],[\"can\",\"w_493\",\"w_493,w_494,w_509\",0,\" \"],[\"get\",\"w_494\",\"w_493,w_494,w_509\",0,\" \"],[\"down\",\"w_495\",\"w_495,w_510\",0,\" \"],[\"to\",\"w_496\",\"w_496\",0,\" \"],[\"nitpicking\",\"w_497\",\"w_497,w_510\",0,\" \"],[\"detail\",\"w_498\",\"w_498,w_511\",0],[\",\",\"w_499\",\"w_499,w_512\",0,\" \"],[\"I\",\"w_500\",\"w_500,w_501,w_513\",0,\" \"],[\"am\",\"w_501\",\"w_500,w_501,w_513\",0,\" \"],[\"pretty\",\"w_502\",\"w_502,w_517\",1,\" \"],[\"fussy\",\"w_503\",\"w_503,w_518\",0,\" \"],[\"about\",\"w_504\",\"w_504,w_514\",0,\" \"],[\"certain\",\"w_505\",\"w_505,w_515\",0,\" \"],[\"things\",\"w_506\",\"w_506,w_516\",0],[\".\",\"w_507\",\"w_507,w_519\",0]],[[\"我\",\"w_508\",\"w_492,w_508\",0],[\"会\",\"w_509\",\"w_493,w_494,w_509\",0],[\"挑剔\",\"w_510\",\"w_497,w_510\",0],[\"细节\",\"w_511\",\"w_498,w_511\",0],[\"，\",\"w_512\",\"w_499,w_512\",0],[\"我\",\"w_513\",\"w_500,w_501,w_513\",0],[\"对\",\"w_514\",\"w_504,w_514\",0],[\"某些\",\"w_515\",\"w_505,w_515\",0],[\"事情\",\"w_516\",\"w_506,w_516\",0],[\"相当\",\"w_517\",\"w_502,w_517\",1],[\"吹毛求疵\",\"w_518\",\"w_503,w_518\",0],[\"。\",\"w_519\",\"w_507,w_519\",0]],\"《柯林斯高阶英汉双解学习词典》\",40716],[[[\"I\",\"w_548\",\"w_548,w_565\",0,\" \"],[\"think\",\"w_549\",\"w_549,w_566\",0,\" \"],[\"what\",\"w_550\",\"w_550,w_573\",0,\" \"],[\"I\",\"w_551\",\"w_551,w_567\",0,\" \"],[\"put\",\"w_552\",\"w_552,w_571\",0,\" \"],[\"in\",\"w_553\",\"w_553,w_568\",0,\" \"],[\"that\",\"w_554\",\"w_554,w_566\",0,\" \"],[\"book\",\"w_555\",\"w_555,w_569\",0,\" \"],[\"is\",\"w_556\",\"w_556,w_573,w_574\",0,\" \"],[\"now\",\"w_557\",\"w_557,w_575\",0,\" \"],[\"pretty\",\"w_558\",\"w_558,w_559,w_578\",1,\" \"],[\"much\",\"w_559\",\"w_558,w_559,w_578\",0,\" \"],[\"the\",\"w_560\",\"w_560,w_580\",0,\" \"],[\"agenda\",\"w_561\",\"w_561,w_579\",0,\" \"],[\"for\",\"w_562\",\"w_562\",0,\" \"],[\"this\",\"w_563\",\"w_563,w_576\",0,\" \"],[\"country\",\"w_564\",\"w_564,w_577\",0]],[[\"我\",\"w_565\",\"w_548,w_565\",0],[\"认为\",\"w_566\",\"w_554,w_566\",0],[\"我\",\"w_567\",\"w_551,w_567\",0],[\"在\",\"w_568\",\"w_553,w_568\",0],[\"书\",\"w_569\",\"w_555,w_569\",0],[\"中\",\"w_570\",\"\",0],[\"写\",\"w_571\",\"w_552,w_571\",0],[\"的\",\"w_572\",\"\",0],[\"正\",\"w_573\",\"w_556,w_573,w_574\",0],[\"是\",\"w_574\",\"w_556,w_573,w_574\",0],[\"目前\",\"w_575\",\"w_557,w_575\",0],[\"该\",\"w_576\",\"w_563,w_576\",0],[\"国\",\"w_577\",\"w_564,w_577\",0],[\"亟待\",\"w_578\",\"w_558,w_559,w_578\",1],[\"解决\",\"w_579\",\"w_561,w_579\",0],[\"的\",\"w_580\",\"w_560,w_580\",0],[\"问题\",\"w_581\",\"\",0],[\"。\",\"w_582\",\"\",0]],\"《柯林斯高阶英汉双解学习词典》\",48758],[[[\"I\",\"w_618\",\"w_618,w_626\",0,\" \"],[\"guess\",\"w_619\",\"w_619,w_627\",0,\" \"],[\"she\",\"w_620\",\"w_620,w_628\",0,\" \"],[\"thought\",\"w_621\",\"w_621,w_629,w_630\",0,\" \"],[\"that\",\"w_622\",\"w_622,w_631\",0,\" \"],[\"was\",\"w_623\",\"w_623,w_632\",0,\" \"],[\"pretty\",\"w_624\",\"w_624,w_625,w_633,w_634\",1,\" \"],[\"smart\",\"w_625\",\"w_624,w_625,w_633,w_634\",0]],[[\"我\",\"w_626\",\"w_618,w_626\",0],[\"想\",\"w_627\",\"w_619,w_627\",0],[\"她\",\"w_628\",\"w_620,w_628\",0],[\"可能\",\"w_629\",\"w_621,w_629,w_630\",0],[\"认为\",\"w_630\",\"w_621,w_629,w_630\",0],[\"那个\",\"w_631\",\"w_622,w_631\",0],[\"很\",\"w_632\",\"w_623,w_632\",0],[\"漂亮\",\"w_633\",\"w_624,w_625,w_633,w_634\",1],[\"。\",\"w_634\",\"w_624,w_625,w_633,w_634\",0]],\"《柯林斯高阶英汉双解学习词典》\",27296],[[[\"A\",\"w_652\",\"w_652\",0,\" \"],[\"job\",\"w_653\",\"w_653,w_669\",0,\" \"],[\"is\",\"w_654\",\"w_654,w_672\",0,\" \"],[\"pretty\",\"w_655\",\"w_655,w_656,w_657,w_673\",1,\" \"],[\"much\",\"w_656\",\"w_655,w_656,w_657,w_673\",0,\" \"],[\"nine-to-five\",\"w_657\",\"w_655,w_656,w_657,w_673\",0],[\".\",\"w_658\",\"w_658,w_674\",0,\" \"],[\"Is\",\"w_659\",\"w_659\",0,\" \"],[\"this\",\"w_660\",\"w_660,w_677\",0,\" \"],[\"what\",\"w_661\",\"w_661,w_662,w_675\",0,\" \"],[\"you\",\"w_662\",\"w_661,w_662,w_675\",0,\" \"],[\"feel\",\"w_663\",\"w_663,w_676\",0,\" \"],[\"would\",\"w_664\",\"w_664,w_678\",0,\" \"],[\"make\",\"w_665\",\"w_665,w_679\",0,\" \"],[\"you\",\"w_666\",\"w_666,w_680\",0,\" \"],[\"happy\",\"w_667\",\"w_667,w_682\",0],[\"?\",\"w_668\",\"w_668,w_683,w_684\",0]],[[\"工作\",\"w_669\",\"w_653,w_669\",0],[\"时间\",\"w_670\",\"\",0],[\"多数\",\"w_671\",\"\",0],[\"是\",\"w_672\",\"w_654,w_672\",0],[\"朝九晚五\",\"w_673\",\"w_655,w_656,w_657,w_673\",1],[\"，\",\"w_674\",\"w_658,w_674\",0],[\"你\",\"w_675\",\"w_661,w_662,w_675\",0],[\"觉得\",\"w_676\",\"w_663,w_676\",0],[\"这样\",\"w_677\",\"w_660,w_677\",0],[\"会\",\"w_678\",\"w_664,w_678\",0],[\"让\",\"w_679\",\"w_665,w_679\",0],[\"你\",\"w_680\",\"w_666,w_680\",0],[\"感觉\",\"w_681\",\"\",0],[\"愉快\",\"w_682\",\"w_667,w_682\",0],[\"吗\",\"w_683\",\"w_668,w_683,w_684\",0],[\"？\",\"w_684\",\"w_668,w_683,w_684\",0]],\"《柯林斯高阶英汉双解学习词典》\",63734],[[[\"She\",\"w_718\",\"w_718,w_727\",0],[\"'s\",\"w_719\",\"w_719,w_720,w_721,w_729,w_730,w_731\",0,\" \"],[\"quite\",\"w_720\",\"w_719,w_720,w_721,w_729,w_730,w_731\",0,\" \"],[\"pretty\",\"w_721\",\"w_719,w_720,w_721,w_729,w_730,w_731\",1],[\",\",\"w_722\",\"w_722,w_732\",0,\" \"],[\"isn\",\"w_723\",\"w_723,w_724,w_733\",0],[\"'t\",\"w_724\",\"w_723,w_724,w_733\",0,\" \"],[\"she\",\"w_725\",\"w_725,w_727\",0],[\"?\",\"w_726\",\"w_726,w_734,w_735\",0]],[[\"她\",\"w_727\",\"w_725,w_727\",0],[\"长\",\"w_728\",\"\",0],[\"得\",\"w_729\",\"w_719,w_720,w_721,w_729,w_730,w_731\",1],[\"挺\",\"w_730\",\"w_719,w_720,w_721,w_729,w_730,w_731\",1],[\"美\",\"w_731\",\"w_719,w_720,w_721,w_729,w_730,w_731\",1],[\"，\",\"w_732\",\"w_722,w_732\",0],[\"不是\",\"w_733\",\"w_723,w_724,w_733\",0],[\"吗\",\"w_734\",\"w_726,w_734,w_735\",0],[\"？\",\"w_735\",\"w_726,w_734,w_735\",0]],\"《汉英大词典》\",87015],[[[\"I\",\"w_754\",\"w_754,w_755,w_773\",0],[\"'m\",\"w_755\",\"w_754,w_755,w_773\",0,\" \"],[\"not\",\"w_756\",\"w_756,w_774\",0,\" \"],[\"at\",\"w_757\",\"w_757,w_758,w_759,w_775\",0,\" \"],[\"all\",\"w_758\",\"w_757,w_758,w_759,w_775\",0,\" \"],[\"secretive\",\"w_759\",\"w_757,w_758,w_759,w_775\",0],[\",\",\"w_760\",\"w_760,w_761,w_776\",0,\" \"],[\"and\",\"w_761\",\"w_760,w_761,w_776\",0,\" \"],[\"I\",\"w_762\",\"w_762,w_763,w_777,w_778\",0],[\"'m\",\"w_763\",\"w_762,w_763,w_777,w_778\",0,\" \"],[\"pretty\",\"w_764\",\"w_764,w_765,w_766,w_767,w_775\",1,\" \"],[\"good\",\"w_765\",\"w_764,w_765,w_766,w_767,w_775\",0,\" \"],[\"at\",\"w_766\",\"w_764,w_765,w_766,w_767,w_775\",0,\" \"],[\"calling\",\"w_767\",\"w_764,w_765,w_766,w_767,w_775\",0,\" \"],[\"a\",\"w_768\",\"w_768,w_769,w_779\",0,\" \"],[\"spade\",\"w_769\",\"w_768,w_769,w_779\",0,\" \"],[\"a\",\"w_770\",\"w_770\",0,\" \"],[\"spade\",\"w_771\",\"w_771,w_779\",0],[\".\",\"w_772\",\"w_772,w_780\",0]],[[\"我\",\"w_773\",\"w_754,w_755,w_773\",0],[\"不会\",\"w_774\",\"w_756,w_774\",0],[\"遮遮掩掩\",\"w_775\",\"w_764,w_765,w_766,w_767,w_775\",1],[\"，\",\"w_776\",\"w_760,w_761,w_776\",0],[\"我\",\"w_777\",\"w_762,w_763,w_777,w_778\",0],[\"喜欢\",\"w_778\",\"w_762,w_763,w_777,w_778\",0],[\"直言不讳\",\"w_779\",\"w_771,w_779\",0],[\"。\",\"w_780\",\"w_772,w_780\",0]],\"《柯林斯高阶英汉双解学习词典》\",58297],[[[\"I\",\"w_808\",\"w_808,w_814\",0],[\"'m\",\"w_809\",\"w_809,w_815\",0,\" \"],[\"pretty\",\"w_810\",\"w_810,w_816\",1,\" \"],[\"busy\",\"w_811\",\"w_811,w_812,w_817\",0,\" \"],[\"just\",\"w_812\",\"w_811,w_812,w_817\",0,\" \"],[\"now\",\"w_813\",\"w_813,w_818\",0]],[[\"我\",\"w_814\",\"w_808,w_814\",0],[\"现在\",\"w_815\",\"w_809,w_815\",0],[\"特别\",\"w_816\",\"w_810,w_816\",1],[\"忙\",\"w_817\",\"w_811,w_812,w_817\",0],[\"。\",\"w_818\",\"w_813,w_818\",0]],\"《柯林斯高阶英汉双解学习词典》\",41271],[[[\"I\",\"w_830\",\"w_830,w_831,w_832,w_843,w_844,w_845\",0],[\"'m\",\"w_831\",\"w_830,w_831,w_832,w_843,w_844,w_845\",0,\" \"],[\"an\",\"w_832\",\"w_830,w_831,w_832,w_843,w_844,w_845\",0,\" \"],[\"orphan\",\"w_833\",\"w_833,w_846\",0,\" \"],[\"and\",\"w_834\",\"w_834,w_847\",0,\" \"],[\"pretty\",\"w_835\",\"w_835,w_836,w_848\",1,\" \"],[\"much\",\"w_836\",\"w_835,w_836,w_848\",0,\" \"],[\"grew\",\"w_837\",\"w_837,w_838,w_852\",0,\" \"],[\"up\",\"w_838\",\"w_837,w_838,w_852\",0,\" \"],[\"on\",\"w_839\",\"w_839,w_850\",0,\" \"],[\"my\",\"w_840\",\"w_840,w_841,w_851\",0,\" \"],[\"own\",\"w_841\",\"w_840,w_841,w_851\",0],[\".\",\"w_842\",\"w_842,w_854\",0]],[[\"我\",\"w_843\",\"w_830,w_831,w_832,w_843,w_844,w_845\",0],[\"是\",\"w_844\",\"w_830,w_831,w_832,w_843,w_844,w_845\",0],[\"个\",\"w_845\",\"w_830,w_831,w_832,w_843,w_844,w_845\",0],[\"孤儿\",\"w_846\",\"w_833,w_846\",0],[\"，\",\"w_847\",\"w_834,w_847\",0],[\"差不多\",\"w_848\",\"w_835,w_836,w_848\",1],[\"是\",\"w_849\",\"w_837,w_849\",0],[\"靠\",\"w_850\",\"w_839,w_850\",0],[\"自己\",\"w_851\",\"w_840,w_841,w_851\",0],[\"长大\",\"w_852\",\"w_837,w_838,w_852\",0],[\"的\",\"w_853\",\"\",0],[\"。\",\"w_854\",\"w_842,w_854\",0]],\"《柯林斯高阶英汉双解学习词典》\",42859],[[[\"I\",\"w_880\",\"w_880,w_892\",0],[\"'m\",\"w_881\",\"w_881,w_882,w_893\",0,\" \"],[\"pretty\",\"w_882\",\"w_881,w_882,w_893\",1,\" \"],[\"sure\",\"w_883\",\"w_883,w_894\",0,\" \"],[\"they\",\"w_884\",\"w_884,w_895\",0,\" \"],[\"slept\",\"w_885\",\"w_885,w_896\",0,\" \"],[\"together\",\"w_886\",\"w_886\",0,\" \"],[\"before\",\"w_887\",\"w_887,w_897\",0,\" \"],[\"they\",\"w_888\",\"w_888,w_898\",0,\" \"],[\"were\",\"w_889\",\"w_889,w_902\",0,\" \"],[\"married\",\"w_890\",\"w_890,w_896\",0],[\".\",\"w_891\",\"w_891,w_903\",0]],[[\"我\",\"w_892\",\"w_880,w_892\",0],[\"敢\",\"w_893\",\"w_881,w_882,w_893\",1],[\"肯定\",\"w_894\",\"w_883,w_894\",0],[\"他们\",\"w_895\",\"w_884,w_895\",0],[\"结婚\",\"w_896\",\"w_890,w_896\",0],[\"之前\",\"w_897\",\"w_887,w_897\",0],[\"就\",\"w_898\",\"w_888,w_898\",0],[\"上\",\"w_899\",\"\",0],[\"过\",\"w_900\",\"\",0],[\"床\",\"w_901\",\"\",0],[\"了\",\"w_902\",\"w_889,w_902\",0],[\"。\",\"w_903\",\"w_891,w_903\",0]],\"《柯林斯高阶英汉双解学习词典》\",57110],[[[\"The\",\"w_928\",\"w_928\",0,\" \"],[\"bathroom\",\"w_929\",\"w_929,w_946\",0,\" \"],[\"is\",\"w_930\",\"w_930,w_931,w_948\",0,\" \"],[\"not\",\"w_931\",\"w_930,w_931,w_948\",0,\" \"],[\"a\",\"w_932\",\"w_932,w_947\",0,\" \"],[\"pretty\",\"w_933\",\"w_933,w_934,w_948\",1,\" \"],[\"sight\",\"w_934\",\"w_933,w_934,w_948\",0],[\".\",\"w_935\",\"w_935,w_949\",0,\" \"],[\"The\",\"w_936\",\"w_936\",0,\" \"],[\"wallpaper\",\"w_937\",\"w_937,w_950\",0],[\"'s\",\"w_938\",\"w_938\",0,\" \"],[\"peeling\",\"w_939\",\"w_939,w_951\",0],[\",\",\"w_940\",\"w_940,w_953\",0,\" \"],[\"the\",\"w_941\",\"w_941\",0,\" \"],[\"tiles\",\"w_942\",\"w_942,w_954\",0,\" \"],[\"are\",\"w_943\",\"w_943,w_955\",0,\" \"],[\"crumbling\",\"w_944\",\"w_944,w_956\",0],[\".\",\"w_945\",\"w_945,w_958\",0]],[[\"浴室\",\"w_946\",\"w_929,w_946\",0],[\"破旧\",\"w_947\",\"w_932,w_947\",0],[\"不堪\",\"w_948\",\"w_933,w_934,w_948\",1],[\"。\",\"w_949\",\"w_935,w_949\",0],[\"墙纸\",\"w_950\",\"w_937,w_950\",0],[\"剥落\",\"w_951\",\"w_939,w_951\",0],[\"了\",\"w_952\",\"\",0],[\"，\",\"w_953\",\"w_940,w_953\",0],[\"瓷砖\",\"w_954\",\"w_942,w_954\",0],[\"也\",\"w_955\",\"w_943,w_955\",0],[\"裂\",\"w_956\",\"w_944,w_956\",0],[\"了\",\"w_957\",\"\",0],[\"。\",\"w_958\",\"w_945,w_958\",0]],\"《柯林斯高阶英汉双解学习词典》\",56491],[[[\"Stephen\",\"w_990\",\"w_990,w_1005,w_1006\",0,\" \"],[\"is\",\"w_991\",\"w_991\",0,\" \"],[\"going\",\"w_992\",\"w_992,w_1015\",0,\" \"],[\"to\",\"w_993\",\"w_993\",0,\" \"],[\"be\",\"w_994\",\"w_994,w_1015\",0,\" \"],[\"pretty\",\"w_995\",\"w_995,w_1016\",1,\" \"],[\"upset\",\"w_996\",\"w_996,w_1017,w_1018\",0,\" \"],[\"when\",\"w_997\",\"w_997,w_1013\",0,\" \"],[\"he\",\"w_998\",\"w_998,w_1014\",0,\" \"],[\"finds\",\"w_999\",\"w_999,w_1000,w_1007\",0,\" \"],[\"out\",\"w_1000\",\"w_999,w_1000,w_1007\",0,\" \"],[\"how\",\"w_1001\",\"w_1001,w_1009\",0,\" \"],[\"you\",\"w_1002\",\"w_1002,w_1008\",0,\" \"],[\"tricked\",\"w_1003\",\"w_1003,w_1010,w_1011\",0,\" \"],[\"him\",\"w_1004\",\"w_1004,w_1012\",0]],[[\"如果\",\"w_1005\",\"w_990,w_1005,w_1006\",0],[\"斯蒂芬\",\"w_1006\",\"w_990,w_1005,w_1006\",0],[\"发现\",\"w_1007\",\"w_999,w_1000,w_1007\",0],[\"你\",\"w_1008\",\"w_1002,w_1008\",0],[\"怎样\",\"w_1009\",\"w_1001,w_1009\",0],[\"欺骗\",\"w_1010\",\"w_1003,w_1010,w_1011\",0],[\"了\",\"w_1011\",\"w_1003,w_1010,w_1011\",0],[\"他\",\"w_1012\",\"w_1004,w_1012\",0],[\"，\",\"w_1013\",\"w_997,w_1013\",0],[\"他\",\"w_1014\",\"w_998,w_1014\",0],[\"会\",\"w_1015\",\"w_994,w_1015\",0],[\"非常\",\"w_1016\",\"w_995,w_1016\",1],[\"气愤\",\"w_1017\",\"w_996,w_1017,w_1018\",0],[\"。\",\"w_1018\",\"w_996,w_1017,w_1018\",0]],\"《柯林斯高阶英汉双解学习词典》\",65754],[[[\"You\",\"w_1048\",\"w_1048,w_1054\",0,\" \"],[\"looked\",\"w_1049\",\"w_1049,w_1056\",0,\" \"],[\"pretty\",\"w_1050\",\"w_1050,w_1057\",1,\" \"],[\"upset\",\"w_1051\",\"w_1051,w_1058\",0,\" \"],[\"just\",\"w_1052\",\"w_1052,w_1053,w_1055\",0,\" \"],[\"now\",\"w_1053\",\"w_1052,w_1053,w_1055\",0]],[[\"你\",\"w_1054\",\"w_1048,w_1054\",0],[\"刚才\",\"w_1055\",\"w_1052,w_1053,w_1055\",0],[\"看上去\",\"w_1056\",\"w_1049,w_1056\",0],[\"挺\",\"w_1057\",\"w_1050,w_1057\",1],[\"难过\",\"w_1058\",\"w_1051,w_1058\",0],[\"的\",\"w_1059\",\"\",0],[\"。\",\"w_1060\",\"\",0]],\"《柯林斯高阶英汉双解学习词典》\",41268],[[[\"That\",\"w_1074\",\"w_1074,w_1081\",0],[\"'s\",\"w_1075\",\"w_1075,w_1082\",0,\" \"],[\"a\",\"w_1076\",\"w_1076\",0,\" \"],[\"pretty\",\"w_1077\",\"w_1077,w_1078,w_1079,w_1081,w_1082\",1,\" \"],[\"tall\",\"w_1078\",\"w_1077,w_1078,w_1079,w_1081,w_1082\",0,\" \"],[\"story\",\"w_1079\",\"w_1077,w_1078,w_1079,w_1081,w_1082\",0],[\".\",\"w_1080\",\"w_1080,w_1084\",0]],[[\"这话\",\"w_1081\",\"w_1077,w_1078,w_1079,w_1081,w_1082\",1],[\"太玄\",\"w_1082\",\"w_1077,w_1078,w_1079,w_1081,w_1082\",1],[\"了\",\"w_1083\",\"\",0],[\"。\",\"w_1084\",\"w_1080,w_1084\",0]],\"《汉英大词典》\",85036],[[[\"We\",\"w_1096\",\"w_1096,w_1105\",0,\" \"],[\"were\",\"w_1097\",\"w_1097,w_1108,w_1109\",0,\" \"],[\"a\",\"w_1098\",\"w_1098,w_1099,w_1110\",0,\" \"],[\"pretty\",\"w_1099\",\"w_1098,w_1099,w_1110\",1,\" \"],[\"inexperienced\",\"w_1100\",\"w_1100,w_1111,w_1112\",0,\" \"],[\"bunch\",\"w_1101\",\"w_1101,w_1109\",0,\" \"],[\"of\",\"w_1102\",\"w_1102\",0,\" \"],[\"people\",\"w_1103\",\"w_1103,w_1114\",0,\" \"],[\"really\",\"w_1104\",\"w_1104,w_1106\",0]],[[\"我们\",\"w_1105\",\"w_1096,w_1105\",0],[\"事实\",\"w_1106\",\"w_1104,w_1106\",0],[\"上\",\"w_1107\",\"\",0],[\"是\",\"w_1108\",\"w_1097,w_1108,w_1109\",0],[\"一些\",\"w_1109\",\"w_1101,w_1109\",0],[\"相当\",\"w_1110\",\"w_1098,w_1099,w_1110\",1],[\"没有\",\"w_1111\",\"w_1100,w_1111,w_1112\",0],[\"经验\",\"w_1112\",\"w_1100,w_1111,w_1112\",0],[\"的\",\"w_1113\",\"\",0],[\"人\",\"w_1114\",\"w_1103,w_1114\",0],[\"。\",\"w_1115\",\"\",0]],\"《柯林斯高阶英汉双解学习词典》\",8184],[[[\"You\",\"w_1136\",\"w_1136,w_1137,w_1154\",0,\" \"],[\"would\",\"w_1137\",\"w_1136,w_1137,w_1154\",0,\" \"],[\"have\",\"w_1138\",\"w_1138,w_1150\",0,\" \"],[\"to\",\"w_1139\",\"w_1139\",0,\" \"],[\"be\",\"w_1140\",\"w_1140,w_1154\",0,\" \"],[\"pretty\",\"w_1141\",\"w_1141,w_1142,w_1150,w_1151\",1,\" \"],[\"hard-hearted\",\"w_1142\",\"w_1141,w_1142,w_1150,w_1151\",0,\" \"],[\"not\",\"w_1143\",\"w_1143,w_1157\",0,\" \"],[\"to\",\"w_1144\",\"w_1144\",0,\" \"],[\"feel\",\"w_1145\",\"w_1145,w_1146,w_1157\",0,\" \"],[\"something\",\"w_1146\",\"w_1145,w_1146,w_1157\",0,\" \"],[\"for\",\"w_1147\",\"w_1147,w_1155\",0,\" \"],[\"him\",\"w_1148\",\"w_1148,w_1156\",0],[\".\",\"w_1149\",\"w_1149,w_1158\",0]],[[\"只有\",\"w_1150\",\"w_1141,w_1142,w_1150,w_1151\",0],[\"铁石心肠\",\"w_1151\",\"w_1141,w_1142,w_1150,w_1151\",1],[\"的\",\"w_1152\",\"\",0],[\"人才\",\"w_1153\",\"\",0],[\"会\",\"w_1154\",\"w_1140,w_1154\",0],[\"对\",\"w_1155\",\"w_1147,w_1155\",0],[\"他\",\"w_1156\",\"w_1148,w_1156\",0],[\"无动于衷\",\"w_1157\",\"w_1145,w_1146,w_1157\",0],[\"。\",\"w_1158\",\"w_1149,w_1158\",0]],\"《柯林斯高阶英汉双解学习词典》\",27983],[[[\"An\",\"w_1182\",\"w_1182,w_1194,w_1195\",0,\" \"],[\"ugly\",\"w_1183\",\"w_1183,w_1196\",0,\" \"],[\"woman\",\"w_1184\",\"w_1184,w_1197\",0,\" \"],[\"serves\",\"w_1185\",\"w_1185,w_1198\",0,\" \"],[\"as\",\"w_1186\",\"w_1186,w_1203\",0,\" \"],[\"a\",\"w_1187\",\"w_1187\",0,\" \"],[\"foil\",\"w_1188\",\"w_1188,w_1203\",0,\" \"],[\"to\",\"w_1189\",\"w_1189,w_1199\",0,\" \"],[\"a\",\"w_1190\",\"w_1190,w_1206\",0,\" \"],[\"pretty\",\"w_1191\",\"w_1191,w_1200\",1,\" \"],[\"girl\",\"w_1192\",\"w_1192,w_1202\",0],[\".\",\"w_1193\",\"w_1193,w_1207\",0]],[[\"一\",\"w_1194\",\"w_1182,w_1194,w_1195\",0],[\"个\",\"w_1195\",\"w_1182,w_1194,w_1195\",0],[\"丑\",\"w_1196\",\"w_1183,w_1196\",0],[\"女人\",\"w_1197\",\"w_1184,w_1197\",0],[\"可以\",\"w_1198\",\"w_1185,w_1198\",0],[\"将\",\"w_1199\",\"w_1189,w_1199\",0],[\"美丽\",\"w_1200\",\"w_1191,w_1200\",1],[\"的\",\"w_1201\",\"\",0],[\"姑娘\",\"w_1202\",\"w_1192,w_1202\",0],[\"反衬\",\"w_1203\",\"w_1188,w_1203\",0],[\"得\",\"w_1204\",\"\",0],[\"更加\",\"w_1205\",\"\",1],[\"漂亮\",\"w_1206\",\"w_1190,w_1206\",0],[\"。\",\"w_1207\",\"w_1193,w_1207\",0]],\"《汉英大词典》\",76173],[[[\"I\",\"w_1234\",\"w_1234,w_1235,w_1244\",0],[\"'m\",\"w_1235\",\"w_1234,w_1235,w_1244\",0,\" \"],[\"pretty\",\"w_1236\",\"w_1236,w_1245\",1,\" \"],[\"desk-bound\",\"w_1237\",\"w_1237,w_1247,w_1248,w_1249,w_1250\",0],[\",\",\"w_1238\",\"w_1238,w_1251\",0,\" \"],[\"which\",\"w_1239\",\"w_1239,w_1252\",0,\" \"],[\"is\",\"w_1240\",\"w_1240,w_1241,w_1253\",0,\" \"],[\"very\",\"w_1241\",\"w_1240,w_1241,w_1253\",0,\" \"],[\"frustrating\",\"w_1242\",\"w_1242,w_1254,w_1255,w_1256\",0],[\".\",\"w_1243\",\"w_1243,w_1257\",0]],[[\"我\",\"w_1244\",\"w_1234,w_1235,w_1244\",0],[\"基本\",\"w_1245\",\"w_1236,w_1245\",1],[\"上\",\"w_1246\",\"\",0],[\"一直\",\"w_1247\",\"w_1237,w_1247,w_1248,w_1249,w_1250\",0],[\"需要\",\"w_1248\",\"w_1237,w_1247,w_1248,w_1249,w_1250\",0],[\"伏案\",\"w_1249\",\"w_1237,w_1247,w_1248,w_1249,w_1250\",0],[\"工作\",\"w_1250\",\"w_1237,w_1247,w_1248,w_1249,w_1250\",0],[\"，\",\"w_1251\",\"w_1238,w_1251\",0],[\"这\",\"w_1252\",\"w_1239,w_1252\",0],[\"真\",\"w_1253\",\"w_1240,w_1241,w_1253\",0],[\"让\",\"w_1254\",\"w_1242,w_1254,w_1255,w_1256\",0],[\"人\",\"w_1255\",\"w_1242,w_1254,w_1255,w_1256\",0],[\"沮丧\",\"w_1256\",\"w_1242,w_1254,w_1255,w_1256\",0],[\"。\",\"w_1257\",\"w_1243,w_1257\",0]],\"《柯林斯高阶英汉双解学习词典》\",10],[[[\"She\",\"w_1282\",\"w_1282,w_1294\",0,\" \"],[\"tied\",\"w_1283\",\"w_1283,w_1296\",0,\" \"],[\"a\",\"w_1284\",\"w_1284,w_1301,w_1302\",0,\" \"],[\"pretty\",\"w_1285\",\"w_1285,w_1303\",1,\" \"],[\"knot\",\"w_1286\",\"w_1286,w_1304\",0,\" \"],[\"at\",\"w_1287\",\"w_1287,w_1295\",0,\" \"],[\"the\",\"w_1288\",\"w_1288\",0,\" \"],[\"end\",\"w_1289\",\"w_1289,w_1298\",0,\" \"],[\"of\",\"w_1290\",\"w_1290\",0,\" \"],[\"her\",\"w_1291\",\"w_1291,w_1292,w_1296\",0,\" \"],[\"pigtails\",\"w_1292\",\"w_1291,w_1292,w_1296\",0],[\".\",\"w_1293\",\"w_1293,w_1305\",0]],[[\"她\",\"w_1294\",\"w_1282,w_1294\",0],[\"在\",\"w_1295\",\"w_1287,w_1295\",0],[\"辫子\",\"w_1296\",\"w_1291,w_1292,w_1296\",0],[\"的\",\"w_1297\",\"\",0],[\"末梢\",\"w_1298\",\"w_1289,w_1298\",0],[\"打\",\"w_1299\",\"\",0],[\"了\",\"w_1300\",\"\",0],[\"一\",\"w_1301\",\"w_1284,w_1301,w_1302\",0],[\"个\",\"w_1302\",\"w_1284,w_1301,w_1302\",0],[\"花\",\"w_1303\",\"w_1285,w_1303\",1],[\"结\",\"w_1304\",\"w_1286,w_1304\",0],[\"。\",\"w_1305\",\"w_1293,w_1305\",0]],\"《汉英大词典》\",83190]]"
+    }
+}

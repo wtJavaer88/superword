@@ -1,0 +1,75 @@
+{
+    "trans_result": {
+        "phonetic": [
+            {
+                "src_str": "我",
+                "trg_str": "wǒ"
+            },
+            {
+                "src_str": "有",
+                "trg_str": "yǒu"
+            },
+            {
+                "src_str": "一",
+                "trg_str": "yī"
+            },
+            {
+                "src_str": "个",
+                "trg_str": "gè"
+            },
+            {
+                "src_str": "完",
+                "trg_str": "wán"
+            },
+            {
+                "src_str": "美",
+                "trg_str": "měi"
+            },
+            {
+                "src_str": "的",
+                "trg_str": "de"
+            },
+            {
+                "src_str": "妻",
+                "trg_str": "qī"
+            },
+            {
+                "src_str": "子",
+                "trg_str": "zi"
+            }
+        ],
+        "data": [
+            {
+                "result": [
+                    [
+                        0,
+                        "我有一个完美的妻子",
+                        [
+                            "0|23"
+                        ],
+                        [],
+                        [
+                            "0|23"
+                        ],
+                        [
+                            "0|27"
+                        ]
+                    ]
+                ],
+                "dst": "我有一个完美的妻子",
+                "src": "I hava a wanderful wife",
+                "relation": []
+            }
+        ],
+        "domain": "all",
+        "from": "en",
+        "to": "zh",
+        "type": 2,
+        "status": 0
+    },
+    "dict_result": [],
+    "liju_result": {
+        "single": "",
+        "double": ""
+    }
+}

@@ -1,0 +1,508 @@
+{
+    "sentence": [
+        {
+            "tts_mp3": "http://res-tts.iciba.com/tts_new_dj//c/6/b/c6b4e2fc0eed62cbf7b2e4df3cbf9512.mp3",
+            "tts_size": "17K",
+            "Network_en": "To avoid damaging the tree, hammer a wooden peg into the hole.",
+            "Network_id": "2306910",
+            "Network_cn": "为了不毁坏树，用锤子将一个木栓钉进洞里。"
+        },
+        {
+            "tts_mp3": "http://res-tts.iciba.com/tts_new_dj//2/4/6/246abcfb4a7ca8ae92d369a81460dcc9.mp3",
+            "tts_size": "23K",
+            "Network_en": "Hammer's business pedigree almost gua-ranteed him the acquaintance of U.S. presidents.",
+            "Network_id": "2311986",
+            "Network_cn": "哈默的商业背景几乎保证了他能够结识美国总统。"
+        },
+        {
+            "tts_mp3": "http://res-tts.iciba.com/tts_new_dj//f/4/c/f4c3bd84f1c9f58b9679b1060ad2c39a.mp3",
+            "tts_size": "13K",
+            "Network_en": "She swung the hammer at his head with all her might.",
+            "Network_id": "2317945",
+            "Network_cn": "她使出全身力气抡起榔头砸向他的脑袋。"
+        }
+    ],
+    "errno": 0,
+    "synonym": [
+        {
+            "means": [
+                {
+                    "word_mean": "木槌",
+                    "cis": [
+                        "mallet"
+                    ]
+                }
+            ],
+            "part_name": "n."
+        },
+        {
+            "means": [
+                {
+                    "word_mean": "打,打击",
+                    "cis": [
+                        "knock",
+                        "bang",
+                        "pound",
+                        "hit",
+                        "beat",
+                        "drive"
+                    ]
+                }
+            ],
+            "part_name": "vt."
+        },
+        {
+            "means": [
+                {
+                    "word_mean": "重复;重做",
+                    "cis": [
+                        "repeat",
+                        "drill"
+                    ]
+                }
+            ],
+            "part_name": "vi."
+        },
+        {
+            "means": [
+                {
+                    "word_mean": "其他释义",
+                    "cis": [
+                        "hit",
+                        "drill",
+                        "mallet",
+                        "pound",
+                        "knock",
+                        "pummel",
+                        "drive",
+                        "beat",
+                        "bang",
+                        "repeat"
+                    ]
+                }
+            ],
+            "part_name": ""
+        }
+    ],
+    "collins": [
+        {
+            "entry": [
+                {
+                    "def": "A hammer is a tool that consists of a heavy piece of metal at the end of a handle. It is used, for example, to hit nails into a piece of wood or a wall, or to break things into pieces.",
+                    "posp": "N-COUNT",
+                    "tran": "锤子;榔头",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/a/8/1/a81e26dadc255305933cafcceaa8705d.mp3",
+                            "ex": "He used a hammer and chisel to chip away at the wall.",
+                            "tts_size": "17K",
+                            "tran": "他用榔头和凿子铲墙。"
+                        }
+                    ]
+                },
+                {
+                    "def": "If you hammer an object such as a nail, you hit it with a hammer.",
+                    "posp": "VERB",
+                    "tran": "用锤击;锤打",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/e/9/7/e97695e28d2c714bda362d2067c710cc.mp3",
+                            "ex": "To avoid damaging the tree, hammer a wooden peg into the hole...",
+                            "tts_size": "17K",
+                            "tran": "为了不毁坏树，用锤子将一个木栓钉进洞里。"
+                        },
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/4/f/1/4f1a827f5a297b830784ca296bb4ac19.mp3",
+                            "ex": "Builders were still hammering outside the window.",
+                            "tts_size": "14K",
+                            "tran": "建筑工人仍在窗外敲敲打打。"
+                        }
+                    ]
+                },
+                {
+                    "def": "If you hammer on a surface, you hit it several times in order to make a noise, or to emphasize something you are saying when you are angry.",
+                    "posp": "VERB",
+                    "tran": "（反复）敲打",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/b/a/7/ba759069f1d8dcd0bdacfdb16fd14858.mp3",
+                            "ex": "We had to hammer and shout before they would open up...",
+                            "tts_size": "15K",
+                            "tran": "我们不停地拍门、叫喊，他们才开了门。"
+                        },
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/2/3/d/23d368f1b2276c49663d982ff3109214.mp3",
+                            "ex": "A crowd of reporters was hammering on the door...",
+                            "tts_size": "13K",
+                            "tran": "一群记者正在砰砰地拍打着大门。"
+                        }
+                    ]
+                },
+                {
+                    "def": "If you hammer something such as an idea into people or you hammer at it, you keep repeating it forcefully so that it will have an effect on people.",
+                    "posp": "VERB",
+                    "tran": "强行灌输;反复强调",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/d/0/2/d028b7dce7dce98d88e247e7c3cdeb07.mp3",
+                            "ex": "He hammered it into me that I had not suddenly become a rotten goalkeeper...",
+                            "tts_size": "20K",
+                            "tran": "他反复告诉我，我并没有一下子变成个差劲的守门员。"
+                        },
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/1/6/3/163a406df56cb9aeff278964448a10b3.mp3",
+                            "ex": "Recent advertising campaigns from the industry have hammered at these themes.",
+                            "tts_size": "23K",
+                            "tran": "该行业最近的广告宣传活动一直在反复强调这些主题。"
+                        }
+                    ]
+                },
+                {
+                    "def": "If you say that someone hammers another person, you mean that they attack, criticize, or punish the other person severely.",
+                    "posp": "VERB",
+                    "tran": "猛烈攻击;大力批评;严厉惩罚",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/8/5/c/85c865b8797600132df52fb580a0d68e.mp3",
+                            "ex": "The report hammers the private motorist...",
+                            "tts_size": "12K",
+                            "tran": "该报告严词谴责了那个私家车司机。"
+                        },
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/b/a/5/ba53c2f1c99cc8931e7022244e1a41f9.mp3",
+                            "ex": "If we turned up late we would be hammered by everybody.",
+                            "tts_size": "15K",
+                            "tran": "如果我们迟到，就会遭到大家的声讨。"
+                        }
+                    ]
+                },
+                {
+                    "def": "If you say that businesses are being hammered, you mean that they are being unfairly harmed, for example by a change in taxes or by bad economic conditions.",
+                    "posp": "V-PASSIVE",
+                    "tran": "（因税收政策变化、经济不景气等）使（企业）受到打击",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/5/0/9/5098677107de4c363877d50bc501029b.mp3",
+                            "ex": "Look at the numbers of small businesses that are being hammered unmercifully...",
+                            "tts_size": "19K",
+                            "tran": "看看有多少小企业正在遭受无情的打击。"
+                        },
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/c/7/e/c7e2f5df576663100fd8e9df70b08208.mp3",
+                            "ex": "The company has been hammered by the downturn in the construction and motor industries.",
+                            "tts_size": "24K",
+                            "tran": "公司因建筑和汽车行业的衰退而受到了冲击。"
+                        }
+                    ]
+                },
+                {
+                    "def": "In sports, if you say that one player or team hammered another, you mean that the first player or team defeated the second completely and easily.",
+                    "posp": "VERB",
+                    "tran": "（在体育比赛中）使惨败，大败",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/2/5/c/25cff77811ea2283dab619564e15410e.mp3",
+                            "ex": "He hammered the young Austrian player in four straight sets.",
+                            "tts_size": "16K",
+                            "tran": "他直落4局轻取年轻的奥地利对手。"
+                        }
+                    ]
+                },
+                {
+                    "def": "If someone's heart is hammering, it is beating very fast, usually because they are frightened.",
+                    "posp": "VERB",
+                    "tran": "（通常指因恐惧而心脏）快速跳动",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/d/9/2/d9277b1d84ed417aeeec398f54156a81.mp3",
+                            "ex": "My heart was hammering. The footsteps had stopped outside my door.",
+                            "tts_size": "23K",
+                            "tran": "我的心怦怦直跳。脚步声已停在我的门外。"
+                        }
+                    ]
+                },
+                {
+                    "def": "In machines and instruments, a hammer is a part that hits another part. For example, in a gun the hammer causes the explosion which makes the bullet shoot out of it, and in a piano the hammers hit the strings and cause the sounds.",
+                    "posp": "N-COUNT",
+                    "tran": "（机械设备中的）锤状物;（枪上的）击铁;(钢琴的）音槌",
+                    "example": []
+                },
+                {
+                    "def": "In athletics, a hammer is a heavy weight on a piece of wire, which the athlete throws as far as possible.",
+                    "posp": "N-COUNT",
+                    "tran": "（田径运动中所掷的）链球",
+                    "example": []
+                },
+                {
+                    "def": "If you say that someone was going at something hammer and tongs, you mean that they were doing it with great enthusiasm or energy.",
+                    "posp": "PHRASE",
+                    "tran": "满腔热情地;劲头十足地",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/3/4/b/34b28a93a995278c2477af0f64879699.mp3",
+                            "ex": "He loved gardening. He went at it hammer and tongs as soon as he got back from work...",
+                            "tts_size": "28K",
+                            "tran": "他酷爱侍弄花草。只要下班一回到家，他就兴冲冲地忙活起来。"
+                        },
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/6/5/7/65706d6fe2bfca804d22829badc0ed2e.mp3",
+                            "ex": "They yell, shout and argue. For six hours a night they go at it, hammer and tongs.",
+                            "tts_size": "31K",
+                            "tran": "他们又叫又喊又吵，每晚都要乐此不疲地闹腾6个小时。"
+                        }
+                    ]
+                },
+                {
+                    "def": "If you say that something goes, comes, or is under the hammer, you mean that it is going to be sold at an auction.",
+                    "posp": "PHRASE",
+                    "tran": "被拍卖",
+                    "example": [
+                        {
+                            "tts_mp3": "http://res-tts.iciba.com/tts_dj/f/3/e/f3e884b0d836466bbf529abb8a40d355.mp3",
+                            "ex": "Ian Fleming's original unpublished notes are to go under the hammer at London auctioneers Sotheby's.",
+                            "tts_size": "29K",
+                            "tran": "伊恩·弗莱明未出版的原版笔记将在伦敦的苏富比拍卖行进行拍卖。"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "ee_mean": [
+        {
+            "means": [
+                {
+                    "word_mean": "1. the part of a gunlock that strikes the percussion cap when the trigger is pulled",
+                    "sentences": []
+                },
+                {
+                    "word_mean": "2. a hand tool with a heavy rigid head and a handle; used to deliver an impulsive force by striking",
+                    "sentences": []
+                },
+                {
+                    "word_mean": "3. an athletic competition in which a heavy metal ball that is attached to a flexible wire is hurled as far as possible",
+                    "sentences": []
+                },
+                {
+                    "word_mean": "4. the ossicle attached to the eardrum",
+                    "sentences": []
+                },
+                {
+                    "word_mean": "5. a heavy metal sphere attached to a flexible wire; used in the hammer throw",
+                    "sentences": []
+                },
+                {
+                    "word_mean": "6. a striker that is covered in felt and that causes the piano strings to vibrate",
+                    "sentences": []
+                },
+                {
+                    "word_mean": "7. a power tool for drilling rocks",
+                    "sentences": []
+                },
+                {
+                    "word_mean": "8. the act of pounding (delivering repeated heavy blows);",
+                    "sentences": [
+                        {
+                            "sentence": "\"the sudden hammer of fists caught him off guard\""
+                        },
+                        {
+                            "sentence": "\"the pounding of feet on the hallway\""
+                        }
+                    ]
+                }
+            ],
+            "part_name": "Noun"
+        },
+        {
+            "means": [
+                {
+                    "word_mean": "1. beat with or as if with a hammer;",
+                    "sentences": [
+                        {
+                            "sentence": "\"hammer the metal flat\""
+                        }
+                    ]
+                },
+                {
+                    "word_mean": "2. create by hammering;",
+                    "sentences": [
+                        {
+                            "sentence": "\"hammer the silver into a bowl\""
+                        },
+                        {
+                            "sentence": "\"forge a pair of tongues\""
+                        }
+                    ]
+                }
+            ],
+            "part_name": "Verb"
+        }
+    ],
+    "exchanges": [
+        "hammers",
+        "hammers",
+        "hammered",
+        "hammered",
+        "hammering",
+        "hammer"
+    ],
+    "errmsg": "success",
+    "_word_flag": 1,
+    "baesInfo": {
+        "translate_type": 1,
+        "is_CRI": "1",
+        "exchange": {
+            "word_est": [],
+            "word_noun": [],
+            "word_third": [
+                "hammers"
+            ],
+            "word_er": [],
+            "word_adj": [],
+            "word_conn": [],
+            "word_past": [
+                "hammered"
+            ],
+            "word_adv": [],
+            "word_prep": [],
+            "word_done": [
+                "hammered"
+            ],
+            "word_pl": [
+                "hammers"
+            ],
+            "word_ing": [
+                "hammering"
+            ],
+            "word_verb": []
+        },
+        "word_name": "hammer",
+        "symbols": [
+            {
+                "ph_other": "",
+                "parts": [
+                    {
+                        "means": [
+                            "铁锤，榔头",
+                            "链球",
+                            "（拍卖时用的）木槌",
+                            "音槌"
+                        ],
+                        "part": "n."
+                    },
+                    {
+                        "means": [
+                            "锤打",
+                            "反复敲打，连续击打（尤指发出大声）"
+                        ],
+                        "part": "vt.& vi."
+                    },
+                    {
+                        "means": [
+                            "击败",
+                            "猛踢",
+                            "猛击",
+                            "轻易打败（对方）"
+                        ],
+                        "part": "vt."
+                    }
+                ],
+                "ph_am": "ˈhæmɚ",
+                "ph_am_mp3": "http://res.iciba.com/resource/amp3/1/0/5f/99/5f9901fc60b769b523d0dd8e79b3fe08.mp3",
+                "ph_tts_mp3": "http://res-tts.iciba.com/5/f/9/5f9901fc60b769b523d0dd8e79b3fe08.mp3",
+                "ph_en": "ˈhæmə(r)",
+                "ph_en_mp3": "http://res.iciba.com/resource/amp3/oxford/0/8d/3c/8d3c6eb68d3c310cd06202ff0f54fe3c.mp3"
+            }
+        ]
+    },
+    "netmean": {
+        "PerfectNetExp": [
+            {
+                "abs": "高一英语单词表 - 豆丁网 ... gun n 炮；枪 hammer n 锤子；槌 rope n 绳；索；绳索 △.",
+                "bas": 7318,
+                "id": "28647",
+                "exp": "锤子",
+                "key": "hammer",
+                "url": "http://www.docin.com/p-269778.html"
+            },
+            {
+                "abs": "〖常用词汇后缀-词根〗 - 豆丁网 ... (=to speak) 说， 记录， 日志 (=hammer) 锤， 槌 (=stay ,dwell) 居， 留.",
+                "bas": 2065,
+                "id": "86084",
+                "exp": "锤",
+                "key": "hammer",
+                "url": "http://www.docin.com/p-2878401.html"
+            },
+            {
+                "abs": "首页-贝多芬猫咪主题馆-淘宝网 ... Stella&amp;Chewy’s 脱水猫粮 | ARM&amp;HAMMER 铁锤 | Rufus &amp; coco 洛福斯系列 |.",
+                "bas": 1516,
+                "id": "110586",
+                "exp": "铁锤",
+                "key": "hammer",
+                "url": "http://bdfpet.taobao.com/"
+            },
+            {
+                "abs": "电力常用英语 - bingwuo的日志 - 网易博客 ... 栏杆 balustrade,railing,rail 榔头 hammer 劳保用品 labor protection appliance.",
+                "bas": 1292,
+                "id": "125253",
+                "exp": "榔头",
+                "key": "hammer",
+                "url": "http://bingwuo.blog.163.com/blog/static/382569352008249347565/"
+            }
+        ],
+        "RelatedPhrase": [
+            {
+                "list": [
+                    {
+                        "abs": "五金工具类专业术语 ... 奶子锤： ball-pein hammer 羊角锤： claw hammer 钳工锤： mechanic hammer.",
+                        "bas": 562,
+                        "id": "236267",
+                        "exp": "羊角锤",
+                        "key": "claw hammer",
+                        "url": "http://news.wjw.cn/content/wjzx/2007/12/4/66485.shtml"
+                    }
+                ],
+                "word": "claw hammer"
+            },
+            {
+                "list": [
+                    {
+                        "abs": "材料科学专业词汇(D) ... Drop forging 落锤锻 Drop hammer 落锤 Drop-through die 下穿模.",
+                        "bas": 790,
+                        "id": "182465",
+                        "exp": "落锤",
+                        "key": "drop hammer",
+                        "url": "http://www.zftrans.com/favorite/vocabulary/2006-4/5/012306450123124544869_5.html"
+                    }
+                ],
+                "word": "drop hammer"
+            },
+            {
+                "list": [
+                    {
+                        "abs": "水利水电专业英语词汇 - 豆丁网 ... 水泵装置 pump system 水锤 (水击) water hammer 水锤泵站 hydrauli cram pump station.",
+                        "bas": 656,
+                        "id": "209830",
+                        "exp": "水锤",
+                        "key": "water hammer",
+                        "url": "http://www.docin.com/p-77936255.html"
+                    }
+                ],
+                "word": "water hammer"
+            },
+            {
+                "list": [
+                    {
+                        "abs": "地质词汇16000中英对照-电子表格 - 豆丁网 ... 空气枪 air gun 气锤 air hammer 气动提升机 air lift.",
+                        "bas": 1214,
+                        "id": "131503",
+                        "exp": "气锤",
+                        "key": "air hammer",
+                        "url": "http://www.docin.com/p-37659928.html"
+                    }
+                ],
+                "word": "air hammer"
+            }
+        ]
+    }
+}

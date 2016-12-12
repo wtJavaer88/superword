@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wnc.superword.manage.mapper.NewsMapper">
+	
+	<sql id="tableName">news</sql>
+	
+	<select id="queryList" resultType="News">
+		SELECT * FROM news ORDER BY date DESC
+	</select>
+
+	<delete id="deleteByIDS" parameterType="list">
+		DELETE FROM <include refid="tableName"/> WHERE order_id IN 
+		<foreach collection="ids" item="id" open="(" close=")" separator=",">
+			#{id}
+		</foreach>;
+	</delete>
+</mapper>

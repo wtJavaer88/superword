@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wnc.superword.manage.mapper.DictMapper">
+	<resultMap id="BaseResultMap" type="word.DicWord">
+		<id column="topic_word" property="base_word" jdbcType="CHAR" />
+		<result column="topic_id" property="topic_id" jdbcType="INTEGER" />
+		<result column="name" property="book_name" jdbcType="CHAR" />
+		<result column="word_third" property="word_third" jdbcType="CHAR" />
+		<result column="word_done" property="word_done" jdbcType="CHAR" />
+		<result column="word_pl" property="word_pl" jdbcType="CHAR" />
+		<result column="word_ing" property="word_ing" jdbcType="CHAR" />
+		<result column="word_past" property="word_past" jdbcType="CHAR" />
+		<result column="word_er" property="word_er" jdbcType="CHAR" />
+		<result column="word_est" property="word_est" jdbcType="CHAR" />
+		<result column="mean_cn" property="cn_mean" jdbcType="CHAR" />
+	</resultMap>
+	<select id="findAllDicWord" resultMap="BaseResultMap">
+		select
+		dict.topic_word,dict.mean_cn,books.name,ex.* from topic_resource res
+		left join dictionary dict on res.topic=dict.topic_id left join books
+		on books.id=res.book_id LEFT JOIN word_exchange ex on
+		ex.topic_id=res.topic order by book_id desc
+	</select>
+	
+	<select id="findWord" resultMap="BaseResultMap" parameterType="java.lang.String">
+		select e.word_done,e.word_er,e.word_est,e.word_ing,e.word_pl,e.word_past,e.word_third,d.topic_id,d.topic_word,d.mean_cn FROM  dictionary D LEFT JOIN word_exchange E  ON E.topic_id=D.topic_id 
+				where LOWER(topic_word)=
+                     #{word,jdbcType=VARCHAR} or  word_third=
+                     #{word,jdbcType=VARCHAR} or  word_done=
+                     #{word,jdbcType=VARCHAR} or  word_er=
+                     #{word,jdbcType=VARCHAR} or  word_est=
+                     #{word,jdbcType=VARCHAR} or  word_ing=
+                     #{word,jdbcType=VARCHAR} or  word_pl=
+                     #{word,jdbcType=VARCHAR} or  word_past=#{word,jdbcType=VARCHAR}
+                     limit 0,1
+	</select>
+</mapper>

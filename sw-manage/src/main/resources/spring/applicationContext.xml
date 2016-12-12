@@ -1,0 +1,55 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+	<!-- 使用spring自带的占位符替换功能 -->
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<!-- 允许JVM参数覆盖 -->
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+		<!-- 忽略没有找到的资源文件 -->
+		<property name="ignoreResourceNotFound" value="true" />
+		<!-- 配置资源文件 -->
+		<property name="locations">
+			<list>
+				<value>classpath:jdbc.properties</value>
+				<value>classpath:env.properties</value>
+				<value>classpath:log4j.properties</value>
+				<value>classpath:httpclient.properties</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- 扫描包 -->
+	<context:component-scan base-package ="com.wnc.superword" />  
+  
+   <!-- 多数据源配置 -->  
+   <bean id ="ds_main" class= "com.alibaba.druid.pool.DruidDataSource" >  
+        <property name="driverClassName" value="${jdbc.mbs.driverClassName}" />
+		<property name="url" value="${jdbc.mbs.url}" />
+		<property name="username" value="${jdbc.mbs.username}" />
+		<property name="password" value="${jdbc.mbs.password}" />
+   </bean >  
+   <bean id ="ds_dict" class= "com.alibaba.druid.pool.DruidDataSource" >  
+        <property name="driverClassName" value="${jdbc.dict.driverClassName}" />
+		<property name="url" value="${jdbc.dict.url}" />
+		<property name="username" value="${jdbc.dict.username}" />
+		<property name="password" value="${jdbc.dict.password}" />
+   </bean >  
+  
+   <!-- 动态配置数据源 -->  
+   <bean id ="multipleDataSource" class= "com.wnc.superword.manage.db.DynamicDataSource" >  
+          <property name ="targetDataSources">  
+                <map key-type ="java.lang.String">  
+                      <entry value-ref ="ds_main" key= "ds_main"></entry >  
+                      <entry value-ref ="ds_dict" key= "ds_dict"></entry >  
+                </map >  
+          </property >  
+          <property name ="defaultTargetDataSource" ref= "ds_main"></property >      <!-- 默认使用ds1的数据源 -->  
+   </bean >  
+</beans>
