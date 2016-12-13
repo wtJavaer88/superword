@@ -38,7 +38,7 @@ $RECYCLE.BIN/
 *.bak
 *.class
 *.tmp
-
+*.classpath
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
