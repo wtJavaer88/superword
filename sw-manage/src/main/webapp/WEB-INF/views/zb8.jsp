@@ -18,20 +18,17 @@
 </head>
 <body>
 	<div>
-		<table class="easyui-datagrid" id="userList" title="新闻列表"
-			data-options="singleSelect:false,collapsible:true,pagination:true,url:'/rest/news/',method:'get',pageSize:5,toolbar:toolbar,pageList:[2,5,10]">
+		<table class="easyui-datagrid" id="userList" title="直播吧新闻列表"
+			data-options="singleSelect:false,collapsible:true,pagination:true,url:'/rest/zb8/',method:'get',pageSize:5,toolbar:toolbar,pageList:[2,5,10]">
 			<thead>
 				<tr>
 					<th data-options="field:'ck',checkbox:true"></th>
-					<th data-options="field:'id',width:60">ID</th>
-					<th data-options="field:'title',width:200">标题</th>
-					<th data-options="field:'url',width:100">网址</th>
-					<th data-options="field:'subText',width:100">年龄</th>
-					<th data-options="field:'topicCounts',width:60">重点单词数</th>
-					<th data-options="field:'commentCounts',width:60">评论数</th>
-					<th data-options="field:'date',width:100">日期</th>
-					<th
-						data-options="field:'createTime',width:130,align:'center',formatter:formatDate">创建日期</th>
+					<th data-options="field:'title',width:300">标题</th>
+					<th style="display:none" data-options="field:'url',width:150">网址</th>
+					<th data-options="field:'from_url',width:150">来源网址</th>
+					<th data-options="field:'keyword',width:120">关键字</th>
+					<th data-options="field:'thumbnail',width:200,formatter:formatThumb">缩略图</th>
+					<th data-options="field:'day',width:100">日期</th>
 				</tr>
 			</thead>
 		</table>
@@ -45,19 +42,10 @@
 			var now = new Date(val);
 			return now.format("yyyy-MM-dd hh:mm:ss");
 		}
-		function formatBirthday(val, row) {
-			var now = new Date(val);
-			return now.format("yyyy-MM-dd");
+		function formatThumb(val, row) {
+			return '<img src="'+val+'" />'
 		}
-		function formatSet(val, row) {
-			if (val == 1) {
-				return "男";
-			} else if (val == 2) {
-				return "女";
-			} else {
-				return "未知";
-			}
-		}
+		
 		function getSelectionsIds() {
 			var userList = $("#userList");
 			var sels = userList.datagrid("getSelections");
@@ -74,6 +62,15 @@
 			var url = "";
 			if (sels.length>0) {
 				url=sels[0].url;
+			}
+			return url;
+		}
+		function getSelectedFirstFromUrl() {
+			var userList = $("#userList");
+			var sels = userList.datagrid("getSelections");
+			var url = "";
+			if (sels.length>0) {
+				url=sels[0].from_url;
 			}
 			return url;
 		}
@@ -95,21 +92,24 @@
 					}
 				},
 				{
-					text : '原文',
+					text : '直播吧',
 					iconCls : 'icon-link-web',
 					handler : function() {
 						window.open(getSelectedFirstUrl()); 
 					}
 				},
 				{
+					text : '原文',
+					iconCls : 'icon-link-web',
+					handler : function() {
+						window.open(getSelectedFirstFromUrl()); 
+					}
+				},
+				{
 					text : '阅读',
 					iconCls : 'icon-edit',
 					handler : function() {
-						var id = getSelectedFirstId();
-						if(id > 0)
-						window.open('/rest/news/view?id='+id); 
-						else
-							$.messager.alert('提示','请先选择一条新闻!');
+						window.open('/rest/zb8/view?from_url='+getSelectedFirstFromUrl()); 
 					}
 				},
 				{

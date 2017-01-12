@@ -22,8 +22,13 @@ public class TestController {
 	}
 
 	@RequestMapping(value = "/newslist")
-	public String users(Model model) {
+	public String newslist(Model model) {
 		return "news";
+	}
+
+	@RequestMapping(value = "/zb8news")
+	public String zhibo8news(Model model) {
+		return "zb8";
 	}
 
 }

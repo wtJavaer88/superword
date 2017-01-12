@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 
 import com.alibaba.fastjson.JSONObject;
 import com.wnc.basic.BasicStringUtil;
+import com.wnc.news.api.mine.zhibo8.Zb8News;
 import com.wnc.string.PatternUtil;
 import com.wnc.superword.manage.pojo.News;
 import com.wnc.superword.manage.service.DictService;
@@ -38,6 +39,17 @@ public class NewsWordsAnalyse {
 				news.setHtmlContent(newContent);
 				news.setTopicCounts(allFind.size());
 				news.setCommentCounts(cCounts);
+			}
+		}
+		return news;
+	}
+
+	public Zb8News decorateZb8News(Zb8News news) {
+		if (BasicStringUtil.isNotNullString(news.getEng_content())) {
+			List<Topic> allFind = new ArrayList<Topic>();
+			String newContent = splitArticle(news.getEng_content(), allFind);
+			if (allFind.size() > 0) {
+				news.setEng_content(newContent);
 			}
 		}
 		return news;
