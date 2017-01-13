@@ -51,6 +51,7 @@ public class DayNewsThread implements Runnable {
 			String url = ZB8_DOMAIN + object.getString("url");
 			Zb8News news = new Zb8News();
 			news.setFrom_url(from_url);
+			news.setForm_name(object.getString("from_name"));
 			news.setUrl(url);
 			news.setDay(day);
 			news.setTitle(object.getString("shortTitle"));

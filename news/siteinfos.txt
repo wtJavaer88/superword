@@ -1,0 +1,962 @@
+SiteInfo [name=直播吧, count=23324] 代表新闻: 阿扎尔出场仅15分钟后伤退 / 
+SiteInfo [name=football-italia, count=4082] 代表新闻: 坎德拉：不想看到孔蒂来罗马 / http://www.football-italia.net/77798/candela-conte-wrong-roma
+SiteInfo [name=Goal.com, count=3558] 代表新闻: 巴黎小将：可能会考虑离开 / http://www.goal.com/en/news/11/transfer-zone/2016/01/03/18937642/marquinhos-may-consider-psg-exit?utm_source=dlvr.it&utm_medium=twitter
+SiteInfo [name=FourFourTwo, count=2359] 代表新闻: 理查兹：我们仍会力争保级 / http://www.fourfourtwo.com/au/news/aston-villa-captain-richards-issues-pledge-fans#:pXj-wt6fvOw5yA
+SiteInfo [name=马卡报, count=2188] 代表新闻: 本泽马训练时受伤首发成疑 / http://www.marca.com/en/football/real-madrid/2016/01/02/5688095c268e3e944e8b45e5.html
+SiteInfo [name=天空体育, count=1562] 代表新闻: 阿森纳700万敲定巴塞尔后腰 / http://www.skysports.com/football/news/11095/10118430/arsenal-on-verge-of-signing-mohamed-elneny-from-basel
+SiteInfo [name=fourfourtwo, count=1336] 代表新闻: 希丁克：不敢冒险使用帕托 / http://www.fourfourtwo.com/news/chelsea-wont-take-risks-pato-hiddink#:glJMMccnxk9rnA
+SiteInfo [name=每日镜报, count=1229] 代表新闻: 药厂高层：小豌豆是非卖品 / http://www.mirror.co.uk/sport/football/transfer-news/transfer-news-live-arsenal-prepare-7110143?ICID_mirror_MF
+SiteInfo [name=微博, count=834] 代表新闻: 邓小飞感谢江苏：讲不出再见 / 
+SiteInfo [name=每日体育报, count=740] 代表新闻: J罗为超速辩解：怕训练迟到 / http://www.sport-english.com/en/news/liga-bbva/james-rodriguezs-incredible-excuses-for-run-in-with-police-4790483
+SiteInfo [name=阿斯报, count=726] 代表新闻: 皮克：要找出种族主义者 / http://futbol.as.com/futbol/2016/01/02/primera/1451762204_094820.html
+SiteInfo [name=每日邮报, count=681] 代表新闻: 英超三年海外转播权售出32亿 / http://www.dailymail.co.uk/sport/football/article-3382281/New-year-new-TV-billions-Premier-League-rules-world-foreign-sales-games-set-hit-1billion-year-2016-deals.html
+SiteInfo [name=BBC, count=554] 代表新闻: 拉涅利：目标达成可开香槟了 / http://www.bbc.com/sport/live/football/34976135
+SiteInfo [name=Le10Sport, count=533] 代表新闻: 巴黎考虑与纽卡争夺拉卡泽特 / http://www.le10sport.com/football/mercato/mercato-psg-al-khelaifi-distance-par-une-offre-a-25m-pour-lacazette-217338
+SiteInfo [name=Twitter, count=533] 代表新闻: 队报评年度最佳阵：巴萨7人 / 
+SiteInfo [name=sport1.de, count=531] 代表新闻: 沙尔克04：我们不会卖萨内 / http://www.sport1.de/fussball/bundesliga/2016/01/schalke-04-clemens-toennies-schliesst-verkauf-von-leroy-sane-aus
+SiteInfo [name=足球市场, count=530] 代表新闻: 托马斯：要学习的还有很多 / http://www.calciomercato.it/news/363354/atletico-madrid-levante-thomas-giocare-di-pi-devo-imparare-tanto.html
+SiteInfo [name=世界体育报, count=523] 代表新闻: 恩里克：平局对双方都公平 / http://www.mundodeportivo.com/futbol/fc-barcelona/20160102/301154843338/luis-enrique-el-resultado-ha-sido-justo.html
+SiteInfo [name=squawka, count=435] 代表新闻: 斯科尔斯谈利物浦 / http://www.squawka.com/news/scholes-klopp-must-build-liverpools-team-around-coutinho-and-sturridge-next-season/611011
+SiteInfo [name=图片报, count=312] 代表新闻: 德媒：曼城5500万报价萨内 / http://www.bild.de/sport/fussball/leroy-sane/wird-er-der-teuerste-deutsche-spieler-44003024.bild.html
+SiteInfo [name=football-espana, count=293] 代表新闻: 西蒙尼：球迷与我们很亲近 / http://www.football-espana.net/56015/%E2%80%98fans-staying-close-atleti%E2%80%99
+SiteInfo [name=阿森纳官网, count=270] 代表新闻: 温格：顶级的切赫太棒了 / http://www.arsenal.com/news/news-archive/20160102/wenger-top-class-cech-was-huge-for-us
+SiteInfo [name=镜报, count=225] 代表新闻: 镜报：伊斯科想转投曼城 / http://www.mirror.co.uk/sport/football/transfer-news/unhappy-real-madrid-star-isco-7103445
+SiteInfo [name=米兰新闻网, count=203] 代表新闻: 博阿滕将挤掉切尔奇的位置 / http://www.milannews.it/rassegna-stampa/tuttosport-boateng-ha-gia-fatto-la-valigia-a-cerci-197454
+SiteInfo [name=ESPN, count=198] 代表新闻: 沃尔科特：球队知道如何争冠 / http://www.espnfc.com/arsenal/story/2778293/theo-walcott--arsenal-know-what-we-need-to-do-to-win-title
+SiteInfo [name=队报, count=189] 代表新闻: 西里古训练中受伤 或将离队 / http://www.lequipe.fr/Football/Actualites/Psg-salvatore-sirigu-blesse/621791
+SiteInfo [name=whoscored, count=186] 代表新闻: 切尔西赛后评分：科斯塔最佳 / http://www.whoscored.com/Matches/959672/Live
+SiteInfo [name=ESPNFC, count=181] 代表新闻: 联赛杯碌碌无为90分钟，鲁尼周末首发悬了 / http://www.espnfc.com/blog/the-match/60/post/2954979/wayne-rooney-running-out-of-chances-as-man-united-captain-fails-to-impress
+SiteInfo [name=Squawka, count=176] 代表新闻: 墨菲：贝尔要更聪明些 / http://www.squawka.com/news/murphy-bale-must-be-cleverer-than-to-fuel-real-madrid-exit-talk/569794
+SiteInfo [name=米兰体育报, count=169] 代表新闻: 阿莱士：与小罗马搭档很满意 / http://www.gazzetta.it/Calcio/Serie-A/Milan/02-01-2016/milan-alex-mihajlovic-duro-lui-anche-io-sono-top-140136555982.shtml
+SiteInfo [name=曼联官网, count=160] 代表新闻: 范加尔：鲁尼脚后跟破门精彩 / http://www.manutd.com/en/News-And-Features/Football-News/2016/Jan/manager-reaction-louis-van-gaal-reflects-on-manchester-united-2-swansea-city-1-on-2-january-2016.aspx
+SiteInfo [name=迪马济奥个人网站, count=153] 代表新闻: 罗马小将：希望哲科找回状态 / http://gianlucadimarzio.com/en/eng/roma-sadiq-me-in-the-place-of-dzeko-i-dont-think-so/
+SiteInfo [name=巴萨官网, count=146] 代表新闻: 巴萨官网：年度180球51胜 / http://www.fcbarcelona.com/football/first-team/detail/article/180-goals-and-51-wins-in-a-record-breaking-2015
+SiteInfo [name=Spox.com, count=144] 代表新闻: 安帅：欧冠是最重要的赛事 / http://www.spox.com/de/sport/fussball/bundesliga/fc-bayern/1605/News/carlo-ancelotti-fc-bayern-muenchen-liga-nicht-wichtigste.html
+SiteInfo [name=伦敦标准晚报, count=134] 代表新闻: 桑切斯可出战下周足总杯 / http://www.standard.co.uk/sport/football/arsenal-injury-return-alexis-sanchez-could-appear-against-sunderland-a3146786.html
+SiteInfo [name=皇马官网, count=132] 代表新闻: 皇马VS瓦伦西亚20人大名单 / http://www.realmadrid.com/en/news/2016/01/the-20-man-squad-for-the-match-against-valencia
+SiteInfo [name=football-itialia, count=128] 代表新闻: 欧洲杯主帅薪水排行 / http://www.football-italia.net/85357/conte-second-highest-paid-euro-2016
+SiteInfo [name=利物浦官网, count=116] 代表新闻: 洛夫伦 ：我很快就要回来了 / http://www.liverpoolfc.com/news/first-team/203173-dejan-i-ll-be-back-to-help-the-defence-soon
+SiteInfo [name=曼彻斯特晚报, count=112] 代表新闻: 佩帅解释为何换下曼加拉 / http://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-take-mangala-pellegrini-10678455
+SiteInfo [name=意大利足球, count=111] 代表新闻: 萨拉特为红牌道歉 / http://www.football-italia.net/79889/zarate-i-was-punched-twice
+SiteInfo [name=踢球者, count=110] 代表新闻: 德甲半程前锋评级：莱万领衔 / http://www.kicker.de/news/fussball/bundesliga/startseite/642491/2/slideshow_lewandowski-knapp-vor-aubameyang---dosts-absturz.html
+SiteInfo [name=欧足联官网, count=102] 代表新闻: 德科选出2015年度最佳阵容 / http://www.uefa.com/uefachampionsleague/news/newsid=2322289.html
+SiteInfo [name=拜仁官网, count=101] 代表新闻: 拜仁官网数字化盘点2015年 / http://www.fcbayern.cn/news/609
+SiteInfo [name=曼城官网, count=96] 代表新闻: 佩帅：两次误判改变了比赛 / http://www.mcfc.co.uk/News/Team-news/2016/January/Everton-v-City-Pellegrini-reaction/1452095781
+SiteInfo [name=卫报, count=94] 代表新闻: 深度：什么才是攻势足球？ / http://www.theguardian.com/football/blog/2016/jan/06/the-question-what-is-attacking-football-jonathan-wilson
+SiteInfo [name=twitter, count=93] 代表新闻: 马竞官方推特向中球迷拜年 / https://twitter.com/atletienglish/status/695956886894616576
+SiteInfo [name=太阳报, count=92] 代表新闻: 传温格4200万买奥巴梅扬 / http://www.thesun.co.uk/sol/homepage/sport/football/6835515/Arsenal-eye-staggering-42m-move-for-Borussia-Dortmund-star-Pierre-Emerick-Aubameyang.html
+SiteInfo [name=利物浦回声报, count=90] 代表新闻: 利物浦进球数创历史新低 / http://www.liverpoolecho.co.uk/sport/football/football-news/revealed-record-breaking-liverpool-fc-10679295
+SiteInfo [name=fussballeuropa, count=83] 代表新闻: 小德患流感或无缘战旧主 / http://www.fussballeuropa.com/news/vor-schalke-duell-grippe-erwischt-julian-draxler
+SiteInfo [name=101greatgoals, count=78] 代表新闻: 传梅西无缘FIFA游戏代言 / http://www.101greatgoals.com/top-stories/leo-messi-will-not-be-on-the-front-cover-of-fifa-17-who-will-replace-the-barcelona-superstar-lequipe/
+SiteInfo [name=体育图片报, count=77] 代表新闻: 瓦茨克：英国50年没冠军 / http://sportbild.bild.de/bundesliga/2016/bundesliga/50-jahre-ohne-titel-watzke-haeme-fuer-england-44256108.sport.html
+SiteInfo [name=慕尼黑日报, count=77] 代表新闻: 萨默尔：丢球不是能力问题 / http://www.tz.de/sport/fc-bayern/fc-bayern-trainingslager-doha-2016-sammer-fasst-zusammen-tz-6029373.html
+SiteInfo [name=goal.com, count=76] 代表新闻: 巴萨高层：马竞是最强对手 / http://www.goal.com/en/news/13822/news/2016/03/18/21452032/atletico-are-the-hardest-possible-draw-says-barcelona-board?ICID=HP_BN_1
+SiteInfo [name=中国足协官网, count=75] 代表新闻: 福建超越转让更名成江苏盐城 / http://www.fa.org.cn/bulletin/clb/2016-01-06/490521.html
+SiteInfo [name=Instagram, count=74] 代表新闻: 特里晒照思念兰8：想你 / 
+SiteInfo [name=Football-Italia, count=73] 代表新闻: 布冯点名感谢尤文图斯全队 / http://www.football-italia.net/81608/buffon-thanks-whole-juve-team
+SiteInfo [name=全市场, count=72] 代表新闻: 意媒:苏宁有意买法尔考 / http://www.tuttomercatoweb.com/resto-del-mondo/jiangsu-l-ultima-idea-porta-a-falcao-e-lui-il-prossimo-obiettivo-dei-cinesi-784999
+SiteInfo [name=Sport1, count=71] 代表新闻: 穆勒成欧冠进球最多德国人 / http://www.sport1.de/fussball/champions-league/2016/03/thomas-mueller-ist-bester-deutscher-torjaeger-in-der-champions-league
+SiteInfo [name=新浪体育, count=69] 代表新闻: 鲁能4大外援入选亚冠名单 / http://sports.sina.com.cn/china/afccl/2016-01-03/doc-ifxncyar6224424.shtml
+SiteInfo [name=Mediaset, count=68] 代表新闻: 囧叔学英语 未来或去英超 / http://www.sportmediaset.mediaset.it/mercato/juventus/dall-inghilterra-allegri-studia-per-un-futuro-in-premier_1085342-201502a.shtml
+SiteInfo [name=国米新闻网, count=68] 代表新闻: 托希尔：印尼足球正在复兴 / http://www.fcinternews.it/news/thohir-sicuro-il-calcio-indonesiano-sta-risorgendo-205082
+SiteInfo [name=推特, count=66] 代表新闻: 球迷竞相模仿厄齐尔庆祝动作 / https://twitter.com/Arsenal
+SiteInfo [name=Fussballeuropa, count=66] 代表新闻: 克洛普：我永不会买“混蛋” / http://www.fussballeuropa.com/news/jurgen-klopp-ich-wurde-nie-ein-arschloch-holen-2016-04
+SiteInfo [name=切尔西官网, count=63] 代表新闻: 阿扎尔：进展顺利能拿两冠军 / http://www.chelseafc.com/news/latest-news/2016/01/the-weekend-interview--eden-hazard-.html
+SiteInfo [name=转会市场, count=58] 代表新闻: 艾贝尔：没跟阿森纳谈过扎卡 / http://www.transfermarkt.de/eberl-uber-xhaka-bdquo-kein-angebot-und-keinen-kontakt-zu-arsenal-ldquo-/view/news/224130
+SiteInfo [name=新浪, count=51] 代表新闻: 华夏辟谣曾报价巴甲铜靴 / http://sports.sina.com.cn/china/j/2016-02-06/doc-ifxpfhzk9038991.shtml
+SiteInfo [name=forzaitalianfootball, count=50] 代表新闻: 本阿尔法望加盟意甲豪门米兰 / http://forzaitalianfootball.com/2016/02/nice-forward-angling-for-ac-milan-move-after-china-rejection/
+SiteInfo [name=442, count=49] 代表新闻: 克洛普：本特克必须完成自救 / http://www.fourfourtwo.com/news/klopp-benteke-must-help-himself#:S6_tYBbvW-Da+Q
+SiteInfo [name=, count=47] 代表新闻: 恩里克：想再来100场不败！ / 
+SiteInfo [name=FIFA官网, count=47] 代表新闻: 波尔:中国乒乓球比拜仁恐怖 / http://www.fifa.com/ballon-dor/news/y=2016/m=1/news=boll-coaches-are-crucial-2753925.html
+SiteInfo [name=亚足联官网, count=45] 代表新闻: 国奥亚洲杯名单：张玉宁领衔 / http://www.the-afc.com/uploads/afc/files/u23_final_registration.pdf
+SiteInfo [name=sportsmole, count=45] 代表新闻: 特里：球队接近回到最佳 / http://www.sportsmole.co.uk/football/chelsea/news/terry-chelsea-getting-back-to-best_263384.html?utm_source=dlvr.it&utm_medium=twitter#$$o0dw7m&&V9rx2LIyEeWBiRIR0vNQtQ$$
+SiteInfo [name=football-Italia, count=45] 代表新闻: 罗马希望打折买断迪涅 / http://www.football-italia.net/82775/roma-demand-digne-discount
+SiteInfo [name=football365, count=41] 代表新闻: 意媒：AC米兰有意马赫雷斯，已与狐狸城进行接触 / http://www.football365.com/news/ac-milan-approach-leicester-for-mahrez-report
+SiteInfo [name=ESPN FC, count=41] 代表新闻: 旧将：曼城因瓜帅入主而分心 / http://www.espnfc.com/manchester-city/story/2810360/pep-guardiola-news-distracting-manchester-city-mills
+SiteInfo [name=espnfc, count=40] 代表新闻: 2016年欧洲杯之五大展望 / http://www.espnfc.com/european-championship/74/blog/post/2817187/euro-2016-five-wishes-100-days-from-kick-off
+SiteInfo [name=TyC Sports, count=40] 代表新闻: 外媒：马竞欲重金引进伊瓜因 / http://www.tycsports.com/futbol/el-atletico-de-madrid-oferta-60-millones-y-kranevitter-por-higuain?cx_level=mas_vistas
+SiteInfo [name=新华网, count=40] 代表新闻: U19奔驰杯恒大迎首胜 / http://www.xinhuanet.com/
+SiteInfo [name=Football-italia, count=39] 代表新闻: 里皮：中国足球不能只砸钱 / http://www.football-italia.net/79428/lippi-%E2%80%98no-scudetto-favourite%E2%80%99
+SiteInfo [name=伦敦晚旗报, count=39] 代表新闻: 劳伦：阿森纳沦为赚钱机器 / http://www.standard.co.uk/sport/football/arsenal-put-making-money-ahead-of-the-team-bond-says-former-defender-lauren-a3205161.html
+SiteInfo [name=马竞官网, count=38] 代表新闻: 马竞官方：托雷斯右脚踝受伤 / http://www.clubatleticodemadrid.com/noticias/fernando-torres-sufre-un-traumatismo-en-el-tobillo-derecho
+SiteInfo [name=footyheadlines, count=38] 代表新闻: 皇马16-17赛季主场战袍谍照 / http://www.footyheadlines.com/2015/12/real-madrid-16-17-home-kit.html
+SiteInfo [name=Sportsmole, count=37] 代表新闻: 希丁克：特里进球确实越位 / http://www.sportsmole.co.uk/football/chelsea/news/hiddink-john-terry-goal-was-offside_264414.html
+SiteInfo [name=安莎社, count=37] 代表新闻: 意大利总统接见拉涅利 / http://www.ansa.it/sito/notizie/sport/calcio/2016/06/01/ranieri-complimenti-da-mattarella_5b780993-8c5a-481e-ad8a-c0388beed276.html
+SiteInfo [name=whoscored.com, count=37] 代表新闻: 桑德兰V曼联评分:哈兹里最佳 / https://www.whoscored.com/Matches/959705/Live/England-Premier-League-2015-2016-Sunderland-Manchester-United
+SiteInfo [name=德国足协官网, count=36] 代表新闻: 厄齐尔当选德国队年度最佳 / http://www.dfb.de/news/detail/oezil-ist-nationalspieler-des-jahres-2015-138106/
+SiteInfo [name=罗马官网, count=36] 代表新闻: 官方：罗马主帅加西亚下课 / 
+SiteInfo [name=Espnfc, count=34] 代表新闻: 恒大买9200张票分发澳洲球迷 / http://www.espnfc.com/afc-champions-league/story/2817805/guangzhou-jackson-martinez-ready-for-sydney-in-acl
+SiteInfo [name=广州日报, count=33] 代表新闻: 恒大小组赛再遇老对手浦和 / http://www.dayoo.com/
+SiteInfo [name=每日星报, count=33] 代表新闻: 杰拉德：要理性看待鲁尼低迷 / http://www.dailystar.co.uk/sport/football/484693/Steven-Gerrard-Wayne-Rooney-England-main-man
+SiteInfo [name=sunday-express, count=33] 代表新闻: 穆里尼奥：英足总应严惩腐败行为 / http://www.express.co.uk/sport/football/716668/Manchester-United-Jose-Mourinho-FA-Sam-Allardyce-Premier-League-News
+SiteInfo [name=网易, count=32] 代表新闻: 曾雪麟曾批评足协不懂球 / http://sports.163.com/16/0211/12/BFHSD3JN00051C8M.html#p=AFD2SFBB0B4C0005
+SiteInfo [name=德甲官网, count=32] 代表新闻: 真爱 球迷积木复制多特球场 / http://www.bundesliga.com/en/news/Bundesliga/blmd18v-dortmund-fan-builds-replica-lego-stadium.jsp?
+SiteInfo [name=sport1, count=32] 代表新闻: 本特纳晒奔驰汽车 或被处罚 / http://www.sport1.de/fussball/bundesliga/2016/02/vfl-wolfsburg-belegt-nicklas-bendtner-mit-geldstrafe?lptoken=t%7C9Blgy3Urf2lc9fXd%2BJLYQxmw0PfNad2HdCDsGbPn47P6RLo%2BaoJMkxFQwO8v%2B%2BNtN5rLn61bYbzYqnW4y2aFBg%3D%3D%7C1455930080%7Cad040bfa336206e8f996ed4c9
+SiteInfo [name=国米官网, count=32] 代表新闻: 米兰达：获得3分最重要 / http://www.inter.it/it/news/70823
+SiteInfo [name=每日电讯, count=30] 代表新闻: 克洛普：要批评就批评我吧 / http://www.telegraph.co.uk/sport/football/teams/liverpool/12090575/Exeter-2-Liverpool-2-FA-Cup-Jurgen-Klopp-says-any-criticism-shouls-be-directed-at-him-not-his-young-players.html
+SiteInfo [name=网易体育, count=30] 代表新闻: 京媒：新赛季中超3月4日开战 / http://sports.163.com/16/0102/09/BCAJ77PA00051C89.html#p=B4CAU0P80B6P0005
+SiteInfo [name=尤文图斯官网, count=29] 代表新闻: 卡塞雷斯手术完成，伤停5月 / http://www.juventus.com/it/news/news/2016/caceres--intervento-riuscito.php
+SiteInfo [name=outsideoftheboot, count=29] 代表新闻: 瓜迪奥拉将如何影响三狮军团 / http://outsideoftheboot.com/2016/05/13/how-will-pep-guardiola-affect-the-three-lions/
+SiteInfo [name=instagram, count=29] 代表新闻: 安东内拉INS示爱梅西 / https://www.instagram.com/p/BBxIa2TAqZ7/?taken-by=antoroccuzzo88
+SiteInfo [name=每日电讯报, count=29] 代表新闻: 杰队：可能会今年冬天退役 / http://www.telegraph.co.uk/sport/football/teams/england/12173780/Steven-Gerrard-My-next-step-Coaching-Englands-stars-of-tomorrow.html
+SiteInfo [name=都灵体育报, count=29] 代表新闻: 经纪人：鲁加尼是尤文的未来 / http://www.tuttosport.com/news/calcio/calciomercato/2016/01/05-7276314/calciomercato_rugani_lagente_chiarisce_vuole_diventare_importante_per_la_juventus/
+SiteInfo [name=新华社, count=28] 代表新闻: 中国企业410万欧冠名葡甲 / 
+SiteInfo [name=尤文官网, count=28] 代表新闻: 迪巴拉当选尤文12月MVP / http://www.juventus.com/it/news/news/2016/i-tifosi-hanno-scelto--dybala-mvp-di-dicembre-2.php
+SiteInfo [name=微信, count=28] 代表新闻: 长春女足引进3名巴西国脚 / http://mp.weixin.qq.com/s?__biz=MzA5NzI1MzM3MQ==&mid=401913666&idx=1&sn=2294261d09884c8d03a8cb1c42ffaaeb&scene=0#wechat_redirect
+SiteInfo [name=地铁报, count=27] 代表新闻: K6进球数力压三大攻击手 / http://metro.co.uk/2016/01/03/arsenals-laurent-koscielny-has-scored-more-premier-league-goals-than-christian-eriksen-memphis-depay-and-eden-hazard-this-season-5597783/
+SiteInfo [name=英足总官网, count=27] 代表新闻: 鲁尼获评英格兰年度最佳球员 / http://www.thefa.com/news/england/2016/jan/vauxhall-england-poty-rooney-butland-040116
+SiteInfo [name=环球体育, count=24] 代表新闻: 高拉特：梦想是去欧洲踢球 / http://sportv.globo.com/site/programas/bem-amigos/noticia/2016/01/hoje-no-futebol-chines-ricardo-goulart-garante-sonhar-com-europa-e-selecao.html
+SiteInfo [name=bbc, count=24] 代表新闻: 孔帕尼：我们不能再有失误 / http://www.bbc.com/sport/football/35722703
+SiteInfo [name=足球市场网, count=23] 代表新闻: 意媒:意甲豪门关注安萨尔迪 / http://www.calciomercato.com/en/news/agent-inter-and-roma-after-ansaldi-476825
+SiteInfo [name=热刺官网, count=23] 代表新闻: 官方：热刺与小将奥诺玛续约 / http://www.tottenhamhotspur.com/news/new-deal-for-josh-onomah-030216/
+SiteInfo [name=AC米兰官网, count=22] 代表新闻: 米兰官方：埃利休战6周 / http://www.acmilan.com/it/news/breaking_news
+SiteInfo [name=Football Italia, count=22] 代表新闻: 国米乌鸡首发22人全是外国人 / http://www.football-italia.net/83279/inter-udinese-makes-history
+SiteInfo [name=腾讯, count=20] 代表新闻: 张琳芃出任国足新一任队长 / http://sports.qq.com/a/20160212/021628.htm
+SiteInfo [name=Goal, count=20] 代表新闻: 兰帕德：孔蒂是名帅值得信任 / http://www.goal.com/en/news/596/exclusive/2016/04/04/21612872/lampard-chelsea-a-big-job-but-conte-is-a-great-manager?ICID=OP
+SiteInfo [name=莱斯特城官网, count=20] 代表新闻: 官方：莱斯特城签加纳国脚 / http://www.lcfc.com/news/article/leicester-city-sign-ghana-star-daniel-amartey-2914554.aspx
+SiteInfo [name=齐鲁网, count=20] 代表新闻: 鲁能奖惩机制鼓励国奥球员 / http://www.iqilu.com/
+SiteInfo [name=南方都市报, count=19] 代表新闻: 中国足球新规接轨国际 / http://epaper.oeeee.com/epaper/A/html/2016-01/04/content_445.htm#article
+SiteInfo [name=英超官网, count=19] 代表新闻: 埃弗顿后卫：我们能更进一步 / https://twitter.com/premierleague/status/720358411167084545
+SiteInfo [name=Fourfourtwo, count=18] 代表新闻: 乔-阿伦：利物浦需重新振作 / http://www.fourfourtwo.com/news/allen-liverpool-must-recover-momentum#:spm-rRp_T+8j8A
+SiteInfo [name=北京青年报, count=18] 代表新闻: 京媒：权健翻倍报价敲定标王 / http://epaper.ynet.com/html/2016-01/15/content_178627.htm?div=-1
+SiteInfo [name=门兴官网, count=17] 代表新闻: 官方：门兴宣布签下中卫韦 / http://www.borussia.de/de/aktuelles-termine/news/borussia-news/news-detailansicht.html?tx_ttnews%5Btt_news%5D=17808&cHash=636fa09509ea574c321108e6d377f224
+SiteInfo [name=罗马体育报, count=17] 代表新闻: 哲科：新的一年用心去踢球 / http://www.corrieredellosport.it/news/calcio/serie-a/roma/2016/01/01-7185887/roma_dzeko_prometto_che_ripagher_la_fiducia_dei_tifosi/
+SiteInfo [name=西甲官网, count=17] 代表新闻: 拉科前锋获西甲12月最佳球员 / http://www.laliga.es/en/news/lucas-perez-named-liga-bbva-player-of-the-month-for-december
+SiteInfo [name=澳超官网, count=17] 代表新闻: 前澳超金靴回归阿德莱德联 / http://www.a-league.com.au/article/a-league-transfer-news-adelaide-united-sign-sergio-van-dijk-for-afc-champions-league-campaign/1cj01vk6a8loo18p18ut05cu6u
+SiteInfo [name=新闻晨报, count=16] 代表新闻: 热身-埃神首秀 上港3-0二队 / http://www.jfdaily.com/
+SiteInfo [name=talkSPORT, count=16] 代表新闻: 被骂记者：范加尔真可悲 / http://talksport.com/football/exclusive-man-united-manager-louis-van-gaal-branded-crass-and-pathetic-journalist-he-called
+SiteInfo [name=FourFourtTwo, count=16] 代表新闻: 卡瓦哈尔：皇马要争取五冠 / http://www.fourfourtwo.com/news/carvajal-madrid-aiming-five-trophies-season
+SiteInfo [name=新京报, count=15] 代表新闻: 京媒：国足选新帅首选名帅 / http://epaper.bjnews.com.cn/html/2016-01/09/content_617540.htm?div=0
+SiteInfo [name=多特蒙德官网, count=15] 代表新闻: 罗伊斯：无法描述本场比赛 / http://www.bvb.de/eng/News/Overview/We-suddenly-got-the-jitters
+SiteInfo [name=国际足联官网, count=14] 代表新闻: 普拉蒂尼布拉特禁足缩至6年 / http://www.fifa.com/about-fifa/news/y=2016/m=2/news=fifa-appeal-committee-dismisses-appeals-from-investigatory-chamber-jos-2766869.html?intcmp=fifacom_hp_module_news
+SiteInfo [name=国际米兰官网, count=14] 代表新闻: 国米为孔多比亚禁赛提出上诉 / http://www.inter.it/en/news/51281
+SiteInfo [name=巴黎圣日耳曼官网, count=13] 代表新闻: 奥里耶因言语不当被球队除名 / http://www.psg.fr/fr/Actus/003001/Article/74398/Serge-Aurier-mis-a-pied-conservatoire
+SiteInfo [name=腾讯体育, count=13] 代表新闻: 外媒：恒大报价喀麦隆队长 / http://sports.qq.com/a/20160102/018973.htm
+SiteInfo [name=欧洲足球, count=13] 代表新闻: 沙尔克经理：亨特拉尔不会走 / http://www.fussballeuropa.com/news/s04-manager-heldt-huntelaar-will-schalke-nicht-verlassen
+SiteInfo [name=迪马济奥官网, count=13] 代表新闻: 传切尔西十天内和孔蒂签约 / http://gianlucadimarzio.com/news-cat/chelsea-conte-ci-siamo-attesa-la-firma-entro-dieci-giorni/
+SiteInfo [name=calciomercato, count=13] 代表新闻: 意媒：阿莱格里与蓝军达协议 / http://www.calciomercato.com/en/news/exclusive-borioni-allegri-is-chelsea-new-manager-813733
+SiteInfo [name=京华时报, count=12] 代表新闻: 传过渡主帅傅博高洪波2选1 / http://www.jinghua.cn/
+SiteInfo [name=人民日报, count=12] 代表新闻: 本土教练不能只当救火队员 / http://paper.people.com.cn/rmrb/html/2016-04/01/nw.D110000renmrb_20160401_2-23.htm
+SiteInfo [name=足协官网, count=12] 代表新闻: 足协发征集12强赛承办地声明 / http://www.fa.org.cn/official/2016-04-25/500846.html
+SiteInfo [name=马塔周记, count=12] 代表新闻: 马塔周记：艰难的一天，但我们仍将前行 / http://juanmata8.com/en/blog/tough-day-but-we-must-carry-on/
+SiteInfo [name=扬子晚报, count=12] 代表新闻: 苏媒：苏宁否认特谢拉赴国米 / http://epaper.yzwb.net/html_t/2016-04/28/content_287730.htm?div=-1
+SiteInfo [name=sport-english, count=12] 代表新闻: 埃弗顿球迷期待巴尔德斯加盟 / http://www.sport-english.com/en/news/premier-league/everton-fans-excited-prospect-landing-victor-valdes-for-free-5228950
+SiteInfo [name=沙尔克04官网, count=12] 代表新闻: 马蒂普赛季末将加盟利物浦 / http://www.schalke04.de/de/aktuell/news/160215_matip/page/7307--10-213-.html
+SiteInfo [name=goal, count=12] 代表新闻: 费莱尼或因肘击对手被禁赛 / http://www.goal.com/en/news/166/europa-league/2016/03/10/21198852/-?
+SiteInfo [name=新快报, count=11] 代表新闻: 中超挖空巴甲后转战欧洲 / http://epaper.xkb.com.cn/view/1024233
+SiteInfo [name=电讯报, count=11] 代表新闻: 黑猫有自信，保级真狂魔 / http://www.telegraph.co.uk/football/2016/05/10/how-sunderland-became-the-premier-league-escapology-experts/
+SiteInfo [name=FOX SPORTS, count=11] 代表新闻: 主帅：中超比澳超水平差一些 / http://www.foxsports.com.au/football/a-league/ange-postecoglou-says-aleague-is-richer-in-quality-than-chinese-super-league/news-story/991f95aadedef36f56c7803860ce74e4
+SiteInfo [name=西班牙人官网, count=11] 代表新闻: 西班牙人老板:3年进欧冠 / http://www.rcdespanyol.com/es/actualidad/esperamos-llegar-a-un-nivel-superior/_n:2049/
+SiteInfo [name=thesefootballtimes, count=11] 代表新闻: 曼城青训已播下希望的种子 / http://thesefootballtimes.co/2016/07/13/the-seeds-of-hope-being-planted-at-manchester-citys-academy/
+SiteInfo [name=雅虎体育, count=11] 代表新闻: 苏亚雷斯将缺席美洲杯首战 / https://uk.sports.yahoo.com/news/suarez-ruled-uruguays-copa-america-011000922.html
+SiteInfo [name=斯旺西官网, count=11] 代表新闻: 官方：斯旺西签下帕罗斯基 / http://www.swanseacity.net/news/article/paloschi-completes-swans-switch-2927908.aspx
+SiteInfo [name=WhoScored.com, count=11] 代表新闻: 权威网站评本轮欧冠最佳阵 / https://www.whoscored.com/Regions/250/Tournaments/12/Europe-UEFA-Champions-League
+SiteInfo [name=Guardian, count=11] 代表新闻: 穆勒，一名谦逊的刺客 / http://www.theguardian.com/football/2016/feb/23/thomas-muller-modest-assassin-bayern-munich-germany
+SiteInfo [name=桑德兰官网, count=11] 代表新闻: 桑德兰签下拜仁后卫基希霍夫 / http://www.safc.com/news/team-news/2016/january/black-cats-sign-kirchhoff
+SiteInfo [name=Football365, count=11] 代表新闻: 费迪南德：凯恩与阿奎罗水平相当，应获高薪 / http://www.football365.com/news/rio-kane-on-a-different-planet-to-sturridge-vardy
+SiteInfo [name=重庆晨报, count=11] 代表新闻: 黑心经纪人致中超转会溢价 / http://www.cqcb.com/
+SiteInfo [name=Football-Espana, count=11] 代表新闻: 许尔勒：对阵皇马防守很重要 / http://www.football-espana.net/57759/‘wolfsburg-used-spaces’
+SiteInfo [name=Facebook, count=11] 代表新闻: 费迪南德发长文致敬维迪奇 / https://www.facebook.com/RioFerdinandOfficial/posts/957163120998270:0
+SiteInfo [name=西班牙足球, count=11] 代表新闻: 卡马乔：贝尼特斯应保持沉默 / http://www.football-espana.net/56857/camacho-benitez-should’ve-kept-quiet
+SiteInfo [name=奥莱报, count=10] 代表新闻: 伊瓜因：距离冠军越来越近了 / http://www.ole.com.ar/seleccion/vez-cerca_0_1597640399.html
+SiteInfo [name=广州恒大官网, count=10] 代表新闻: 恒大宣布原技术分析师回归 / http://www.gzevergrandefc.com/team.aspx?target=detail&sid=1566&fid=153&ftid=34303
+SiteInfo [name=独立报, count=10] 代表新闻: 曼联拒绝租借费莱尼至米兰 / http://www.independent.co.uk/sport/football/transfers/manchester-united-reject-ac-milan-loan-bid-for-marouane-fellaini-a6796471.html
+SiteInfo [name=巴西足协官网, count=10] 代表新闻: 巴西队名单：中超2人入围 / http://selecao.cbf.com.br/noticias/selecao-masculina/selecao-convocada-contra-uruguai-e-paraguai#.VthMa3YrKUk
+SiteInfo [name=squawka.com, count=10] 代表新闻: 莫雷诺：渣叔让我去进攻 / http://www.squawka.com/news/moreno-klopp-lets-me-attack-i-love-it/591328
+SiteInfo [name=体坛周报, count=10] 代表新闻: 传足协即将成立职业联盟 / 
+SiteInfo [name=曼切斯特晚报, count=9] 代表新闻: 伊希纳乔：如果搭档阿奎罗将会喜上眉梢 / http://www.manchestereveningnews.co.uk/sport/football/football-news/iheanacho-guardiola-man-city-11921983
+SiteInfo [name=阿根廷足协官网, count=9] 代表新闻: 梅西入选阿根廷历史最佳阵容 / http://www.afa.com.ar/3023/la-seleccion-de-todos-los-tiempos?preview=true
+SiteInfo [name=IFFHS官网, count=9] 代表新闻: 桑保利荣膺最佳国家队主帅 / http://iffhs.de/the-worlds-best-national-coach-2015/
+SiteInfo [name=北京晨报, count=8] 代表新闻: 高指：同组对手实力很接近 / http://www.morningpost.com.cn/
+SiteInfo [name=itv, count=8] 代表新闻: 霍奇森：欢迎斯图里奇回来 / http://www.itv.com/news/2016-03-28/england-happy-to-have-sturridge-back-hodgson/
+SiteInfo [name=西布朗官网, count=8] 代表新闻: 西布朗租借巴西后腰桑德罗 / http://www.wba.co.uk/news/article/wba-albion-sandro-loan-move-2927922.aspx
+SiteInfo [name=UOL, count=8] 代表新闻: 巴媒：内马尔或参加奥运会 / http://olimpiadas.uol.com.br/noticias/2016/01/05/dunga-elege-neymar-e-mais-2-favoritos-para-olimpiada-cbf-cre-em-liberacoes.htm
+SiteInfo [name=Whoscored, count=8] 代表新闻: 勒沃库森VS拜仁赛后评分 / https://www.whoscored.com/Matches/969740/Live/Germany-Bundesliga-2015-2016-Bayer-Leverkusen-Bayern-Munich
+SiteInfo [name=沙尔克官网, count=8] 代表新闻: 沙尔克宣布布赖滕赖特离任 / http://www.schalke04.de/en/news/160515_ab/page/2233--86-86-.html
+SiteInfo [name=泰晤士报, count=8] 代表新闻: 伊万将与切尔西续约一年 / http://www.thetimes.co.uk/tto/sport/football/article4662956.ece
+SiteInfo [name=羊城晚报, count=8] 代表新闻: 数说中国标王：繁荣或泡沫？ / http://www.ycwb.com/ePaper/ycwb/html/2016-01/24/content_922624.htm?div=-1
+SiteInfo [name=马拉加官网, count=8] 代表新闻: 胡安德-拉莫斯上任马拉加 / http://www.malagacf.com/noticia/juande-ramos-vuelve-al-malaga-cf
+SiteInfo [name=意大利足协官网, count=8] 代表新闻: 维拉蒂当选意大利队年度最佳 / 
+SiteInfo [name=法国足球, count=8] 代表新闻: 吉鲁当选2015年法国射手王 / http://www.francefootball.fr/news/Giroud-meilleur-buteur-francais-en-2015/620492
+SiteInfo [name=espn, count=8] 代表新闻: 波切蒂诺：范帅是最佳之一 / http://www.espnfc.com/tottenham-hotspur/story/2846191/louis-van-gaal-is-one-of-the-great-managers-pochettino
+SiteInfo [name=水晶宫官网, count=8] 代表新闻: 水晶宫宣布班福德回归切尔西 / http://www.cpfc.co.uk/news/article/patrick-bamford-has-returned-to-chelsea-following-his-loan-deal-with-crystal-palace.-2884266.aspx
+SiteInfo [name=巴塞罗那官网, count=8] 代表新闻: 拉尔森造访巴萨训练基地 / http://www.fcbarcelona.com/football/first-team/detail/article/ex-fc-barcelona-player-henrik-larsson-extolls-luis-enrique-and-fc-barcelona
+SiteInfo [name=搜狐体育, count=8] 代表新闻: 法国杯-伊布破门巴黎1-0胜 / http://sports.sohu.com/20160103/n433337569.shtml
+SiteInfo [name=talksport, count=8] 代表新闻: 意媒：蓝军想买阿布登努尔 / http://talksport.com/football/chelsea-transfer-report-blues-revive-pursuit-valencia-defender-aymen-abdennour-160418192477?
+SiteInfo [name=Standard, count=7] 代表新闻: 吉鲁：期待和格里兹曼搭档 / http://www.standard.co.uk/sport/football/euro-2016-arsenal-striker-olivier-giroud-backs-france-to-rise-to-the-pressure-and-claim-tournament-a3230086.html
+SiteInfo [name=沃特福德官网, count=7] 代表新闻: 官方：阿姆拉巴特加盟大黄蜂 / http://www.watfordfc.com/news/article/nordin-amrabat-malaga-watford-fc-premier-league-2909136.aspx
+SiteInfo [name=101 GreatGoals, count=7] 代表新闻: 穆里尼奥：今夏重回教练席 / http://www.101greatgoals.com/blog/jose-mourinho-says-hell-return-management-summer-not-definitely-man-united/
+SiteInfo [name=上海热线, count=7] 代表新闻: 记者拍摄达维离队惹毛孔卡 / http://sports.online.sh.cn/sports/gb/content/2016-01/24/content_7696303.htm
+SiteInfo [name=ouou, count=7] 代表新闻: Adidas Messi16.1美洲杯版 / http://www.ouou.cn/news/2015/4372.html
+SiteInfo [name=西班牙足协官网, count=7] 代表新闻: 官方：格兰德执法国王杯决赛 / http://www.rfef.es/noticias/oficial-este-es-equipo-arbitral-que-dirigira-final-del-campeonato-espana-copa-sm-rey
+SiteInfo [name=勒沃库森官网, count=7] 代表新闻: 药厂主帅施密特被禁赛五场 / http://www.bayer04.de/b04-eng/en/_site_index.aspx
+SiteInfo [name=埃弗顿官网, count=7] 代表新闻: 埃弗顿1350万镑签下尼亚斯 / http://www.evertonfc.com/news/2016/02/01/niasse-completes-13-5-move
+SiteInfo [name=费加罗报, count=7] 代表新闻: 每4个法国人中有1人上班看球 / http://sport24.lefigaro.fr/le-scan-sport/2016/06/13/27001-20160613ARTFIG00212-un-francais-sur-quatre-regarde-les-matches-de-l-euro-au-travail.php
+SiteInfo [name=沃尔夫斯堡官网, count=7] 代表新闻: 狼堡签下科隆中场格哈特 / https://www.vfl-wolfsburg.de/info.html
+SiteInfo [name=足球转会网, count=7] 代表新闻: 勒夫不再征召大十字回国家队 / http://www.fussballtransfers.com/nachricht/low-kritisiert-grosskreutz-scharf_61295
+SiteInfo [name=标准晚报, count=7] 代表新闻: 温格的秘密：在中场休息的更衣室里，沉默是金 / http://www.standard.co.uk/sport/football/arsenals-arsene-wenger-spends-most-of-halftime-in-silence-you-can-do-a-lot-of-damage-by-talking-too-a3363211.html
+SiteInfo [name=法兰克福官网, count=6] 代表新闻: 法兰克福主帅阿明-费下课 / http://www.eintracht.de/en/news/article/eintracht-frankfurt-let-go-of-armin-veh-53947/
+SiteInfo [name=nbcsports, count=6] 代表新闻: 克林斯曼：对于美国队惨败愿承担所有责任 / http://soccer.nbcsports.com/2016/11/15/klinsmann-on-costa-rica-blowout-i-take-responsibility/
+SiteInfo [name=曼彻斯特晚旗报, count=6] 代表新闻: 电讯报再曝教练丑闻 QPR主帅涉嫌索贿 / http://www.standard.co.uk/sport/football/jimmy-floyd-hasselbaink-denies-telegraph-corruption-allegations-as-qpr-launch-internal-investigation-a3356711.html
+SiteInfo [name=塞维利亚官网, count=6] 代表新闻: 华夏幸福500万欧签卡库塔 / http://www.sevillafc.es/es/actualidad/noticias/kakuta-traspasado-al-hebei-fortune
+SiteInfo [name=Sport1.de, count=6] 代表新闻: 勒夫：小猪对德国队很重要 / http://www.sport1.de/fussball/dfb-team/2016/03/dfb-team-joachim-loew-redet-bastian-schweinsteiger-vor-em-stark
+SiteInfo [name=sempreinter, count=6] 代表新闻: 意媒：托希尔曾有意引进孙兴慜与冈崎慎司 / http://www.sempreinter.com/2016/09/28/gm-son-okazaki-ambassadors-never/
+SiteInfo [name=信息时报, count=6] 代表新闻: 许家印亲自向富力老板要人 / 
+SiteInfo [name=足球报, count=6] 代表新闻: 华夏：发公告并不是畏惧足协 / http://www.goalchina.net/football/shownews.php?id=49348
+SiteInfo [name=Footy Headlines, count=6] 代表新闻: 西媒：阿里巴巴或将成巴萨胸前赞助商 / http://www.footyheadlines.com/2016/11/no-more-qatar-airways-barcelona-to-announce-new-shirt-sponsor.html
+SiteInfo [name=WhoScored, count=6] 代表新闻: 有点冤！本特克还谈不上失败 / https://www.whoscored.com/Articles/mnvgf-nqx0ghmxi8rrdtva/Show/Benteke-the-Wrong-Fit-for-Liverpool-but-Far-From-a-Flop
+SiteInfo [name=sports-english, count=6] 代表新闻: 德赫亚：迭戈科斯塔的球风富有侵略性 / http://www.sport-english.com/en/news/futbol-internacional/david-gea-diego-costas-play-very-aggressive-5476254
+SiteInfo [name=Yahoo, count=6] 代表新闻: 主席：希望梅罗不要去中超 / http://news.yahoo.com/messi-china-hope-not-says-la-liga-chief-060154843--sow.html
+SiteInfo [name=现代快报, count=6] 代表新闻: 苏媒：苏宁和瓜林达成一致 / http://kb.dsqq.cn/html/2016-01/21/content_423711.htm
+SiteInfo [name=多特官网, count=6] 代表新闻: 魏登费勒与多特续约至2017 / http://www.bvb.de/News/Uebersicht/BVB-verlaengert-bis-2017-mit-Roman-Weidenfeller
+SiteInfo [name=袋鼠军团官网, count=6] 代表新闻: 澳国脚：日本队肯定还在害怕卡希尔 / http://www.socceroos.com.au/article/robbie-kruse-japan-will-still-fear-the-tim-cahill-factor/3ilp0qfn3l00151x9ltsfx1r3
+SiteInfo [name=法国足协官网, count=6] 代表新闻: 法足协宣布欧洲杯不召本泽马 / https://www.fff.fr/actualites/171370-578381-communique-de-presse-de-la-fff
+SiteInfo [name=重庆晚报, count=5] 代表新闻: 英媒建议国足新帅5大候选人 / http://www.cqwb.com.cn/cqwb/html/2016-01/12/content_476679.htm
+SiteInfo [name=西汉姆官网, count=5] 代表新闻: 西汉姆发表对砸车事件声明 / http://www.whufc.com/News/Articles/2016/May/11-May/West-Ham-United-Statement
+SiteInfo [name=日刊体育, count=5] 代表新闻: 日媒：东京FC欲签穆里奇 / http://www.nikkansports.com/soccer/news/1622475.html
+SiteInfo [name=慕尼黑晚报, count=5] 代表新闻: 胡梅尔斯：有兴趣在未来成为教练 / http://www.abendzeitung-muenchen.de/inhalt.neuzugang-des-fc-bayern-mats-hummels-spricht-ueber-seine-zukunftsplaene.c24b0d52-201f-4020-8845-693135fcc487.html?utm_source=dlvr.it&utm_medium=twitter
+SiteInfo [name=南安普顿官网, count=5] 代表新闻: 南安普顿签QPR前锋奥斯汀 / http://www.saintsfc.co.uk/news/article/20160116-charlie-austin-announcement-southampton-qpr-2904717.aspx
+SiteInfo [name=法制晚报, count=5] 代表新闻: 国安争取压哨签约巴甲金靴 / http://www.fawan.com/
+SiteInfo [name=泰山晚报, count=5] 代表新闻: 鲁媒：鲁能和掉链子说再见 / 
+SiteInfo [name=法国足球新闻站, count=5] 代表新闻: 法媒：蓝军愿今夏出售阿扎尔 / http://www.getfootballnewsfrance.com/2016/chelsea-willing-to-listen-to-offers-for-eden-hazard/
+SiteInfo [name=tycsports, count=5] 代表新闻: 天使：妈妈让我留在国家队 / http://www.tycsports.com/futbol/di-maria-entre-lagrimas-mi-mama-me-pidio-que-me-quede-y-ganemos
+SiteInfo [name=狼堡官网, count=5] 代表新闻: 官方：狼堡今年五月中旬来华 / https://www.vfl-wolfsburg.de/info/aktuelles/detailseite/artikel/china-besuch-im-mai-42457.html
+SiteInfo [name=纽卡斯尔官网, count=5] 代表新闻: 纽卡官网为降级向球迷致歉 / http://www.nufc.co.uk/articles/20160511/statement-from-lee-charnley_2281670_5562332
+SiteInfo [name=每日快报, count=5] 代表新闻: 兰帕德：蓝军需要补强阵容 / http://www.express.co.uk/sport/football/636294/Frank-Lampard-Chelsea-transfer-window
+SiteInfo [name=footballdatabase, count=5] 代表新闻: 俱乐部排名：巴萨第一领跑 / http://footballdatabase.com/ranking/world/1
+SiteInfo [name=凯尔特人官网, count=5] 代表新闻: 曼城中场租借加盟凯尔特人 / http://www.celticfc.net/news/9975
+SiteInfo [name=伯恩利官网, count=5] 代表新闻: 伯恩利续约罗宾逊 / http://www.burnleyfootballclub.com/news/article/robinson-signs-new-one-year-deal-3157800.aspx
+SiteInfo [name=福克斯体育, count=5] 代表新闻: 若不能进入欧冠 曼联或将失去2000万镑以上赞助 / http://www.foxsports.com/soccer/story/manchester-united-will-lose-more-than-20m-from-adidas-if-they-miss-champions-league-111716
+SiteInfo [name=科隆官网, count=5] 代表新闻: 官方：科隆主帅续约到2020年 / https://www.fc-koeln.de/en/fc-info/news/detailpage/details/peter-stoeger-signs-extension/
+SiteInfo [name=奥萨苏纳官网, count=5] 代表新闻: 奥萨苏纳续约主教练 / http://www.osasuna.es/noticia/_/9348/21-06-2016-enrique-martin-continuara-como-entrenador-del-club-atletico-osasuna.html
+SiteInfo [name=米兰官网, count=5] 代表新闻: 米兰vs罗马大名单出炉 / http://www.acmilan.com/en/news/breaking_news_show/90085
+SiteInfo [name=whosocred, count=5] 代表新闻: 尤文vs紫百合：布冯得分最高 / https://www.whoscored.com/Matches/1006230/Live/Italy-Serie-A-2015-2016-Fiorentina-Juventus
+SiteInfo [name=迪马济奥个人站, count=4] 代表新闻: 迪马济奥：尤文有意戈麦斯 / http://gianlucadimarzio.com/en/eng/juventus-focused-on-the-midfield-andre-gomes-the-top-target-while-yaya-toure-is-being-considered/
+SiteInfo [name=南京晨报, count=4] 代表新闻: 知情人为苏宁叫屈：外媒惹祸 / http://njcb.jschina.com.cn/mp3/html/2016-01/27/content_1369228.htm
+SiteInfo [name=南方日报, count=4] 代表新闻: 郜林：廖力生任意球比我强 / http://epaper.southcn.com/nfdaily/html/2016-01/19/content_7510031.htm
+SiteInfo [name=重庆商报, count=4] 代表新闻: 球迷支招国足：主场设西藏 / http://e.chinacqsb.com/html/2016-04/14/content_524898.htm
+SiteInfo [name=金陵晚报, count=4] 代表新闻: 金陵晚报：苏宁从未报价瓜林 / http://jlwb.njnews.cn/jlwb/html/2016-01/28/content_24944.htm
+SiteInfo [name=共和报, count=4] 代表新闻: 意媒：马云想要收购米兰 / http://www.repubblica.it/sport/calcio/serie-%20%20a/milan/2016/04/27/news/alibaba_trattativa_cines%20%20i_berlusconi-138547578/?ref=HREA-1
+SiteInfo [name=nbcsport, count=4] 代表新闻: 莱万被扔爆竹 国际足联启动纪律处分程序 / http://soccer.nbcsports.com/2016/11/18/fifa-opens-case-for-firecracker-thrown-at-lewandowski/
+SiteInfo [name=瓦伦西亚官网, count=4] 代表新闻: 瓦伦西亚签下皇马中场梅德兰 / http://en.valenciacf.com/ver/59422/vcf-official-statement--alvaro-medran.html
+SiteInfo [name=山东鲁能官网, count=4] 代表新闻: 官方：鲁能宣布签下巴西国脚 / http://www.lnts.com.cn/portal.php?mod=view&aid=4524
+SiteInfo [name=今晚报, count=4] 代表新闻: 泰达高层辟谣巴西中场加盟传闻，俩外援中卫或离队 / http://epaper.jwb.com.cn/jwb/html/2016-11/29/content_10_2.htm
+SiteInfo [name=伯恩茅斯官网, count=4] 代表新闻: 官方：伯恩茅斯续约阿特 / http://www.afcb.co.uk/news/article/2016-17/afc-bournemouth-harry-arter-new-contract-premier-league-3142569.aspx
+SiteInfo [name=.football-italia, count=4] 代表新闻: 蒙托利沃伤退或将缺席欧洲杯 / http://www.football-italia.net/85133/montolivo-injured-again
+SiteInfo [name=中国新闻网, count=4] 代表新闻: 足协详解为何申办2023亚洲杯 / http://www.chinanews.com/ty/2015/12-31/7696774.shtml
+SiteInfo [name=乌迪内斯官网, count=4] 代表新闻: 官方：乌迪内斯签回安杰拉 / http://www.udinese.it/portal/IT/handle/?hil&page=redazione_approfondimenti&vid=5680&vp=
+SiteInfo [name=Bleacherreport, count=4] 代表新闻: 欧冠奖金榜：皇马马竞领跑 / http://bleacherreport.com/articles/2638065-champions-league-2015-16-prize-money-club-by-club-breakdown-after-semi-finals?#
+SiteInfo [name=申花队报, count=4] 代表新闻: 修成正果！范志毅昨日大婚 / http://mp.weixin.qq.com/s?__biz=MzAwMzQxMjA3Nw==&mid=2651666049&idx=2&sn=4c27bb392be4ad52311bad43d9aa79b1&scene=0#wechat_redirect
+SiteInfo [name=INS, count=4] 代表新闻: 热刺官方为洛里加油。 / 
+SiteInfo [name=每日新报, count=4] 代表新闻: 权健客战梅州 引援受人关注 / http://epaper.tianjinwe.com/mrxb/mrxb/2016-06/24/content_7469216.htm
+SiteInfo [name=纪录报, count=4] 代表新闻: 传曼联将8千万欧买断桑谢斯 / http://www.record.xl.pt/futebol/futebol-nacional/liga-nos/benfica/detalhe/manchester-united-pode-chegar-aos-80-milhoes-por-sanches.html
+SiteInfo [name=澳大利亚男足官网, count=4] 代表新闻: 利好！袋鼠军团誓要复仇约旦 / http://www.socceroos.com.au/article/bring-on-jordan-says-fired-up-socceroos-boss-ange-postecoglou/ln5gvofr8ar21jwi1toez646b
+SiteInfo [name=重庆时报, count=4] 代表新闻: 菲戈拾金不昧 训练时捡到车钥匙交还原主 / http://cqsb.cqtimes.cn/page/1/2016-09/26/08/2016092608_pdf.pdf
+SiteInfo [name=都灵官网, count=4] 代表新闻: 官方：因莫比莱返回都灵 / http://torinofc.it/news/14/01/2016/bentornato-ciro_10424
+SiteInfo [name=米德尔斯堡官网, count=4] 代表新闻: 官方：米堡与伍德盖特解约 / http://www.mfc.co.uk/news/article/2016/middlesbrough-fc-boro-jonathan-woodgate-damia-rhys-williams-3123592.aspx
+SiteInfo [name=里昂官网, count=4] 代表新闻: 里昂签下波兰国脚里布斯 / http://www.olweb.fr/fr/article/la-international-polonais-maciej-rybus-est-lyonnais-71068.html
+SiteInfo [name=凤凰网, count=4] 代表新闻: 国外网友热议特谢拉加盟中超 / http://sports.ifeng.com/a/20160205/47370148_0.shtml
+SiteInfo [name=拉齐奥官网, count=4] 代表新闻: 官方：比格利亚伤停3周 / http://www.sslazio.it/it/news/ultime-news/9-infermeria/31407-comunicato-infermeria-le-condizioni-di-lucas-biglia
+SiteInfo [name=那不勒斯官网, count=4] 代表新闻: 官方：那不勒斯签下格拉西 / http://www.sscnapoli.it/static/news/Il-Napoli-ufficializza-l-acquisto-di-Grassi-7501.aspx
+SiteInfo [name=沈阳日报, count=4] 代表新闻: 沈阳奥体中心将换草皮 / http://www.syd.com.cn/
+SiteInfo [name=体育图片, count=4] 代表新闻: 格策回归多特，拜仁必须小心 / http://m.sportbild.bild.de/bundesliga/vereine/bundesliga/lothar-matthaeus-goetze-meister-mit-bvb-bayerns-super-gau-46922106.sportMobile.html
+SiteInfo [name=拉科鲁尼亚官网, count=4] 代表新闻: 拉科宣布与主帅桑切斯续约 / https://t.co/aJY118dWeO
+SiteInfo [name=YouTube, count=4] 代表新闻: 西悉尼继续领跑常规赛积分榜 / https://www.youtube.com/watch?v=n7hQ7ztoHko
+SiteInfo [name=汉堡官网, count=4] 代表新闻: 巴萨小将哈利洛维奇加盟汉堡 / https://hsv.de/news/meldungen/saison-2016-17/juli2016/hsv-verpflichtet-alen-halilovic/
+SiteInfo [name=恩波利官网, count=4] 代表新闻: 恩波利助教上位当主帅 / http://www.empolicalcio.net/Giovanni-Martusciello-e-il-nuovo-allenatore-dellEmpoli-Fc.htm
+SiteInfo [name=facebook, count=4] 代表新闻: 梅西脸书声援厄瓜多尔 / https://www.facebook.com/LeoMessi/?ref=br_r
+SiteInfo [name=摩纳哥官网, count=4] 代表新闻: 摩纳哥官方宣布签下洛维 / http://www.asmonaco.com/en/article/vagner-love-signs-until-2017-69784.html
+SiteInfo [name=劳动报, count=4] 代表新闻: 京媒：足协欲为国脚上保险 / http://www.labour-daily.cn/ldb/node41/node2151/20160720/n54822/n54831/u1ai285128.html
+SiteInfo [name=ins, count=4] 代表新闻: 本泽马为法国加油。 / 
+SiteInfo [name=粉球网, count=3] 代表新闻: 西蒙尼女友宣布怀孕 / http://www.elbalonrosa.com/futbol/carla-pereira-confirma-que-espera-su-primer-cholito/
+SiteInfo [name=北京日报, count=3] 代表新闻: 北大将招收男子足球特长生 / http://bjrb.bjd.com.cn/html/2016-01/04/content_342352.htm
+SiteInfo [name=国安官方微信, count=3] 代表新闻: 张稀哲：何塞战术是西班牙风格 每年冬训很重要 / http://mp.weixin.qq.com/s?__biz=MzA5MzAwMTkwNQ==&mid=2650032500&idx=2&sn=bda6875beb320e17cee7374d795b4260&chksm=886468aabf13e1bceac9028138da15c7d3a827fbad49418dbd7c451ea39bcdb81179d40247aa&mpshare=1&scene=23&srcid=01036lDI9z1PBtG72nNvQLCY#rd
+SiteInfo [name=费内巴切官网, count=3] 代表新闻: 费内巴切接近签下范德维尔 / http://www.fenerbahce.org/detay.asp?ContentID=51188
+SiteInfo [name=格拉纳达官网, count=3] 代表新闻: 格拉纳达主帅桑多瓦尔下课 / http://www.granadacf.es/noticia/despedida-de-jose-ramon-sandoval
+SiteInfo [name=101GreatGoals, count=3] 代表新闻: 意媒：孔蒂要蓝军签罗马中场 / http://www.101greatgoals.com/blog/transfers/antonio-conte-wants-radja-nainggolan-as-first-chelsea-signing-di-marzio/
+SiteInfo [name=thesportreview, count=3] 代表新闻: 小法晒照片 爱女为他剪发型 / http://www.thesportreview.com/tsr/2016/01/photo-cesc-fabregas-gets-funny-haircut-ahead-of-palace-v-chelsea/?
+SiteInfo [name=毕尔巴鄂竞技官网, count=3] 代表新闻: 毕尔巴鄂宣布和主帅续约一年 / http://www.athletic-club.eus/en/home.html
+SiteInfo [name=德足官网, count=3] 代表新闻: 胡梅尔斯：明天的比赛将会是一场关于耐心的较量 / http://www.dfb.de/news/detail/loew-die-nordiren-werden-defensiver-spielen-155491/p/2/
+SiteInfo [name=foxsports, count=3] 代表新闻: 巴甲联赛冠军产生 帕尔梅拉斯夺得22年来首冠 / http://www.foxsports.com/soccer/story/manchester-city-fabriel-jesus-palmeiras-brasileiro-champions-112716
+SiteInfo [name=成都商报, count=3] 代表新闻: 佩兰：希望高洪波接任主帅 / http://e.chengdu.cn/html/2016-02/01/node_2.htm
+SiteInfo [name=霍芬海姆官网, count=3] 代表新闻: 霍芬海姆宣布任命28岁少帅 / http://www.achtzehn99.de/news/overview/julian-nagelsmann-takes-over-as-first-team-coach/
+SiteInfo [name=上港队报, count=3] 代表新闻: 埃里克森亚冠赛前信心十足 / http://mp.weixin.qq.com/s?__biz=MzAxNDI3NjU4OQ==&mid=404332436&idx=1&sn=68473c46845cab7abe40fe91bf94f763&scene=0#wechat_redirect
+SiteInfo [name=新文化报, count=3] 代表新闻: 新文化报国足报道配图黑屏：画面添堵 不忍放图 / 
+SiteInfo [name=IFFHS, count=3] 代表新闻: IFFHS年度最佳俱乐部教练：西蒙尼当选 / http://iffhs.de/the-worlds-best-club-coach-2016-diego-someone/
+SiteInfo [name=football-italia.net, count=3] 代表新闻: 科尔曼：我们可以赢意大利 / http://www.football-italia.net/86176/coleman-%E2%80%98ireland-can-beat-italy%E2%80%99
+SiteInfo [name=维特斯官网, count=3] 代表新闻: 张玉宁留名维特斯英雄墙 / http://www.vitesse.nl/nl/nieuws/detail/5570/zhang-en-de-mos-plakken-naam-op-heldenwand
+SiteInfo [name=101greatgoals.com, count=3] 代表新闻: 进球虽可贵 形象价更高 / http://www.101greatgoals.com/blog/social/photoshoppers-have-fun-with-jason-puncheons-goal-celebration-for-palace-v-norwich/
+SiteInfo [name=赫尔城官网, count=3] 代表新闻: 赫尔城续约后腰赫德尔斯通 / http://www.hullcitytigers.com/news/article/2016-17/huddlestone-signs-new-two-year-deal-3164284.aspx
+SiteInfo [name=Telegraph, count=3] 代表新闻: 没有欧冠 温格还算伟大吗？ / http://www.telegraph.co.uk/sport/football/teams/arsenal/12172273/Can-Arsene-Wenger-be-classed-an-all-time-great-without-a-Champions-League-triumph.html
+SiteInfo [name=Express, count=3] 代表新闻: 奥巴梅扬：今夏曾经和曼城谈过转会 梦想为皇马踢球 / http://www.express.co.uk/sport/football/717417/Bundesliga-Pierre-Emerick-Aubameyang-revealed-talks-Manchester-City-summer-window
+SiteInfo [name=奥格斯堡官网, count=3] 代表新闻: 奥格斯堡签下宇佐美贵史 / http://www.fcaugsburg.de/cms/website.php?id=/index/news/allenews/data14070.htm
+SiteInfo [name=澳大利亚足协官网, count=3] 代表新闻: 奥预赛澳洲参赛名单：9海归 / http://under23s.footballaustralia.com.au/article/brandon-oneill-called-up-to-olyroos-squad-for-afc-u-23-championship/1pkrkrahz4up81218h9vp4bjv3
+SiteInfo [name=Calcimercato, count=3] 代表新闻: 接班汉达 国米考虑佩林和莱诺 / http://www.calciomercato.com/en/news/exclusive-inter-want-perin-or-leno-to-become-handanovic-s-succes-85160
+SiteInfo [name=葡萄牙足协官网, count=3] 代表新闻: 葡萄牙欧洲杯名单：C罗领衔 / http://www.fpf.pt/pt-pt/Noticias/Noticia/Id/40122/Cat/753/highlight/1/caller/56/Euro-2016-os-23-convocados
+SiteInfo [name=101geratgoals, count=3] 代表新闻: 葡媒：穆帅在曼彻斯特购房产 / http://www.101greatgoals.com/blog/jose-mourinho-has-found-a-property-in-manchester-ahead-of-his-united-move-correio-da-manha/
+SiteInfo [name=101 Greatgoals, count=3] 代表新闻: 瓦尔迪推特发图回应凯恩 / http://www.101greatgoals.com/blog/leicester-forward-jamie-vardy-gives-perfect-response-harry-kanes-lion-instagram-post/
+SiteInfo [name=德甲联赛官网, count=3] 代表新闻: 莱万荣获德甲联赛十月最佳球员 / http://www.bundesliga.com/en/news/Bundesliga/blmd9n-october-player-of-the-month-vote-418890.jsp
+SiteInfo [name=斯托克城官网, count=3] 代表新闻: 因布拉为加入斯托克城而激动 / http://www.stokecityfc.com/news/article/record-breaker-giannellis-joy-2933423.aspx
+SiteInfo [name=体坛+, count=3] 代表新闻: 罗马主帅竟将托蒂赶出球队 / http://resource.ttplus.cn/publish/app/data/2016/02/21/4336/share1.html
+SiteInfo [name=marca, count=3] 代表新闻: 大罗支持加布里埃尔·赫苏斯 / http://www.marca.com/en/football/real-madrid/2016/06/28/57722eaaca4741ab1b8b45f6.html
+SiteInfo [name=EveningStandard, count=3] 代表新闻: 库尔图瓦：被阿森纳打醒，球队希望保持连胜 / http://www.standard.co.uk/sport/football/thibaut-courtois-arsenal-defeat-hurt-chelsea-but-we-came-back-stronger-a3424301.html#gallery
+SiteInfo [name=独立电视台, count=3] 代表新闻: 传卡希尔考虑离开切尔西 / http://www.itv.com/news/2016-01-27/defender-gary-cahill-wants-to-leave-chelsea-over-euros-fears/
+SiteInfo [name=Football-espana, count=3] 代表新闻: 西蒙尼：自己要为失利负责 / http://www.football-espana.net/58752/simeone-losing-two-finals-failure
+SiteInfo [name=阿斯顿维拉官网, count=3] 代表新闻: 维拉主席致球迷公开信 / http://www.avfc.co.uk/page/NewsDetail/0,,10265~5502832,00.html
+SiteInfo [name=维拉官网, count=3] 代表新闻: 官方：迪马特奥出任维拉主帅 / http://www.avfc.co.uk/page/NewsDetail/0,,10265~5620078,00.html
+SiteInfo [name=阿拉维斯官网, count=3] 代表新闻: 官方：阿拉维斯主帅下课 / http://www.deportivoalaves.com/noticia/bordalas-deja-de-pertenecer-a-la-disciplina-del-alaves
+SiteInfo [name=直播吧-阿达, count=3] 代表新闻: 我们绑架温格，温格绑架自己 / 
+SiteInfo [name=天津权健官网, count=3] 代表新闻: 贾德森法比亚诺加盟权健 / http://www.chinaquanjianfc.com/
+SiteInfo [name=football-itali, count=3] 代表新闻: 伊瓜因：美洲杯后决定未来 / http://www.football-italia.net/84929/higuain-dedicated-napoli
+SiteInfo [name=亚特兰大官网, count=3] 代表新闻: 官方：博列洛加盟亚特兰大 / http://www.atalanta.it/site/paginalive/prima-squadra/Stagione-2015-2016/2016-01/28-01-borriello.html
+SiteInfo [name=Sports Mole, count=3] 代表新闻: 英媒：曼联看上了阿贾克斯前锋 / http://www.sportsmole.co.uk/football/man-utd/transfer-talk/news/report-man-united-scout-ajax-youngster_284804.html
+SiteInfo [name=科贝电台, count=3] 代表新闻: 科贝电台：C罗肌肉纤维撕裂 / http://www.cope.es/detalle/parte-medico-de-cristiano-ronaldo-27-04-2016.html?id=2016042714320001
+SiteInfo [name=世界报, count=3] 代表新闻: 国人中亿元彩票与C罗成邻居 / http://www.elmundo.es/cronica/2016/03/13/56e3e3c746163f1f208b45e3.html
+SiteInfo [name=中国青年报, count=3] 代表新闻: 马云：我对改革足球感兴趣 / http://news.cyol.com/content/2016-01/18/content_12089261.htm
+SiteInfo [name=费耶诺德官网, count=3] 代表新闻: 库伊特和费耶诺德续约1年 / https://www.feyenoord.nl/nieuws/nieuwsoverzicht/kuyt-ook-volgend-seizoen-speler-van-feyenoord
+SiteInfo [name=Fussball Europa, count=3] 代表新闻: 齐祖：帕耶能满足教练的期待 / http://www.fussballeuropa.com/news/wechsel-zu-real-zidane-schwarmt-von-shootingstar-payet-2016-06
+SiteInfo [name=thehardtackle, count=3] 代表新闻: 盘点足坛历史上那些黑马奇迹 / http://www.thehardtackle.com/blogs/2016/05/06/leicester-who-five-most-inspiring-football-underdog-stories-you-have-never-heard-of/
+SiteInfo [name=俄罗斯足协官网, count=3] 代表新闻: 俄罗斯公布欧洲杯23人名单 / http://www.rfs.ru/main/news/national_teams/84045.html
+SiteInfo [name=迪马济奥, count=3] 代表新闻: 迪马济奥：穆帅下家是曼联 / 
+SiteInfo [name=ABC报, count=3] 代表新闻: 国王杯决赛前配发西班牙国旗 / http://www.abc.es/deportes/futbol/abci-final-copa-asociacion-repartira-10000-banderas-espanolas-calderon-201605211348_noticia.html
+SiteInfo [name=本菲卡官网, count=3] 代表新闻: 本菲卡官方宣布与塞萨尔续约 / http://www.slbenfica.pt/30/news/info/_gdJjfhZN0CreCMuTABZJg?category=UwMGlw0AZk-0uL5EHwLx-Q
+SiteInfo [name=桑普多利亚官网, count=3] 代表新闻: 官方：多多租借加盟桑普 / http://www.sampdoria.it/ufficiale-dallinternazionale-arriva-il-brasiliano-dodo/
+SiteInfo [name=GOAL, count=3] 代表新闻: 前蓝军门将：穆帅应执教曼联 / http://www.goal.com/en/news/11/transfer-zone/2016/03/28/21773852/manchester-united-is-the-right-move-for-mourinho
+SiteInfo [name=超级体育, count=3] 代表新闻: 前罗马主帅或将执教巴伦西亚 / http://www.superdeporte.es/valencia/2016/03/13/rudi-garcia-ex-roma-valencia/289562.html
+SiteInfo [name=荷兰足协官网, count=3] 代表新闻: 荷兰国家队公布25人大名单：罗本领衔 / http://www.knvb.nl/nieuws/oranje/nederlands-elftal/21457/robben-terug-zeegelaar-debutant-selectie-oranje
+SiteInfo [name=香港足总官网, count=3] 代表新闻: 香港因嘘国歌被国际足联罚款 / http://www.hkfa.com/
+SiteInfo [name=footballist, count=3] 代表新闻: 韩媒称赞武磊表现抢眼 / http://www.footballist.co.kr/news/articleView.html?idxno=92751
+SiteInfo [name=kicker.de, count=3] 代表新闻: 德媒：登贝莱或将转会多特 / http://www.kicker.de/news/fussball/bundesliga/vereine/2015-16/1/tm-news--12301-8760-.html
+SiteInfo [name=中新网, count=3] 代表新闻: 蔡振华：高洪波任重道远 / http://www.chinanews.com/ty/2016/04-02/7821161.shtml
+SiteInfo [name=Ins, count=3] 代表新闻: 阿圭罗祝梅西生快：爱你朋友 / https://www.instagram.com/p/BHBeiFSgy0l/
+SiteInfo [name=SBS, count=3] 代表新闻: 澳媒：西悉尼中场将加盟辽足 / http://theworldgame.sbs.com.au/article/2016/06/02/vidosic-set-replace-troisi-liaoning-whowin
+SiteInfo [name=gazzettaworld, count=3] 代表新闻: 卡卡：和米兰的关系一直很好 / http://gazzettaworld.gazzetta.it/news/serie-a/milan/kaka-love/?utm_content=bufferf7283&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer&refresh_ce-cp
+SiteInfo [name=体坛新视野, count=2] 代表新闻: 权健主帅：足协杯不会有保留 / http://mp.weixin.qq.com/s?timestamp=1462951441&src=3&ver=1&signature=W029zTYLzc2FkePsbEHcZo2wKV3O5RwRxt1CBbYhQ--K*SjpmpVqgE3OYYrqoMVwnMwoI6MBjOrqfITCFFu00eY72JJOZsaS9FWY53QhBkNEejOQnZHiClpV9HcsFy9zWKWOE*HfDsGlMp7ys6SaGnnVszmYCVAFBCtmWvUaGRs=
+SiteInfo [name=巴勒莫官网, count=2] 代表新闻: 官方：亚齐尼再度执教巴勒莫 / http://palermocalcio.it/it/1516/news/scheda.php?id=32530
+SiteInfo [name=AD, count=2] 代表新闻: 荷媒赞张玉宁获里程碑进球 / http://www.ad.nl/ad/nl/5610/Eredivisie/article/detail/4257985/2016/03/06/Met-Zhang-doelpuntenmakers-uit-100-landen-in-Eredivisie.dhtml
+SiteInfo [name=美国足协官网, count=2] 代表新闻: 美国公布美洲杯23人名单 / http://www.ussoccer.com/stories/2016/05/21/18/57/160521-mnt-klinsmann-names-23-player-roster-for-historic-copa-america-centenario
+SiteInfo [name=国家报, count=2] 代表新闻: 杰拉德：瓜帅来英超大有益处 / http://www.thenational.ae/sport/english-premier-league/pep-guardiola-going-to-the-premier-league-great-for-us-states-liverpool-legend-steven-gerrard
+SiteInfo [name=thefantasyfootball, count=2] 代表新闻: 亨德森：平局和球迷无关 / http://news.thefantasyfootball.com/2016/02/07/the-anfield-walkout-did-not-contribute-to-liverpools-late-collapse-against-sunderland-according-to-jordan-henderson/
+SiteInfo [name=standard, count=2] 代表新闻: 斯图里奇：英格兰新主帅犹如一股清风 / http://www.standard.co.uk/sport/football/gareth-southgate-a-breath-of-fresh-air-for-englands-players-insists-daniel-sturridge-a3364681.html
+SiteInfo [name=足球频道, count=2] 代表新闻: 日媒探讨中国足球归化政策 / http://www.footballchannel.jp/2016/01/28/post134740/
+SiteInfo [name=意大利足球网, count=2] 代表新闻: 官方：乌迪内斯解雇科兰托诺 / http://www.football-italia.net/81297/official-udinese-sack-colantuono
+SiteInfo [name=部落格, count=2] 代表新闻: 好消息！小猪和伊万婚期已定 / http://www.womenstennisblog.com/2016/03/26/ivanovics-wedding-date-set-for-june-5th-in-belgrade/
+SiteInfo [name=曼联官方微博, count=2] 代表新闻: 曼联官方声明解释炸弹风波 / http://weibo.com/p/1001603975928458927062
+SiteInfo [name=马塔个人博客, count=2] 代表新闻: 马塔博客：曼联定会好起来的 / http://www.kicca.com/juanmata8/posts/56cace14aed1d93a5bc5596b
+SiteInfo [name=张佳玮, count=2] 代表新闻: 专栏：当年的孙继海有多强 / http://mp.weixin.qq.com/s?__biz=MzA5NjY2NTcxOA==&mid=402236164&idx=2&sn=fe38d7c0317df7c0dc1e57cbeef0fc17&scene=23&srcid=0225wvzCHApNdZlTnC9XLwzS#rd&ADUIN=905661306&ADSESSION=1456382788&ADTAG=CLIENT.QQ.5407_.0&ADPUBNO=26458
+SiteInfo [name=http://www.fourfourtwo.com, count=2] 代表新闻: 穆勒：有信心打破意大利防线 / http://www.fourfourtwo.com/news/muller-confident-italys-defence-can-be-breached
+SiteInfo [name=沈阳晚报, count=2] 代表新闻: 詹姆斯：我想夺得中超金靴 / http://epaper.syd.com.cn/sywb/html/2016-07/18/content_21152.htm?div=0
+SiteInfo [name=洛杉矶银河官网, count=2] 代表新闻: 官方：A-科尔加盟洛杉矶银河 / http://www.lagalaxy.com/post/2016/01/27/la-galaxy-acquire-defender-ashley-cole
+SiteInfo [name=里斯本竞技官网, count=2] 代表新闻: 里斯本竞技续约枪手目标 / http://www.sporting.pt/en/news/football/main-team/2016-02-09/another-four-years-a-dream-come-true
+SiteInfo [name=巴黎人报, count=2] 代表新闻: 法媒：小德尚未做出最终决定，仍在斟酌 / http://www.getfootballnewsfrance.com/2016/julian-draxler-hesitating-between-psg-and-arsenal-representative/
+SiteInfo [name=重庆力帆官方微博, count=2] 代表新闻: 力帆公告：抵制足球流氓 / http://weibo.com/u/2059760773?topnav=1&wvr=6&topsug=1&is_all=1#_rnd1460218066488
+SiteInfo [name=韩国足协官网, count=2] 代表新闻: 韩国队大名单：中超四将入选 / http://www.kfa.or.kr/news/news_view.asp?BoardNo=13119&Query=Gubun%3D11301
+SiteInfo [name=De Gelderlander, count=2] 代表新闻: 维特斯主帅：张玉宁很适应442阵型 / http://www.gelderlander.nl/cm/2.1808/sport/vitesse/omzetting-fraser-geeft-doorslag-bij-vitesse-1.6731602
+SiteInfo [name=天津日报, count=2] 代表新闻: 津媒：米克尔零转会费加盟泰达 / http://epaper.tianjinwe.com/tjrb/tjrb/2017-01/07/content_7554246.htm
+SiteInfo [name=Sport English, count=2] 代表新闻: 大胆！穆尼尔预测，瓦伦2-0或者2-1巴萨 / http://www.sport-english.com/en/news/barca/munir-with-barcelona-was-scared-when-faced-valencia-5578850
+SiteInfo [name=outside90, count=2] 代表新闻: 拉拉纳：卢克-肖身体强壮、内心强大 / http://outside90.com/adam-lallana/
+SiteInfo [name=辽宁日报, count=2] 代表新闻: 马林：中国球员绝不退出国足 / http://epaper.lnd.com.cn/paper/lnrb/html/2016-06/28/content_1669759.htm
+SiteInfo [name=巴萨官方微博, count=2] 代表新闻: 巴萨宣布将举行双冠王庆典 / http://weibo.com/fcbarcelona?refer_flag=0000015012_&from=feed&loc=nickname
+SiteInfo [name=曼彻斯特晚新闻, count=2] 代表新闻: 英媒：萨巴莱塔可能转会国米 / http://www.manchestereveningnews.co.uk/sport/football/transfer-news/man-city-zabaleta-inter-move-11506847
+SiteInfo [name=欧洲体育, count=2] 代表新闻: 德甲冬窗最差引援 稀哲在列 / http://www.eurosport.de/fussball/bundesliga/2015-2016/breno-und-co.-die-10-grossten-winter-transferflops-der-bundesliga_sto5090162/story.shtml
+SiteInfo [name=比利时足协官网, count=2] 代表新闻: 比利时主教练威尔莫茨下课 / http://belgianfootball.be/en/news/marc-wilmots-no-longer-our-coach
+SiteInfo [name=日本足协官网, count=2] 代表新闻: 日本世预赛大名单：香川真司&本田圭佑领衔 / http://www.jfa.jp/news/00011071/
+SiteInfo [name=lanacion, count=2] 代表新闻: 鲁能外援：12月一定会走 / http://www.lanacion.cl/noticias/deportes/futbol-nacional/primera-division/atencion-azules-walter-montillo-le-puso-fecha-a-su-retorno-a-la/2016-03-25/171639.html
+SiteInfo [name=澎湃新闻, count=2] 代表新闻: 澎湃新闻：张成林转会费过亿元 / http://www.thepaper.cn/newsDetail_forward_1570097
+SiteInfo [name=利物浦官方推特, count=2] 代表新闻: 洛夫伦：球迷给予了我们力量 / https://twitter.com/LFC/status/728338937568071680
+SiteInfo [name=championat, count=2] 代表新闻: 外媒：阿赫梅多夫已接受鲁能体检，接近加盟 / http://championat.uz/uz/news/odil-ahmedov-pekinda-tibbiy-korikdan-otmoqda
+SiteInfo [name=owngoalnigeria, count=2] 代表新闻: 米克尔拿到了切尔西的200万镑补偿金 / http://owngoalnigeria.com/2017/01/10/exclusive-agent-reveals-amount-chelsea-paid-john-obi-mikel-as-severance-fee/
+SiteInfo [name=bvb.de, count=2] 代表新闻: 多特官方：周末迎战赫塔，争取创造新纪录 / http://www.bvb.de/News/Uebersicht/BVB-will-einen-neuen-Heimrekord-aufstellen
+SiteInfo [name=加纳新闻网, count=2] 代表新闻: 外媒：多支中超球队求购埃辛 / http://www.ghanaweb.com/GhanaHomePage/SportsArchive/Essien-linked-with-Chinese-league-switch-450251
+SiteInfo [name=搜狐, count=2] 代表新闻: 亚冠-墨尔本主场1-1平全北 / http://sports.sohu.com/20160517/n449972336.shtml
+SiteInfo [name=布莱克本官网, count=2] 代表新闻: 格拉汉姆转会布莱克本 / http://www.rovers.co.uk/news/article/2016-17/danny-graham-rovers-3151282.aspx
+SiteInfo [name=诺维奇官网, count=2] 代表新闻: 官方：伊沃-平托加盟诺维奇 / http://www.canaries.co.uk/news/article/norwich-city-ivo-pinto-2874719.aspx
+SiteInfo [name=fantasyfootball, count=2] 代表新闻: C罗：我真的还想再进500球 / http://news.thefantasyfootball.com/2016/01/11/real-madrid-striker-cristiano-ronaldo-remains-hungry-for-success-and-wants-to-score-500-more-goals-in-the-remainder-of-his-career/
+SiteInfo [name=比利亚雷亚尔官网, count=2] 代表新闻: 官方：黄潜主场情歌球场正式更名为陶瓷球场 / https://www.villarrealcf.es/noticias/indice-general/noticias-generales/item/16336-el-villarreal-presenta-el-estadio-de-la-ceramica
+SiteInfo [name=巴黎圣日尔曼官网, count=2] 代表新闻: 官方：埃梅里正式执教巴黎 / http://www.psg.fr/en/Actus/003001/Article/76075/Unai-Emery-nouvel-entraineur-du-Paris-Saint-Germain
+SiteInfo [name=eplindex, count=2] 代表新闻: 马赫雷斯与阿扎尔谁更好 / http://eplindex.com/76461/player-year-comparison-2014-2015-eden-hazard-vs-2015-2016-riyad-mahrez.html
+SiteInfo [name=西班牙国家队官网, count=2] 代表新闻: 官方：皇社中卫额外征召进入西班牙国家队 / http://www.sefutbol.com/oficial-inigo-martinez-nueva-incorporacion-seleccion-absoluta
+SiteInfo [name=进球网, count=2] 代表新闻: 范佩西盛赞拉什福德：他是红魔的未来 / http://www.goal.com/en/news/1862/premier-league/2016/10/08/28274652/he-has-a-nice-future-ahead-of-him-van-persie-hails-special
+SiteInfo [name=法国足球官网, count=2] 代表新闻: 布冯获评足坛历史最佳门将 / http://www.francefootball.fr/news/Pour-vous-buffon-est-le-plus-grand-gardien-de-tous-les-temps/633729
+SiteInfo [name=.football-espana, count=2] 代表新闻: 菲戈：生活不取决于巴萨皇马 / http://www.football-espana.net/57979/figo-my-life-isn%E2%80%99t-barca-or-madrid
+SiteInfo [name=迪马济奥个人官网, count=2] 代表新闻: 阿尔特塔接近出任曼城助教 / http://gianlucadimarzio.com/en/eng/manchester-city-arteta-will-likely-be-guardiolas-vice/
+SiteInfo [name=意大利足协, count=2] 代表新闻: 米兰小将洛卡特利顶替贝纳西，首次入选意大利U21队 / http://www.figc.it/it/204/2534364/2016/10/News.shtml
+SiteInfo [name=football-oranje, count=2] 代表新闻: 斯内德经纪人确认中超报价 / http://www.football-oranje.com/sneijders-agent-confirms-china-interest/?
+SiteInfo [name=香港文汇报, count=2] 代表新闻: 港超球队放弃亚冠资格 上港或递补直进正赛 / http://paper.wenweipo.com/2016/11/19/SP1611190014.htm
+SiteInfo [name=statsbomb, count=2] 代表新闻: GEEK看球：拉什福德前景 / http://statsbomb.com/2016/06/arguing-about-marcus-rashford-and-young-player-development/
+SiteInfo [name=非洲足协官网, count=2] 代表新闻: 奥巴梅扬当选非洲足球先生 / http://www.cafonline.com/en-US/NewsCenter/News/NewsDetails?id=rIVF4WCnlfavi%2fKHOwXX6w%3d%3d
+SiteInfo [name=espana, count=2] 代表新闻: 西媒：普兰德利可能接手瓦伦西亚 / http://www.football-espana.net/61155/valencia-close-prandelli
+SiteInfo [name=热那亚官网, count=2] 代表新闻: 意国门佩林重伤无缘欧洲杯 / http://genoacfc.it/notizie/genoa-cfc-nota-medica-2/
+SiteInfo [name=科隆快报, count=2] 代表新闻: 赛季首败，科隆主帅：宁愿被叫做拜仁狙击者 / http://www.express.de/sport/fussball/1--fc-koeln/fc-coach-enttaeuscht-stoeger---haetten-uns-gerne-bayern-jaeger-nennen-lassen--24958874
+SiteInfo [name=脸书, count=2] 代表新闻: 戈麦斯：不会留在贝西克塔斯 / 
+SiteInfo [name=体育报知, count=2] 代表新闻: 日媒：苏宁欲6500万元购长友佑都 / http://www.hochi.co.jp/soccer/world/20161022-OHT1T50001.html
+SiteInfo [name=全尤文, count=2] 代表新闻: 佐夫：尤文淘汰拜仁可进决赛 / http://www.tuttojuve.com/altre-notizie/zoff-buffon-battera-mio-record-perche-la-sua-juve-e-piu-forte-della-mia-276095
+SiteInfo [name=football-italia., count=2] 代表新闻: 布兰科经纪人：没和国米进行谈判 / http://www.football-italia.net/93621/blanc-no-inter-negotiations
+SiteInfo [name=东方早报, count=2] 代表新闻: 卡足协寄语国足：携手出线 / http://epaper.dfdaily.com/dfzb/html/2016-03/29/content_1026298.htm
+SiteInfo [name=泽尼特官网, count=2] 代表新闻: 官方：泽尼特宣布维特塞尔加盟天津权健 / http://fc-zenit.ru/news/feed/2017/01/03/aksel-vitsel-prodolzhit-kareru-v-kitae/
+SiteInfo [name=南德意志报, count=2] 代表新闻: 南德意志报盘点罗本伤病史 / http://www.sueddeutsche.de/sport/fc-bayern-die-verletzungen-des-arjen-robben-1.3084078
+SiteInfo [name=Spox, count=2] 代表新闻: 科济略：巴洛特利是伟大的球员 / http://www.spox.com/de/sport/fussball/international/frankreich/1610/News/vincent-koziello-schwaermt-mario-balotelli.html
+SiteInfo [name=NBC, count=2] 代表新闻: 英苏大战两队仍佩戴虞美人花 FIFA或采取行动 / http://soccer.nbcsports.com/2016/11/11/despite-fifa-ban-scotland-and-england-wear-poppies/
+SiteInfo [name=深圳晚报, count=2] 代表新闻: 粤媒：深足或下周一官宣埃里克森上任 / http://wb.sznews.com/html/2016-12/02/content_3677283.htm
+SiteInfo [name=格拉斯哥流浪者官网, count=2] 代表新闻: 流浪者续约队长李-华莱士 / http://rangers.co.uk/news/headlines/wallace-extends-gers-contract/
+SiteInfo [name=whoscorerd, count=2] 代表新闻: 拉齐奥vs国际米兰评分 / https://www.whoscored.com/Matches/1006253/Live
+SiteInfo [name=tribalfootball, count=2] 代表新闻: 前瓦伦主帅下赛季恐执教蓝军 / http://www.tribalfootball.com/articles/stamford-bridge-presence-of-former-valencia-boss-nuno-sparks-chelsea-rumours-4117446
+SiteInfo [name=阿贾克斯官网, count=2] 代表新闻: 阿贾克斯主帅德波尔下课 / http://ajax.nl/streams/ajax-actueel/frank-de-boer-stopt-bij-ajax.htm
+SiteInfo [name=直播吧-二二, count=2] 代表新闻: 二二专栏：永远热血澎湃 / 
+SiteInfo [name=caughtoffside, count=2] 代表新闻: 贝西克塔斯有意切尔西雷米 / http://www.caughtoffside.com/2016/07/20/besiktas-set-to-target-chelsea-striker-following-gomez-departure/
+SiteInfo [name=贝蒂斯官网, count=2] 代表新闻: 丹麦小将加盟西甲贝蒂斯 / http://www.realbetisbalompie.es/en/noticias/last-news/6971/el-real-betis-firma-al-internacional-danes-durmisi
+SiteInfo [name=拜仁慕尼黑官网, count=2] 代表新闻: 安切洛蒂教练组成员公布 / http://www.fcbayern.de/en/news/news/2016/clement-and-gerland-ancelottis-assistants-coaching-team-210616.php
+SiteInfo [name=Independent, count=2] 代表新闻: 德法恩怨：34年前的那个夏天 / http://www.independent.co.uk/sport/football/international/germany-vs-france-euro-2016-preview-the-night-toni-schumacher-escaped-after-horror-challenge-on-a7124181.html
+SiteInfo [name=维罗纳官网, count=2] 代表新闻: 托尼：感谢所有人 / http://www.hellasverona.it/2016/05/08/toni_grazie_a_tutti_ho_finito_video
+SiteInfo [name=克罗地亚足协官网, count=2] 代表新闻: 克罗地亚公布中国杯最终球员名单 该赛事或成为鸡肋 / http://hns-cff.hr/news/15611/izbornik-cacic-objavio-sastav-za-kinu/
+SiteInfo [name=体育总局官网, count=2] 代表新闻: 体育总局：鼓励培养青年球员 推进中超理性发展 / http://www.sport.gov.cn/n316/n337/c784272/content.html
+SiteInfo [name=莱万特官网, count=2] 代表新闻: 官方：罗西租借至莱万特 / http://www.levanteud.com/es/info/rossi-jugara-cedido-en-el-levante-ud-hasta-final-de-temporada
+SiteInfo [name=joins, count=2] 代表新闻: 张贤秀：实力被中国球员同化？这种言论很冤枉 / http://news.joins.com/article/20699594
+SiteInfo [name=thesportbible, count=2] 代表新闻: 英超哪家球迷行为最火爆 曼城球迷上赛季被捕66人居首 / http://www.thesportbible.com/football/news-the-premier-leagues-worst-behaved-fans-belong-to-a-surprising-club-20161125
+SiteInfo [name=特拉维夫马卡比官网, count=2] 代表新闻: 官方：以色列豪门签约贝纳永 / https://www.maccabi-tlv.co.il/en/2016/06/benayoun-signs-one-year-deal-maccabi/
+SiteInfo [name=曼城斯特晚报, count=2] 代表新闻: 佩帅：曼城未来要像皇马一样 / http://www.manchestereveningnews.co.uk/sport/football/football-news/manchester-city-transfers-pellegrini-addresses-10741095
+SiteInfo [name=德黑兰时报, count=2] 代表新闻: 外媒：贵州智诚65万美元报价伊朗国脚安萨里 / http://www.tehrantimes.com/news/409395/Persepolis-defender-Ansari-on-radar-of-Guizhou-Hengfeng-Zhicheng-s
+SiteInfo [name=liverpoolecho, count=2] 代表新闻: 利物浦或将和以色列在多个领域合作 并签署巨额赞助合同 / http://www.liverpoolecho.co.uk/sport/football/football-news/reports-linking-liverpool-israel-sponsorship-12160855
+SiteInfo [name=塞尔电台, count=2] 代表新闻: 博斯克：卡西与教练组不和 / http://cadenaser.com/programa/2016/06/30/el_larguero/1467311923_086569.html
+SiteInfo [name=givemesport, count=2] 代表新闻: 马竞解约庆祝皇马夺冠女队员 / http://www.givemesport.com/809636-atletico-madrid-release-female-player-who-celebrated-real-madrids-champions-league-win?autoplay=on
+SiteInfo [name=东京FC官网, count=2] 代表新闻: 东京FC宣布河大成加盟 / http://www.fctokyo.co.jp/?p=227409
+SiteInfo [name=球报, count=2] 代表新闻: 皇马欲引进本菲卡小将雷纳托 / http://abola.pt/
+SiteInfo [name=利物浦官方微博, count=2] 代表新闻: 利物浦老板发声明致歉球迷 / http://weibo.com/ttarticle/p/show?id=2309403941218529752961
+SiteInfo [name=中视体育, count=2] 代表新闻: 张玉宁：出国踢球是神在帮我 / http://sports.sina.com.cn/china/national/2016-02-15/doc-ifxpmpqt1226060.shtml
+SiteInfo [name=拜仁中文官网, count=2] 代表新闻: 安联国王：里贝里生日快乐 / http://www.fcbayern.cn/photos/album/200.html
+SiteInfo [name=阿斯, count=2] 代表新闻: 皇马球星拒绝申花800万年薪 / 
+SiteInfo [name=outsideoftheboot.com, count=2] 代表新闻: 死对头系列之：阿森纳VS热刺 / http://outsideoftheboot.com/2016/07/19/38291/
+SiteInfo [name=纽卡斯尔喷气机官网, count=2] 代表新闻: 官方：马磊磊加盟澳超球队纽卡斯尔喷气机 / http://www.newcastlejets.com.au/article/news-mas-jets-move-finalised/qnt4c5dhl0m21e3l5snnx2r3k
+SiteInfo [name=申花发布, count=2] 代表新闻: 登巴巴明天上午九点将手术 / http://mp.weixin.qq.com/s?__biz=MzI4NDE0MDA4Nw==&mid=2664755350&idx=1&sn=08bdd6468946a356f63d49cc4b5b90ad&scene=0#wechat_redirect
+SiteInfo [name=共和国报, count=2] 代表新闻: 齐达内：重返尤文也不无可能 / http://www.repubblica.it/sport/calcio/serie-a/juventus/2016/06/01/news/zidane_futuro_morata_real_madrid-141096237/
+SiteInfo [name=国际冠军杯官网, count=2] 代表新闻: 尤文马竞将参加国际冠军杯 / http://www.internationalchampionscup.com/articles/atletico-de-madrid-complete-sensational-melbourne-lineup#LYrMoXGe7cXksKey.97
+SiteInfo [name=insidefutbol, count=2] 代表新闻: 尤文拒绝切尔西求购博努奇 / http://www.insidefutbol.com/2016/06/16/juventus-reject-chelseas-big-offer-for-defender/290698/?
+SiteInfo [name=bundesliga.de, count=2] 代表新闻: 不莱梅获得德甲第750胜,诺里成为正式主帅 / http://www.bundesliga.de/de/liga/news/bundesliga-7-spieltag-sv-werder-bremen-bayer-04-leverkusen-stimmen-blmd07n.jsp
+SiteInfo [name=中国之队公众号, count=2] 代表新闻: 女足最新海报：We Are Back / https://mp.weixin.qq.com/s?__biz=MjM5ODA3NjcxMg==&mid=402425565&idx=1&sn=70d5414fd64b5df7ce0e4ab9f3c57989&scene=0&key=710a5d99946419d964cfcb0d265d9a3896c92e5f8be28bb854c5bd477b4792461a2da8a686ca664c29eed32c20fe804c&ascene=7&uin=MjQ4Mzg5NjUyNg%3D%3D&device
+SiteInfo [name=eurosport, count=2] 代表新闻: 特谢拉：巴西国家队离我更远 / http://www.eurosport.co.uk/football/premier-league/2015-2016/alex-teixeira-i-wanted-liverpool-move-but-chinese-offer-was-too-good-to-turn-down_sto5124159/story.shtml?
+SiteInfo [name=佛罗伦萨官网, count=2] 代表新闻: 小哈吉签约佛罗伦萨 / http://en.violachannel.tv/breaking-detail/items/ianis-hagi-joins-fiorentina.html
+SiteInfo [name=贵州都市报, count=1] 代表新闻: 谢鹏飞：被打不能还手 / http://dsb.gzdsw.com/html/2016-05/12/content_141826.htm
+SiteInfo [name=冈山绿雉官网, count=1] 代表新闻: 官方：J2联赛球队租借恒大前锋王靖斌 / http://www.fagiano-okayama.com/news/index.php?c=topics_view&pk=1469774731
+SiteInfo [name=热刺官方推特, count=1] 代表新闻: 官方：热刺续约丹尼-罗斯至2021年 / https://twitter.com/SpursOfficial
+SiteInfo [name=黄潜官网, count=1] 代表新闻: 官方：黄潜续约门将阿森霍 / http://www.villarrealcf.es/noticias/indice-general/noticias-generales/item/16159-asenjo2022
+SiteInfo [name=土耳其足球, count=1] 代表新闻: 传华夏700万欧签下居吕姆 / http://www.turkish-football.com/hebei-china-fortune-sign-ersan-gulum-from-besiktas-for-e7m/
+SiteInfo [name=参考消息网, count=1] 代表新闻: 中超队3000万求购胡尔克遭拒 / http://www.cankaoxiaoxi.com/
+SiteInfo [name=福布斯, count=1] 代表新闻: 2015年最赚钱的十大俱乐部 / http://www.forbes.com/sites/mikeozanian/2016/04/18/manchester-united-tops-list-of-worlds-most-profitable-soccer-teams/#2e8a4e5a31df
+SiteInfo [name=燕赵晚报, count=1] 代表新闻: 传永昌队长李超与黄世博将离队，老将刘君鹏已续约 / http://yzwb.sjzdaily.com.cn/html/2016-12/21/content_1293895.htm
+SiteInfo [name=TC Candler, count=1] 代表新闻: 美媒评2016最帅男星：小贝第17 C罗第29 / https://www.youtube.com/watch?v=v2ldYO-Lzbo
+SiteInfo [name=中超官网, count=1] 代表新闻: 2016中超年度最佳奖项评选启动 / http://www.csl-china.com/
+SiteInfo [name=cooperativa, count=1] 代表新闻: 蒙蒂略斥昔日母队：放弃现在合同工资都不要我 / http://www.cooperativa.cl/noticias/deportes/futbol/universidad-de-chile/walter-montillo-me-ofreci-para-volver-a-la-u-resignando-salario-y-la/2016-11-18/173151.html
+SiteInfo [name=laprovence, count=1] 代表新闻: 俄罗斯富豪有意收购马赛 / http://www.laprovence.com/article/om/3995934/vente-de-lom-au-tour-dun-milliardaire-russe.html
+SiteInfo [name=莱比锡红牛官网, count=1] 代表新闻: 韧带受伤！莱比锡边锋萨比策伤停三周 / http://www.dierotenbullen.com/rbl/neuigkeiten/Saison_2016_17/Verletzung-Marcel-Sabitzer.html
+SiteInfo [name=calcionews24, count=1] 代表新闻: 迪亚曼蒂：斯帅不要我 / http://www.calcionews24.com/calciomercato-atalanta-diamanti-guangzhou-ultimissime-479073.html
+SiteInfo [name=意大利晚邮报, count=1] 代表新闻: 米兰两座奖杯被窃 险遭拍卖 / http://www.corriere.it/sport/16_marzo_09/milan-mistero-londra-all-asta-toyota-cup-trofeo-bernabeu-453e4676-e570-11e5-a224-f2704d495d88.shtml?refresh_ce-cp
+SiteInfo [name=朝鲜体育, count=1] 代表新闻: 崔龙洙年薪跻身世界一流 / http://sports.chosun.com/news/ntype.htm?id=201606230100175930012239&servicedate=20160622
+SiteInfo [name=德足协官方, count=1] 代表新闻: 德国大名单：豪华中前场 / 
+SiteInfo [name=leakedsource, count=1] 代表新闻: 国外一音乐网站密码使用频率：利物浦第17 阿森纳40 / https://www.leakedsource.com/blog/lastfm#passwords
+SiteInfo [name=乌克兰足协官网, count=1] 代表新闻: 官方：舍甫琴科执教乌克兰 / http://football.ua/ukraine/308803-oficialno-shevchenko-glavnyjj-trener-sbornojj-ukrainy.html
+SiteInfo [name=Gamaspor, count=1] 代表新闻: 竞购波多尔斯基失败！弗拉门戈副主席：他将加盟国安 / http://gamaspor.com/haber/8694/podolski-cine-gidecek
+SiteInfo [name=毅腾官网, count=1] 代表新闻: 毅腾宣布与主帅托米奇解约 / http://www.yitengfc.com/news/Shownews.aspx?id=380
+SiteInfo [name=OzFootball, count=1] 代表新闻: 澳大利亚海外军团多达184人 / http://www.ozfootball.net/ark/Abroad/index.html
+SiteInfo [name=Leicestermercury, count=1] 代表新闻: 莱斯特城癌症球迷已去世 / http://www.leicestermercury.co.uk/Leicester-City-fan-battling-cancer-speaks-words/story-29137246-detail/story.html
+SiteInfo [name=SBS广播, count=1] 代表新闻: 澳媒：辽足不愿续约 维多西奇或离开中超 / http://theworldgame.sbs.com.au/article/2017/01/04/exclusive-kruse-and-vidosic-out-liaoning
+SiteInfo [name=thehardtackle.com, count=1] 代表新闻: 解析巴萨赛程：魔鬼4月再现 / http://www.thehardtackle.com/blogs/2016/07/18/fc-barcelona-three-talking-points-from-the-blaugranas-2016-17-la-liga-fixture-list/
+SiteInfo [name=colunadoflamengo, count=1] 代表新闻: 巴媒：塔尔德利将返巴甲，或与孔卡成队友 / http://colunadoflamengo.com/2016/12/de-saida-do-shandong-site-afirma-que-diego-tardelli-seria-o-grande-nome-da-diretoria-do-fla/
+SiteInfo [name=soccer-king, count=1] 代表新闻: 日球迷：感觉上港好弱 / http://www.soccer-king.jp/
+SiteInfo [name=荔枝网, count=1] 代表新闻: 聂卫平：国足实力倒数第一 请里皮有些劳民伤财 / http://news.jstv.com/a/20161116/1479278749480.shtml
+SiteInfo [name=武汉晨报, count=1] 代表新闻: 2016中甲新增两场附加赛 / http://www.cnhan.com/html/whcb/20160216/280697.htm
+SiteInfo [name=calcionews24.com, count=1] 代表新闻: 葡媒：补强锋线，波尔图欲租米兰前锋阿德里亚诺 / http://www.calcionews24.com/luiz-adriano-porto-lo-vuole-prestito
+SiteInfo [name=espana.net, count=1] 代表新闻: 维埃里：伊涅斯塔像哈利波特 / http://www.football-espana.net/59278/%E2%80%98iniesta-most-complete-harry-potter%E2%80%99
+SiteInfo [name=大巴黎官网, count=1] 代表新闻: 官方：巴黎与吉姆佩贝续约至2021年 / http://www.psg.fr/fr/Actus/003001/Article/77712/Presnel-Kimpembe-prolonge-jusqu-en-2021
+SiteInfo [name=上海申花, count=1] 代表新闻: 放假一天，申花全队大战真人CS / http://news-shenhua.9h-sports.com/statics/news/20161209193330b39c.html?nhid=3bea7871-961d-4b6a-a8cb-933d32f4f39a&userid=3bea7871-961d-4b6a-a8cb-933d32f4f39a
+SiteInfo [name=sport tv, count=1] 代表新闻: 力帆外援：在中超多进球就有机会进巴西国家队 / http://sportv.globo.com/site/programas/selecao-sportv/noticia/2017/01/em-2017-kardec-deseja-atrair-atencao-de-tite-mesmo-na-china-muitos-gols.html
+SiteInfo [name=Veja, count=1] 代表新闻: 蒂特：贾德森踢中甲所以没召他 在中国踢球要承担这风险 / http://veja.abril.com.br/complemento/entrevista/tite.html
+SiteInfo [name=比利时足球新闻站, count=1] 代表新闻: 比媒：库尔图瓦赛后打了主帅 / 
+SiteInfo [name=nieuwsblad, count=1] 代表新闻: 比利时媒体：热刺有意引进比利时中场天才蒂莱曼斯 / http://www.nieuwsblad.be/cnt/dmf20160724_02397651
+SiteInfo [name=AFC亚足联官网, count=1] 代表新闻: 孙兴慜获亚足联最佳海外球员 / http://www.the-afc.com/2015-awards-korea-republic/son-thrilled-with-afc-asian-international-player-of-the-year-award
+SiteInfo [name=重庆力帆官方, count=1] 代表新闻: 重庆力帆签下克罗地亚国脚 / http://mp.weixin.qq.com/s?__biz=MzA3OTMyMjQxMQ==&mid=401450883&idx=1&sn=19bf4ec6e529a36cfd11a531a387e597#rd
+SiteInfo [name=布拉加官网, count=1] 代表新闻: 葡超劲旅签约中国年轻射手 / http://scbraga.pt/li-rui-contratado-pelo-sc-braga/
+SiteInfo [name=YTN, count=1] 代表新闻: 崔龙洙：怕巴西球员不服管 / http://interfootball.ytn.co.kr/news/articleView.html?idxno=121897
+SiteInfo [name=北京人和官方微博, count=1] 代表新闻: 人和就伊沃转会纠纷致歉建业，双方已达成一致 / http://weibo.com/u/5859677229?profile_ftype=1&is_all=1#_0
+SiteInfo [name=Ktla, count=1] 代表新闻: 忘记英语！美门将重伤昏迷醒来说出流利的西班牙语 / http://ktla.com/2016/10/21/teen-wakes-from-coma-speaking-fluent-spanish-after-blow-to-head/?utm_campaign=trueAnthem:+Trending+Content&utm_content=580b39cf04d3011c48b6c3fe&utm_medium=trueAnthem&utm_source=twitter
+SiteInfo [name=getfootballnewsfrance, count=1] 代表新闻: 队报：巴黎圣日耳曼也有意范迪克 / http://www.getfootballnewsfrance.com/2016/psg-interested-in-virgil-van-djik/
+SiteInfo [name=国家企业信用信息公示系统, count=1] 代表新闻: 信息公示系统：国安完成工商变更 / http://www.gsxt.gov.cn/index.html
+SiteInfo [name=西德汇报, count=1] 代表新闻: 狐媚：从未承诺过永远留下 / http://www.derwesten.de/sport/fussball/bvb/hummels-ich-wusste-schon-frueh-von-mkhitaryans-absichten-id11966927.html
+SiteInfo [name=劲球网, count=1] 代表新闻: 李毅：王者恒大还会归来 / http://www.goalchina.net/football/shownews.php?id=47793
+SiteInfo [name=冰岛足协官网, count=1] 代表新闻: 冰岛队战国足22人名单：3人曾参加欧洲杯 / http://www.ksi.is/landslid/nr/13839
+SiteInfo [name=GQ英国, count=1] 代表新闻: 型男！瓜帅小贝入选2017英国《GQ》50佳男士着装 / http://www.gq-magazine.co.uk/gallery/50-best-dressed-men-in-the-world-2017
+SiteInfo [name=莱奥报, count=1] 代表新闻: 足球微视角：热区图表明梅西有多么勤勉 / http://www.ole.com.ar/seleccion/numeros-messi-colombia-argentina_0_1687631419.html
+SiteInfo [name=鹿岛鹿角官网, count=1] 代表新闻: 鹿岛鹿角宣布黄锡镐合约期满离队 下一站天津泰达 / http://www.so-net.ne.jp/antlers/news/release/58041
+SiteInfo [name=明镜周刊, count=1] 代表新闻: 德媒评欧洲杯历史五十大球员 / http://www.spiegel.de/sport/fussball/europameisterschaft-2016-die-besten-50-spieler-der-em-geschichte-a-1095768.html
+SiteInfo [name=西班牙足协竞赛委员会, count=1] 代表新闻: 官方：西蒙尼被禁赛3场 / 
+SiteInfo [name=BBCL, count=1] 代表新闻: 伊布：在瑞典有很多美好回忆 / http://www.biobiochile.cl/noticias/futbol/futbol-internacional-group-futbol/2016/06/22/zlatan-ibrahimovic-tras-su-ultimo-partido-con-suecia-ha-sido-una-bonita-historia.shtml
+SiteInfo [name=heraldsun, count=1] 代表新闻: 塞恩斯伯里：加盟中超改善了我的家庭生活 / http://www.heraldsun.com.au/subscribe/news/1/index.html?sourceCode=HSWEB_WRE170_a&mode=premium&dest=http:%2F%2Fwww.heraldsun.com.au%2Fsport%2Ffootball%2Ftrent-sainsbury-is-reaping-the-rewards-after-ch
+SiteInfo [name=claretandhugh.info, count=1] 代表新闻: 前法国后卫称赞帕耶特 / http://www.claretandhugh.info/dimi-to-become-the-hero/?utm_source=twitterfeed&utm_medium=twitter
+SiteInfo [name=PSG官网, count=1] 代表新闻: 伊布当选PSG十二月最佳球员 / http://www.psg.fr/en/News/003001/Article/73704/Un-Ibra-record-en-decembre
+SiteInfo [name=那不勒斯官方, count=1] 代表新闻: 官方：那不勒斯与阿尔比奥尔续约至2020年 / http://www.sscnapoli.it/static/news/Albiol-ha-rinnovato-col-Napoli-fino-al-2020-9588.aspx
+SiteInfo [name=泰晤日报, count=1] 代表新闻: 名宿：佩德罗恢复最佳状态是孔蒂的功劳 / http://www.thetimes.co.uk/article/pedro-back-in-the-same-class-as-sanchez-k6lwwm8gp
+SiteInfo [name=Football-oranje, count=1] 代表新闻: 荷兰热身赛名单：斯内德回归 / http://www.football-oranje.com/netherlands-squad-announced-strootman-back-ramselaar-debuts/
+SiteInfo [name=footbal-italia, count=1] 代表新闻: 贝卢斯科尼：我们曾一起经历种种，感谢你们的认可 / http://www.football-italia.net/94662/berlusconi-thanks-milan-fans
+SiteInfo [name=tasnimnews, count=1] 代表新闻: 马加特：没有收到伊朗球队的邀请 / https://www.tasnimnews.com/en/news/2016/12/24/1276053/felix-magath-linked-with-iran-s-esteghlal-job-report
+SiteInfo [name=telesport, count=1] 代表新闻: 外媒：泰达500万欧年薪报价塞尔维亚国脚 / https://www.telesport.nl/teaser/artikel/78736/ajax/gudelj-kan-cashen-china?apw-origin=http%3A%2F%2Fwww.telesport.nl%2Fpremium%2Fartikel%2F78736%2Fajax%2Fgudelj-kan-cashen-china
+SiteInfo [name=Francefootball, count=1] 代表新闻: 法国足球评选U23最佳阵容 / http://www.francefootball.fr/news/Raphael-varane-real-madrid-marco-verratti-psg-et-paul-pogba-juventus-turin-dans-l-equipe-type-des-23-ans-et-moins/655384
+SiteInfo [name=德甲官方推特, count=1] 代表新闻: 莱万当选德甲二月最佳球员 / https://twitter.com/Bundesliga_EN/status/701753394835406848?ref_src=twsrc%5Etfw
+SiteInfo [name=Sunday Express, count=1] 代表新闻: 英媒：吉格斯将顶替圭多林 执掌斯旺西帅位 / http://www.express.co.uk/sport/football/716672/Swansea-Francesco-Guidolin-Ryan-Giggs-Manchester-United-Premier-League-News
+SiteInfo [name=internazionale.fr, count=1] 代表新闻: 外媒：天津权健补强锋线求购伊卡尔迪遭国米拒绝 / http://www.internazionale.fr/article-9086-alciato-cannavaro-voulait-icardi-en-chine.html
+SiteInfo [name=90min, count=1] 代表新闻: 瓦尔迪谈英超最难缠后卫 / http://www.90min.com/posts/2982508-leicester-city-s-jamie-vardy-reveals-his-toughest-premier-league-opponent?a_aid=35406
+SiteInfo [name=.sportsmole, count=1] 代表新闻: 辛克莱尔：从输给巴萨的比赛中学到很多 / http://www.sportsmole.co.uk/football/man-city/champions-league/news/sinclair-we-learned-from-barca-defeat_282221.html
+SiteInfo [name=汉诺威官网, count=1] 代表新闻: 官方：汉诺威主帅沙夫下课 / https://www.hannover96.de/aktuelles-termine/news/details/18349-hannover-96-beurlaubt-schaaf.html
+SiteInfo [name=天津网, count=1] 代表新闻: 国内多个城市申办国足主场 / http://www.tianjinwe.com/tianjin/tjty/201604/t20160414_983682.html
+SiteInfo [name=setanta, count=1] 代表新闻: 队友：健康的卡罗尔无法阻挡 / http://www.setanta.com/noble-backs-carroll-for-euro-2016?
+SiteInfo [name=足球星视界, count=1] 代表新闻: 粤媒：J马现阶段不如埃神 / 
+SiteInfo [name=长春亚泰订阅号, count=1] 代表新闻: 亚泰发布海报：相信自己 / http://mp.weixin.qq.com/s?__biz=MzA4OTQyNTcwMg==&mid=2650706665&idx=2&sn=c30d43f1f05254ebdb785e1bed8bd688&scene=4#wechat_redirect
+SiteInfo [name=Sport360, count=1] 代表新闻: 传权健1100万美元敲定权敬源 迪拜阿赫利已决定放行 / http://sport360.com/article/football/transfer-news/204755/al-ahli-star-kwon-kyung-won-in-line-for-mega-move-to-chinese-super-league/
+SiteInfo [name=sport360, count=1] 代表新闻: Facebook球员粉丝top10 / http://sport360.com/gallery/euro_2016/182876/from-cristiano-ronaldo-to-zlatan-ibrahimovic-and-wayne-rooney-ten-most-liked-euro-2016-players-on-facebook?#
+SiteInfo [name=米兰体育网, count=1] 代表新闻: 意媒：本田圭佑今夏自荐巴萨被拒 / http://www.milannews.it/calciomercato-milan/dalla-spagna-milan-retroscena-honda-si-era-offerto-al-barca-no-dei-blaugrana-231683
+SiteInfo [name=广州富力官网, count=1] 代表新闻: 富力宣布两名外援租借离队 / http://www.gzrffc.com.cn/news/newsshow_1010.htm
+SiteInfo [name=西安晚报, count=1] 代表新闻: 缺少资金，天津火车头黯然退出中乙 / http://epaper.xiancn.com/newxawb/html/2016-12/08/content_253932.htm?div=-1
+SiteInfo [name=Uncova, count=1] 代表新闻: 伊布：姆希塔良是蝎子摆尾之王，我是蝎子摆尾之神 / http://uncova.com/zlatans-brilliant-description-of-the-henrikh-mkhitaryan-scorpion-kick
+SiteInfo [name=Itasportpress.it, count=1] 代表新闻: 泽尼特主帅之子：维特塞尔需考虑家人 不惊讶于他的选择 / http://www.itasportpress.it/calcio-estero/zenit-lucescu-jr-giustifica-witsel-bisogna-pensare-alla-propria-vita-e-alla-famiglia/?intcmp=lucescu-witsel&refresh_ce-cp
+SiteInfo [name=ufifa16, count=1] 代表新闻: FIFA17或将引入中超联赛 / http://www.ufifa16.net/fifa-17-might-add-chinese-super-league/
+SiteInfo [name=北京国安官方公众号, count=1] 代表新闻: 官方：北京国安俱乐部总经理沈力辞职 / http://mp.weixin.qq.com/s/Vc0xh48hXDVOEWZ53RuCOw
+SiteInfo [name=spox, count=1] 代表新闻: 安切洛蒂：在米兰时开直升飞机去上班 / http://www.spox.com/de/sport/fussball/bundesliga/fc-bayern/1610/News/carlo-ancelotti-auto-habe-hubschrauber.html
+SiteInfo [name=Bleacher Report, count=1] 代表新闻: 阿莱格里会如何使用皮亚尼奇 / http://bleacherreport.com/articles/2646188-how-miralem-pjanic-fits-the-tactics-of-juventus-coach-massimiliano-allegri
+SiteInfo [name=Ojogo, count=1] 代表新闻: 外媒关注申花球迷被围殴：足球流氓行为 / http://www.ojogo.pt/internacional/noticias/interior/chocante-o-hooliganismo-chegou-a-china-5402295.html
+SiteInfo [name=阿森纳中文官网, count=1] 代表新闻: 温格：科奎林因伤休战三周 吉鲁的伤情待评估 / http://cn.arsenal.com/newsdetail.php?id=3173
+SiteInfo [name=克罗地亚队官网, count=1] 代表新闻: 奥利奇宣布从国家队退役 / http://hns-cff.hr/en/news/13017/ivica-olic-retires-from-national-duty/
+SiteInfo [name=sports.ro, count=1] 代表新闻: 佩特雷斯库：我是主动辞职的 / 
+SiteInfo [name=bt.no, count=1] 代表新闻: 外媒：恒大明年2月参加迪拜杯，车轮战北欧三劲旅 / http://www.bt.no/100Sport/fotball/Alle-i-Molde-er-enig-i-at-menneskerettigheter-er-viktig_-men-vi-lar-ikke-vare-a-reise-til-Dubai-226663b.html
+SiteInfo [name=长江商报, count=1] 代表新闻: 长江商报：足协投近亿资金推动青训计划 / http://www.changjiangtimes.com/2016/12/555180.html
+SiteInfo [name=Anadolu Agency, count=1] 代表新闻: 国安700万欧报价波多尔斯基 获加拉塔萨雷俱乐部证实 / http://aa.com.tr/tr/futbol/cin-kulubu-podolski-icin-galatasarayin-kapisini-caldi/715799
+SiteInfo [name=申花官方微信, count=1] 代表新闻: 申花官方：绿地放弃冠名球队亚冠队名 / 
+SiteInfo [name=马尔代夫足协官网, count=1] 代表新闻: 马代或遭处罚国足可不战而胜 / http://fam.mv/News.aspx?NewsID=35
+SiteInfo [name=雅虎日本, count=1] 代表新闻: 日网友吐槽：J马是垃圾 / http://news.yahoo.co.jp/pickup/6196820
+SiteInfo [name=西汉姆联官网, count=1] 代表新闻: 官方：特雷租借加盟西汉姆联 / http://www.whufc.com/News/Articles/2016/July/11-July/Hammers-land-Tore
+SiteInfo [name=悉尼FC官网, count=1] 代表新闻: 悉尼主帅：全力战胜浦和红钻 / http://www.sydneyfc.com/article/arnold-wants-top-spot/7o6a0r79oh921gaunhigeb4ou
+SiteInfo [name=意大利共和报, count=1] 代表新闻: 德波尔：孔多比亚不听指挥只能早换人 / http://www.repubblica.it/sport/calcio/serie-a/inter/2016/09/25/news/de_boer_dopo_bologna-148518775/
+SiteInfo [name=standard.co.uk, count=1] 代表新闻: 扎哈：本特克是边锋眼中理想型的前锋 / http://www.standard.co.uk/sport/football/wilfried-zaha-christian-benteke-is-a-dream-striker-for-crystal-palace-wingers-a3363771.html
+SiteInfo [name=因戈尔施塔特官网, count=1] 代表新闻: 官方：前助教亨克出任因戈尔施塔特临时主帅 / http://www.fcingolstadt.de/news/6436-michael-henke-wird-interimstrainer/
+SiteInfo [name=calciomercato.com, count=1] 代表新闻: 阿莱格里望博格巴莫拉塔留队 / http://www.calciomercato.com/news/allegri-pogba-spero-che-resti-morata-fossi-in-lui-sceglierei-la--984496
+SiteInfo [name=TSBible, count=1] 代表新闻: 棒棒哒！FIFA16发行梅西紫卡 / http://www.thesportbible.com/articles/lionel-messi-recieves-majestic-purple-fifa-card-after-scoring-300-la-liga-goals-170216
+SiteInfo [name=Supersport, count=1] 代表新闻: 迪马利亚最快或半决赛复出 / http://www.supersport.com/football/copa-america/news/160612/Di_Maria_succumbs_to_fragility_again
+SiteInfo [name=chronicle, count=1] 代表新闻: 最新球员周薪排行榜：中超两人入选前十 / http://thenews-chronicle.com/footballers-rich-list-the-top-10-best-paid-players-in-the-world/
+SiteInfo [name=莱茵邮报, count=1] 代表新闻: 德媒：克拉默因3p性爱录像遭到勒索 / http://www.rp-online.de/sport/fussball/borussia/christoph-kramer-offenbar-erpressung-mit-sex-bildern-aid-1.6368687
+SiteInfo [name=Abola, count=1] 代表新闻: 葡媒：泰达中卫赞纳迪内或被租借至葡超球队 / http://www.abola.pt/nnh/ver.aspx?id=649652
+SiteInfo [name=fussballtransfers, count=1] 代表新闻: 奥巴梅杨：永远不会加盟热刺 / http://www.fussballtransfers.com/nachricht/aubameyang-wurde-nie-zu-den-spurs-gehen_62918
+SiteInfo [name=TALKSPORT, count=1] 代表新闻: 经纪人：图雷道歉是以大局为重，我道哪门子歉 / http://talksport.com/football/apologise-what-yaya-toures-agent-tells-talksport-he-will-not-say-sorry-manchester-city-boss
+SiteInfo [name=人物杂志, count=1] 代表新闻: 前国门江津回忆：曾狱中落泪 / 
+SiteInfo [name=elcolombiano, count=1] 代表新闻: 哥媒：亚泰欲购哥伦比亚高中锋 / http://www.elcolombiano.com/deportes/independiente-medellin/dim-salida-de-juan-fernando-caicedo-obliga-a-un-buen-remplazo-IN5690028
+SiteInfo [name=迪拜阿赫利官网, count=1] 代表新闻: 官方：迪拜阿赫利宣布权敬源离队将来华踢球 / http://www.alahliclub.ae/index.php?go=news&more=2140
+SiteInfo [name=南充日报, count=1] 代表新闻: 川媒：17岁小将即将加盟国米 / http://ncrb.cnncw.cn/shtml/ncrb/20160427/31842.shtml
+SiteInfo [name=AC米兰官方微博, count=1] 代表新闻: AC米兰今日启程前往罗马 / http://weibo.com/acmilanofficial?refer_flag=0000015012_&from=feed&loc=nickname&is_all=1
+SiteInfo [name=香港东网, count=1] 代表新闻: 港媒：有香港球迷赛前再嘘中国国歌 / http://hk.on.cc/hk/bkn/cnt/news/20161109/bkn-20161109202028729-1109_00822_001.html
+SiteInfo [name=南美足联官网, count=1] 代表新闻: 官方：智利将参加联合会杯 / http://www.conmebol.com/es/aclaracion-sobre-el-titulo-de-campeon-de-copa-america-centenario
+SiteInfo [name=懒熊体育, count=1] 代表新闻: 6亿美元！苏宁接近拿下2019-22赛季英超独家版权 / http://lanxiongsports.com
+SiteInfo [name=埃因霍温官网, count=1] 代表新闻: PSV租借切尔西小将范金克尔 / http://www.psv.nl/psv/nieuws/artikel/psv-huurt-marco-van-ginkel.htm
+SiteInfo [name=the72, count=1] 代表新闻: 波兰门将借中超为自己抬价 / http://the72.co.uk/48248/ipswich-keeper-to-reject-china-and-sign-new-deal/
+SiteInfo [name=Iffhs, count=1] 代表新闻: IFFHS年度最佳裁判：克拉滕伯格首当选 / http://iffhs.de/the-worlds-best-referee-2016-mark-clattenburg/
+SiteInfo [name=西悉尼微博, count=1] 代表新闻: 悉尼FC领跑亚冠H组积分榜 / http://weibo.com/639206780
+SiteInfo [name=广州富力官方微博, count=1] 代表新闻: 富力与河北首次正式交手 / 
+SiteInfo [name=今晚网, count=1] 代表新闻: 束昱辉否认4500万欧签卡利尼奇传闻：都是媒体炒作 / http://www.jwb.com.cn/ty/201701/t20170108_4709241.html
+SiteInfo [name=武汉市体育局官网, count=1] 代表新闻: 武汉足协：第一时间进行处理 / http://www.whsport.gov.cn/content.jsp?id=5505
+SiteInfo [name=bild.de, count=1] 代表新闻: 不莱梅传奇埃尔顿支招新星奥斯曼-马内 / http://www.bild.de/sport/fussball/ailton/meine-5-tipps-fuer-manneh-48383290.bild.html
+SiteInfo [name=西班牙人俱乐部官网, count=1] 代表新闻: 西班牙人队专访中国球员李明 / http://www.rcdespanyol.com/cn/news/_n:2625/
+SiteInfo [name=内马尔球迷网, count=1] 代表新闻: 梅西：马拉多纳比我伟大 / 
+SiteInfo [name=Squawk, count=1] 代表新闻: 浅析：马德里竞技近况不佳，西蒙尼应该如何做出改变 / http://www.squawka.com/news/drop-club-captain-gabi-five-ways-diego-simeone-can-stop-the-rot-at-atletico-madrid/833351
+SiteInfo [name=fmnation, count=1] 代表新闻: 韩媒：金周荣将加盟河北华夏，已随队体检 / https://www.fmnation.net/football_k/2021130
+SiteInfo [name=新苏黎世报, count=1] 代表新闻: 瑞媒：中国本土球员水平十分糟糕 青训更是差劲 / http://www.nzz.ch/
+SiteInfo [name=人民报, count=1] 代表新闻: 人民报：里皮要先治“外援依赖症” / http://sports.people.com.cn/n1/2016/1101/c22172-28826108.html
+SiteInfo [name=哥斯达黎加官网, count=1] 代表新闻: 哥斯达黎加公布美洲杯名单 / http://fedefutbolcr.com/estos-son-los-convocados-a-la-copa-america-centenario/
+SiteInfo [name=天津球迷报, count=1] 代表新闻: 泰达高层：会给入选国脚“开绿灯” / http://epaper.tianjinwe.com/qm/qm/2016-12/23/content_7547596.htm
+SiteInfo [name=喀山红宝石官网, count=1] 代表新闻: 黄潜前锋加盟喀山红宝石 / http://www.rubin-kazan.ru/news_items/5853-samuel-garsiya-pereshel-v-rubin
+SiteInfo [name=FourFourFour, count=1] 代表新闻: 狼堡决定将本特纳移出训练 / http://www.fourfourtwo.com/news/bendtner-excluded-training-wolfsburg-exit-looks-likely#:xkvrhDYPPjt3dA
+SiteInfo [name=fifa.com, count=1] 代表新闻: 曲波接受FIFA采访，回忆过去鼓励国足将士 / http://www.fifa.com/worldcup/news/y=2016/m=10/news=chinese-wind-chaser-reflects-on-world-cup-debut-2842108.html
+SiteInfo [name=irishnews, count=1] 代表新闻: 北爱尔兰近期不败终结 / http://www.irishnews.com/sport/euro2016/2016/06/12/news/northern-ireland-s-unbeaten-run-ended-with-loss-to-poland-559318/?
+SiteInfo [name=法国队报, count=1] 代表新闻: 马赛即将签下酒井宏树 / http://rmcsport.bfmtv.com/football/mercato-sakai-en-discussions-avancees-avec-l-om-988001.html
+SiteInfo [name=kicker, count=1] 代表新闻: 门神之战：诺伊尔VS布冯 / http://www.kicker.de/news/fussball/em/startseite/654956/2/slideshow_neuer-und-buffon_titelsammler-und-zu-null-garanten.html
+SiteInfo [name=Beacherreport, count=1] 代表新闻: 进球如麻，国家德比中的三场经典大战 / http://bleacherreport.com/articles/2678569-barcelona-vs-real-madrid-the-3-biggest-games-in-recent-el-clasico-history
+SiteInfo [name=女王公园巡游者官网, count=1] 代表新闻: 官方：QPR签约波兰后腰 / http://www.qpr.co.uk/news/article/2016-17/qpr-ariel-borysiuk-jimmy-floyd-hasselbaink-3148543.aspx
+SiteInfo [name=郑州日报, count=1] 代表新闻: 豫媒：建业球员尹鸿博或亿元身价转投华夏 / http://zzrb.zynews.cn/html/2016-12/19/content_797768.htm
+SiteInfo [name=迪拜国际杯官网, count=1] 代表新闻: 迪拜国际杯官方确认恒大将参赛 / http://www.dubai-internationalcup.com/teams/2017
+SiteInfo [name=狼队官网, count=1] 代表新闻: 中国财团四千五百万镑购狼队 / http://www.wolves.co.uk/news/article/2016-17/news-fosun-group-takes-over-wolves-3198807.aspx
+SiteInfo [name=今日亚洲, count=1] 代表新闻: 韩媒：中国足球成亚洲病夫 / http://www.asiatoday.co.kr/view.php?key=20160122010014347&ref=main_column
+SiteInfo [name=北京晚报, count=1] 代表新闻: 国安为拉维奇报价600万欧 / http://www.bjd.com.cn/
+SiteInfo [name=陕西传媒网, count=1] 代表新闻: 陕西足协倡议书：支持国足 文明观赛 / http://www.sxdaily.com.cn/n/2016/1004/c145-6005290.html
+SiteInfo [name=洞察越位, count=1] 代表新闻: 格里兹曼玩FM竟选切尔西 / http://www.caughtoffside.com/2016/06/17/video-keen-eyed-chelsea-fans-spot-antoine-griezmann-show-love-for-club/
+SiteInfo [name=Sky sports, count=1] 代表新闻: 梅西领衔：十星闪耀美洲杯 / http://www.skysports.com/football/news/32506/10300262/copa-america-2016-10-stars-to-light-up-the-tournament
+SiteInfo [name=五星体育, count=1] 代表新闻: 申花接触波波维奇但未谈妥 首笔内援已敲定只等官宣 / http://mp.weixin.qq.com/s?__biz=MjM5MDE4NTk4MA==&mid=2650826474&idx=1&sn=119cb58c14ecf0d155f159fe0a990a24&chksm=bdbc66798acbef6fe5c1b301c9433c63a80ab57de559a18b30bc9588db7851341282cb75d0cd&mpshare=1&scene=23&srcid=1112bY9mNcOJcViopz8BjTri#rd
+SiteInfo [name=ZDF, count=1] 代表新闻: 德国足协:勒夫留任至2018年 / http://www.zdfsport.de/fussall-bundestrainer-loew-macht-weiter-44365828.html
+SiteInfo [name=英足总, count=1] 代表新闻: 官方：西索科将因涉嫌肘击遭受英足总指控 / http://www.thefa.com/news/governance/2016/oct/mousa-sissoko-charged-241016
+SiteInfo [name=rmc电台, count=1] 代表新闻: 登巴巴：那些为钱来中超的外援不该被指责 / http://rmcsport.bfmtv.com/football/transferts-en-chine-demba-ba-on-ne-peut-pas-leur-en-vouloir-si-leur-objectif-n-est-pas-de-gagner-de-titres-mais-de-l-argent-1076998.html
+SiteInfo [name=Squawka.com, count=1] 代表新闻: 盘点：这些球员转变角色，表现仍旧出色 / http://www.squawka.com/news/9-players-who-have-changed-their-roles-this-season/788485
+SiteInfo [name=莫拉塔, count=1] 代表新闻: 西媒：莫拉塔将战欧洲超级杯 / http://www.marca.com/en/football/real-madrid/2016/07/13/57860669e2704e113b8b4590.html
+SiteInfo [name=sovsport.ru, count=1] 代表新闻: 俄媒：恒大报价巴西国脚浩克 / 
+SiteInfo [name=谢周三官网, count=1] 代表新闻: 谢周三签下史蒂夫-弗莱彻 / http://www.swfc.co.uk/news/article/2016-17/sheffield-wednesday-sign-striker-steven-fletcher-3164073.aspx
+SiteInfo [name=上海申鑫足球俱乐部, count=1] 代表新闻: 克雷斯波造访上海申鑫俱乐部 / http://mp.weixin.qq.com/s?__biz=MzA4MTUxMjQwMA==&mid=2652877141&idx=1&sn=68fd1a219d14e333dc23205a92cf7d00&chksm=8478c3eab30f4afc4e0ecc1d4a2313c41e5e0aa215020135f0488e2b0ffbede98a17be472363#rd
+SiteInfo [name=uMAXit Football, count=1] 代表新闻: 埃姆雷-詹：红军中场新希望 / http://www.umaxit.com/index.php/columns/emre-can-emerging-as-the-heartbeat-of-jurgen-klopps-liverpool-team
+SiteInfo [name=SportYou, count=1] 代表新闻: 苏神：不刻意追求联赛金靴 / http://www.sportyou.es/noticias/suarez-messi-barcelona-maneja-619491
+SiteInfo [name=中国足协, count=1] 代表新闻: 中超15轮后黄牌停赛通知 / http://www.fa.org.cn/bulletin/data/2016-07-05/505823.html
+SiteInfo [name=squaka.com, count=1] 代表新闻: 扬森：在荷乙时很困难，但我坚持了下来 / http://www.squawka.com/news/janssen-i-nearly-quit-football/792520
+SiteInfo [name=因戈斯塔特官网, count=1] 代表新闻: 官方：前德丙队主帅出任因戈斯塔特新帅 / http://www.fcingolstadt.de/news/6449-maik-walpurgis-wird-neuer-cheftrainer-der-schanzer/
+SiteInfo [name=ligue1, count=1] 代表新闻: 奥里耶：战曼城主场不能丢球 / http://www.ligue1.com/autresCompetitions/article/aurier-keep-a-clean-sheet-at-home.htm
+SiteInfo [name=南美足协官网, count=1] 代表新闻: 南美足协官网：暂时停止南美一切足球活动 / http://www.conmebol.com/es/comunicado-la-opinion-publica
+SiteInfo [name=shoot, count=1] 代表新闻: 英媒：欧洲四强争本菲卡中场 / http://www.shoot.co.uk/manchester-united-fc-barcelona-fc-bayern-munich-and-real-madrid-fighting-over-46m-deal-for-benficas-18-year-old-starlet/?
+SiteInfo [name=sportskeeda, count=1] 代表新闻: 阿尔巴尼亚政府重奖球员 / http://www.sportskeeda.com/football/albania-awards-football-team-1-million-euros-and-diplomatic-passports
+SiteInfo [name=长春亚泰公众号, count=1] 代表新闻: 结束海埂冬训，亚泰今日飞赴迪拜开启海外拉练 / 
+SiteInfo [name=sandiegored, count=1] 代表新闻: 墨西哥豪门补强实力瞅准恒大外援J马，只愿提供租借合约 / http://www.sandiegored.com/noticias/80207/Cuadrado-y-Jackson-Martinez-podrian-llegar-al-futbol-mexicano/
+SiteInfo [name=哈德斯菲尔德官网, count=1] 代表新闻: 官方：切尔西外租英U20国脚布朗至英冠队 / http://www.htafc.com/news/article/2016-17/huddersfield-town-isaiah-brown-izzy-brown-chelsea-fc-3505269.aspx
+SiteInfo [name=转会市场网, count=1] 代表新闻: 贝纳蒂亚否认离开拜仁传闻 / http://www.transfermarkt.de/benatia-abgang-wegen-ancelotti-bdquo-geruchte-sind-komplett-falsch-ldquo-/view/news/229245
+SiteInfo [name=sportsvibe, count=1] 代表新闻: 外媒：马尔科维奇或将转会 / http://www.sportsvibe.co.uk/news/football/liverpool-winger-set-to-leave-anfield-permanently-43973/?
+SiteInfo [name=Colombia, count=1] 代表新闻: 外媒：瓜林的婚姻出现问题 / http://www.colombia.com/futbol/colombianos-en-el-exterior/noticias/sdi26/135032/fredy-guarin-estaria-adelantando-su-divorcio-con-andreina-fiallo?platform=hootsuite
+SiteInfo [name=fcbayern.com, count=1] 代表新闻: 安切洛蒂：对结果不满，但认为公平 / https://fcbayern.com/de/news/2016/10/stimmen-nach-dem-frankfurt-spiel
+SiteInfo [name=101 Great Goals, count=1] 代表新闻: 盘点出战本届非洲杯的英超球员：共26人 / http://www.101greatgoals.com/news/26-premier-league-players-off-afcon-january/
+SiteInfo [name=足球金融, count=1] 代表新闻: 外媒列中超年薪前20，上海球队包揽前三 / 
+SiteInfo [name=露天看台, count=1] 代表新闻: C罗1.4亿欧元买下摩纳哥酒店 / http://bleacherreport.com/articles/2611285-cristiano-ronaldo-buys-a-hotel-in-monaco?utm_source=twitter.com&utm_medium=referral&utm_campaign=programming-UK
+SiteInfo [name=bleacherreport, count=1] 代表新闻: 利物浦补强后防欲签马蒂厄 / http://bleacherreport.com/articles/2652508-liverpool-transfer-news-fresh-jeremy-mathieu-rumours-latest-on-jon-flanagan?utm_source=twitterfeed&utm_medium=twitter
+SiteInfo [name=广州队好嘢公众号, count=1] 代表新闻: 传恒大谈妥绿城后卫赵宇豪 或圣诞前后官宣 / http://mp.weixin.qq.com/s/P419sZfEE8mOy_MI1W2gQw
+SiteInfo [name=体育大生意, count=1] 代表新闻: 潮汕资本5亿收购AC米兰？ / http://mp.weixin.qq.com/s?__biz=MzA5NTQyMDQwNg==&mid=2651993463&idx=1&sn=af6fc9c734b13ccc0f8a8adb4ba6b7ba&scene=23&srcid=0719DQzztUS1BBfWwaUyBcZD#rd
+SiteInfo [name=直播吧-唯心, count=1] 代表新闻: 复盘德比：皇马御敌国门之外 / 
+SiteInfo [name=卡尔皮官网, count=1] 代表新闻: 官方：卡尔皮续约主帅 / http://www.carpifc.com/news-prima-squadra/mister-castori-ancora-biancorosso/
+SiteInfo [name=VI, count=1] 代表新闻: 荷媒：中超两队竞购荷兰球星斯内德，其中一支是国安 / http://www.vi.nl/nieuws/chinese-miljoenen-lonken-ook-voor-sneijder.htm
+SiteInfo [name=TribalFootball, count=1] 代表新闻: 厄齐尔：穆斯塔菲加盟阿森纳我做了不少工作 / http://ht.ly/N1DN304xjnw
+SiteInfo [name=欧洲杯官网, count=1] 代表新闻: 勒夫：戈麦斯令德国焕然一新 / http://www.uefa.cn/uefaeuro/news/show/2382258
+SiteInfo [name=the sport review, count=1] 代表新闻: 欧文：穆帅有望接手曼联 / http://www.thesportreview.com/tsr/2016/01/michael-owen-jose-mourinho-will-be-next-man-utd-manager/?
+SiteInfo [name=sporza, count=1] 代表新闻: 费尔通亨或缺阵战威尔士 / http://sporza.be/cm/sporza/voetbal/Euro2016/2.4765/1.2700182
+SiteInfo [name=Go Fund Me, count=1] 代表新闻: 一西汉姆球迷众筹为扎扎购买离队机票 / https://www.gofundme.com/send-zaza-back-to-turin-now
+SiteInfo [name=南都体育, count=1] 代表新闻: 南都体育：多家中超俱乐部欲邀伊涅斯塔遭拒 / http://epaper.oeeee.com/epaper/A/html/2016-12/10/content_103774.htm
+SiteInfo [name=智利足协官网, count=1] 代表新闻: 桑切斯比达尔无缘中国杯，前曼联球星领衔智利名单 / http://www.anfp.cl/noticia/27596/nomina-de-la-seleccion-chilena-para-la-china-cup-2017
+SiteInfo [name=阿根廷民族报, count=1] 代表新闻: 当事记者回应拉维奇事件： 愿上法庭对质 / http://www.lanacion.com.ar/1956695-hablo-gabriel-anello-el-periodista-que-acuso-a-lavezzi-tildo-de-cobardes-a-los-jugadores-y-dijo-tener-mas-datos-del-pocho
+SiteInfo [name=罗马官方微博, count=1] 代表新闻: 热身-皮亚尼奇任意球破门 / http://weibo.com/officialasroma?refer_flag=0000015012_&from=feed&loc=nickname
+SiteInfo [name=usatoday, count=1] 代表新闻: 伊尔马兹：为参赛准备三个月 / http://www.usatoday.com/story/sports/soccer/2016/06/21/after-difficult-months-in-china-yilmaz-shines-for-turkey/86211222/
+SiteInfo [name=马塔个人网站, count=1] 代表新闻: 马塔诗人周记：对阵斯托克城 曼联本应获得胜利 / http://juanmata8.com/en/blog/sometimes-the-score-doesnt-reflect-the-game/
+SiteInfo [name=佩斯卡拉官网, count=1] 代表新闻: 官方：佩斯卡拉续约主帅奥多 / http://www.pescaracalcio.com/lallenatore-massimo-oddo-rinnova-pescara/
+SiteInfo [name=Sempreinter, count=1] 代表新闻: 天空体育：苏宁希望中国人担任国米CEO / http://www.sempreinter.com/2016/11/07/sky-suning-want-chinese-ceo/
+SiteInfo [name=gelderlander, count=1] 代表新闻: 张玉宁：曾因踢不上球沮丧，但如今已更具耐心 / http://www.gelderlander.nl/algemeen/sport/voetbal/fraser-gooit-elftal-weer-om-pec-zwolle-mist-danny-holla-1.6702280
+SiteInfo [name=海伦芬官网, count=1] 代表新闻: 官方：皇马小将厄德高租借至海伦芬 / http://www.sc-heerenveen.nl/nieuws/dinsdag-officile-presentatie-martin-degaard/10
+SiteInfo [name=N24, count=1] 代表新闻: 传狼堡古斯塔沃或加盟恒大 / http://www.n24.de/n24/Sport/Fussball/1-bundesliga/d/8442406/wolfsburg-droht-ausverkauf---rode-und-volland-zoegern.html
+SiteInfo [name=eldiario, count=1] 代表新闻: 皇马前锋本泽马新女友曝光？ / http://www.eldiario.ec/noticias-manabi-ecuador/384902-el-corazon-del-jugador-karim-benzema-late-por-modelo-francesa/
+SiteInfo [name=Wort, count=1] 代表新闻: 未来是他们的 首位00后球员亮相五大联赛 / http://www.wort.lu/fr/sport/les-luxembourgeois-a-l-etranger-vincent-thill-fait-ses-premiers-pas-en-ligue-1-57e2c20bac730ff4e7f66c01
+SiteInfo [name=伯明翰俱乐部, count=1] 代表新闻: 明天会更好！香港商人成伯明翰新东家 / http://www.bcfc.com/news/article/2016-17/birmingham-city-3366523.aspx
+SiteInfo [name=balls.ie, count=1] 代表新闻: 孔帕尼提问奏国歌问题 / http://www.balls.ie/football/what-happens-with-the-national-anthems-if-england-play-northern-ireland/336236
+SiteInfo [name=利兹联官网, count=1] 代表新闻: 官方：比蒂加盟利兹联教练组 / http://www.leedsunited.com/news/article/o9lyx8pd1sa1tpl2mgvvm395/title/beattie-appointed-first-team-coach
+SiteInfo [name=金羊网-新快报, count=1] 代表新闻: 粤媒：鲁能能否顶住小组赛 / http://www.ycwb.com/
+SiteInfo [name=民族报, count=1] 代表新闻: 阿媒：梅西决定重回国家队 / 
+SiteInfo [name=哥伦比亚足协官网, count=1] 代表新闻: 哥伦比亚23人名单：J罗领衔 / http://fcf.com.co/index.php/las-selecciones/seleccion-mayores/2583-convocatoria-seleccion-colombia-para-copa-america-centenario-2016
+SiteInfo [name=利物浦回声, count=1] 代表新闻: 克拉万：战曼城必须马上进入状态 / http://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-defender-ragnar-klavan-ready-12384742
+SiteInfo [name=newsnow.co.uk, count=1] 代表新闻: 纽卡斯尔发布新赛季两款球衣 / 
+SiteInfo [name=superdeporte, count=1] 代表新闻: 西媒：小白受伤后恩佐-佩雷斯电话致歉 / http://www.superdeporte.es/valencia/2016/10/27/iniesta-retrata-barca/314521.html
+SiteInfo [name=里尔官网, count=1] 代表新闻: 里尔租借斯旺西前锋埃德尔 / http://www.losc.fr/actualites-foot-lille/eder-nouvel-attaquant-des-dogues
+SiteInfo [name=上港集团足球俱乐部, count=1] 代表新闻: 博阿斯：感谢俱乐部组建了一个完美团队 / http://mp.weixin.qq.com/s/EPOd4Siqm3NYYJ8vMi73iA
+SiteInfo [name=每日流行, count=1] 代表新闻: 老马：我本意不是批评梅西 / http://www.diariopopular.com.ar/notas/259942-diego-subio-la-apuesta-messi-los-lideres-se-hacen-solos
+SiteInfo [name=ChronicleLive, count=1] 代表新闻: 莫耶斯：切尔西整场都很努力 我们没能限制他们 / http://www.chroniclelive.co.uk/sport/football/football-news/sunderland-vs-chelsea-live-latest-12320102
+SiteInfo [name=西部网, count=1] 代表新闻: 国足12强赛第2个主场设西安 / http://sports.cnwest.com/content/2016-07/08/content_13958887.htm
+SiteInfo [name=Uefa, count=1] 代表新闻: 德国名帅出任罗马尼亚主教练 / http://www.uefa.com/uefaeuro/news/newsid=2389274.html
+SiteInfo [name=-上港官方微信, count=1] 代表新闻: 多哈集训，博阿斯率队观战拜仁热身赛 / http://mp.weixin.qq.com/s/P1lNEeczFu1tsTUuD0oSvw
+SiteInfo [name=上海热线体育频道, count=1] 代表新闻: 根宝成西足首位外籍足协理事 / 
+SiteInfo [name=getfootball, count=1] 代表新闻: 本泽马：想重返国家队 但我会保持耐心 / http://www.getfootballnewsfrance.com/2016/karim-benzema-i-love-my-country/
+SiteInfo [name=We Love Barça, count=1] 代表新闻: 主席：梅西是巴萨的小叮当 / http://www.weloba.com/bartomeu-messi-is-barcas-doraemon
+SiteInfo [name=lefigaro, count=1] 代表新闻: 倒霉！里昂被困土耳其 / http://sport24.lefigaro.fr/football/ligue-1/actualites/l-olympique-lyonnais-bloque-a-istanbul-815320
+SiteInfo [name=北方网, count=1] 代表新闻: 泰达签下95国青小将高嘉润 / http://sports.enorth.com.cn/system/2016/02/26/030830363.shtml
+SiteInfo [name=itv.com, count=1] 代表新闻: 伊布：本可进更多球 但满意自己的表现 / http://www.itv.com/news/update/2016-11-08/zlatan-happy-with-his-season-so-far-at-man-united/
+SiteInfo [name=J联赛官网, count=1] 代表新闻: 官方：三浦知良与横滨FC续约一年 下月年满50 / http://www.jleague.jp/news/article/8182/
+SiteInfo [name=韩国MK体育, count=1] 代表新闻: 韩媒：金周荣或离开上港回归首尔FC / http://sports.mk.co.kr/view.php?sc=71000003&cm=%C3%E0%B1%B8&year=2016&no=872490&relatedcode=&mc=S
+SiteInfo [name=天津权健官方微博, count=1] 代表新闻: 卡纳瓦罗捧世界杯满十周年 / http://weibo.com/fcquanjian?refer_flag=1001030103_&is_all=1#1468077057621
+SiteInfo [name=IL TEMPO, count=1] 代表新闻: 意媒:鲁能报价热鸟1300万 / http://www.iltempo.it/sport/calcio/2016/01/25/baldissoni-gervinho-vuole-andare-via-1.1501374
+SiteInfo [name=美因茨官网, count=1] 代表新闻: 官方：美因茨签下克罗地亚18岁小将 / http://www.mainz05.de/mainz05/aktuell/news/news-detail/article/verteidiger-talent-wechselt-nach-mainz.html
+SiteInfo [name=慕尼黑1860, count=1] 代表新闻: 官方：前药厂后卫自由加盟慕尼黑1860 / http://www.tsv1860.de/de/Aktuelles_News/2430.htm
+SiteInfo [name=RAC1电台, count=1] 代表新闻: 亲哥：乌姆蒂蒂能防C罗 / 
+SiteInfo [name=重庆当代力帆足球俱乐部, count=1] 代表新闻: 热身-吉利奥蒂破门，力帆1-2格拉纳达B队 / http://mp.weixin.qq.com/s?__biz=MzA3OTMyMjQxMQ==&mid=2649626090&idx=1&sn=67f2ff57986a92b332370a3dea6afd21&chksm=87aff9aeb0d870b8241fe9e82ec8e3d5be67c65a350ddc847f63065a8f52dbe3c4a7ae9d6df8#rd
+SiteInfo [name=talkingbaws, count=1] 代表新闻: 杰拉德亨德森感谢功勋理疗师 / http://talkingbaws.com/2016/06/steven-gerrard-and-jordan-henderson-praise-liverpools-outgoing-physio/?
+SiteInfo [name=Donbalon, count=1] 代表新闻: 西媒：皮克和西蒙尼赛后冲突 / http://www.donbalon.com/noticia/detalle/27230/pique-perdio-la-cabeza-con-simeone-tras-la-eliminacion-en-la-champions
+SiteInfo [name=广州市人社局, count=1] 代表新闻: 广州公示引进人才入户名单：郜林在列 / http://www.hrssgz.gov.cn/vsgzpiapp01/GZPI/Gateway/PersonIntroducePublicity.aspx
+SiteInfo [name=ojogo, count=1] 代表新闻: 葡媒：上港即将引进塔利斯卡 / http://www.ojogo.pt/futebol/1a-liga/benfica/noticias/interior/rui-vitoria-ja-riscou-talisca-5230943.html
+SiteInfo [name=欧足联中文官网, count=1] 代表新闻: 随队记者：C罗展现领袖气质 / http://www.uefa.cn/uefaeuro/news/show/2389046
+SiteInfo [name=沙佩科恩斯官网, count=1] 代表新闻: 官方：沙佩科恩斯签下三名新球员 / http://www.chapecoense.com/2016/noticias/382
+SiteInfo [name=Boa Informacao, count=1] 代表新闻: 巴媒：卢森博格患重度抑郁 / http://boainformacao.com.br/2016/06/vanderlei-luxemburgo-esta-com-depressao/
+SiteInfo [name=stadio24, count=1] 代表新闻: 意媒：卡佩罗拒绝任中国主帅 / http://stadio24.com/2016/84547/milan-berlusconi-pensa-a-capello-cds/
+SiteInfo [name=Talk Sport, count=1] 代表新闻: 罗杰斯：本赛季利物浦必将夺得英超冠军 / http://talksport.com/football/listen-brendan-rodgers-says-jurgen-klopp-can-end-liverpools-26-year-premier-league-title
+SiteInfo [name=格兰纳达官网, count=1] 代表新闻: 格兰纳达签下前巴萨边锋昆卡 / http://www.granadacf.es/noticia/isaac-cuenca-ultimo-refuerzo-para-el-granada-cf?platform=hootsuite
+SiteInfo [name=blastingnews, count=1] 代表新闻: 巴媒：蒙蒂略已与巴甲球队博塔弗戈达成加盟协议 / http://br.blastingnews.com/esporte/2016/12/botafogo-acerta-a-contratacao-do-meia-montillo-diz-jornalista-001314815.html
+SiteInfo [name=Tuttonapoli, count=1] 代表新闻: 贾凯里尼：不想离开那不勒斯 我想踢更多比赛 / http://www.tuttonapoli.net/in-evidenza/giaccherini-pensavo-di-giocare-di-piu-ma-non-voglio-andar-via-siamo-una-grande-squadra-300380
+SiteInfo [name=上海上港官方微博, count=1] 代表新闻: 埃里克森：浩克还需2周复出 / http://mp.weixin.qq.com/s?__biz=MzA5NjQzNTI3MQ==&mid=2690278412&idx=1&sn=4a30ca26741c965f4972339e35dfe054#rd
+SiteInfo [name=foot-sur7, count=1] 代表新闻: 法媒：卡瓦尼已拒权健邀请，帕斯托雷仍在犹豫 / https://www.foot-sur7.fr/349641-psg-mercato-javier-pastore-envisagerait-un-depart-vers-la-chine
+SiteInfo [name=sportalkorea, count=1] 代表新闻: 韩媒：韩国足球名宿金南一加盟苏宁教练组 / http://www.sportalkorea.com/news/view.php?gisa_uniq=2016112300201313&section_code=20&cp=se&gomb=1
+SiteInfo [name=chosun, count=1] 代表新闻: 韩媒：上港华夏幸福重金邀请寄诚庸，开1500万镑年薪 / http://sports.chosun.com/news/ntype.htm?id=201612070100052390003358&servicedate=20161206
+SiteInfo [name=日本足协, count=1] 代表新闻: 日本将与巴西国奥踢热身赛 / http://www.jfa.jp/news/00009952/
+SiteInfo [name=门兴官方推特, count=1] 代表新闻: 门兴官方推特祝福梅西早日康复 / https://twitter.com/borussia
+SiteInfo [name=espn.uol, count=1] 代表新闻: 巴媒：中国球队与热那亚等球队抢购巴甲边锋 / http://espn.uol.com.br/noticia/656351_china-promete-oferta-por-marinho-e-vitoria-avisa-fla-nada-de-troca-ou-parcelado
+SiteInfo [name=footballchannel, count=1] 代表新闻: J联赛主席：中超亚冠战绩出色，日本球队要有危机感 / http://www.footballchannel.jp/2016/12/21/post191097/
+SiteInfo [name=CIES足球天文台, count=1] 代表新闻: 转会身价排行：梅内前二 / http://www.football-observatory.com/-News,24-?annee=2016&mois=01&am=2016-01
+SiteInfo [name=getn, count=1] 代表新闻: 法国U21大名单：小登贝莱入选 / http://www.getfootballnewsfrance.com/2016/france-u21s-squad-announced-to-face-ivory-coast-england/
+SiteInfo [name=华龙网, count=1] 代表新闻: 2016重庆将推出60项足球赛 / http://cq.cqnews.net/html/2016-02/24/content_36418185.htm
+SiteInfo [name=布雷西亚官网, count=1] 代表新闻: 布罗基出任布雷西亚主帅 / http://www.bresciacalcio.it/index.php
+SiteInfo [name=切尔西中国官网, count=1] 代表新闻: 洛夫图斯-奇克：机会难得 / http://china.chelseafc.com/news/latest-news/2016/04/loftus-cheek--good-chance.html
+SiteInfo [name=富力官方微信, count=1] 代表新闻: 乌索：很荣幸来到富力 尽全力帮助球队 / http://mp.weixin.qq.com/s?__biz=MjM5MTQ0MjUzMw==&mid=2653968637&idx=1&sn=e7b2074410f2ce3f967fd3b9a87c2a51&chksm=bd718bf78a0602e188220379001cc523cacf9c5536369d957cc28d5d00a4adb365b4f55ab957&mpshare=1&scene=23&srcid=0109MEIbhGKHku0PbqaZfCcr#rd
+SiteInfo [name=拜因体育, count=1] 代表新闻: 恐怖！ISIS当街斩首四名球员 / 
+SiteInfo [name=如此足球, count=1] 代表新闻: 佩兰：中国本土前锋基本都在中超坐板凳 / http://www.sofoot.com/
+SiteInfo [name=体坛加, count=1] 代表新闻: 卡塔尔记者：里皮很强 但改变不了比赛结果 / 
+SiteInfo [name=波尔图官网, count=1] 代表新闻: 波尔图主席否认批评了卡西 / http://www.fcporto.pt/pt/noticias/Pages/presidente-sobre-noticia-casillas.aspx
+SiteInfo [name=hankookilbo, count=1] 代表新闻: 韩媒传张贤秀入选韩国国奥 / https://hankookilbo.com/v/521bdfc40f2f763bd9ccc267fde55653
+SiteInfo [name=footyheadline, count=1] 代表新闻: 国米新赛季第三客场球衣 / http://www.footyheadlines.com/2016/04/inter-16-17-third-kit.html
+SiteInfo [name=电报, count=1] 代表新闻: 英媒：埃弗顿或追逐西古德森 / http://www.telegraph.co.uk/football/2016/07/21/everton-line-up-a-25-million-bid-for-gylfi-sigurdsson/
+SiteInfo [name=allnigeriasoccer, count=1] 代表新闻: 加盟申花？伊哈洛：我什么都不知道 / http://allnigeriasoccer.com/read_news.php?nid=21629
+SiteInfo [name=TYC体育频道, count=1] 代表新闻: 马蒂诺：会研究中超联赛的 / http://www.tycsports.com/futbol/martino-lo-fundamental-son-las-eliminatorias
+SiteInfo [name=荷兰足球新闻站, count=1] 代表新闻: 库尔图瓦疑似炮轰国家队主帅 / http://www.vi.nl/nieuws/courtois-zet-vraagtekens-bij-positie-wilmots.htm
+SiteInfo [name=山东商报, count=1] 代表新闻: 鲁媒：周海滨确定重回鲁能，近日将与球队会合 / http://60.216.0.164:99/html/2017-01/06/content_218120.htm
+SiteInfo [name=西布朗维奇官网, count=1] 代表新闻: 西布朗宣布与林德加德解约 / http://www.wba.co.uk/news/article/2016-17/anders-lindegaard-west-brom-albion-mutual-consent-free-agent-3163971.aspx
+SiteInfo [name=dfb, count=1] 代表新闻: 小狮子：我和莱诺关系融洽 / http://www.dfb.de/en/news/detail/ter-stegen-fully-focussed-on-euro-2016-146954/p/2/
+SiteInfo [name=90min.com, count=1] 代表新闻: 德拉克斯勒与布冯比赛很荣幸 / 
+SiteInfo [name=le10sport, count=1] 代表新闻: 法媒：中国球队欲引进卡瓦尼 / http://www.le10sport.com/football/mercato/mercato-psg-une-offre-pharaonique-venue-de-chine-pour-edinson-cavani-235837
+SiteInfo [name=TheSportbible, count=1] 代表新闻: 未随队登机的沙佩科恩斯门将宣布退役 / http://www.thesportbible.com/football/news-chapecoense-goalkeeper-nivaldo-announces-immediate-retirement-20161130
+SiteInfo [name=Fox Sports, count=1] 代表新闻: 美国职业足球大联盟纽约宇宙队即将解散 / http://www.foxsports.com/soccer/story/nasls-new-york-cosmos-cease-operations-terminate-all-player-contracts-120616
+SiteInfo [name=切赫个人官网, count=1] 代表新闻: 切赫正式宣布从国家队退役 / http://www.petr-cech.com//petr-cech.cz/novinky/petr-is-done-with-the-national-team-its-time-for-me-to-go-he-says/
+SiteInfo [name=参考消息, count=1] 代表新闻: 港媒：北京将足球纳入中考 / http://www.cankaoxiaoxi.com/china/20160118/1055615.shtml
+SiteInfo [name=www.dfb.de, count=1] 代表新闻: 基米希：外界压力不会压垮我 / http://www.dfb.de/news/detail/kimmich-ein-highlight-jagt-das-naechste-155217/
+SiteInfo [name=都市快报, count=1] 代表新闻: 浙媒：赵宇豪将加盟华夏幸福，黄希扬或前往武汉 / http://hzdaily.hangzhou.com.cn/dskb/html/2017-01/07/node_1255.htm
+SiteInfo [name=墨尔本城官网, count=1] 代表新闻: 澳洲中场核心穆伊加盟曼城 / http://www.melbournecityfc.com.au/article/melbourne-city-fc-player-update/1n1zdb8j3i7f6146kxvdiez250
+SiteInfo [name=CNTV, count=1] 代表新闻: 张斌：只要调整策略，中国队还有出线希望 / 
+SiteInfo [name=昆明信息港, count=1] 代表新闻: 专家：卡塔尔模拟高原环境训练作用不大 / http://xw.kunming.cn/a/2016-11/13/content_4421707.htm
+SiteInfo [name=郑州晚报, count=1] 代表新闻: 豫媒：贾秀全赴欧选外援，戈麦斯哈维尔已完成续约 / http://zzwb.zynews.cn/html/2016-12/06/content_794125.htm
+SiteInfo [name=上海文汇报, count=1] 代表新闻: 沪媒：尴尬的中国杯让申花上港很“受伤” / http://whb.news365.com.cn/ty/201701/t20170102_2672454.html
+SiteInfo [name=realitatea, count=1] 代表新闻: 外媒：佩帅将与安致达成协议 / http://www.realitatea.net/dan-petrescu-si-a-gasit-echipa-tot-in-rusia_1942274.html
+SiteInfo [name=澳足总官网, count=1] 代表新闻: 澳大利亚国青名单：6海归助阵 / http://youngsocceroos.footballaustralia.com.au/article/young-socceroos-squad-named-for-afc-u-19-championship/1taaoa9ohzccz1xvdfgo3po1py
+SiteInfo [name=中国体育报, count=1] 代表新闻: 足管中心申请注销登记 / http://read.sportspress.cn/zgtyb/html/2016-06/13/node_2.htm#
+SiteInfo [name=央视新闻, count=1] 代表新闻: 习近平主席向巴西和玻利维亚总统致慰问电 / 
+SiteInfo [name=mirror, count=1] 代表新闻: 布兰科成为英格兰新帅的候选 / http://www.mirror.co.uk/sport/football/news/england-manager-hunt-sees-laurent-8310761
+SiteInfo [name=皇家贝蒂斯官网, count=1] 代表新闻: 官方：波耶特出任贝蒂斯主帅 / http://www.realbetisbalompie.es/en/noticias/last-news/6883/gustavo-poyet-entrenador-del-real-betis-para-las-d
+SiteInfo [name=转会市场官网, count=1] 代表新闻: 国足球衣号码：张稀哲10号 / http://www.transfermarkt.com/china/startseite/verein/5598/saison_id/2015
+SiteInfo [name=丹麦足协官网, count=1] 代表新闻: 丹麦最新名单：舒梅切尔领衔 / http://www.dbu.dk/Nyheder/2016/Maj/mike_jensen_tilbage_paa_landsholdet
+SiteInfo [name=foreverwestham.com, count=1] 代表新闻: 西汉姆的伊布梦破灭 / http://foreverwestham.com/2016/04/blog-topics/christian-dailly-hammers-news/west-ham-suffer-blow-in-star-striker-pursuit?utm_source=dlvr.it&utm_medium=twitter
+SiteInfo [name=南德意志晚报, count=1] 代表新闻: 安切洛蒂：球员们玩手机太多，交流的太少 / 
+SiteInfo [name=德国踢球者, count=1] 代表新闻: 德国“踢球者”：盘点历届金童奖得主 / http://www.kicker.de/news/fussball/intligen/startseite/561639/2/slideshow_sanches-ist-golden-boy-2016_das-wurde-aus-den-vorgaengern.html
+SiteInfo [name=中国足协杯公众号, count=1] 代表新闻: 恒大苏宁超级杯名单出炉 / http://mp.weixin.qq.com/s?__biz=MzAwMTY2NTU1NQ==&mid=401604818&idx=1&sn=0fb124cb93f3914a116aa90c9a8b2a6d&scene=4#wechat_redirect
+SiteInfo [name=FIFA.COM, count=1] 代表新闻: 勒纳尔接任摩洛哥国家队主帅 / http://www.fifa.com/world-match-centre/news/newsid/276/550/4/index.html
+SiteInfo [name=上海浦东新区政府官网, count=1] 代表新闻: 孔卡入浦东十大杰出青年评选 / http://usercenter.pudong.gov.cn/website/newvote_sdjc_2016/pdvote_contentnew.jsp?ct_id=238246&content_flag=true&th_id=44
+SiteInfo [name=广州富力俱乐部, count=1] 代表新闻: 省港杯首回合-廖均健破门，广东3-2香港 / http://weibo.com/ttarticle/p/show?id=2309404059185057778080
+SiteInfo [name=Gola.com, count=1] 代表新闻: 佩工：曼加拉可以胜任欧洲杯 / http://www.goal.com/en/news/468/international-football/2016/04/25/22788312/mangala-would-shine-at-euro-2016-pellegrini?ICID=OP
+SiteInfo [name=RMC电台, count=1] 代表新闻: 蒂亚戈-席尔瓦：两名新援能帮巴黎卫冕法甲 / http://rmcsport.bfmtv.com/football/psg-thiago-silva-deja-emballe-par-draxler-et-lo-celso-1077835.html
+SiteInfo [name=sentragoal, count=1] 代表新闻: 外媒：国安700万欧报价希腊豪门射手 / http://www.sentragoal.gr/panathinaikos/arthro/kineziki_omada_ekane_krousi_gia_ton_mpergk-130703531/
+SiteInfo [name=dunya, count=1] 代表新闻: 博尔特：我想综合梅西和C罗的脚下技术 / http://dunyanews.tv/en/Sports/359887-Usain-Bolt-says-he-would-to-be-both-Messi-and-Rona
+SiteInfo [name=footballdatabase.com, count=1] 代表新闻: 亚洲俱乐部排名：恒大仍居首 / http://footballdatabase.com/ranking/asia/1
+SiteInfo [name=弗赖堡官网, count=1] 代表新闻: 官方：弗赖堡续约阿尔巴尼亚中场阿布拉什 / https://www.scfreiburg.com/news/amir-abrashi-verlaengert-vertrag
+SiteInfo [name=ITV, count=1] 代表新闻: 拉涅利或将错过夺冠时刻 / http://47.89.25.110/tuite/showurl?url=https%3A%2F%2Ft.co%2Fd2KDpWRgEa+
+SiteInfo [name=sunnewsonline, count=1] 代表新闻: 11日对阵门兴 米克尔有望上演泰达首秀 / http://sunnewsonline.com/mikel-debuts-for-tianjin-jan-11-in-germany/
+SiteInfo [name=a-league.com, count=1] 代表新闻: 澳超官方为惠灵顿凤凰推荐新帅：李铁、陈婉婷上榜 / http://www.a-league.com.au/article/5-asian-based-coaches-for-wellington-phoenix-job/1ir036ahqekfd1jdrgmmuipncr
+SiteInfo [name=希洪竞技官网, count=1] 代表新闻: 官方：希洪签下莫伊-戈麦斯 / http://www.realsporting.com/webrsg/index.php/template/actualidad/6908-moi-gomez-nuevo-fichaje-sportinguista
+SiteInfo [name=NAVER, count=1] 代表新闻: 韩网友讽国足：给朝鲜大米了 / http://www.naver.com/
+SiteInfo [name=188金宝博, count=1] 代表新闻: 亚冠最新夺冠赔率：鲁能第10 / https://www.1eighty8.com/zh-cn/asia
+SiteInfo [name=延边富德官网, count=1] 代表新闻: 足协承认误判并致歉延边 / http://www.yanbianfc.com/index.asp?Page=1&module=Board&action=SiteBoard&sMode=VIEW_FORM&iBrdNo=4&iBrdContNo=66&sBrdContRe=0&sSearchField=&sSearchValue=
+SiteInfo [name=天视体育, count=1] 代表新闻: 卡纳瓦罗：维特塞尔欧洲一流，卡利尼奇只是备选 / 
+SiteInfo [name=人民网, count=1] 代表新闻: 小学生作文吐槽父亲看欧洲杯 / http://www.people.com.cn/
+SiteInfo [name=sixthtone, count=1] 代表新闻: 中西合璧，申鑫主帅谈外籍教练如何打造团队凝聚力 / http://www.sixthtone.com/news/gary-white-managing-shanghai-shenxin
+SiteInfo [name=EA Sports, count=1] 代表新闻: 突如其来的幸福！狐媚FIFA能力值飙升 / http://www.90min.com/posts/4289477-ea-sports-respond-to-mats-hummels-and-give-him-the-upgrade-he-wants-on-fifa?a_aid=35507
+SiteInfo [name=德比郡官网, count=1] 代表新闻: 官方：麦克拉伦重回德比郡执教 / http://www.dcfc.co.uk/news/article/2016-17/derby-county-announce-steve-mcclaren-as-their-new-manager-3359051.aspx
+SiteInfo [name=东方体育日报, count=1] 代表新闻: 李帅：已与郜林打赌发红包 / http://shenhua.online.sh.cn/gb/content/2016-04/29/content_7835340.htm
+SiteInfo [name=半岛晨报, count=1] 代表新闻: 半岛晨报：中乙扩军后或将实行升降级 / http://epaper.hilizi.com/
+SiteInfo [name=Sapo, count=1] 代表新闻: 葡媒：卡瓦略将与上海上港签约一年 / http://desporto.sapo.pt/futebol/internacional/artigo/2017/01/07/shanghai-sipg-contrata-ricardo-carvalho
+SiteInfo [name=皇家贝蒂斯, count=1] 代表新闻: 官方：德尔阿莫接任波耶特成贝蒂斯新帅 / http://www.realbetisbalompie.es/es/noticias/actualidad/7944/victor-sanchez-del-amo-sustituye-gustavo-poyet-al-
+SiteInfo [name=北京国安官网, count=1] 代表新闻: 官方：克里梅茨租借加盟国安 / http://www.guoanclub.com/Index/news_detail/id/493.html
+SiteInfo [name=足球新闻, count=1] 代表新闻: 队友：张玉宁潜力无限 未来是球队第一前锋 / http://www.soccernews.nl/news/378670/Van_Wolfswinkel_is_gek_op_ploeggenoot:_Daar_ben_ik_best_jaloers_op?utm_source=dlvr.it&utm_medium=twitter%E2%80%AC
+SiteInfo [name=帕尔马官网, count=1] 代表新闻: 官方：达韦尔萨出任帕尔马新主帅 / http://parmacalcio1913.com/il-nuovo-allenatore-del-parma-calcio-e-roberto-daversa-lo-ha-presentato-il-vice-presidente-marco-ferrari
+SiteInfo [name=dspdaily, count=1] 代表新闻: 韩媒：河太均或离队，延边将购全北中锋金信煜 / http://dspdaily.com/news/view.php?no=9444
+SiteInfo [name=Worldsoccer, count=1] 代表新闻: 利希施泰纳专访：瑞士需更好 / http://www.worldsoccer.com/euro-2016/interview-with-switzerland-captain-stephan-lichtsteiner-375261
+SiteInfo [name=Teamtalk, count=1] 代表新闻: 拉涅利：不想冠军只考虑比赛 / http://www.teamtalk.com/news/leicester-can-only-think-about-next-match-not-title-ranieri
+SiteInfo [name=钱江晚报, count=1] 代表新闻: 里克林克解约 中国白花2000w / http://qjwb.zjol.com.cn/html/2016-01/26/content_3265100.htm?div=-1
+SiteInfo [name=卡利亚里官网, count=1] 代表新闻: 官方：卡利亚里签下约尼塔 / http://www.cagliaricalcio.com/news/ultimissime/15036/ionita-e-un-giocatore-del-cagliari
+SiteInfo [name=湖北省政府官网, count=1] 代表新闻: 湖北足球改革：4年内踢中超 14年内踢亚冠 / http://gkml.hubei.gov.cn/auto5472/auto5473/201611/t20161109_915376.html
+SiteInfo [name=Outsideoftheboot, count=1] 代表新闻: 瓜迪奥拉和三后卫体系的致命弱点 / http://outsideoftheboot.com/2016/12/16/pep-guardiola-and-the-flaw-of-the-three-man-defence/
+SiteInfo [name=西德意志汇报, count=1] 代表新闻: 库兰伊：收到过中超的报价，但更想留在德国 / http://www.derwesten.de/sport/fussball/s04/kuranyi-es-waere-ein-traum-noch-mal-auf-schalke-zu-helfen-id12323152.html
+SiteInfo [name=永昌官方微博, count=1] 代表新闻: 永昌：对不和谐事件表示歉意 / http://weibo.com/ycjhfc?refer_flag=0000015012_&from=feed&loc=nickname
+SiteInfo [name=fourfourtwo., count=1] 代表新闻: 洛佩特吉：很高兴取得三分，球员们展示了天赋和雄心 / http://www.fourfourtwo.com/news/lopetegui-happy-spain-win
+SiteInfo [name=北京时间, count=1] 代表新闻: 乐视确认与北京国安分手 核心条款未能达成一致 / http://item.btime.com/finance/34s6rjbfbmq8nlqovlva5ji96bj
+SiteInfo [name=皇家社会官网, count=1] 代表新闻: 官方：皇家社会与中场苏鲁图萨续约 / http://www.realsociedad.com/document/view/spa/0/208083/zurutuza--hasta-2019
+SiteInfo [name=AS罗马官网, count=1] 代表新闻: 罗马将穿特别版球衣出战德比 宣传照托蒂帅气依旧 / http://www.asroma.com/it/notizie/2016/11/l-as-roma-giocher-i-derby-di-questa-stagione-con-una-divisa-speciale
+SiteInfo [name=uol, count=1] 代表新闻: 丹特：已不可能重返巴西国家队 / http://esporte.uol.com.br/futebol/ultimas-noticias/2016/11/01/dante-ve-retorno-a-selecao-quase-impossivel-e-elogia-tite.htm
+SiteInfo [name=武磊微信公众号, count=1] 代表新闻: 武磊和上海上港正式续约 / http://mp.weixin.qq.com/s?__biz=MzI4OTEzOTE0MQ==&mid=2650818819&idx=1&sn=50d7f5627a3739cbd718d9ff6c4080d7&scene=4&ptlang=2052&ADUIN=381989571&ADSESSION=1463789488&ADTAG=CLIENT.QQ.5425_.0&ADPUBNO=26509#wechat_redirect
+SiteInfo [name=纽卡尔斯官网, count=1] 代表新闻: 官方：纽卡续约贝尼特斯3年 / http://www.nufc.co.uk/articles/20160525/rafa-stays-at-united_2281670_5598640
+SiteInfo [name=soccernews, count=1] 代表新闻: 荷兰媒体：华夏幸福正与范佩西谈判 / http://www.soccernews.nl/news/371424/Club_onthult:_onderhandelingen_met_Van_Persie_gaande
+SiteInfo [name=futbolgrad, count=1] 代表新闻: 胃口越来越大，中超球队或成俄超、乌超最大威胁 / http://futbolgrad.com/axel-witsel-odil-ahmedov-symbols/
+SiteInfo [name=泰国足协官网, count=1] 代表新闻: 国王去世 泰足协宣布2016泰国足球联赛结束 / http://fathailand.org/archives/11638
+SiteInfo [name=斯图加特官网, count=1] 代表新闻: 官方：斯图加特签下拜仁小将格林 / http://www.vfb.de/de/aktuell/meldungen/news/2016/verpflichtung-julian-green/page/12476-1-3-.html?f3
+SiteInfo [name=鲁能官网, count=1] 代表新闻: 官方：郝伟出任鲁能中方教练组组长 李霄鹏不再兼任此职务 / http://www.lnts.com.cn/news/show/5395.html
+SiteInfo [name=CNN, count=1] 代表新闻: 冰岛：姓罗的我们都不怕 / http://edition.cnn.com/2016/06/06/football/iceland-football-euro-2016-gylfi-sigurdsson-eidur-gudjohnsen-island/index.html
+SiteInfo [name=fcinter1908.it, count=1] 代表新闻: 59岁女球迷将穆帅头像纹胸上：我喜欢他的一切 / http://www.fcinter1908.it/ultimora/e-pazza-di-mourinho-se-lo-tatua-sul-seno-e-il-regalo-di-natale-del-marito/?intcmp=mou-tatuaggio
+SiteInfo [name=直播吧,, count=1] 代表新闻: 赛前曼城全队穿京多安球衣祝福 / 
+SiteInfo [name=科林蒂安官网, count=1] 代表新闻: 官方：江苏苏宁外援若加盟科林蒂安 / http://www.corinthians.com.br/noticias/ver/61146#.WBn9NPl96Uk
+SiteInfo [name=Gosu, count=1] 代表新闻: 阿贾克斯进军电竞行业签下FIFA玩家 / http://www.gosugamers.net/news/41430-afc-ajax-sign-dutch-fifa-pro-enter-esports
+SiteInfo [name=韩国足协, count=1] 代表新闻: 韩足协颁奖礼：奇诚庸第三度当选年度最佳球员 孙兴慜获最佳进球 / 
+SiteInfo [name=济州联官网, count=1] 代表新闻: 官方：永昌后卫赵容亨回归济州联 / http://m.jeju-utd.com/news/news_view.asp?n_no=5741&getNMenu=N010
+SiteInfo [name=twittr, count=1] 代表新闻: 英超官方祝贺中国新年快乐 / https://twitter.com/premierleague/status/696644363053633536?lang=zh-cn
+SiteInfo [name=足球天文台, count=1] 代表新闻: CIES最佳前锋归属梅西 / http://www.cies.ch/cies/news/news/article/best-players-in-attacking-positions-david-silva-and-messi-top-the-tables/
+SiteInfo [name=不莱梅官网, count=1] 代表新闻: 官方：不莱梅签下莫伊桑德 / http://www.werder.de/aktuell/news/profis/20162017/moisander-pm-09072016/
+SiteInfo [name=axelwitsel28, count=1] 代表新闻: 维特塞尔：泽尼特永在我心，我将在中国开启新冒险 / http://www.axelwitsel28.com/zenit-st-petersburg/aw28-thank-you-saint-petersburg/
+SiteInfo [name=莱比锡官网, count=1] 代表新闻: 莱比锡续约中场球员伊尔桑克 / http://www.dierotenbullen.com/neuigkeiten/Saison_2016_17/Vertragsverlaengerung-Stefan-Ilsanker.html
+SiteInfo [name=chile.as.com, count=1] 代表新闻: 外媒：蒙蒂略已收中超球队报价 / http://chile.as.com/chile/2016/11/22/futbol/1479841871_670448.html
+SiteInfo [name=足协杯官方公众号, count=1] 代表新闻: 足协杯第二轮下周中开打 / http://mp.weixin.qq.com/s?__biz=MzAwMTY2NTU1NQ==&mid=402392057&idx=1&sn=457b4ca7be8a0555650c015f78d0a4f2&scene=0#wechat_redirect
+SiteInfo [name=NBC体育, count=1] 代表新闻: 近了！拉维奇接近加盟申花！ / http://soccer.nbcsports.com/2016/02/06/another-one-lavezzi-the-latest-star-set-for-the-riches-of-china/?
+SiteInfo [name=backpage, count=1] 代表新闻: 外媒确认：拉维奇将加盟华夏 / http://backpagefootball.com/lavezzi/104739/?
+SiteInfo [name=premierleague.com, count=1] 代表新闻: 伯恩茅斯签下美国中场辛德曼 / http://www.premierleague.com/en-gb/news/news/2016-17/jun/170616-afc-bournemouth-sign-united-states-midfielder-emerson-hyndman.html
+SiteInfo [name=fut, count=1] 代表新闻: 艾哈迈多夫：来中超非职业生涯的倒退 / http://www.fut.uz/news/sections/asia/219174
+SiteInfo [name=胡尔城官网, count=1] 代表新闻: 胡尔城租借曼联中场鲍威尔 / http://www.hullcitytigers.com/news/article/nick-powell-arrives-on-loan-from-manchester-united-2933307.aspx
+SiteInfo [name=TheGuardian, count=1] 代表新闻: 风华正茂的年纪，他们缘何退役 / https://www.theguardian.com/football/blog/2016/sep/23/joy-of-six-footballers-who-voluntarily-retired-in-their-20s
+SiteInfo [name=大阪樱花官网, count=1] 代表新闻: 人和外援桑托斯加盟大阪樱花 / https://www.cerezo.co.jp/news/2016-01-14-5/
+SiteInfo [name=延边官方订阅号, count=1] 代表新闻: 延边富德客战华夏幸福海报 / http://mp.weixin.qq.com/s?__biz=MjM5MTA2ODQ0Mg==&mid=2651786174&idx=1&sn=330b8c2b8b316aacda51a177d657b9ad&scene=23&srcid=0521c1pQ5U5R3t4rxE7eHqpj#rd
+SiteInfo [name=Dhnet, count=1] 代表新闻: 传苏宁敲定意大利前锋奥卡卡 / http://www.dhnet.be/sports/football/division1/anderlecht/okaka-est-presque-en-chine-57717bd735705701fd90c76f
+SiteInfo [name=塔斯社, count=1] 代表新闻: 胡尔克在上港年薪为1250万欧 / http://tass.ru/sport/3412231
+SiteInfo [name=莱斯特官网, count=1] 代表新闻: 莱斯特正式对瓦尔迪红牌提出上诉 / http://www.lcfc.com/news/article/2016-17/club-statement-vardy-appeal-lodged-3478424.aspx
+SiteInfo [name=墨尔本胜利官网, count=1] 代表新闻: 墨尔本胜利公布亚冠名单 / http://www.melbournevictory.com.au/article/melbourne-victory-names-2016-afc-champions-league-squad/u5m4y2uwm3fw117b0mlxjrd7u
+SiteInfo [name=恒大官网, count=1] 代表新闻: 郜林追平恒大队史77球纪录 / http://www.gzevergrandefc.com/data.aspx
+SiteInfo [name=.instagram, count=1] 代表新闻: 穆帅更新INS：中国，我来了 / https://www.instagram.com/p/BIC1_JkjhH-/?taken-by=josemourinho
+SiteInfo [name=Footballdatabase, count=1] 代表新闻: 俱乐部排名：巴萨世界第一 / http://footballdatabase.com/ranking/asia/1
+SiteInfo [name=Talking Baws, count=1] 代表新闻: 推特球迷众筹飞机拉横幅催穆帅下课 / https://www.talkingbaws.com/2016/10/man-utd-fans-organising-plane-fly-old-trafford-mourinho-banner/
+SiteInfo [name=江苏苏宁官方微博, count=1] 代表新闻: 苏宁女子足球俱乐部成立 / http://weibo.com/p/1001603959132800572918
+SiteInfo [name=football365., count=1] 代表新闻: 科曼：深知执教埃弗顿的不易 自己还需要些时间 / http://www.football365.com/news/koeman-i-did-not-expect-an-easy-job-at-everton
+SiteInfo [name=gianlucadimarzio, count=1] 代表新闻: 巴卡向西汉姆索要400万年薪 / http://gianlucadimarzio.com/en/eng/west-ham-fails-to-reach-agreement-with-baccas-agents-the-latest/
+SiteInfo [name=重庆力帆官方微信, count=1] 代表新闻: 扬帆起航！力帆前往西班牙进行集训 / http://mp.weixin.qq.com/s?__biz=MzA3OTMyMjQxMQ==&mid=2649626038&idx=1&sn=c29c259b706f1c93d00972c9e2c00a1d&chksm=87aff9f2b0d870e46b654952d447800365e7af7a47bf85d879d71a89bc1229e8237a7401d112#rd
+SiteInfo [name=世界体育杂志, count=1] 代表新闻: 专访勒夫&厄齐尔：期待夺冠 / http://www.worldsoccer.com/euro-2016/germany-coach-interview-joachim-low-2-375978
+SiteInfo [name=Football Italia staff, count=1] 代表新闻: 紫百合目标锁定胡尔城前锋 / http://www.football-italia.net/86331/fiorentina-target-abel-hernandez
+SiteInfo [name=Gulf Times, count=1] 代表新闻: 武磊：与外援对抗让我变更强 / http://www.gulf-times.com/story/504204/We-will-treat-Qatar-with-respect-says-Wu-Lei
+SiteInfo [name=毕巴官网, count=1] 代表新闻: 官方：毕尔巴鄂竞技与阿杜里斯续约至2018年 / http://www.athletic-club.eus/en/news/17412/aritz-adurizs-contract-renewal.html
+SiteInfo [name=南华早报, count=1] 代表新闻: 南华早报：足协24号官宣里皮 / 
+SiteInfo [name=Libertad Digital, count=1] 代表新闻: C罗：A22应该向小白学习 / http://m.libertaddigital.com/deportes/futbol/2016/01/12/cristiano-ronaldo-a-dani-alves-no-hables-de-mi-vida-privada-1276565459/
+SiteInfo [name=enjoyz, count=1] 代表新闻: 葡萄紫Magista实拍照曝光 / http://www.enjoyz.com/news/boots/2016/0121/10085.html
+SiteInfo [name=leadership, count=1] 代表新闻: 尼日利亚国家队主帅：去中超踢球对米克尔有好处 / http://leadership.ng/sports/566476/china-move-good-for-mikel-rohr
+SiteInfo [name=金足奖官网, count=1] 代表新闻: 2016金足奖10人候选：梅西首次入选 / http://goldenfoot.com/
+SiteInfo [name=Football Espana, count=1] 代表新闻: 葡媒：皇马将开始考察里斯本竞技边锋马丁斯 / http://www.football-espana.net/61388/rm-scout-gelson-martins
+SiteInfo [name=万达体育官方微博, count=1] 代表新闻: 中国杯冰岛名单：四大主力领衔来华 / http://weibo.com/u/5829956914?profile_ftype=1&is_all=1#_rnd1482111031041
+SiteInfo [name=espnfcasia, count=1] 代表新闻: 什琴斯尼希望C罗在波兰队中 / http://www.espnfcasia.com/european-championship/story/2903710/portugal-not-just-cristiano-ronaldo-poland-keeper-wojciech-szczesny
+SiteInfo [name=DeportesRCN, count=1] 代表新闻: J罗：希望有更多出场时间，和齐达内关系不错 / http://www.deportesrcn.com/curiosidades/james-rodriguez-cuando-uno-esta-adentro-uno-no-se-da-cuenta-de-todo-lo-que-es-el-real
+SiteInfo [name=都市热报, count=1] 代表新闻: 10名教练报名应聘国足主帅 / http://szb.cqdsrb.com.cn/html/2016-01/26/content_478297.htm
+SiteInfo [name=卡塔尔足协官网, count=1] 代表新闻: 国足对手卡塔尔公布12强赛大名单 / http://www.qfa.qa/fossati-names-squad-ahead-of-russia-friendly-wc-qualifier/
+SiteInfo [name=RTBF.be, count=1] 代表新闻: 比媒：天津权健即将签下维特塞尔 / https://www.rtbf.be/sport/football/etranger/russie/detail_axel-witsel-27-ans-quitte-le-zenit-pour-shanghai-sipg?id=9492781
+SiteInfo [name=博洛尼亚官网, count=1] 代表新闻: 博洛尼亚签下米兰小将维尔迪 / https://www.bolognafc.it/simone-verdi-al-bologna/
+SiteInfo [name=premierleague, count=1] 代表新闻: 马夏尔进球创纪录 / http://www.premierleague.com/en-gb/news/news/2015-16/may/020516-matchweek36-man-utd-vs-leicester-post-match-stats.html
+SiteInfo [name=fichajes, count=1] 代表新闻: 中国17岁小将试训西班牙人 / http://www.fichajes.net/noticias/joven-estrella-china-espanyol-20160412.html
+SiteInfo [name=济南时报, count=1] 代表新闻: 巴媒：吉尔即将加盟鲁能 / http://www.e23.cn/
+SiteInfo [name=云达不莱梅官网, count=1] 代表新闻: 官方：乌贾转会辽宁宏运 / http://www.werder.de/aktuell/news/profis/20162017/ujah-nach-china-05072016-kopie-1/
+SiteInfo [name=evening-standard, count=1] 代表新闻: 默特萨克：相信复出后仍是球队的重要一员 / http://www.standard.co.uk/sport/football/per-mertesacker-believes-he-can-still-be-an-important-player-for-arsenal-when-he-recovers-from-knee-a3361161.html
+SiteInfo [name=uol.com, count=1] 代表新闻: 沙佩科新帅：球队需要从阴影中走出来 / http://esporte.uol.com.br/futebol/campeonatos/libertadores/ultimas-noticias/2016/12/21/vagner-mancini-ve-grupo-duro-da-chapecoense-na-libertadores-2017.htm
+SiteInfo [name=葡萄牙足球中心, count=1] 代表新闻: 葡萄牙球队签下中国球员郝伯 / http://mp.weixin.qq.com/s?__biz=MzI0NjIxMzI0OQ==&mid=2657566777&idx=3&sn=dae78e7e10a5832a572786bff9521020&chksm=f2d15fd7c5a6d6c17a92ebd4a9786172ebec9504c19e66e3fe0f9f855e6c0b8cdd72245224a6&scene=4#wechat_redirect
+SiteInfo [name=sport.hrt.hr, count=1] 代表新闻: 克罗地亚足协主席：奖金高，中国杯并非鸡肋 / http://sport.hrt.hr/366066/suker-o-odlasku-na-china-cup-zna-se-zasto-se-ide-na-azijske-turneje
+SiteInfo [name=北京体育广播, count=1] 代表新闻: 杨智：我已和北京国安续约三年 / http://www.rbc.cn/audio/xiongjichangxiao.shtml?parent=2975&node=3223
+SiteInfo [name=罗萨里奥中央官网, count=1] 代表新闻: 官方：蒙特罗出任阿甲球队主帅 / http://www.rosariocentral.com/nota/27210-montero-es-el-nuevo-dt-de-central/
+SiteInfo [name=乐视体育, count=1] 代表新闻: 秦升笑称：要教外援学中文 / http://sports.letv.com/video/24427897.html
+SiteInfo [name=意大利足协网站, count=1] 代表新闻: 意大利欧战最后热身对手确定 / http://www.figc.it/it/204/2531086/2016/02/News.shtml
+SiteInfo [name=xnet, count=1] 代表新闻: 扎哈维：展示诚意的方式是开出更高工资 / http://xnet.ynet.co.il/articles/0,7340,L-4865904,00.html
+SiteInfo [name=AC米兰官推, count=1] 代表新闻: 米兰公布本轮联赛大名单：巴卡受伤未入选 / http://47.89.25.110/tuite/showurl?url=https%3A%2F%2Ft.co%2FzljtmxHIWH
+SiteInfo [name=n1info, count=1] 代表新闻: 外媒：多支中超球队有意延边后卫尼古拉 / http://rs.n1info.com/a202097/Sport-Klub/Fudbal/Sjajna-Petkoviceva-sezona-u-Janbianu.html
+SiteInfo [name=埃瓦尔官网, count=1] 代表新闻: 官方：赫塔菲签佩德罗-莱昂 / http://www.sdeibar.com/en/notice/sd-eibar-signs-pedro-leon-for-two-seasons
+SiteInfo [name=曼萨诺个人网站, count=1] 代表新闻: 曼萨诺：中国足协联系过我 但我拒绝了 / http://www.gregoriomanzano.es/web/resumen-final-temporada-2016/
+SiteInfo [name=as.com, count=1] 代表新闻: M－苏亚雷斯：西蒙尼是我遇到的最好的教练 / http://en.as.com/en/2016/10/17/football/1476701711_566846.html?omnil=resscrlltit
+SiteInfo [name=北京国安官方微博, count=1] 代表新闻: 国安门将杨智迎来生涯300场 / http://weibo.com/p/1001603974787880900391
+SiteInfo [name=Bandsports, count=1] 代表新闻: 巴西媒体宣布将要直播中超 / http://bandsports.band.uol.com.br/noticia.asp?id=100000802929&t=&t=bandsports-transmite-campeonato-chines-a-partir-desta-sexta
+SiteInfo [name=回声报, count=1] 代表新闻: 利物浦小将或今夏离队 / http://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-ready-jordon-ibe-offers-11382333
+SiteInfo [name=直播吧二二, count=1] 代表新闻: 尤文：饮冰十年，难凉热血 / 
+SiteInfo [name=首尔体育, count=1] 代表新闻: 韩国主帅：对阵中国认真对待 / http://www.sportsseoul.com/news/read/379994
+SiteInfo [name=每日新闻, count=1] 代表新闻: 日本足协举办亚冠动员大会 / http://mainichi.jp/articles/20160217/k00/00m/050/003000c
+SiteInfo [name=深圳商报, count=1] 代表新闻: 孙继海李毅将参加足球真人秀，蔡振华之子也将参与录制 / http://szsb.sznews.com/html/2017-01/10/content_3705474.htm
+SiteInfo [name=柏林联合官网, count=1] 代表新闻: 官方：柏林联合签约小克罗斯 / http://www.fc-union-berlin.de/profis/aktuelle-meldungen/detail/Dreijahresvertrag-1-FC-Union-Berlin-verpflichtet-Felix-Kroos-vom-SV-Werder-Bremen-18394P/
+SiteInfo [name=央视, count=1] 代表新闻: 国足对手叙利亚面临重重困难 / 
+SiteInfo [name=Eurosport, count=1] 代表新闻: 罗马警察执勤德比忘情庆祝将受罚 / http://it.eurosport.com/calcio/serie-a/2016-2017/il-vigile-tifoso-del-derby-sara-sanzionato_sto5973023/story.shtml#it-yh-rf
+SiteInfo [name=多特蒙德官方网站, count=1] 代表新闻: 狐媚：德国杯是最好的分手礼 / http://www.bvb.de/News/Uebersicht/Hummels-verlaesst-Borussia-Dortmund-im-Sommer
+SiteInfo [name=财新网, count=1] 代表新闻: 乐视27亿签中超2年独家版权 / http://companies.caixin.com/2016-02-18/100910355.html
+SiteInfo [name=广州日报大洋网, count=1] 代表新闻: 苏宁的"3天才+7莽夫"模式 / 
+SiteInfo [name=塞尔维亚足协官网, count=1] 代表新闻: 富力主帅当选塞尔维亚年度最佳教练 / http://www.fss.rs/index.php?id=21&aid=11680
+SiteInfo [name=thenationonlineng, count=1] 代表新闻: 前英格兰前锋支持米克尔来华踢球：换了我也会这么做 / http://thenationonlineng.net/mikels-china-switch-good-financial-security-fashanu/
+SiteInfo [name=中国足球队微博, count=1] 代表新闻: 里皮：对国脚了解逐渐加深 中国杯蔡慧康任队长 / 
+SiteInfo [name=london24, count=1] 代表新闻: 波切蒂诺：拉梅拉生病了 / http://www.london24.com/sport/football/clubs/tottenham/tottenham_boss_reveals_star_is_a_fiorentina_fitness_worry_1_4427405
+SiteInfo [name=马卡, count=1] 代表新闻: 马竞补强锋线瞄准多名大牌 / http://www.marca.com/en/football/spanish-football/2016/06/30/5774d002468aeba55e8b457c.html
+SiteInfo [name=nieuws, count=1] 代表新闻: 维特塞尔：不在意外界对自己去中超踢球的批评 / http://nieuws.vtm.be/stadion/220943-witsel-wil-ceo-worden-na-mijn-voetbalcarriere
+SiteInfo [name=fourfourwtwo, count=1] 代表新闻: 蒙特拉：裁判也会犯错，希望队员们发挥得更好 / http://www.fourfourtwo.com/news/montella-feels-ac-milan-lacked-courage
+SiteInfo [name=FOX电视台, count=1] 代表新闻: 阿根廷队主帅：巴萨没照顾好梅西 / http://www.foxsports.com/
+SiteInfo [name=星期日泰晤士报, count=1] 代表新闻: 中国富豪求购利物浦遭拒绝 / http://www.thetimes.co.uk/edition/sport/chinese-tycoons-anfield-bid-fails-gwggbhcs6
+SiteInfo [name=萨拉戈萨官网, count=1] 代表新闻: 巴萨小将东古加盟萨拉戈萨 / http://www.realzaragoza.com/noticias/55276
+SiteInfo [name=巴萨官推, count=1] 代表新闻: 恩里克：阿尔巴与罗贝托情况良好，可以出战明日比赛 / 
+SiteInfo [name=supersport, count=1] 代表新闻: 曼城未回应尼足协征伊赫纳乔 / http://www.supersport.com/football/nigeria/news/160621/Man_City_keep_Nigeria_waiting_on_Iheanacho
+SiteInfo [name=fotomac, count=1] 代表新闻: 外媒：国安报价前法甲金靴索乌，欧联杯曾献惊世倒钩破曼联 / http://www.fotomac.com.tr/multimedya/galeri/fenerbahce/fenere-cin-tehdidi
+SiteInfo [name=莱切斯特城官网, count=1] 代表新闻: 莱切斯特签下英U20国脚-格雷 / http://www.lcfc.com/news/article/demarai-gray-signs-for-leicester-city-2883996.aspx
+SiteInfo [name=Calciomercato, count=1] 代表新闻: 文图拉：对阵列支敦士登不能轻敌 / http://www.calciomercato.com/en/news/ventura-55739
+SiteInfo [name=悉尼先驱晨报, count=1] 代表新闻: 澳媒：卡希尔或会加盟上港 / http://beta.smh.com.au/sport/soccer/socceroos-tim-cahill-rules-out-aleague-move-in-favour-of-new-china-deal-20160525-gp3ip1.html
+SiteInfo [name=thewillnigeria, count=1] 代表新闻: 欧洲杯英雄：埃德尔的故事 / http://thewillnigeria.com/news/euro-2016-portugals-eder-and-his-incredible-life-story/
+SiteInfo [name=美国大联盟, count=1] 代表新闻: 卡卡比利亚入围MLS全明星 / http://www.mlssoccer.com/post/2016/07/17/gameday-roster-revealed-2016-att-mls-all-star-game-vs-arsenal
+SiteInfo [name=tz, count=1] 代表新闻: 安帅：中卫如何排兵布阵是我最难的任务 / http://www.tz.de/sport/fc-bayern/carlo-ancelotti-schwierigste-aufgabe-mich-6782797.html
+SiteInfo [name=express, count=1] 代表新闻: 老雷回应电讯报曝料：我的队员没参与赌球 / http://www.express.co.uk/sport/football/716609/Harry-Redknapp-hits-out-scumbag-reporters-newspaper-sting
+SiteInfo [name=backpagefootball, count=1] 代表新闻: 这些英超球员该上黑榜 / http://backpagefootball.com/the-10-biggest-flops-of-the-premier-league-season/107998/
+SiteInfo [name=Diario ABC, count=1] 代表新闻: 西媒：西蒙尼曾表态希望为皇马效力 / http://www.sport-english.com/en/news/real-madrid/the-day-diego-simeone-wanted-play-for-real-madrid-5636690
+SiteInfo [name=Flipboard, count=1] 代表新闻: 英足总邀请双德加入国家队教练组 / https://flipboard.com/@flipboard/flip.it%2FCA8E.O-rumors-gerrard-and-lampard-to-join-engl/f-d0e6f09a5d%2Fgoal.com
+SiteInfo [name=塞尔塔官网, count=1] 代表新闻: 官方：塞尔塔中场费尔南德斯伤停三周 / http://www.celtavigo.net/es/cantera/noticias/11531-pablo-hernandez-lesionado-con-chile-sera-baja-entre-dos-y-tres-semanas
+SiteInfo [name=Behance, count=1] 代表新闻: 灵魂画家制作的众球星画像 / https://www.behance.net/gallery/32697063/Scribble-Portraits-Football-Stars
+SiteInfo [name=卿羽足球, count=1] 代表新闻: 你的生日，我的节日——致迈克尔-欧文 / http://mp.weixin.qq.com/s?__biz=MzAwODUwOTc4OA==&mid=2651309136&idx=1&sn=4a6a040b78c68904b9aa9cb43fe43089&chksm=809ea463b7e92d751b9911f9e0fa085f00ccb5e2fd135501b1bb71f468445d0bbecefe32b72a&mpshare=1&scene=23&srcid=1214nnmNOQPtYGrKYR1qptr2#rd
+SiteInfo [name=美因茨05官网, count=1] 代表新闻: 1-6惨败，美因茨主帅：我无言以对 / http://www.mainz05.de/mainz05/aktuell/news/news-detail/article/trainerstimmen-zum-spiel-11.html
+SiteInfo [name=德国转会市场, count=1] 代表新闻: 金特尔：我与胡梅尔斯的风格类似，跟他学到很多 / http://www.fussballtransfers.com/nachricht/ginter-bin-ein-ahnlicher-spielertyp-wie-hummels_70592
+SiteInfo [name=Footyheadlines, count=1] 代表新闻: 好看吗？皇马新年阿迪三叶草系列服饰遭曝光 / http://www.footyheadlines.com/2016/12/adidas-originals-real-madrid-2017-collection.html
+SiteInfo [name=superligachina, count=1] 代表新闻: 曼萨诺：中超优秀球员太少且贵，时间证明恒大豪购是对的 / http://es.superligachina.com/entrevista-gregorio-manzano-experiencia-inolvidable-4180
+SiteInfo [name=sportwitness, count=1] 代表新闻: 意媒模拟孔氏切尔西新阵 / http://sportwitness.co.uk/italy-contes-3-5-2-chelsea-team-new-arrivals/?
+SiteInfo [name=雅虎新闻, count=1] 代表新闻: 佩帅未收到俄足协执教邀请 / https://sg.news.yahoo.com/no-offers-pellegrini-coach-russia-agent-081205808.html
+SiteInfo [name=足球之夜, count=1] 代表新闻: 王健林：要多建专业球场 不希望留洋球员回国 / http://tv.cctv.com/lm/zqzy/
+SiteInfo [name=Somosinvictos, count=1] 代表新闻: 皇马将帅见生病的小球迷 / http://somosinvictos.com/2016/02/25/el-enorme-gesto-de-keylor-navas-con-el-hijo-de-leonel-moreira-portero-del-herediano/
+SiteInfo [name=Thesportbible, count=1] 代表新闻: 鲁尼将继续担任曼联队队长 / 
+SiteInfo [name=世界足球杂志, count=1] 代表新闻: 脱欧公投对于英国足球的影响 / http://www.worldsoccer.com/features/football-the-eu-referendum-and-the-possible-cost-of-brexit-377178
+SiteInfo [name=法国国际广播电台, count=1] 代表新闻: 美国国务院：欧洲杯或遭恐袭 / http://www.radiofrance.fr/
+SiteInfo [name=纽约宇宙官网, count=1] 代表新闻: 克拉尼察加盟纽约宇宙 / http://www.nycosmos.com/latest-news
+SiteInfo [name=大河报, count=1] 代表新闻: 离开建业？贾秀全辟谣：更愿留在建业 / http://newpaper.dahe.cn/dhb/html/2016-11/14/content_92515.htm
+SiteInfo [name=东方网, count=1] 代表新闻: 徐根宝：中超球员踢不了西乙B 国内氛围没法搞青训 / http://sports.dzwww.com/zhty/rdjj/201611/t20161118_10839054.htm
+SiteInfo [name=khelnow, count=1] 代表新闻: 前泰达外援：印超联赛好于中超，印度球员也更出色 / https://khelnow.com/news/article/the_isl_is_a_better_organized_league_than_the_chinese_super_league_lucian_goian
+SiteInfo [name=河北华夏幸福, count=1] 代表新闻: 华夏幸福宣布今年将兴建训练基地 落户河北固安 / http://mp.weixin.qq.com/s?__biz=MzA5NzQyNzI5NA==&mid=2649590393&idx=1&sn=24f0a7a7660eaa72d610467f5a2f114b&chksm=88b82048bfcfa95ede4d51423c91be856c769e4970f5ac149372bf579d5d56bab95a86c35877#rd
+SiteInfo [name=caught offside, count=1] 代表新闻: 小将庆祝第50次为枪手出场 / http://www.caughtoffside.com/2016/01/03/youngster-celebrates-reaching-arsenal-landmark-in-newcastle-win/?
+SiteInfo [name=河北足球网, count=1] 代表新闻: 河北华夏幸福青训体系：打造5级梯队 / http://www.hebeizuqiu.net/news/24138.html
+SiteInfo [name=hitc, count=1] 代表新闻: 莫耶斯：夏天再做决定 / http://www.hitc.com/en-gb/2016/04/21/david-moyes-responds-when-asked-about-replacing-deila-praises-ce/?
+SiteInfo [name=abendzeitung-muenchen, count=1] 代表新闻: 穆勒：平局令我感到失望 现在对啤酒节没兴趣了 / http://www.abendzeitung-muenchen.de/inhalt.stimmen-zum-11-gegen-koeln-ancelotti-wir-haetten-auch-verlieren-koennen.ee7bb549-86d4-4ac3-9d00-b08d1746ae92.html
+SiteInfo [name=mercafutbol, count=1] 代表新闻: 传卢卡斯-利马将加盟鲁能，经纪人称肥约难以拒绝 / http://www.mercafutbol.com/
+SiteInfo [name=国安官网, count=1] 代表新闻: 官方：中赫入主国安正等待足协批复 最晚到1月31日公布 / http://www.guoanclub.com/Index/news_detail/id/608.html
+SiteInfo [name=桑托斯官网, count=1] 代表新闻: 桑托斯回应权健：没收到报价 / http://www.santosfc.com.br/2016/01/comunicado-a-imprensa/
+SiteInfo [name=botafogo.com, count=1] 代表新闻: 埃尔克森：再踢5年回巴西，35岁退役 / http://www.botafogo.com.br/assista.php?cat=marketing&id=335
+SiteInfo [name=bundesligafanatic, count=1] 代表新闻: 讨论：莱比锡会像2008年的霍芬海姆一样崩盘么？ / http://bundesligafanatic.com/will-rb-leipzig-collapse-like-hoffenheim-did-in-their-debut-bundesliga-season/
+SiteInfo [name=Pericosonline, count=1] 代表新闻: 西媒：西班牙人有意张琳芃 / http://www.pericosonline.com/noticias/detall/28959/la-decisio-esta-presa-fitxaran-un-futbolista-xines
+SiteInfo [name=长春亚泰官方微博, count=1] 代表新闻: 亚泰完成2016赛季引援工作 / http://weibo.com/p/1001603947259036349866
+SiteInfo [name=RB莱比锡官网, count=1] 代表新闻: 官方：RB莱比锡将买下红牛竞技场 / http://www.dierotenbullen.com/neuigkeiten/Saison_2016_17/Kauf-Red-Bull-Arena.html
+SiteInfo [name=布隆德比官网, count=1] 代表新闻: 官方：阿格将离开布隆德比 / http://brondby.com/nyhed/2016/05/29/broendby-if-takker-daniel-agger-for-tiden-i-klubben
+SiteInfo [name=Talksport, count=1] 代表新闻: 曼城接近五千万英镑签斯通斯 / http://talksport.com/football/john-stones-set-become-worlds-most-expensive-defender-manchester-city-close-ps50m-plus-deal
+SiteInfo [name=马赛官网, count=1] 代表新闻: 官方：酒井宏树自由转会马赛 / https://www.om.net/actualites/253723/hiroki-sakai-est-olympien
+SiteInfo [name=卡罗莱娜电台, count=1] 代表新闻: 前锋：阿根廷人是我们的儿子 / 
+SiteInfo [name=NTV, count=1] 代表新闻: 传伊尔马兹800万欧加盟国安 / http://www.ntv.com.tr/spor/burak-yilmaz-cine-transfer-oldu%2cBTlElnMEbECDXVtzGeJTSw
+SiteInfo [name=商业标准日报, count=1] 代表新闻: 图兰为土耳其遇难同胞默哀 / http://www.business-standard.com/article/news-ians/turkey-football-star-turan-mourns-istanbul-attack-116062901095_1.html#.V3TKO5u2rVg.twitter
+SiteInfo [name=realsport101, count=1] 代表新闻: 威尔希尔：不想踢欧冠附加赛 / http://realsport101.com/wilshere-still-gunning-for-top-three-finish/?
+SiteInfo [name=readeuro2016, count=1] 代表新闻: 无缘欧洲杯，伤病球员最佳阵 / http://readeuro2016.com/2016/05/09/euro-2016-injured-xiQ
+SiteInfo [name=尤文官推, count=1] 代表新闻: 皮亚尼奇：为前锋创造机会 / https://twitter.com/juventusfcen/status/756386294440177664
+SiteInfo [name=韩联社, count=1] 代表新闻: 韩国队提前晋级世预赛12强 / http://english.yonhapnews.co.kr/news/2016/01/14/0200000000AEN20160114000300315.html
+SiteInfo [name=worldsoccer, count=1] 代表新闻: 非裔球员：你的国家需要你 / http://www.worldsoccer.com/features/dilemma-for-european-players-of-african-descent-370767
+SiteInfo [name=每日 体育报, count=1] 代表新闻: 恩里克：帕科的进球迟早会来，梅西状态正佳 / http://www.sport-english.com/en/news/barca/luis-enrique-paco-alcacer-and-lionel-messi-after-depor-win-5521128
+SiteInfo [name=Skysports, count=1] 代表新闻: 深度：穆帅与瓜帅恩仇录 / http://www.skysports.com/football/news/11096/10295298/jose-mourinho-v-pep-guardiola-the-story-of-the-rivalry
+SiteInfo [name=中国之队, count=1] 代表新闻: 中国杯官方海报出炉——改变·争取新的进阶 / 
+SiteInfo [name=河南建业官网, count=1] 代表新闻: 官方：萨马尔季奇加盟建业 / http://www.jianyefc.com/a/webbase/html/first/2016/0701/8619.html
+SiteInfo [name=第一竞技, count=1] 代表新闻: 科隆极端球迷或遭德国足协重罚 / http://www.sport1.de/fussball/bundesliga/2016/09/dfb-ermittelt-gegen-1-fc-koeln-wegen-sitzblockade-gegen-rb-leipzig
+SiteInfo [name=德国官网, count=1] 代表新闻: 勒夫：球队新老结合得很不错 / http://www.dfb.de/news/detail/loew-nominiert-brandt-kimmich-und-weigl-fuer-vorlaeufigen-em-kader-146216/
+SiteInfo [name=湖南日报, count=1] 代表新闻: 董方卓前往长沙踢业余比赛 / http://hnrb.voc.com.cn/hnrb_epaper/html/2016-01/04/content_1051705.htm?div=-1
+SiteInfo [name=RAC-1电台, count=1] 代表新闻: 巴萨新赛季球衣或会裸胸 / 
+SiteInfo [name=Gryeinz.com, count=1] 代表新闻: 7个你不知道的疯狂足球国度 / http://www.gryeinz.com/2015/07/7-countries-you-didnt-know-were-soccer-crazy.html
+SiteInfo [name=tsa-algerie, count=1] 代表新闻: 里皮或出任北非球队主帅 / http://www.tsa-algerie.com/20160401/marcello-lippi-succeder-a-gourcuff/
+SiteInfo [name=博卡青年官网, count=1] 代表新闻: 博卡官方：感谢特维斯，转会是多赢的选择 / http://www.bocajuniors.com.ar/el-club/tevez-china
+SiteInfo [name=石家庄永昌官方微信, count=1] 代表新闻: 李金羽：永昌大旗不会倒 最想说的是感恩 / http://mp.weixin.qq.com/s?__biz=MzA3OTYwNjcwNg==&mid=2761051023&idx=1&sn=1864111bdfb2be7e084d5e6e02df0870&chksm=bed60d5289a18444ad28a43aaea18a85eb0d0fca5290b8876c373b82571aed84b7d9100d868c&scene=0#wechat_redirect
+SiteInfo [name=Omroep, count=1] 代表新闻: 张玉宁：回国踢球可以赚很多 但现在我仍想留在欧洲 / http://www.omroepgelderland.nl/nieuws/2124855/Zhang-Natuurlijk-gaat-elke-voetballer-naar-China-ik-misschien-ooit-ook-wel?r=sport
+SiteInfo [name=柏林赫塔官网, count=1] 代表新闻: 官方：柏林赫塔签下两名青训小将 / http://www.herthabsc.de/de/intern/profivertraege-arne-maier-florian-baak/page/12195--17-17-.html#.WHamZxsrI2w
+SiteInfo [name=邮报, count=1] 代表新闻: 邮报：广州恒大有意特里，愿提供800万年薪 / http://www.dailymail.co.uk/sport/football/article-3899072/John-Terry-join-Chinese-Super-League-revolution-Guangzhou-Evergrande-weighing-8m-season-deal-Chelsea-defender.html#ixzz4OtTszDKP
+SiteInfo [name=里耶卡官网, count=1] 代表新闻: 斯洛文尼亚中卫加盟河南建业 / http://www.nk-rijeka.hr/
+SiteInfo [name=首尔体育报, count=1] 代表新闻: 韩媒：韩国队中超帮水平差 / http://www.sportsseoul.com/
+SiteInfo [name=流浪者官网, count=1] 代表新闻: 流浪者签约克林特-希尔 / http://rangers.co.uk/news/headlines/clint-hill-signs-rangers/
+SiteInfo [name=esportes, count=1] 代表新闻: 斯科拉里：十年后中国足球有望追上日韩 / http://esportes.estadao.com.br/noticias/futebol,luiz-felipe-scolari-descarta-responsabilidade-por-vexame-na-copa-do-mundo-de-2014,10000095222
+SiteInfo [name=联赛杯官网, count=1] 代表新闻: 官方：卡拉宝成为联赛杯新的赞助商 / http://www.efl.com/news/article/2016/carabao-bring-it-on-and-become-new-sponsor-of-efl-cup-3398442.aspx
+SiteInfo [name=gfn frence, count=1] 代表新闻: 经纪人：帕耶特并非一定留队 / http://www.getfootballnewsfrance.com/2016/the-sun-have-made-up-the-dimitri-payet-interview-agent/
+SiteInfo [name=BT体育, count=1] 代表新闻: 杰拉德：今年很可能就退役 / http://sport.bt.com/sport-football/news/steven-gerrard-plans-move-into-coaching-as-soon-as-this-year-S11364031496705?
+SiteInfo [name=记录报, count=1] 代表新闻: 葡媒：上港为博阿斯开出1200万欧年薪 / http://www.record.xl.pt/internacional/detalhe/villas-boas-apontado-como-sucessor-de-eriksson-no-shanghai-sipg.html
+SiteInfo [name=Lance, count=1] 代表新闻: 埃尔克森：没想过被中国归化 / http://www.lance.com.br/futebol-internacional/elkeson-revela-motivo-para-sair-campeao-guangzhou-comemora-nova-parceria-com-conca-espera-titulos.html
+SiteInfo [name=Fichajes, count=1] 代表新闻: 利物浦1400万报价小狮王遭拒 / http://www.fichajes.net/noticias/ter-stegen-vale-30-kilos-20160119.html
+SiteInfo [name=石家庄永昌微博, count=1] 代表新闻: 穆伦加赛后看望邓小飞 / http://weibo.com/3032079382/DqcankXWn?from=page_1006063032079382_profile&wvr=6&mod=weibotime&type=comment#_rnd1460202644112
+SiteInfo [name=上海上港, count=1] 代表新闻: 博阿斯首秀 上港2-2战平嘉定搏击 / http://mp.weixin.qq.com/s/t8MDvGVCH6AZOqlShTq7sA
+SiteInfo [name=上海五星体育, count=1] 代表新闻: 吴金贵：中超球队人傻钱多 与日韩差距20年 / 
+SiteInfo [name=天空博彩, count=1] 代表新闻: 天空博彩不看好齐祖执教前景 / http://www.skybet.com/football/specials/real-madrid-specials
+SiteInfo [name=外交部官网, count=1] 代表新闻: 外交部发言人：希望中国足球能持久地取得进步 / http://www.fmprc.gov.cn/web/
+SiteInfo [name=abola, count=1] 代表新闻: 卡西：本轮全取三分对出线至关重要 / http://www.abola.pt/clubes/ver.aspx?t=5&id=636376
+SiteInfo [name=河床官网, count=1] 代表新闻: 官方：阿根廷前锋卡维纳吉宣布退役 / http://www.cariverplate.com.ar/fernando-cavenaghi-anuncio-retiro-exitosa-carrera-river-plate
+SiteInfo [name=辽宁宏运官方微信, count=1] 代表新闻: 辽足发布战力帆海报 / http://mp.weixin.qq.com/s?__biz=MzIxNTE1MDc3NA==&mid=2655220092&idx=1&sn=c2f3851a03aa79704032032d6063c583&scene=0#wechat_redirect
+SiteInfo [name=迪马济奥网站, count=1] 代表新闻: 迪马济奥：蓝军要买纳因戈兰 / http://gianlucadimarzio.com/en/eng/roma-chelsea-press-for-nainggolan/
+SiteInfo [name=sport.de, count=1] 代表新闻: 马特乌斯：更换主帅是拜仁成绩下滑的主要原因 / http://www.sport.de/news/ne2559965/matthaeus-darum-tut-sich-bayern-so-schwer/

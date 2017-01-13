@@ -4,6 +4,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
+import org.jsoup.Connection;
+import org.jsoup.helper.HttpConnection;
 import org.junit.Test;
 
 public class TestZb8 {
@@ -56,24 +58,24 @@ public class TestZb8 {
 
 	// @Test
 	public void testNba() throws Exception {
-		List<Zb8News> nbaNewsByDay = new NewsExtract().getNBANewsByDay("2017-01-06");
+		List<Zb8News> nbaNewsByDay = new NewsExtract().getNBANewsByDay("2017-01-13");
 		List<Zb8News> filterTeam = NewsFilter.filterWebSite(NewsFilter.filterKeyWord(nbaNewsByDay, "马刺"), "twitter");
 		for (Zb8News zb8News : filterTeam) {
 			System.out.println(zb8News.getTitle() + " / " + zb8News.getFrom_url());
 		}
-		System.out.println("##########################\n");
+		System.out.println("可供翻译的新闻##########################\n");
 		List<Zb8News> filterOutSide = NewsFilter.filterOutSide(nbaNewsByDay);
-		for (Zb8News zb8News : filterOutSide) {
+		for (Zb8News zb8News : nbaNewsByDay) {
 			System.out.println("\nfrom:" + zb8News.getFrom_url());
 			System.out.println("title:" + zb8News.getTitle() + "  url:" + zb8News.getUrl());
 			new HtmlContentHelper().initEngHtmlContent(zb8News);
 			String eng_content = zb8News.getEng_content();
 			if (eng_content != null)
 				System.out.println(eng_content.substring(0, eng_content.length() > 100 ? 100 : eng_content.length()));
-			new HtmlContentHelper().initChsHtmlContent(zb8News);
-			String chs_content = zb8News.getChs_content();
-			System.out.println(chs_content.replaceAll("\\s", "").substring(0,
-					chs_content.length() > 200 ? 200 : chs_content.length()));
+			// new HtmlContentHelper().initChsHtmlContent(zb8News);
+			// String chs_content = zb8News.getChs_content();
+			// System.out.println(chs_content.replaceAll("\\s", "").substring(0,
+			// chs_content.length() > 200 ? 200 : chs_content.length()));
 
 		}
 	}
@@ -82,8 +84,28 @@ public class TestZb8 {
 	public void Cbs() {
 		String url = "http://www.cbssports.com/nba/news/why-the-cleveland-cavaliers-and-kyle-korver-are-a-perfect-fit/";
 		url = "http://www.nba.com/cavaliers/releases/korver-trade-170107";
+		url = "http://www.thescore.com/nba/news/1206672-motiejunas-free-agency-debacle-was-one-of-the-worst-experiences-of-my-life";
+		url = "http://www.mirror.co.uk/sport/football/news/southampton-liverpool-player-ratings-karius-9605964";
+		url = "https://twitter.com/tom_orsborn/status/819772653036707841";
 		String extractNewsContent = new HtmlContentHelper().extractNewsContent(url);
 		System.out.println(extractNewsContent);
+	}
+
+	@Test
+	public void twitter() throws Exception {
+		String url = "https://twitter.com/tom_orsborn/status/819772653036707841";
+		url = "https://www.ishuo.cn/doc/poqpyiqf.html";
+		url = "https://twitter.com/";
+		url = "https://www.google.com";
+		Connection connect = HttpConnection.connect(url).proxy("220.255.2.153", 80);
+		connect.timeout(30000);
+		connect.header("Accept-Encoding", "gzip,deflate,sdch");
+
+		connect.validateTLSCertificates(false);
+		connect.header("User-Agent",
+				"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36");
+		connect.execute();
+		System.out.println(connect.get().html());
 	}
 
 	// @Test
@@ -107,7 +129,7 @@ public class TestZb8 {
 		System.out.println("卫报:" + extractNewsContent);
 	}
 
-	@Test
+	// @Test
 	public void testYaoMing() throws Exception {
 		List<Zb8News> newsByYearMonth = new NewsExtract().getNewsByYearMonth(2016, 7, SportType.NBA);
 		for (Zb8News zb8News : newsByYearMonth) {
@@ -119,5 +141,12 @@ public class TestZb8 {
 				System.out.println("find.." + zb8News.getTitle() + zb8News.getUrl() + " / " + zb8News.getFrom_url());
 			}
 		}
+	}
+
+	// @Test
+	public void testMirror() {
+		String extractNewsContent = new HtmlContentHelper().extractNewsContent(
+				"http://www.mirror.co.uk/sport/football/news/southampton-liverpool-player-ratings-karius-9605964");
+		System.out.println(extractNewsContent);
 	}
 }

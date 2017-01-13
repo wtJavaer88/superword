@@ -4,6 +4,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import com.wnc.news.api.mine.handler.HtmlHandler;
 import com.wnc.utils.JsoupHelper;
 
 public class HtmlContentHelper {
@@ -26,12 +27,15 @@ public class HtmlContentHelper {
 			if (html_class == null) {
 				return null;
 			}
+
 			Document documentResult = JsoupHelper.getDocumentResult(url);
-			Elements select = documentResult.select(html_class);
+			HtmlHandler customHandler = WebSiteClassFactory.getCustomHandler(url);
+			Elements select = customHandler.getContentElements(documentResult, html_class);
 			for (Element element : select) {
-				resetAttr(element, "a", "href");
-				resetAttr(element, "img", "src");
+				resetLinkAttr(element, "a", "href");
+				resetLinkAttr(element, "img", "src");
 			}
+
 			return select.toString();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -46,7 +50,7 @@ public class HtmlContentHelper {
 	 * @param tag
 	 * @param attrName
 	 */
-	private void resetAttr(Element element, String tag, String attrName) {
+	private void resetLinkAttr(Element element, String tag, String attrName) {
 		Elements selectA = element.select(tag);
 		if (selectA.size() > 0) {
 			for (Element element2 : selectA) {

@@ -31,7 +31,7 @@ public class Zb8Controller {
 		try {
 			List<Zb8News> nbaNewsByDay = new NewsExtract().getNBANewsByDay(BasicDateUtil.getCurrentDateString());
 			for (Zb8News zb8News : nbaNewsByDay) {
-				System.out.println(zb8News.getThumbnail());
+				System.out.println(zb8News.getFrom_url());
 			}
 			System.out.println("##########################\n");
 			List<Zb8News> filterOutSide = NewsFilter.filterOutSide(nbaNewsByDay);

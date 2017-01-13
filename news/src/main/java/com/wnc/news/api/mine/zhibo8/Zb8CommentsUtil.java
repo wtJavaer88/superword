@@ -11,6 +11,12 @@ import com.wnc.news.api.common.Comment;
 import com.wnc.string.PatternUtil;
 import com.wnc.utils.JsoupHelper;
 
+/**
+ * 暂时支持足球篮球滚动新闻模块的新闻, 其它小模块的,需要去新闻页面找到评论加载地址
+ * 
+ * @author cpr216
+ *
+ */
 public class Zb8CommentsUtil {
 	static String hot_format = "http://cache.zhibo8.cc/json/%s/news/%s/%s_hot.htm";
 	static String count_format = "http://cache.zhibo8.cc/json/%s/news/%s/%s_count.htm";

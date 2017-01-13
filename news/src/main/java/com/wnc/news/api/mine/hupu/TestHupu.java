@@ -22,13 +22,13 @@ import com.wnc.utils.JsoupHelper;
  *
  */
 public class TestHupu {
-	String url = "https://voice.hupu.com/nba/%d";
+	final String URL_FORMAT = "https://voice.hupu.com/nba/%d";
 
 	public List<Zb8News> getNeed(TimeFilter filter) throws Exception {
 		List<Zb8News> list = new ArrayList<Zb8News>();
 		int innerLoop = 0;
 		for (int i = 1; i <= 100; i++) {
-			String format = String.format(url, i);
+			String format = String.format(URL_FORMAT, i);
 			Document documentResult = JsoupHelper.getDocumentResult(format);
 			Elements select = documentResult.select(".news-list li");
 			for (Element element : select) {
@@ -62,7 +62,7 @@ public class TestHupu {
 					news.setNews_time(text);
 					news.setFrom_url(fromUrl);
 					news.setUrl(absUrl);
-					news.setKeyword(fromsite);
+					news.setForm_name(fromsite);
 					list.add(news);
 				} else {
 					if (innerLoop == 1) {

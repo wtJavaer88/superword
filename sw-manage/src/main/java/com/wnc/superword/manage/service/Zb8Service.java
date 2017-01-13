@@ -18,17 +18,15 @@ public class Zb8Service {
 
 	public Zb8News findNews(String from_url) throws Exception {
 		List<Zb8News> nbaNewsByDay = new NewsExtract().getNBANewsByDay(BasicDateUtil.getCurrentDateString());
-		Zb8News news = new Zb8News();
 		for (Zb8News zb8News : nbaNewsByDay) {
 			if (zb8News.getFrom_url().equals(from_url)) {
 				new HtmlContentHelper().initHtmlContent(zb8News);
-				news = zb8News;
-				System.out.println(news.getUrl());
-				newsWordsAnalyse.decorateZb8News(news);
-				break;
+				System.out.println("直播吧地址 :" + zb8News.getUrl());
+				newsWordsAnalyse.decorateZb8News(zb8News);
+				return zb8News;
 			}
 		}
-		return news;
+		return null;
 	}
 
 }
