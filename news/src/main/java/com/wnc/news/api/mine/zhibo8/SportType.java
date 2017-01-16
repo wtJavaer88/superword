@@ -1,14 +1,19 @@
 package com.wnc.news.api.mine.zhibo8;
 
 public enum SportType {
-	Zuqiu("zuqiu"), NBA("nba");
+	Zuqiu(1, "zuqiu"), NBA(2, "nba");
+	int id;
 	String desc;
 
 	public String getDesc() {
 		return desc;
 	}
 
-	SportType(String desc) {
+	public int getId() {
+		return id;
+	}
+
+	SportType(int id, String desc) {
 		this.desc = desc;
 	}
 }

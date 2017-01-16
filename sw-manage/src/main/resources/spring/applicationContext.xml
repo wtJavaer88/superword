@@ -34,22 +34,29 @@
 		<property name="url" value="${jdbc.mbs.url}" />
 		<property name="username" value="${jdbc.mbs.username}" />
 		<property name="password" value="${jdbc.mbs.password}" />
-   </bean >  
+   </bean>  
    <bean id ="ds_dict" class= "com.alibaba.druid.pool.DruidDataSource" >  
         <property name="driverClassName" value="${jdbc.dict.driverClassName}" />
 		<property name="url" value="${jdbc.dict.url}" />
 		<property name="username" value="${jdbc.dict.username}" />
 		<property name="password" value="${jdbc.dict.password}" />
-   </bean >  
+   </bean>
+   <bean id ="ds_zb8" class= "com.alibaba.druid.pool.DruidDataSource" >  
+        <property name="driverClassName" value="${jdbc.zb8.driverClassName}" />
+		<property name="url" value="${jdbc.zb8.url}" />
+		<property name="username" value="${jdbc.zb8.username}" />
+		<property name="password" value="${jdbc.zb8.password}" />
+   </bean>  
   
    <!-- 动态配置数据源 -->  
    <bean id ="multipleDataSource" class= "com.wnc.superword.manage.db.DynamicDataSource" >  
           <property name ="targetDataSources">  
                 <map key-type ="java.lang.String">  
-                      <entry value-ref ="ds_main" key= "ds_main"></entry >  
-                      <entry value-ref ="ds_dict" key= "ds_dict"></entry >  
+                      <entry value-ref ="ds_main" key= "ds_main"></entry>  
+                      <entry value-ref ="ds_dict" key= "ds_dict"></entry> 
+                      <entry value-ref ="ds_zb8" key= "ds_zb8"></entry>  
                 </map >  
           </property >  
-          <property name ="defaultTargetDataSource" ref= "ds_main"></property >      <!-- 默认使用ds1的数据源 -->  
+          <property name ="defaultTargetDataSource" ref= "ds_zb8"></property >      <!-- 默认使用ds1的数据源 -->  
    </bean >  
 </beans>

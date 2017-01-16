@@ -7,7 +7,7 @@ public class GreatAnalyse extends BaseAnalyse {
 	public GreatAnalyse(Comment comment) {
 		super(comment);
 		this.quality_tip = "大受欢迎";
-		this.priority = 10;
+		this.priority = CommentQuality.Great.getQuality();
 	}
 
 	@Override

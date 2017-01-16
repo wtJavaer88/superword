@@ -1,5 +1,6 @@
 package com.wnc.news.api.mine.zhibo8.comments_analyse;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -7,31 +8,61 @@ import java.util.List;
 import com.wnc.news.api.common.Comment;
 import com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil;
 
-public class CommentsAnalyseTool {
-	Comment comment;
+public class Zb8CommentsAnalyseTool {
 	String url;
+	List<Comment> hotComments;
+	int allCommentsCount;
 
-	public CommentsAnalyseTool() {
+	public int getHotCommentCount() throws Exception {
+		checkComments();
+		return hotComments.size();
 	}
 
-	public CommentsAnalyseTool(String url) {
+	public int getAllCommentCount() throws Exception {
+		checkComments();
+		return allCommentsCount;
+	}
+
+	public Zb8CommentsAnalyseTool(String url) {
 		this.url = url;
 	}
 
 	public static void main(String[] args) throws Exception {
 		String url2 = "http://news.zhibo8.cc/nba/2017-01-12/83002.htm";
 		url2 = "http://news.zhibo8.cc/nba/2017-01-12/83005.htm";
-		new CommentsAnalyseTool(url2).analyse();
+		new Zb8CommentsAnalyseTool(url2).analyseComments();
 	}
 
-	public void analyse() throws Exception {
-		List<Comment> hotComments = Zb8CommentsUtil.getHotComments(url);
+	private List<Comment> analyseComments() throws Exception {
+		checkComments();
 		System.out.println("开始排序");
-		List<Comment> resortComments = resortComments(hotComments);
-		for (Comment comment : resortComments) {
-			System.out.println(comment.getPriority() + " / " + comment.getContent() + " " + comment.getUp() + " "
-					+ comment.getDown());
+		resortComments();
+		return hotComments;
+	}
+
+	private void checkComments() {
+		try {
+			if (hotComments == null)
+				hotComments = Zb8CommentsUtil.getHotComments(url);
+			if (allCommentsCount == 0)
+				allCommentsCount = Zb8CommentsUtil.getAllCommentsCount(url);
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
+
+	}
+
+	public List<Comment> getTop5Comments(int top) throws Exception {
+		analyseComments();
+		List<Comment> list = new ArrayList<Comment>();
+		for (int i = 0; i < top && i < hotComments.size(); i++) {
+			Comment cm = hotComments.get(i);
+			if (cm.getPriority() <= CommentQuality.Good.getQuality()) {
+				System.out.println(cm.getUserName() + " / " + cm.getContent());
+				list.add(cm);
+			}
+		}
+		return list;
 	}
 
 	public void analyse(Comment comment) {
@@ -47,11 +78,11 @@ public class CommentsAnalyseTool {
 		analyse1.proceed();
 	}
 
-	public List<Comment> resortComments(List<Comment> comments) {
-		for (Comment comment : comments) {
+	private List<Comment> resortComments() {
+		for (Comment comment : hotComments) {
 			analyse(comment);
 		}
-		Collections.sort(comments, new Comparator<Comment>() {
+		Collections.sort(hotComments, new Comparator<Comment>() {
 			@Override
 			public int compare(Comment o1, Comment o2) {
 				int i = o1.getPriority() - o2.getPriority();
@@ -70,6 +101,6 @@ public class CommentsAnalyseTool {
 				return i;
 			}
 		});
-		return comments;
+		return hotComments;
 	}
 }

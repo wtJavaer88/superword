@@ -13,8 +13,10 @@ public class DayNewsThread implements Runnable {
 	private final String ZB8_DOMAIN = "http://news.zhibo8.cc";
 	private final String API_FORMAT = "http://news.zhibo8.cc/%s/json/%s.htm";
 	String dayNewsUrl;
+	SportType type;
 
 	public DayNewsThread(String today, List<Zb8News> list, SportType type) {
+		this.type = type;
 		if (today.length() == 8) {
 			today = today.substring(0, 4) + "-" + today.substring(4, 6) + "-" + today.substring(6);
 		}
@@ -54,7 +56,9 @@ public class DayNewsThread implements Runnable {
 			news.setForm_name(object.getString("from_name"));
 			news.setUrl(url);
 			news.setDay(day);
-			news.setTitle(object.getString("shortTitle"));
+			news.setTitle(object.getString("title"));
+			news.setSub_text(object.getString("shortTitle"));
+			news.setSport_type(type.getId());
 			news.setKeyword(object.getString("lable"));
 			news.setThumbnail(object.getString("thumbnail"));
 			news.setNews_time(object.getString("createtime"));

@@ -19,6 +19,6 @@ public class DataSourceTypeManager {
 	}
 
 	public static void reset() {
-		set(DataSourceType.DATASOURCE_MAIN);
+		set(DataSourceType.DATASOURCE_ZB8);
 	}
 }

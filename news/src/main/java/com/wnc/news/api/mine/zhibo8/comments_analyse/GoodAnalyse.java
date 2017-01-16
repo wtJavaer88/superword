@@ -7,7 +7,7 @@ public class GoodAnalyse extends BaseAnalyse {
 	public GoodAnalyse(Comment comment) {
 		super(comment);
 		this.quality_tip = "语言得体";
-		this.priority = 20;
+		this.priority = CommentQuality.Good.getQuality();
 	}
 
 	@Override

@@ -12,6 +12,10 @@ public abstract class BaseAnalyse {
 		this.comment = comment;
 	}
 
+	public int getPriority() {
+		return priority;
+	}
+
 	public void setNext(BaseAnalyse nextAnalyse) {
 		this.nextAnalyse = nextAnalyse;
 	}

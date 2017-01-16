@@ -1,15 +1,18 @@
-package com.wnc.news.api.common;
+package com.wnc.superword.manage.pojo.zb8;
 
-public class Comment {
+import javax.persistence.Table;
+
+@Table(name = "COMMENT")
+public class ArticleComment {
 	private String content;
 	private String userId;
-	private String userName;
 	private int up;
 	private int down;
-	private String newsId;
+	private Long articleId;
 	private int priority;// 评论的优先级(或者说等级),自定义排序时很重要
+	private String createTime;
 
-	public Comment() {
+	public ArticleComment() {
 		setPriority(100);
 	}
 
@@ -45,18 +48,12 @@ public class Comment {
 		this.down = down;
 	}
 
-	public String getNewsId() {
-		return newsId;
+	public Long getArticleId() {
+		return articleId;
 	}
 
-	public void setNewsId(String newsId) {
-		this.newsId = newsId;
-	}
-
-	@Override
-	public String toString() {
-		return "Comment [content=" + content + ", userId=" + userId + ", up=" + up + ", down=" + down + ", newsId="
-				+ newsId + "]";
+	public void setArticleId(Long articleId) {
+		this.articleId = articleId;
 	}
 
 	public int getPriority() {
@@ -67,11 +64,17 @@ public class Comment {
 		this.priority = priority;
 	}
 
-	public String getUserName() {
-		return userName;
+	public String getCreateTime() {
+		return createTime;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setCreateTime(String createTime) {
+		this.createTime = createTime;
+	}
+
+	@Override
+	public String toString() {
+		return "ArticleComment [content=" + content + ", userId=" + userId + ", up=" + up + ", down=" + down
+				+ ", articleId=" + articleId + ", priority=" + priority + ", createTime=" + createTime + "]";
 	}
 }

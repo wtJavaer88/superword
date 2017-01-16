@@ -7,7 +7,7 @@ public class SuperAnalyse extends BaseAnalyse {
 	public SuperAnalyse(Comment comment) {
 		super(comment);
 		this.quality_tip = "人气爆棚";
-		this.priority = 0;
+		this.priority = CommentQuality.Super.getQuality();
 	}
 
 	@Override

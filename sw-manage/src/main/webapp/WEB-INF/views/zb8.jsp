@@ -23,9 +23,10 @@
 			<thead>
 				<tr>
 					<th data-options="field:'ck',checkbox:true"></th>
+					<th data-options="field:'id',width:50">ID</th>
 					<th data-options="field:'title',width:300">标题</th>
-					<th style="display:none" data-options="field:'url',width:150">网址</th>
-					<th data-options="field:'from_url',width:150">来源网址</th>
+					<th data-options="field:'url',width:150">网址</th>
+					<th data-options="field:'fromUrl',width:150">来源网址</th>
 					<th data-options="field:'keyword',width:120">关键字</th>
 					<th data-options="field:'thumbnail',width:200,formatter:formatThumb">缩略图</th>
 					<th data-options="field:'day',width:100">日期</th>
@@ -109,7 +110,7 @@
 					text : '阅读',
 					iconCls : 'icon-edit',
 					handler : function() {
-						window.open('/rest/zb8/view?from_url='+getSelectedFirstFromUrl()); 
+						window.open('/rest/zb8/view?id='+getSelectedFirstId()); 
 					}
 				},
 				{

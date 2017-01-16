@@ -6,6 +6,7 @@ public class Zb8News {
 	private String form_name;
 	private String from_url;
 	private String title;
+	private String sub_text;
 	private String day;
 	private String keyword;
 	private String chs_content;
@@ -13,6 +14,7 @@ public class Zb8News {
 	private String thumbnail;
 	private String news_time;
 	private String create_time;
+	private int sport_type;
 
 	public String getUrl() {
 		return url;
@@ -108,5 +110,21 @@ public class Zb8News {
 
 	public void setForm_name(String form_name) {
 		this.form_name = form_name;
+	}
+
+	public String getSub_text() {
+		return sub_text;
+	}
+
+	public void setSub_text(String sub_text) {
+		this.sub_text = sub_text;
+	}
+
+	public int getSport_type() {
+		return sport_type;
+	}
+
+	public void setSport_type(int sport_type) {
+		this.sport_type = sport_type;
 	}
 }

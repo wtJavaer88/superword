@@ -7,7 +7,7 @@ public class AwfulAnalyse extends BaseAnalyse {
 	public AwfulAnalyse(Comment comment) {
 		super(comment);
 		this.quality_tip = "开始火拼";
-		this.priority = 40;
+		this.priority = CommentQuality.Awful.getQuality();
 	}
 
 	@Override

@@ -35,7 +35,8 @@ public class Zb8CommentsUtil {
 			comment.setUp(object.getIntValue("up"));
 			comment.setDown(object.getIntValue("down"));
 			comment.setNewsId(article_url);
-			comment.setUserId(object.getString("username"));
+			comment.setUserName(object.getString("username"));
+			comment.setUserId(object.getString("m_uid"));
 			list.add(comment);
 		}
 		return list;
@@ -60,13 +61,12 @@ public class Zb8CommentsUtil {
 	 * @return
 	 * @throws Exception
 	 */
-	public int getAllCommentsCount(String article_url) throws Exception {
+	public static int getAllCommentsCount(String article_url) throws Exception {
 		String hotcommentsApiUrl = String.format(count_format, getArticleDate(article_url), getArticleType(article_url),
 				getArticleId(article_url));
 		String jsonResult = JsoupHelper.getJsonResult(hotcommentsApiUrl);
 		JSONObject obj = JSONObject.parseObject(jsonResult);
 		int intValue = obj.getIntValue("all_num");
-		System.out.println("评论总数:" + intValue);
 		return intValue;
 	}
 
