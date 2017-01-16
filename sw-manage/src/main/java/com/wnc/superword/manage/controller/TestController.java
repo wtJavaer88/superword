@@ -114,4 +114,29 @@ public class TestController {
 		return "zb8";
 	}
 
+	// 解析文章中英文
+	@RequestMapping(value = "/contents")
+	public String contents(Model model) throws Exception {
+		try {
+			int page = 1;
+			final int rows = 5;
+			while (true) {
+				PageInfo<Article> queryList = articleService.queryList(page, rows);
+				if (page == 2 || queryList.getSize() == 0) {
+					break;
+				}
+				for (Article article : queryList.getList()) {
+					articleService.decorateArticle(article);
+					if (article.getEngContent() != null)
+						articleService.update(article);
+				}
+				page++;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return "zb8";
+	}
+
 }

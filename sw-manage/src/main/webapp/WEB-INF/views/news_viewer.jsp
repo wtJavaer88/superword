@@ -4,12 +4,34 @@
 <html>  
 <head>  
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
-<title>FreshNews - ${title}</title>  
+<title>${title}</title>  
 </head> 
+<style>
+.rows{
+	margin-left:10;
+	padding-top: 25px;
+}
+.hide-div{
+	display:none;
+}
+.content{
+	font-size:24px;
+}
+</style>
 <script type="text/javascript" src="/js/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="/js/layer.js"></script>
 <script type="text/javascript" src="/js/superword.js"></script>
 <script>
+$(function() {
+	var engContent = $('#maintext').text();
+	var chsContent = $('#maintext2').text();
+	var e_len = engContent.length;
+	if(e_len < 10){
+		$('#tranBtn').hide();
+		$('#maintext').addClass('hide-div');
+		$('#maintext2').removeClass('hide-div');
+	}
+});
 </script>
 <body onload="init()">
 	<div class="edit_box" style="display: none">
@@ -19,11 +41,11 @@
 			<input type="button" class="detail" value="详细">
 			<input type="button" class="test" value="测试">
 	    </div>
-	    <div class="rows" style="margin-left:10;padding-top: 25px;">
+	    <div class="rows">
 	        <label>单词:</label>
 	        <input type="text" class="chat_area" id="question_area"></textarea>
 	    </div>
-	    <div class="rows" style="margin-left:10;padding-top: 25px;">
+	    <div class="rows">
 	        <div class="chat_area" id="content_area" name="answer"></div>
 	    </div>
 		<div class='player'>
@@ -31,13 +53,12 @@
 		</div>
 	</div>
 	<div>
-		<a class="edit_word" href="#" onclick="showTranslate();">翻译</a></div>
-		<img src="${head_pic}"/>
+		<a id="tranBtn" class="edit_word" href="#" onclick="showTranslate();">翻译</a></div>
 	</div>
-	<div id="maintext" class="content" style="font-size:24px">
+	<div id="maintext" class="content">
  		${message}
 	</div>
-	<div id="maintext2" class="content" style="font-size:24px;display:none">
+	<div id="maintext2" class="content hide-div">
  		${message_chs}
 	</div>
 

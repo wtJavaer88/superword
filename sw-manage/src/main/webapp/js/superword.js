@@ -54,11 +54,11 @@ function closeWindow() {
 }
 function showTranslate() {
 	if ($('#maintext').is(':hidden')) {
-		$('#maintext').show();
-		$('#maintext2').hide();
+		$('#maintext2').addClass('hide-div');
+		$('#maintext').removeClass('hide-div');
 	} else {
-		$('#maintext').hide();
-		$('#maintext2').show();
+		$('#maintext').addClass('hide-div');
+		$('#maintext2').removeClass('hide-div');
 	}
 }
 function showDetail(word, mean) {

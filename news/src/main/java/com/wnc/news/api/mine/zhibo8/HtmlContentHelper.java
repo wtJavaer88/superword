@@ -1,5 +1,6 @@
 package com.wnc.news.api.mine.zhibo8;
 
+import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -8,6 +9,8 @@ import com.wnc.news.api.mine.handler.HtmlHandler;
 import com.wnc.utils.JsoupHelper;
 
 public class HtmlContentHelper {
+	Logger logger = Logger.getLogger(HtmlContentHelper.class);
+
 	public void initHtmlContent(Zb8News news) {
 		initEngHtmlContent(news);
 		initChsHtmlContent(news);
@@ -38,6 +41,7 @@ public class HtmlContentHelper {
 
 			return select.toString();
 		} catch (Exception e) {
+			logger.error(url + " 网址解析失败!", e);
 			e.printStackTrace();
 		}
 		return null;

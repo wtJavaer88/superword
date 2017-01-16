@@ -4,10 +4,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-import org.jsoup.Connection;
-import org.jsoup.helper.HttpConnection;
-import org.junit.Test;
-
 public class TestZb8 {
 	// @Test
 	public void da() throws Exception {
@@ -89,23 +85,6 @@ public class TestZb8 {
 		url = "https://twitter.com/tom_orsborn/status/819772653036707841";
 		String extractNewsContent = new HtmlContentHelper().extractNewsContent(url);
 		System.out.println(extractNewsContent);
-	}
-
-	@Test
-	public void twitter() throws Exception {
-		String url = "https://twitter.com/tom_orsborn/status/819772653036707841";
-		url = "https://www.ishuo.cn/doc/poqpyiqf.html";
-		url = "https://twitter.com/";
-		url = "https://www.google.com";
-		Connection connect = HttpConnection.connect(url).proxy("220.255.2.153", 80);
-		connect.timeout(30000);
-		connect.header("Accept-Encoding", "gzip,deflate,sdch");
-
-		connect.validateTLSCertificates(false);
-		connect.header("User-Agent",
-				"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36");
-		connect.execute();
-		System.out.println(connect.get().html());
 	}
 
 	// @Test

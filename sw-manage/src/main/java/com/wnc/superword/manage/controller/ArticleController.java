@@ -40,7 +40,9 @@ public class ArticleController {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			article = articleService.queryById(id);
-			articleService.decorateArticle(article);
+			if (article.getEngContent() == null && article.getChsContent() == null) {
+				articleService.decorateArticle(article);
+			}
 			model.addAttribute("message", article.getEngContent());
 			model.addAttribute("message_chs", article.getChsContent());
 			model.addAttribute("title", article.getTitle());
