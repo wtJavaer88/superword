@@ -5,20 +5,23 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import com.wnc.news.api.common.Comment;
 import com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil;
 
 public class Zb8CommentsAnalyseTool {
 	String url;
-	List<Comment> hotComments;
+	List<Comment> hotComments = new ArrayList<Comment>();
 	int allCommentsCount;
+	Logger logger = Logger.getLogger(Zb8CommentsAnalyseTool.class);
 
-	public int getHotCommentCount() throws Exception {
+	public int getHotCommentCount() {
 		checkComments();
 		return hotComments.size();
 	}
 
-	public int getAllCommentCount() throws Exception {
+	public int getAllCommentCount() {
 		checkComments();
 		return allCommentsCount;
 	}
@@ -33,7 +36,7 @@ public class Zb8CommentsAnalyseTool {
 		new Zb8CommentsAnalyseTool(url2).analyseComments();
 	}
 
-	private List<Comment> analyseComments() throws Exception {
+	private List<Comment> analyseComments() {
 		checkComments();
 		System.out.println("开始排序");
 		resortComments();
@@ -42,17 +45,22 @@ public class Zb8CommentsAnalyseTool {
 
 	private void checkComments() {
 		try {
-			if (hotComments == null)
+			if (hotComments.size() == 0)
 				hotComments = Zb8CommentsUtil.getHotComments(url);
+		} catch (Exception e) {
+			logger.info(this.url + " 获取热评信息失败!", e);
+			e.printStackTrace();
+		}
+		try {
 			if (allCommentsCount == 0)
 				allCommentsCount = Zb8CommentsUtil.getAllCommentsCount(url);
 		} catch (Exception e) {
+			logger.info(this.url + " 获取评论总数失败!", e);
 			e.printStackTrace();
 		}
-
 	}
 
-	public List<Comment> getTop5Comments(int top) throws Exception {
+	public List<Comment> getTop5Comments(int top) {
 		analyseComments();
 		List<Comment> list = new ArrayList<Comment>();
 		for (int i = 0; i < top && i < hotComments.size(); i++) {

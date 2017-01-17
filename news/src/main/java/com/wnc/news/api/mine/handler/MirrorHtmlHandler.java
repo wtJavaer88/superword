@@ -8,7 +8,7 @@ public class MirrorHtmlHandler implements HtmlHandler {
 	@Override
 	public Elements getContentElements(Element select, String html_class) {
 		Elements elements = new Elements();
-		Elements allElements = select.select("html_class").first().children();// 获取直接的子节点
+		Elements allElements = select.select(html_class).first().children();// 获取直接的子节点
 		for (Element element : allElements) {
 			String tag = element.tagName().toLowerCase();
 			if (tag.equals("a")) {

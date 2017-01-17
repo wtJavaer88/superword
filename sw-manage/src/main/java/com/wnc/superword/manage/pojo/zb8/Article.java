@@ -27,6 +27,7 @@ public class Article {
 	private String thumbnail;
 	private String newsTime;
 	private String createTime;
+	private String updateTime;
 	private int sportType;
 	private int comments;
 	private int hotComments;
@@ -157,6 +158,14 @@ public class Article {
 
 	public void setHotComments(int hotComments) {
 		this.hotComments = hotComments;
+	}
+
+	public String getUpdateTime() {
+		return updateTime;
+	}
+
+	public void setUpdateTime(String updateTime) {
+		this.updateTime = updateTime;
 	}
 
 }

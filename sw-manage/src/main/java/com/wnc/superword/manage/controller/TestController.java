@@ -2,27 +2,25 @@ package com.wnc.superword.manage.controller;
 
 import java.util.List;
 
-import javax.annotation.Resource;
-
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.github.pagehelper.PageInfo;
-import com.wnc.basic.BasicDateUtil;
-import com.wnc.news.api.common.Comment;
 import com.wnc.news.api.mine.zhibo8.NewsExtract;
 import com.wnc.news.api.mine.zhibo8.SportType;
 import com.wnc.news.api.mine.zhibo8.Zb8News;
-import com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool;
 import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
 import com.wnc.superword.manage.pojo.zb8.Article;
-import com.wnc.superword.manage.pojo.zb8.ArticleComment;
-import com.wnc.superword.manage.pojo.zb8.CommentAdapter;
 import com.wnc.superword.manage.pojo.zb8.Zb8NewsAdapter;
 import com.wnc.superword.manage.service.ArticleService;
 import com.wnc.superword.manage.service.CommentService;
+import com.wnc.superword.manage.task.ArticleCommentsTask;
+import com.wnc.superword.manage.task.HtmlContentTask;
+import com.wnc.superword.manage.util.NewsWordsAnalyse;
 
 import translate.site.baidu.BaiduWordTranslate;
 
@@ -51,9 +49,9 @@ public class TestController {
 		return "zb8";
 	}
 
-	@Resource
+	@Autowired
 	ArticleService articleService;
-	@Resource
+	@Autowired
 	CommentService commentService;
 
 	@RequestMapping(value = "/zhibo8db")
@@ -75,61 +73,56 @@ public class TestController {
 		return "zb8";
 	}
 
+	@RequestMapping(value = "/test")
+	public String test(Model model) throws Exception {
+		Logger.getLogger(TestController.class).info("测试文件日志!");
+		Logger.getLogger(TestController.class).error("测试文件日志!");
+		return "zb8";
+	}
+
 	@RequestMapping(value = "/comments")
 	public String comments(Model model) throws Exception {
-		try {
-			int page = 1;
-			final int rows = 100;
-			while (true) {
-				PageInfo<Article> queryList = articleService.queryList(page, rows);
-				if (queryList.getSize() == 0) {
-					break;
-				}
-				for (Article article : queryList.getList()) {
-					Zb8CommentsAnalyseTool tool = new Zb8CommentsAnalyseTool(article.getUrl());
-					System.out.println(
-							article.getTitle() + " / " + tool.getHotCommentCount() + " / " + tool.getAllCommentCount());
-					article.setComments(tool.getAllCommentCount());
-					article.setHotComments(tool.getHotCommentCount());
-					articleService.update(article);
-					List<Comment> top5Comments = tool.getTop5Comments(5);
-					for (Comment comment : top5Comments) {
-						ArticleComment articleComment = CommentAdapter.getArticleComment(comment);
-						articleComment.setArticleId(article.getId());
-						articleComment.setCreateTime(BasicDateUtil.getCurrentDateTimeString());
-						System.out.println(articleComment);
-						try {
-							commentService.save(articleComment);
-						} catch (Exception e) {
-							e.printStackTrace();
-						}
-					}
-				}
-				page++;
+		int page = 1;
+		final int rows = 100;
+		while (true) {
+			PageInfo<Article> queryList = articleService.queryNullComments(page, rows);
+			if (queryList == null || queryList.getSize() == 0) {
+				break;
 			}
-		} catch (Exception e) {
-			e.printStackTrace();
+			articleCommentsTask.doTask(queryList.getList(), articleService, commentService);
+			page++;
 		}
 
 		return "zb8";
 	}
+
+	@Autowired
+	HtmlContentTask htmlContentTask;
+	@Autowired
+	ArticleCommentsTask articleCommentsTask;
+	@Autowired
+	NewsWordsAnalyse newsWordsAnalyse;
 
 	// 解析文章中英文
 	@RequestMapping(value = "/contents")
 	public String contents(Model model) throws Exception {
 		try {
 			int page = 1;
-			final int rows = 5;
+			final int rows = 100;
 			while (true) {
-				PageInfo<Article> queryList = articleService.queryList(page, rows);
-				if (page == 2 || queryList.getSize() == 0) {
+				List<Article> queryList = articleService.queryNullContent(page, rows);
+				System.out.println("分页数据:" + page + "/" + queryList.size());
+				if (queryList.size() == 0) {
 					break;
 				}
-				for (Article article : queryList.getList()) {
-					articleService.decorateArticle(article);
-					if (article.getEngContent() != null)
-						articleService.update(article);
-				}
+				// for (Article article : queryList) {
+				// Zb8News zb8FromArticle =
+				// Zb8NewsAdapter.getZb8FromArticle(article);
+				// newsWordsAnalyse.decorateZb8News(zb8FromArticle);
+				// article.setEngContent(zb8FromArticle.getEng_content());
+				// articleService.updateContent(article);
+				// }
+				htmlContentTask.doTask(queryList, articleService, newsWordsAnalyse);
 				page++;
 			}
 		} catch (Exception e) {
