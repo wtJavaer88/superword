@@ -74,7 +74,6 @@ public class ArticleComment {
 
 	@Override
 	public String toString() {
-		return "ArticleComment [content=" + content + ", userId=" + userId + ", up=" + up + ", down=" + down
-				+ ", articleId=" + articleId + ", priority=" + priority + ", createTime=" + createTime + "]";
+		return "内容:" + this.content + "   顶/踩 (" + this.up + "/" + this.down + ")";
 	}
 }

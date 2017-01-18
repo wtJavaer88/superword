@@ -6,7 +6,7 @@ sw-common/target/
 sw-manage/target/
 sw-parent/target/
 translation/target/
-
+logs
 # Folder config file
 Desktop.ini
 

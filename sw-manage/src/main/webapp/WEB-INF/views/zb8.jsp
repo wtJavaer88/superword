@@ -36,19 +36,19 @@
 </head>
 <body>
 	<div class="form-horizontal row" style="padding:10px;margin-top:20px">
-		<div class="col-md-3">
+		<div class="col-md-3 col-sm-4 col-xs-6">
 			<span>日期:</span>
 			<input id="day" type="text" class="easyui-datebox" style="line-height:26px;border:1px solid #ccc">
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 col-sm-4 col-xs-6">
 			<span>关键字:</span>
 			<select name="keyword" id="keyword" multiple="multiple" style="width:200px"></select>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 col-sm-4 col-xs-6">
 			<span>翻译:</span>
 			<input id="is_translate" type="checkbox">
 		</div>
-			<a href="#" class="form-control" plain="true" onclick="doSearch()">Search</a>
+		<a href="#" class="form-control" plain="true" onclick="doSearch()">Search</a>
 	</div>
 	<div data-options="region:'north'" style="height:100px">
 		<table class="easyui-datagrid" id="articleList" title="直播吧新闻列表"
@@ -76,9 +76,10 @@
 	<script type="text/javascript">
 		$("#keyword").append("<option value='阿森纳'>阿森纳</option>");	
 		$("#keyword").append("<option value='曼城'>曼城</option>");
-		$("#keyword").append("<option value='巴萨罗那'>巴萨罗那</option>");	
-		$("#keyword").append("<option value='英超'>英超</option>");	
-		
+		$("#keyword").append("<option value='巴塞罗那'>巴塞罗那</option>");	
+		$("#keyword").append("<option value='英超'>英超</option>");
+		$("#keyword").append("<option value='NBA'>NBA</option>");
+		$("#keyword").append("<option value='骑士'>骑士</option>");
 		var multiselect = $("#keyword").multiselect(
 				{
 					noneSelectedText : "请选择",
@@ -108,7 +109,7 @@
 				$.each(arr, function(i, o) {
 					var sel=$(o).attr('aria-selected');
 					console.log(sel);
-					if(sel){
+					if(sel == "true"){
 						console.log($(o).val());
 						kw=kw+$(o).val()+","
 					}
@@ -186,6 +187,13 @@
 					iconCls : 'icon-link-web',
 					handler : function() {
 						window.open(getSelectedFirstFromUrl()); 
+					}
+				},
+				{
+					text : '热评',
+					iconCls : 'icon-edit',
+					handler : function() {
+						window.open('/rest/comments/hot?id='+getSelectedFirstId()); 
 					}
 				},
 				{

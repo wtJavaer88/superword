@@ -4,6 +4,20 @@
 <mapper namespace="com.wnc.superword.manage.mapper.ArticleMapper">
 	
 	<sql id="tableName">article</sql>
-	
+	<resultMap id="BaseResultMap" type="com.wnc.superword.manage.pojo.zb8.Article">
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="url" property="url" jdbcType="INTEGER" />
+		<result column="from_website" property="fromWebsite" jdbcType="INTEGER" />
+		<result column="from_url" property="fromUrl" jdbcType="CHAR" />
+		<result column="title" property="title" jdbcType="CHAR" />
+		<result column="day" property="day" jdbcType="CHAR" />
+		<result column="keyword" property="keyword" jdbcType="CHAR" />
+		<result column="thumbnail" property="thumbnail" jdbcType="CHAR" />
+		<result column="comments" property="comments" jdbcType="INTEGER" />
+		<result column="hot_comments" property="hotComments" jdbcType="INTEGER" />
+	</resultMap>
+	<select id="listBySql" resultMap="BaseResultMap" parameterType="map">
+		select * from article ${whereSql} order by news_time desc limit ${start},${rows}
+	</select>
 
 </mapper>

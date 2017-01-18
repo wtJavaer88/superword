@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.github.abel533.entity.Example;
+import com.github.abel533.entity.Example.Criteria;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.wnc.superword.manage.db.DataSourceType;
@@ -35,5 +36,13 @@ public class CommentService extends BaseService<ArticleComment> {
 			DataSourceTypeManager.reset();
 		}
 		return null;
+	}
+
+	public List<ArticleComment> queryByArticle(Long id) {
+		Example example = new Example(ArticleComment.class);
+		Criteria createCriteria = example.createCriteria();
+		createCriteria.andEqualTo("articleId", id);
+		example.setOrderByClause("priority asc,up desc");
+		return commentMapper.selectByExample(example);
 	}
 }

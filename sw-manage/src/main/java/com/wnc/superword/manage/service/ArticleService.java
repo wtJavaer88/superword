@@ -1,6 +1,8 @@
 package com.wnc.superword.manage.service;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -31,39 +33,39 @@ public class ArticleService extends BaseService<Article> {
 	@Autowired
 	NewsWordsAnalyse newsWordsAnalyse;
 
-	public PageInfo<Article> queryList(Integer page, Integer rows, String day, String keyword, boolean is_translate) {
+	public List<Article> queryList(Integer page, Integer rows, String day, String keyword, boolean is_translate) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
-			Example example = new Example(Article.class);
+			String whereSql = "WHERE 1=1 ";
 			if (day != null && BasicStringUtil.isNotNullString(day.trim())) {
-				Criteria createCriteria = example.createCriteria();
-				createCriteria.andEqualTo("day", day);
+				whereSql += " and day='" + day + "'";
 			}
 			if (keyword != null && BasicStringUtil.isNotNullString(keyword.trim())) {
-				Criteria createCriteria = example.createCriteria();
-				// for (String s : keyword.split(",")) {
-				createCriteria.andLike("keyword", "%阿森纳% or keyword like '%曼城%'");
-				// }
+				String orSql = "1=2";
+				for (String s : keyword.split(",")) {
+					orSql += " or keyword like '%" + s + "%'";
+				}
+				orSql = "(" + orSql + ")";
+				whereSql += " and " + orSql;
 			}
 			if (is_translate) {
-				Criteria createCriteria = example.createCriteria();
-				createCriteria.andIsNotNull("engContent");
-				createCriteria.andNotLike("fromUrl", "http://www.marca.com/%");
-				Criteria createCriteria2 = example.createCriteria();
-				createCriteria2.andLike("fromUrl", "http://www.marca.com/en/%");
-				example.or(createCriteria2);
+				whereSql += " and (eng_content IS NOT NULL  and (from_url not like 'http://www.marca.com/%' or from_url like 'http://www.marca.com/en/%'))";
 			}
-			example.setOrderByClause("news_time desc");
-			// 设置分页参数
-			PageHelper.startPage(page, rows);
-			List<Article> list = this.articleMapper.selectByExample(example);
-			return new PageInfo<Article>(list);
+			Map map = new HashMap<>();
+			map.put("start", (page - 1) * rows);
+			map.put("rows", rows);
+			map.put("whereSql", whereSql);
+			return this.articleMapper.listBySql(map);
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			DataSourceTypeManager.reset();
 		}
 		return null;
+	}
+
+	public int getTotal() {
+		return articleMapper.selectCount(null);
 	}
 
 	public synchronized PageInfo<Article> queryNullComments(Integer page, Integer rows) {

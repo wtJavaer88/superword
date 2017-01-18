@@ -1,5 +1,7 @@
 package com.wnc.superword.manage.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.github.pagehelper.PageInfo;
 import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
 import com.wnc.superword.manage.pojo.zb8.Article;
@@ -32,8 +33,8 @@ public class ArticleController {
 			if (keyword != null)
 				keyword = new String(keyword.getBytes("iso-8859-1"), "utf-8");
 			System.out.println("kw:" + keyword + " day:" + day);
-			PageInfo<Article> queryList = articleService.queryList(page, rows, day, keyword, is_translate);
-			return ResponseEntity.ok(new EasyUIResult(queryList.getTotal(), queryList.getList()));
+			List<Article> queryList = articleService.queryList(page, rows, day, keyword, is_translate);
+			return ResponseEntity.ok(new EasyUIResult(articleService.getTotal(), queryList));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
