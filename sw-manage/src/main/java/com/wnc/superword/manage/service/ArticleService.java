@@ -10,6 +10,7 @@ import com.github.abel533.entity.Example.Criteria;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.wnc.basic.BasicDateUtil;
+import com.wnc.basic.BasicStringUtil;
 import com.wnc.news.api.common.Comment;
 import com.wnc.news.api.mine.zhibo8.HtmlContentHelper;
 import com.wnc.news.api.mine.zhibo8.Zb8News;
@@ -30,14 +31,31 @@ public class ArticleService extends BaseService<Article> {
 	@Autowired
 	NewsWordsAnalyse newsWordsAnalyse;
 
-	public PageInfo<Article> queryList(Integer page, Integer rows) {
+	public PageInfo<Article> queryList(Integer page, Integer rows, String day, String keyword, boolean is_translate) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			Example example = new Example(Article.class);
+			if (day != null && BasicStringUtil.isNotNullString(day.trim())) {
+				Criteria createCriteria = example.createCriteria();
+				createCriteria.andEqualTo("day", day);
+			}
+			if (keyword != null && BasicStringUtil.isNotNullString(keyword.trim())) {
+				Criteria createCriteria = example.createCriteria();
+				// for (String s : keyword.split(",")) {
+				createCriteria.andLike("keyword", "%阿森纳% or keyword like '%曼城%'");
+				// }
+			}
+			if (is_translate) {
+				Criteria createCriteria = example.createCriteria();
+				createCriteria.andIsNotNull("engContent");
+				createCriteria.andNotLike("fromUrl", "http://www.marca.com/%");
+				Criteria createCriteria2 = example.createCriteria();
+				createCriteria2.andLike("fromUrl", "http://www.marca.com/en/%");
+				example.or(createCriteria2);
+			}
 			example.setOrderByClause("news_time desc");
 			// 设置分页参数
 			PageHelper.startPage(page, rows);
-
 			List<Article> list = this.articleMapper.selectByExample(example);
 			return new PageInfo<Article>(list);
 		} catch (Exception e) {
@@ -48,7 +66,7 @@ public class ArticleService extends BaseService<Article> {
 		return null;
 	}
 
-	public PageInfo<Article> queryNullComments(Integer page, Integer rows) {
+	public synchronized PageInfo<Article> queryNullComments(Integer page, Integer rows) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			Example example = new Example(Article.class);
@@ -71,16 +89,22 @@ public class ArticleService extends BaseService<Article> {
 		return null;
 	}
 
-	public List<Article> queryNullContent(Integer page, Integer rows) {
+	public synchronized List<Article> queryNullContent(Integer page, Integer rows) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			Example example = new Example(Article.class);
 			Criteria createCriteria = example.createCriteria();
 			createCriteria.andIsNull("chsContent");
 			createCriteria.andIsNull("engContent");
-			createCriteria.andLessThanOrEqualTo("day", "2016-08-04");
 			createCriteria.andIsNotNull("fromUrl");
-			example.setOrderByClause("news_time desc");
+			createCriteria.andNotLike("fromUrl", "http://www.marca.com/%");
+			Criteria createCriteria2 = example.createCriteria();
+			createCriteria2.andLike("fromUrl", "http://www.marca.com/en/%");
+			createCriteria2.andIsNull("chsContent");
+			createCriteria2.andIsNull("engContent");
+			example.or(createCriteria2);
+
+			example.setOrderByClause("news_time asc");
 			// 设置分页参数
 			PageHelper.startPage(page, rows);
 
@@ -94,7 +118,7 @@ public class ArticleService extends BaseService<Article> {
 		return null;
 	}
 
-	public List<Article> queryNoDecorateEngContent(Integer page, Integer rows) {
+	public synchronized List<Article> queryNoDecorateEngContent(Integer page, Integer rows) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			PageHelper.startPage(page, rows);
@@ -124,7 +148,6 @@ public class ArticleService extends BaseService<Article> {
 	 * @return
 	 */
 	public Article decorateArticle(Article article) {
-		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			Zb8News zb8FromArticle = Zb8NewsAdapter.getZb8FromArticle(article);
 			HtmlContentHelper htmlContentHelper = new HtmlContentHelper();
@@ -137,8 +160,6 @@ public class ArticleService extends BaseService<Article> {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-		} finally {
-			DataSourceTypeManager.reset();
 		}
 		return article;
 	}
@@ -149,13 +170,20 @@ public class ArticleService extends BaseService<Article> {
 
 	public synchronized void updateComments(Article article, List<Comment> top5Comments,
 			CommentService commentService) {
-		update(article);
-		for (Comment comment : top5Comments) {
-			ArticleComment articleComment = CommentAdapter.getArticleComment(comment);
-			articleComment.setArticleId(article.getId());
-			articleComment.setCreateTime(BasicDateUtil.getCurrentDateTimeString());
-			// System.out.println(articleComment);
-			commentService.save(articleComment);
+		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
+		try {
+			update(article);
+			for (Comment comment : top5Comments) {
+				ArticleComment articleComment = CommentAdapter.getArticleComment(comment);
+				articleComment.setArticleId(article.getId());
+				articleComment.setCreateTime(BasicDateUtil.getCurrentDateTimeString());
+				// System.out.println(articleComment);
+				commentService.save(articleComment);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			DataSourceTypeManager.reset();
 		}
 	}
 }

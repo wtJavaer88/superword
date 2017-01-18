@@ -9,24 +9,59 @@
 	href="/js/jquery-easyui-1.4/themes/default/easyui.css" />
 <link rel="stylesheet" type="text/css"
 	href="/js/jquery-easyui-1.4/themes/icon.css" />
+<link rel="stylesheet" type="text/css"
+	href="/css/jquery.multiselect.css" />
+<link rel="stylesheet" type="text/css"
+	href="/css/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="/css/jquery.ui.dialog.min.css" />
+	
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
 <script type="text/javascript" src="/js/jquery-easyui-1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/jquery.ui.widget.js"></script>	
+<script type="text/javascript" src="/js/jquery-ui.min.js"></script>	
+<script type="text/javascript" src="/js/jquery.ui.dialog.min.js"></script>	
+<script type="text/javascript" src="/js/jquery-ui-1.9.2.custom.min.js"></script>	
+<script type="text/javascript" src="/js/jquery.nicescroll.js"></script>	
+<script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>	
+<script type="text/javascript" src="/js/jquery.multiselect.js"></script>
 <script type="text/javascript"
 	src="/js/jquery-easyui-1.4/jquery.easyui.min.js"></script>
 <script type="text/javascript"
 	src="/js/jquery-easyui-1.4/locale/easyui-lang-zh_CN.js"></script>
-<script type="text/javascript" src="/js/common.js"></script>
+
 </head>
 <body>
-	<div>
-		<table class="easyui-datagrid" id="userList" title="直播吧新闻列表"
-			data-options="singleSelect:false,collapsible:true,pagination:true,url:'/rest/zb8/',method:'get',pageSize:5,toolbar:toolbar,pageList:[2,5,10]">
+	<div class="form-horizontal row" style="padding:10px;margin-top:20px">
+		<div class="col-md-3">
+			<span>日期:</span>
+			<input id="day" type="text" class="easyui-datebox" style="line-height:26px;border:1px solid #ccc">
+		</div>
+		<div class="col-md-3">
+			<span>关键字:</span>
+			<select name="keyword" id="keyword" multiple="multiple" style="width:200px"></select>
+		</div>
+		<div class="col-md-3">
+			<span>翻译:</span>
+			<input id="is_translate" type="checkbox">
+		</div>
+			<a href="#" class="form-control" plain="true" onclick="doSearch()">Search</a>
+	</div>
+	<div data-options="region:'north'" style="height:100px">
+		<table class="easyui-datagrid" id="articleList" title="直播吧新闻列表"
+			data-options="singleSelect:true,collapsible:true,pagination:true,url:'/rest/zb8/',method:'get',pageSize:15,toolbar:toolbar,pageList:[10,15,20],fitColumns:true">
 			<thead>
 				<tr>
 					<th data-options="field:'ck',checkbox:true"></th>
 					<th data-options="field:'id',width:50">ID</th>
-					<th data-options="field:'title',width:300">标题</th>
-					<th data-options="field:'url',width:150">网址</th>
+					<th data-options="field:'title',width:400">标题</th>
+					<th data-options="field:'url',width:150" hidden="true">网址</th>
 					<th data-options="field:'fromUrl',width:150">来源网址</th>
+					<th data-options="field:'comments',width:150">总评论数</th>
+					<th data-options="field:'hotComments',width:150">热评数</th>
 					<th data-options="field:'keyword',width:120">关键字</th>
 					<th data-options="field:'thumbnail',width:200,formatter:formatThumb">缩略图</th>
 					<th data-options="field:'day',width:100">日期</th>
@@ -39,6 +74,53 @@
 		style="width: 400px; height: 300px; padding: 10px;">The window
 		content.</div>
 	<script type="text/javascript">
+		$("#keyword").append("<option value='阿森纳'>阿森纳</option>");	
+		$("#keyword").append("<option value='曼城'>曼城</option>");
+		$("#keyword").append("<option value='巴萨罗那'>巴萨罗那</option>");	
+		$("#keyword").append("<option value='英超'>英超</option>");	
+		
+		var multiselect = $("#keyword").multiselect(
+				{
+					noneSelectedText : "请选择",
+					checkAllText : "全选",
+					uncheckAllText : '全不选',
+					selectedList : 3,
+					minWidth : "100%"
+				});
+		
+		$('#day').datebox({
+			onSelect: function(date){
+				var m = date.getMonth()+1;
+				if(m < 10){
+					m = "0"+m;
+				}
+				var d = date.getDate();
+				if(d < 10){
+					d = "0"+d;
+				}
+				$('#day').val(date.getFullYear()+"-"+m+"-"+d);
+			}
+		});
+		function doSearch(){
+				var arr = $("input[name='multiselect_keyword']");
+				console.log(arr.length);
+				var kw = '';
+				$.each(arr, function(i, o) {
+					var sel=$(o).attr('aria-selected');
+					console.log(sel);
+					if(sel){
+						console.log($(o).val());
+						kw=kw+$(o).val()+","
+					}
+				});
+				console.log('kw:  '+kw);
+				$('#articleList').datagrid('load',{
+					keyword: kw,
+					day: $('#day').val(),
+					is_translate:$('#is_translate').is(':checked')
+				});
+			
+		}
 		function formatDate(val, row) {
 			var now = new Date(val);
 			return now.format("yyyy-MM-dd hh:mm:ss");
@@ -48,8 +130,8 @@
 		}
 		
 		function getSelectionsIds() {
-			var userList = $("#userList");
-			var sels = userList.datagrid("getSelections");
+			var articleList = $("#articleList");
+			var sels = articleList.datagrid("getSelections");
 			var ids = [];
 			for ( var i in sels) {
 				ids.push(sels[i].id);
@@ -58,8 +140,8 @@
 			return ids;
 		}
 		function getSelectedFirstUrl() {
-			var userList = $("#userList");
-			var sels = userList.datagrid("getSelections");
+			var articleList = $("#articleList");
+			var sels = articleList.datagrid("getSelections");
 			var url = "";
 			if (sels.length>0) {
 				url=sels[0].url;
@@ -67,17 +149,17 @@
 			return url;
 		}
 		function getSelectedFirstFromUrl() {
-			var userList = $("#userList");
-			var sels = userList.datagrid("getSelections");
+			var articleList = $("#articleList");
+			var sels = articleList.datagrid("getSelections");
 			var url = "";
 			if (sels.length>0) {
-				url=sels[0].from_url;
+				url=sels[0].fromUrl;
 			}
 			return url;
 		}
 		function getSelectedFirstId() {
-			var userList = $("#userList");
-			var sels = userList.datagrid("getSelections");
+			var articleList = $("#articleList");
+			var sels = articleList.datagrid("getSelections");
 			var id = 0;
 			if (sels.length>0) {
 				id=sels[0].id;
@@ -143,7 +225,7 @@
 																				undefined,
 																				function() {
 																					$(
-																							"#userList")
+																							"#articleList")
 																							.datagrid(
 																									"reload");
 																				});
@@ -167,7 +249,7 @@
 					text : '导出',
 					iconCls : 'icon-remove',
 					handler : function() {
-						var optins = $("#userList").datagrid("getPager").data(
+						var optins = $("#articleList").datagrid("getPager").data(
 								"pagination").options;
 						var page = optins.pageNumber;
 						var rows = optins.pageSize;

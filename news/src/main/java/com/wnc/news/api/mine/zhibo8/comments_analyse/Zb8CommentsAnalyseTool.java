@@ -63,9 +63,9 @@ public class Zb8CommentsAnalyseTool {
 	public List<Comment> getTop5Comments(int top) {
 		analyseComments();
 		List<Comment> list = new ArrayList<Comment>();
-		for (int i = 0; i < top && i < hotComments.size(); i++) {
+		for (int i = 0; i < hotComments.size(); i++) {
 			Comment cm = hotComments.get(i);
-			if (cm.getPriority() <= CommentQuality.Good.getQuality()) {
+			if (i < top || cm.getPriority() < CommentQuality.Good.getQuality()) {
 				System.out.println(cm.getUserName() + " / " + cm.getContent());
 				list.add(cm);
 			}

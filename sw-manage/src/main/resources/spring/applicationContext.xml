@@ -26,7 +26,7 @@
 	</bean>
 	<bean id="taskExecutor"
 		class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
-		<property name="corePoolSize" value="25" />
+		<property name="corePoolSize" value="20" />
 		<property name="maxPoolSize" value="50" />
 		<property name="queueCapacity" value="1000000" />
 		<property name="keepAliveSeconds" value="200" />
@@ -74,6 +74,6 @@
 				<entry value-ref="ds_zb8" key="ds_zb8"></entry>
 			</map>
 		</property>
-		<property name="defaultTargetDataSource" ref="ds_zb8"></property>      <!-- 默认使用ds1的数据源 -->
+		<property name="defaultTargetDataSource" ref="ds_main"></property>      <!-- 默认使用ds_main的数据源 -->
 	</bean>
 </beans>

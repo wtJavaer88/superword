@@ -35,7 +35,7 @@ public class WebSiteClassFactory {
 		websites.put(".dongqiudi.", ".detail div");// 懂球帝
 		// 2017年1月12日添加
 		websites.put(".football-italia.", "#story_content .content");// 意大利足球报
-		websites.put(".marca.", "div [itemprop=articleBody] p");// 马卡报
+		websites.put(".marca.com/en/", "div [itemprop=articleBody] p");// 马卡报,只翻译有英文的
 		websites.put(".mirror.", "div [itemprop=articleBody]");// 每日镜报
 		// 2017年1月13日添加 篮球较多
 		websites.put(".thescore.", ".article-contents article");

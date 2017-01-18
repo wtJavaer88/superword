@@ -24,9 +24,15 @@ public class ArticleController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<EasyUIResult> list(@RequestParam(value = "page", defaultValue = "1") Integer page,
-			@RequestParam(value = "rows", defaultValue = "10") Integer rows) {
+			@RequestParam(value = "rows", defaultValue = "10") Integer rows,
+			@RequestParam(value = "day", required = false) String day,
+			@RequestParam(value = "keyword", required = false) String keyword,
+			@RequestParam(value = "is_translate", required = false) boolean is_translate) {
 		try {
-			PageInfo<Article> queryList = articleService.queryList(page, rows);
+			if (keyword != null)
+				keyword = new String(keyword.getBytes("iso-8859-1"), "utf-8");
+			System.out.println("kw:" + keyword + " day:" + day);
+			PageInfo<Article> queryList = articleService.queryList(page, rows, day, keyword, is_translate);
 			return ResponseEntity.ok(new EasyUIResult(queryList.getTotal(), queryList.getList()));
 		} catch (Exception e) {
 			e.printStackTrace();

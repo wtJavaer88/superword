@@ -12,15 +12,12 @@ import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
 import com.wnc.superword.manage.mapper.CommentMapper;
 import com.wnc.superword.manage.pojo.zb8.ArticleComment;
-import com.wnc.superword.manage.util.NewsWordsAnalyse;
 
 @Service
 public class CommentService extends BaseService<ArticleComment> {
 
 	@Autowired
 	private CommentMapper commentMapper;
-	@Autowired
-	NewsWordsAnalyse newsWordsAnalyse;
 
 	public PageInfo<ArticleComment> queryList(Integer page, Integer rows) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
