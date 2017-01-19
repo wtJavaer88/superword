@@ -61,6 +61,42 @@ function showTranslate() {
 		$('#maintext2').removeClass('hide-div');
 	}
 }
+function hotCommentShow(article_id) {
+	layer.open({
+		type : 1,
+		area : '500px',
+		offset : '200px',
+		shadeClose : true,
+		btn : [ '确定' ], // 按钮
+		title : '热评',
+		content : $('#hot'),
+		success : function(layero, index) {
+			$('#hot').html('');
+			$.ajax({
+				dataType : 'json',
+				type : 'get',
+				url : '/rest/comments/hot',
+				data : {
+					id : article_id
+				},
+				success : function(result) {
+					// console.log(result);
+					$.each(result.rows, function(i, o) {
+						$('#hot').append(
+								"<p class=\"hot-comment\">" + o.content + "("
+										+ o.up + "/" + o.down + ")</p>");
+					});
+				},
+				error : function() {
+					alert('网络问题,失败,请检查日志!');
+				}
+			});
+		},
+		yes : function(index, layero) {
+			layer.close(index);// 如果设定了yes回调，需进行手工关闭
+		}
+	});
+}
 function showDetail(word, mean) {
 	console.log('word:' + word);
 	// 询问框

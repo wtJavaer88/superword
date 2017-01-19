@@ -10,4 +10,6 @@ public interface ArticleMapper extends Mapper<Article> {
 	List<Article> queryList();
 
 	List<Article> listBySql(Map map);
+
+	Long selectCountBySql(Map map);
 }

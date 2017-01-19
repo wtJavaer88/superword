@@ -1,3 +1,9 @@
+.icon-read{
+	background:url('icons/read.png') no-repeat center center;
+}
+.icon-hot{
+	background:url('icons/hot.png') no-repeat center center;
+}
 .icon-link-web{
 	background:url('icons/link_web.png') no-repeat center center;
 }

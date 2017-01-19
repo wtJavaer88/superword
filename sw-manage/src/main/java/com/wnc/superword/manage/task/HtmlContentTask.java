@@ -22,8 +22,6 @@ public class HtmlContentTask {
 			task = new ContentThread(article, articleService, newsWordsAnalyse);
 			taskExecutor.execute(task);
 		}
-		// taskExecutor.setWaitForTasksToCompleteOnShutdown(true);
-		// taskExecutor.shutdown();
 	}
 
 	public ThreadPoolTaskExecutor getTaskExecutor() {

@@ -83,7 +83,7 @@ public class NewsWordsAnalyse {
 
 	private String removeHtmlAttribute(String article) {
 		return article.replaceAll("<a.*?(href=\".*?\").*?>", "<a $1>").replaceAll("<p.*?>", "<p>")
-				.replaceAll("<img.*?>", "");
+				.replaceAll("<div.*?>", "<div>");
 	}
 
 	/**
@@ -102,10 +102,10 @@ public class NewsWordsAnalyse {
 			}
 		});
 		StringBuilder result = new StringBuilder();
-		int openTag = aString.indexOf("<a ");
-		int closeTag;
+		HtmlTag htmlTag = findNearByTag(aString);
+		int openTag = htmlTag.getStartIndex();
+		int closeTag = htmlTag.getEndIndex();
 		while (openTag > -1) {
-			closeTag = aString.indexOf("</a>") + 4;
 			String left = aString.substring(0, openTag);
 			result.append(deal(left, keys));
 			if (closeTag > openTag) {
@@ -116,10 +116,77 @@ public class NewsWordsAnalyse {
 				aString = aString.substring(openTag);
 			}
 
-			openTag = aString.indexOf("<a ");
+			htmlTag = findNearByTag(aString);
+			openTag = htmlTag.getStartIndex();
+			closeTag = htmlTag.getEndIndex();
 		}
 		result.append(deal(aString, keys));
 		return result.toString();
+	}
+
+	private HtmlTag findNearByTag(String html) {
+		HtmlTag htmlTag = new HtmlTag();
+		String[] tags = new String[] { "a", "img", "iframe" };
+		int min = html.length();
+		for (String tagName : tags) {
+			int indexOf = html.indexOf("<" + tagName + " ");
+			if (indexOf > -1 && indexOf < min) {
+				min = indexOf;
+				htmlTag.setStartIndex(min);
+				htmlTag.setTagName(tagName);
+			}
+		}
+		if (htmlTag.getTagName() != null) {
+			if (htmlTag.getTagName().equals("img")) {
+				htmlTag.setEndIndex(html.substring(min).indexOf("/>") + min + 2);
+			} else {
+				// System.out.println(html.length() + " len/min:" + min);
+				htmlTag.setEndIndex(html.substring(min).indexOf("</" + htmlTag.getTagName() + ">") + min
+						+ htmlTag.getTagName().length() + 2);
+			}
+		}
+		// System.out.println(htmlTag);
+		return htmlTag;
+	}
+
+	class HtmlTag {
+		public HtmlTag() {
+			startIndex = -1;
+			endIndex = -1;
+		}
+
+		String tagName;
+		int startIndex;
+		int endIndex;
+
+		public String getTagName() {
+			return tagName;
+		}
+
+		public void setTagName(String tagName) {
+			this.tagName = tagName;
+		}
+
+		public int getStartIndex() {
+			return startIndex;
+		}
+
+		public void setStartIndex(int startIndex) {
+			this.startIndex = startIndex;
+		}
+
+		public int getEndIndex() {
+			return endIndex;
+		}
+
+		public void setEndIndex(int endIndex) {
+			this.endIndex = endIndex;
+		}
+
+		@Override
+		public String toString() {
+			return "HtmlTag [tagName=" + tagName + ", startIndex=" + startIndex + ", endIndex=" + endIndex + "]";
+		}
 	}
 
 	protected String deal(String s, List<Topic> keys) {

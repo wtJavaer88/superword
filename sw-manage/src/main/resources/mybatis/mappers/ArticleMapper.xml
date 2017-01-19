@@ -17,7 +17,11 @@
 		<result column="hot_comments" property="hotComments" jdbcType="INTEGER" />
 	</resultMap>
 	<select id="listBySql" resultMap="BaseResultMap" parameterType="map">
-		select * from article ${whereSql} order by news_time desc limit ${start},${rows}
+		select * from article ${whereSql} order by day desc ,from_url desc, news_time desc limit ${start},${rows}
+	</select>
+	<select id="selectCountBySql" resultType="long" parameterType="map"
+		useCache="true">
+		select count(*) from article ${whereSql}
 	</select>
 
 </mapper>

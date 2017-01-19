@@ -9,6 +9,7 @@ import com.wnc.basic.BasicStringUtil;
 import com.wnc.news.api.mine.handler.HtmlHandler;
 import com.wnc.news.api.mine.handler.MirrorHtmlHandler;
 import com.wnc.news.api.mine.handler.NormalHtmlHandler;
+import com.wnc.news.api.mine.handler.SkyHtmlHandler;
 
 public class WebSiteClassFactory {
 	private static Map<String, String> websites = new HashMap<String, String>();
@@ -43,6 +44,7 @@ public class WebSiteClassFactory {
 		// websites.put("twitter.", ".js-tweet-text-container"); //推特暂时不可用,链接超时
 
 		customHtmlHandlers.put(".mirror.", MirrorHtmlHandler.class);
+		customHtmlHandlers.put(".skysports.", SkyHtmlHandler.class);
 	}
 
 	public static Map<String, String> getWebsites() {

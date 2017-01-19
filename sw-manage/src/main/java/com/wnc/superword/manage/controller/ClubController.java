@@ -1,5 +1,8 @@
 package com.wnc.superword.manage.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -32,6 +35,34 @@ public class ClubController {
 		try {
 			EasyUIResult easyUIResult = this.clubService.queryList(page, rows);
 			return ResponseEntity.ok(easyUIResult);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+	}
+
+	@RequestMapping(value = "/keywords")
+	public ResponseEntity<EasyUIResult> keywords() {
+		try {
+			List<String> list = new ArrayList<>();
+			list.add("NBA");
+			list.add("马刺");
+			list.add("勇士");
+			list.add("骑士");
+			list.add("英超");
+			list.add("阿森纳");
+			list.add("曼城");
+			list.add("利物浦");
+			list.add("切尔西");
+			list.add("曼联");
+			list.add("西甲");
+			list.add("皇马");
+			list.add("马竞");
+			list.add("巴塞罗那");
+			list.add("德甲");
+			list.add("拜仁");
+			list.add("多特蒙德");
+			return ResponseEntity.ok(new EasyUIResult(list.size(), list));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

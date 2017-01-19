@@ -1,5 +1,8 @@
 package com.wnc.superword.manage.pojo.zb8;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.wnc.news.api.mine.zhibo8.Zb8News;
 
 public class Zb8NewsAdapter {
@@ -20,6 +23,14 @@ public class Zb8NewsAdapter {
 		article.setUrl(zb8News.getUrl());
 		article.setSportType(zb8News.getSport_type());
 		return article;
+	}
+
+	public static List<Article> getArticlesFromZb8(List<Zb8News> zb8NewsList) {
+		List<Article> articles = new ArrayList<Article>();
+		for (Zb8News zb8News : zb8NewsList) {
+			articles.add(getArticleFromZb8(zb8News));
+		}
+		return articles;
 	}
 
 	public static Zb8News getZb8FromArticle(Article article) {

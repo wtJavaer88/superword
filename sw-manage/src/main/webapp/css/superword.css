@@ -1,0 +1,16 @@
+.hot-comment{
+	text-indent: 1em;
+	margin-right:20px;
+	margin-top:10px;
+	font-size:15px;
+}
+.rows{
+	margin-left:10;
+	padding-top: 25px;
+}
+.hide-div{
+	display:none;
+}
+.content{
+	font-size:24px;
+}

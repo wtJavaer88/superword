@@ -45,4 +45,16 @@ public class CommentService extends BaseService<ArticleComment> {
 		example.setOrderByClause("priority asc,up desc");
 		return commentMapper.selectByExample(example);
 	}
+
+	public int articleHotCount(Long id) {
+		Example example = new Example(ArticleComment.class);
+		example.createCriteria().andEqualTo("articleId", id);
+		return commentMapper.selectByExample(example).size();
+	}
+
+	public boolean isExist(Long article_id) {
+		Example example = new Example(ArticleComment.class);
+		example.createCriteria().andEqualTo("articleId", article_id);
+		return commentMapper.selectByExample(example).size() > 0;
+	}
 }

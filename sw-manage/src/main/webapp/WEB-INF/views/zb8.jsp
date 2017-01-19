@@ -16,7 +16,9 @@
 <link rel="stylesheet" type="text/css"
 	href="/css/jquery.ui.dialog.min.css" />
 	
-<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="/css/superword.css" type="text/css"/>
+
 <script type="text/javascript" src="/js/jquery-easyui-1.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
@@ -32,7 +34,8 @@
 	src="/js/jquery-easyui-1.4/jquery.easyui.min.js"></script>
 <script type="text/javascript"
 	src="/js/jquery-easyui-1.4/locale/easyui-lang-zh_CN.js"></script>
-
+<script src="/js/layer/layer.js"></script>
+<script src="/js/superword.js"></script>
 </head>
 <body>
 	<div class="form-horizontal row" style="padding:10px;margin-top:20px">
@@ -63,7 +66,6 @@
 					<th data-options="field:'comments',width:150">总评论数</th>
 					<th data-options="field:'hotComments',width:150">热评数</th>
 					<th data-options="field:'keyword',width:120">关键字</th>
-					<th data-options="field:'thumbnail',width:200,formatter:formatThumb">缩略图</th>
 					<th data-options="field:'day',width:100">日期</th>
 				</tr>
 			</thead>
@@ -71,24 +73,51 @@
 	</div>
 	<div id="newsAdd" class="easyui-window" title="新增新闻"
 		data-options="modal:true,closed:true,iconCls:'icon-save',href:'/rest/news/add'"
-		style="width: 400px; height: 300px; padding: 10px;">The window
-		content.</div>
+		style="width: 400px; height: 300px; padding: 10px;">
+		The window content.
+	</div>
+	<div id="hot"
+		style="display: none">
+	</div>
 	<script type="text/javascript">
-		$("#keyword").append("<option value='阿森纳'>阿森纳</option>");	
-		$("#keyword").append("<option value='曼城'>曼城</option>");
-		$("#keyword").append("<option value='巴塞罗那'>巴塞罗那</option>");	
-		$("#keyword").append("<option value='英超'>英超</option>");
-		$("#keyword").append("<option value='NBA'>NBA</option>");
-		$("#keyword").append("<option value='骑士'>骑士</option>");
-		var multiselect = $("#keyword").multiselect(
-				{
-					noneSelectedText : "请选择",
-					checkAllText : "全选",
-					uncheckAllText : '全不选',
-					selectedList : 3,
-					minWidth : "100%"
-				});
-		
+		$(function () {  
+		    $("#articleList").datagrid({  
+		        //双击事件  
+		        onDblClickRow: function (index, row) {  
+		        	console.log(getSelectedFirstFromUrl());
+		        	if($('#is_translate').is(':checked'))
+		        		read();
+		        	else
+		        		window.open(getSelectedFirstUrl()); 		        		
+		        }  
+		    });  
+		    $('#hot').html('');
+			$.ajax({
+				dataType : 'json',
+				type : 'get',
+				url : '/rest/club/keywords',
+				data : {
+				},
+				success : function(result) {
+					console.log(result);
+					$.each(result.rows, function(i, o) {
+						console.log('o::'+o);
+						$("#keyword").append("<option value='"+o+"'>"+o+"</option>");	
+					});
+					var multiselect = $("#keyword").multiselect(
+							{
+								noneSelectedText : "请选择",
+								checkAllText : "全选",
+								uncheckAllText : '全不选',
+								selectedList : 3,
+								minWidth : "100%"
+							});
+				},
+				error : function() {
+					alert('网络问题,失败,请检查日志!');
+				}
+			});
+		});
 		$('#day').datebox({
 			onSelect: function(date){
 				var m = date.getMonth()+1;
@@ -158,6 +187,10 @@
 			}
 			return url;
 		}
+		function read(){
+        	window.open('/rest/zb8/view?id='+getSelectedFirstId());
+		}
+		
 		function getSelectedFirstId() {
 			var articleList = $("#articleList");
 			var sels = articleList.datagrid("getSelections");
@@ -189,20 +222,23 @@
 						window.open(getSelectedFirstFromUrl()); 
 					}
 				},
+				'-',
 				{
 					text : '热评',
-					iconCls : 'icon-edit',
+					iconCls : 'icon-hot',
 					handler : function() {
-						window.open('/rest/comments/hot?id='+getSelectedFirstId()); 
+						hotCommentShow(getSelectedFirstId());
 					}
 				},
+				'-',
 				{
 					text : '阅读',
-					iconCls : 'icon-edit',
+					iconCls : 'icon-read',
 					handler : function() {
-						window.open('/rest/zb8/view?id='+getSelectedFirstId()); 
+						read(); 
 					}
 				},
+				'-',
 				{
 					text : '删除',
 					iconCls : 'icon-cancel',
@@ -252,27 +288,8 @@
 										});
 					}
 				},
-				'-',
-				{
-					text : '导出',
-					iconCls : 'icon-remove',
-					handler : function() {
-						var optins = $("#articleList").datagrid("getPager").data(
-								"pagination").options;
-						var page = optins.pageNumber;
-						var rows = optins.pageSize;
-						$("<form>")
-								.attr({
-									"action" : "/user/export/excel",
-									"method" : "POST"
-								})
-								.append(
-										"<input type='text' name='page' value='"+page+"'/>")
-								.append(
-										"<input type='text' name='rows' value='"+rows+"'/>")
-								.submit();
-					}
-				} ];
+				'-'
+				 ];
 	</script>
 </body>
 </html>

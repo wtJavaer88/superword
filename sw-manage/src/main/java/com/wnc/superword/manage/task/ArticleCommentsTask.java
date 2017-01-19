@@ -22,8 +22,6 @@ public class ArticleCommentsTask {
 			task = new CommentThread(article, articleService, commentService);
 			taskExecutor.execute(task);
 		}
-		// taskExecutor.setWaitForTasksToCompleteOnShutdown(true);
-		// taskExecutor.shutdown();
 	}
 
 	public ThreadPoolTaskExecutor getTaskExecutor() {

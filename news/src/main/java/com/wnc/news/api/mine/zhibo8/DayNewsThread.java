@@ -64,8 +64,14 @@ public class DayNewsThread implements Runnable {
 			news.setNews_time(object.getString("createtime"));
 			news.setCreate_time(BasicDateUtil.getCurrentDateTimeString());
 			// new HtmlContentHelper().initHtmlContent(news);
-			list.add(news);
+			if (isValid(news)) {
+				list.add(news);
+			}
 		}
+	}
+
+	private boolean isValid(Zb8News news) {
+		return !news.getKeyword().contains("中超") && !news.getKeyword().toUpperCase().contains("CBA");
 	}
 
 }

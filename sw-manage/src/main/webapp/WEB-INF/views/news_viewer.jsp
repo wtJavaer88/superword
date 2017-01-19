@@ -6,18 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
 <title>${title}</title>  
 </head> 
-<style>
-.rows{
-	margin-left:10;
-	padding-top: 25px;
-}
-.hide-div{
-	display:none;
-}
-.content{
-	font-size:24px;
-}
-</style>
+<link rel="stylesheet" href="/css/superword.css" type="text/css"/>
+
 <script type="text/javascript" src="/js/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="/js/layer.js"></script>
 <script type="text/javascript" src="/js/superword.js"></script>
@@ -34,6 +24,9 @@ $(function() {
 });
 </script>
 <body onload="init()">
+	<div id="hot"
+		style="display: none">
+	</div>
 	<div class="edit_box" style="display: none">
 	    <div class="edit_title">
 	        <input type="button" class="close" value="关闭">
@@ -53,7 +46,10 @@ $(function() {
 		</div>
 	</div>
 	<div>
-		<a id="tranBtn" class="edit_word" href="#" onclick="showTranslate();">翻译</a></div>
+		<a id="tranBtn"  href="#" onclick="showTranslate();">翻译</a>
+		<a href="${from_url}" target="_blank">原文</a>
+		<a href="${url}" target="_blank">直播吧</a>
+		<a href="#" onclick="hotCommentShow(${id});">评论</a>
 	</div>
 	<div id="maintext" class="content">
  		${message}

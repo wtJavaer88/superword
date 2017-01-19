@@ -30,7 +30,7 @@ public class NewsExtract {
 		if (day2.length() == 8) {
 			day2 = day2.substring(0, 4) + "-" + day2.substring(4, 6) + "-" + day2.substring(6);
 		}
-		List<Zb8News> list = Collections.synchronizedList(new ArrayList());
+		List<Zb8News> list = Collections.synchronizedList(new ArrayList<Zb8News>());
 		if (BasicDateUtil.dateAfterDate(day1, day2, "yyyy-mm-dd")) {
 			return list;
 		}
@@ -61,15 +61,25 @@ public class NewsExtract {
 	}
 
 	public List<Zb8News> getZuqiuNewsByDay(String day) throws Exception {
-		List<Zb8News> list = Collections.synchronizedList(new ArrayList());
+		List<Zb8News> list = Collections.synchronizedList(new ArrayList<Zb8News>());
 		new DayNewsThread(day, list, SportType.Zuqiu).run();
 		return list;
 	}
 
 	public List<Zb8News> getNBANewsByDay(String day) throws Exception {
-		List<Zb8News> list = Collections.synchronizedList(new ArrayList());
+		List<Zb8News> list = Collections.synchronizedList(new ArrayList<Zb8News>());
 		new DayNewsThread(day, list, SportType.NBA).run();
 		return list;
+	}
+
+	public List<Zb8News> getNBANewsBeforeDay(String day, int i) throws Exception {
+		String dateBeforeDayDateString = BasicDateUtil.getDateBeforeDayDateString(day.replace("-", ""), i);
+		return getNewsBetweenTwoDays(dateBeforeDayDateString, day, SportType.NBA);
+	}
+
+	public List<Zb8News> getZuqiuNewsBeforeDay(String day, int i) throws Exception {
+		String dateBeforeDayDateString = BasicDateUtil.getDateBeforeDayDateString(day.replace("-", ""), i);
+		return getNewsBetweenTwoDays(dateBeforeDayDateString, day, SportType.Zuqiu);
 	}
 
 	private String getNextDay(String someday) {

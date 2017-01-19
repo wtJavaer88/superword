@@ -11,9 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.wnc.basic.BasicDateUtil;
+import com.wnc.news.api.mine.zhibo8.NewsExtract;
+import com.wnc.news.api.mine.zhibo8.Zb8News;
 import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
 import com.wnc.superword.manage.pojo.zb8.Article;
+import com.wnc.superword.manage.pojo.zb8.Zb8NewsAdapter;
 import com.wnc.superword.manage.service.ArticleService;
 import com.wnc.utils.EasyUIResult;
 
@@ -34,7 +38,7 @@ public class ArticleController {
 				keyword = new String(keyword.getBytes("iso-8859-1"), "utf-8");
 			System.out.println("kw:" + keyword + " day:" + day);
 			List<Article> queryList = articleService.queryList(page, rows, day, keyword, is_translate);
-			return ResponseEntity.ok(new EasyUIResult(articleService.getTotal(), queryList));
+			return ResponseEntity.ok(new EasyUIResult(articleService.getTotal(day, keyword, is_translate), queryList));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -53,6 +57,9 @@ public class ArticleController {
 			model.addAttribute("message", article.getEngContent());
 			model.addAttribute("message_chs", article.getChsContent());
 			model.addAttribute("title", article.getTitle());
+			model.addAttribute("url", article.getUrl());
+			model.addAttribute("from_url", article.getFromUrl());
+			model.addAttribute("id", article.getId());
 			model.addAttribute("head_pic", article.getThumbnail());
 			return "news_viewer";
 		} catch (Exception e) {
@@ -64,4 +71,37 @@ public class ArticleController {
 
 		return null;
 	}
+
+	@RequestMapping(value = "/today")
+	public String zhibo8Today(Model model, @RequestParam(value = "i", defaultValue = "0") Integer i) throws Exception {
+		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
+		try {
+			String today = BasicDateUtil.getCurrentDateTimeString().substring(0, 10);
+			List<Zb8News> nbaNewsByDay = new NewsExtract().getNBANewsBeforeDay(today, i);
+			List<Zb8News> zuqiuNewsByDay = new NewsExtract().getNBANewsBeforeDay(today, i);
+			nbaNewsByDay.addAll(zuqiuNewsByDay);
+			// nbaNewsByDay = NewsFilter.filterOutSide(nbaNewsByDay);
+
+			List<Article> articlesFromZb8 = Zb8NewsAdapter.getArticlesFromZb8(nbaNewsByDay);
+			for (Article article : articlesFromZb8) {
+				System.out.println("文章网址:" + article.getUrl());
+				if (articleService.isExist(article.getUrl())) {
+					continue;
+				}
+				try {
+					articleService.decorateArticle(article);
+					articleService.save(article);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			DataSourceTypeManager.reset();
+		}
+		return "zb8";
+	}
+
 }

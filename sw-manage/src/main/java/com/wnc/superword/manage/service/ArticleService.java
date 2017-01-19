@@ -36,21 +36,7 @@ public class ArticleService extends BaseService<Article> {
 	public List<Article> queryList(Integer page, Integer rows, String day, String keyword, boolean is_translate) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
-			String whereSql = "WHERE 1=1 ";
-			if (day != null && BasicStringUtil.isNotNullString(day.trim())) {
-				whereSql += " and day='" + day + "'";
-			}
-			if (keyword != null && BasicStringUtil.isNotNullString(keyword.trim())) {
-				String orSql = "1=2";
-				for (String s : keyword.split(",")) {
-					orSql += " or keyword like '%" + s + "%'";
-				}
-				orSql = "(" + orSql + ")";
-				whereSql += " and " + orSql;
-			}
-			if (is_translate) {
-				whereSql += " and (eng_content IS NOT NULL  and (from_url not like 'http://www.marca.com/%' or from_url like 'http://www.marca.com/en/%'))";
-			}
+			String whereSql = getWhereSql(day, keyword, is_translate);
 			Map map = new HashMap<>();
 			map.put("start", (page - 1) * rows);
 			map.put("rows", rows);
@@ -64,8 +50,30 @@ public class ArticleService extends BaseService<Article> {
 		return null;
 	}
 
-	public int getTotal() {
-		return articleMapper.selectCount(null);
+	private String getWhereSql(String day, String keyword, boolean is_translate) {
+		String whereSql = "WHERE 1=1 ";
+		if (day != null && BasicStringUtil.isNotNullString(day.trim())) {
+			whereSql += " and day='" + day + "'";
+		}
+		if (keyword != null && BasicStringUtil.isNotNullString(keyword.trim())) {
+			String orSql = "1=2";
+			for (String s : keyword.split(",")) {
+				orSql += " or keyword like '%" + s + "%'";
+			}
+			orSql = "(" + orSql + ")";
+			whereSql += " and " + orSql;
+		}
+		if (is_translate) {
+			whereSql += " and (eng_content IS NOT NULL  and (from_url not like 'http://www.marca.com/%' or from_url like 'http://www.marca.com/en/%'))";
+		}
+		return whereSql;
+	}
+
+	public Long getTotal(String day, String keyword, boolean is_translate) {
+		Map map = new HashMap<>();
+		String whereSql = getWhereSql(day, keyword, is_translate);
+		map.put("whereSql", whereSql);
+		return articleMapper.selectCountBySql(map);
 	}
 
 	public synchronized PageInfo<Article> queryNullComments(Integer page, Integer rows) {
@@ -73,10 +81,7 @@ public class ArticleService extends BaseService<Article> {
 		try {
 			Example example = new Example(Article.class);
 			Criteria createCriteria = example.createCriteria();
-			createCriteria.andIsNull("comments");
-			Criteria createCriteria2 = example.createCriteria();
-			createCriteria2.andEqualTo("comments", "0");
-			example.or(createCriteria2);
+			createCriteria.andEqualTo("comments", "0");
 			example.setOrderByClause("news_time desc");
 			// 设置分页参数
 			PageHelper.startPage(page, rows);
@@ -99,14 +104,16 @@ public class ArticleService extends BaseService<Article> {
 			createCriteria.andIsNull("chsContent");
 			createCriteria.andIsNull("engContent");
 			createCriteria.andIsNotNull("fromUrl");
+			createCriteria.andGreaterThan("day", "2016-11-11");
 			createCriteria.andNotLike("fromUrl", "http://www.marca.com/%");
 			Criteria createCriteria2 = example.createCriteria();
 			createCriteria2.andLike("fromUrl", "http://www.marca.com/en/%");
 			createCriteria2.andIsNull("chsContent");
 			createCriteria2.andIsNull("engContent");
+			createCriteria.andGreaterThan("day", "2016-11-11");
 			example.or(createCriteria2);
 
-			example.setOrderByClause("news_time asc");
+			example.setOrderByClause("news_time desc");
 			// 设置分页参数
 			PageHelper.startPage(page, rows);
 
@@ -168,6 +175,12 @@ public class ArticleService extends BaseService<Article> {
 
 	public synchronized int updateContent(Article article) {
 		return this.update(article);
+	}
+
+	public boolean isExist(String url) {
+		Example example = new Example(Article.class);
+		example.createCriteria().andEqualTo("url", url);
+		return articleMapper.selectByExample(example).size() > 0;
 	}
 
 	public synchronized void updateComments(Article article, List<Comment> top5Comments,
