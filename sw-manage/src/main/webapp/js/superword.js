@@ -19,7 +19,6 @@ function init() {
 					var word = window.getSelection().toString()
 							.replace(' ', '').toLowerCase();
 					console.log('word:' + word);
-					var url = 'http://www.iciba.com/index.php';
 					$.ajax({
 						type : "POST",
 						url : "/rest/dict/mean",
@@ -48,7 +47,7 @@ function init() {
 }
 
 function closeWindow() {
-	$('.player').html('');
+	$('#player').html('');
 	$('.detail').unbind();
 	layer.closeAll();
 }
@@ -67,7 +66,7 @@ function hotCommentShow(article_id) {
 		area : '500px',
 		offset : '200px',
 		shadeClose : true,
-		btn : [ '确定' ], // 按钮
+		btn : [ '确定' ],
 		title : '热评',
 		content : $('#hot'),
 		success : function(layero, index) {
@@ -99,30 +98,33 @@ function hotCommentShow(article_id) {
 }
 function showDetail(word, mean) {
 	console.log('word:' + word);
+	$('#question_area').text(word);
 	// 询问框
 	layer
 			.open({
 				type : 1,
 				title : false,
 				closeBtn : 0,
+				btn : [ '确定' ],
 				area : '400px',
 				offset : '100px',
 				shadeClose : true,
-				content : $('.edit_box'),
+				content : $('#word_window'),
 				success : function(layero, index) {
-					layero.find('#question_area').val(word);
-					layero.find('#content_area').html(mean);
+					layero.find('#content_area').html(
+							mean.replace(/<p>/g, "<p class=\"hot-comment\">"));
 
 					$('.close').click(function() {
 						closeWindow();
 					});
-					$('.play')
+					$('#play')
 							.click(
 									function() {
 										$
 												.ajax({
 													type : "POST",
-													url : "/rest/word/mp3",
+													url : "/rest/word/mp3?t="
+															+ Math.random(),
 													data : {
 														word : word
 													},
@@ -139,13 +141,13 @@ function showDetail(word, mean) {
 													success : function(data) {
 														console.log(data);
 														if (data.length > 0) {
-															$('.player')
+															$('#player')
 																	.html(
 																			'<embed src="/mp3/'
 																					+ word
 																					+ '.mp3" loop="false" autostart="false" width="0" height="0"></embed>');
 														} else {
-															$('.player').html(
+															$('#player').html(
 																	'');
 															layer
 																	.msg(
@@ -164,12 +166,8 @@ function showDetail(word, mean) {
 													error : function() {
 													}
 												});
-										// $('.player').html('<embed
-										// src="'+ph_am_mp3+'" loop="false"
-										// autostart="false" width="0"
-										// height="0"></embed>');
 									});
-					$('.detail').click(function() {
+					$('#detail').click(function() {
 						window.open("http://www.iciba.com/" + word);
 					});
 					$('.test').click(function() {

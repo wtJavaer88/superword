@@ -76,8 +76,7 @@
 		style="width: 400px; height: 300px; padding: 10px;">
 		The window content.
 	</div>
-	<div id="hot"
-		style="display: none">
+	<div id="hot" class="hide-div">
 	</div>
 	<script type="text/javascript">
 		$(function () {  
@@ -243,21 +242,20 @@
 					text : '删除',
 					iconCls : 'icon-cancel',
 					handler : function() {
-						var ids = getSelectionsIds();
-						if (ids.length == 0) {
+						var id = getSelectedFirstId();
+						if (id == 0) {
 							$.messager.alert('提示', '未选中新闻!');
 							return;
 						}
 						$.messager
 								.confirm(
 										'确认',
-										'确定删除ID为 ' + ids + ' 的新闻吗？',
+										'确定删除ID为 ' + id + ' 的新闻吗？',
 										function(r) {
 											if (r) {
 												$
 														.ajax({
-															url : "/rest/news?ids="
-																	+ ids,
+															url : "/rest/zb8?id="+id,
 															type : "DELETE",
 															dataType : "json", // 返回的数据类型为json类型
 															success : function(
@@ -268,10 +266,7 @@
 																				'删除新闻成功!',
 																				undefined,
 																				function() {
-																					$(
-																							"#articleList")
-																							.datagrid(
-																									"reload");
+																					$("#articleList").datagrid("reload");
 																				});
 															},
 															error : function(
@@ -288,7 +283,25 @@
 										});
 					}
 				},
-				'-'
+				'-',
+				{
+					text : '今日新闻',
+					iconCls : 'icon-read',
+					handler : function() {
+						$.get("/rest/zb8/today", function(result){
+						});
+						
+					}
+				},
+				{
+					text : '刷新评论',
+					iconCls : 'icon-read',
+					handler : function() {
+						$.get("/rest/comments", function(result){
+							
+						});
+					}
+				}
 				 ];
 	</script>
 </body>

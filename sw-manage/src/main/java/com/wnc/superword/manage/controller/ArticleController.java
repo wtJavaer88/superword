@@ -72,8 +72,9 @@ public class ArticleController {
 		return null;
 	}
 
+	// 默认加载今天和昨天的新闻
 	@RequestMapping(value = "/today")
-	public String zhibo8Today(Model model, @RequestParam(value = "i", defaultValue = "0") Integer i) throws Exception {
+	public String zhibo8Today(Model model, @RequestParam(value = "i", defaultValue = "1") Integer i) throws Exception {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			String today = BasicDateUtil.getCurrentDateTimeString().substring(0, 10);
@@ -104,4 +105,18 @@ public class ArticleController {
 		return "zb8";
 	}
 
+	@RequestMapping(method = RequestMethod.DELETE)
+	public ResponseEntity<Void> delete(Long id) {
+		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
+		try {
+			Integer deleteById = articleService.deleteById(id);
+			if (deleteById == 1)
+				return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			DataSourceTypeManager.reset();
+		}
+		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+	}
 }

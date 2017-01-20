@@ -37,6 +37,7 @@ $RECYCLE.BIN/
 ._*
 *.bak
 *.class
+*.mp3
 *.tmp
 *.classpath
 # Files that might appear on external disk

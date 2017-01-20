@@ -52,9 +52,18 @@ public class CommentService extends BaseService<ArticleComment> {
 		return commentMapper.selectByExample(example).size();
 	}
 
-	public boolean isExist(Long article_id) {
+	public boolean isExistArticle(Long article_id) {
 		Example example = new Example(ArticleComment.class);
 		example.createCriteria().andEqualTo("articleId", article_id);
+		return commentMapper.selectByExample(example).size() > 0;
+	}
+
+	public boolean isExistComment(ArticleComment articleComment) {
+		Example example = new Example(ArticleComment.class);
+		Criteria createCriteria = example.createCriteria();
+		createCriteria.andEqualTo("articleId", articleComment.getArticleId());
+		createCriteria.andEqualTo("userId", articleComment.getUserId());
+		createCriteria.andEqualTo("content", articleComment.getContent());
 		return commentMapper.selectByExample(example).size() > 0;
 	}
 }

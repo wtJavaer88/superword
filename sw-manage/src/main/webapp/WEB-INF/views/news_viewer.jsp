@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
 <title>${title}</title>  
 </head> 
+<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/>
 <link rel="stylesheet" href="/css/superword.css" type="text/css"/>
 
 <script type="text/javascript" src="/js/jquery-1.11.1.js"></script>
@@ -24,28 +25,26 @@ $(function() {
 });
 </script>
 <body onload="init()">
-	<div id="hot"
-		style="display: none">
+	<div id="hot" class="hide-div">
 	</div>
-	<div class="edit_box" style="display: none">
-	    <div class="edit_title">
-	        <input type="button" class="close" value="关闭">
-	    	<input type="button" class="play" value="播音">
-			<input type="button" class="detail" value="详细">
-			<input type="button" class="test" value="测试">
+	<div id="word_window" style="display: none">
+		<div class="row myrow">
+			<div class="col-md-4 col-sm-4 col-xs-6">
+	        	<p class="hot-comment redtext"  id="question_area"></p>
+			</div>
+	        <div class="col-md-4 col-sm-4 col-xs-6">
+	        	<input type="button" id="play" class="png-bg word-play">
+	        	<input type="button" id="detail" class="png-bg word-detail">
+	        </div>
 	    </div>
-	    <div class="rows">
-	        <label>单词:</label>
-	        <input type="text" class="chat_area" id="question_area"></textarea>
+	    <div>
+	        <div id="content_area"></div>
 	    </div>
-	    <div class="rows">
-	        <div class="chat_area" id="content_area" name="answer"></div>
-	    </div>
-		<div class='player'>
+		<div id='player' >
 			
 		</div>
 	</div>
-	<div>
+	<div class="right-menu">
 		<a id="tranBtn"  href="#" onclick="showTranslate();">翻译</a>
 		<a href="${from_url}" target="_blank">原文</a>
 		<a href="${url}" target="_blank">直播吧</a>

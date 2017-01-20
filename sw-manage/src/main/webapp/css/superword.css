@@ -1,16 +1,44 @@
 .hot-comment{
 	text-indent: 1em;
-	margin-right:20px;
 	margin-top:10px;
 	font-size:15px;
 }
-.rows{
-	margin-left:10;
-	padding-top: 25px;
+.myrow{
+	width:400px;  
 }
 .hide-div{
 	display:none;
 }
 .content{
+	margin-left:25%;
+	margin-right:25%;	
+}
+.content p{
 	font-size:24px;
+	text-indent: 2em;
+	margin-top:10px;
+}
+.redtext{
+	text-align : center;
+	color : #ff0000;
+	font-size : 24px;
+}
+.png-bg{
+	width:20px;  
+    height:20px;  
+    margin-top:15px;
+}
+.word-play{
+    background:url(/images/voice.png) center left no-repeat;
+    background-size:cover;
+}
+.word-detail{
+	margin-left:10;
+    background:url(/images/detail.png) center left no-repeat;
+    background-size:cover;
+}
+.right-menu{
+	text-align : right;
+	padding-top : 2em;
+	padding-right : 5em;
 }

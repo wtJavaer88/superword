@@ -28,22 +28,8 @@ public class CommentController {
 	public ResponseEntity<EasyUIResult> view(Model model, @RequestParam(value = "id") Long article_id) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
-			if (!commentService.isExist(article_id)) {
-				System.out.println("查找:");
-				Article article = articleService.queryById(article_id);
-				// Zb8CommentsAnalyseTool tool = new
-				// Zb8CommentsAnalyseTool(article.getUrl());
-				// article.setComments(tool.getAllCommentCount());
-				// article.setHotComments(tool.getHotCommentCount());
-				// article.setUpdateTime(BasicDateUtil.getCurrentDateTimeString());
-				// if (tool.getHotCommentCount() > 0 &&
-				// tool.getAllCommentCount() > 0) {
-				// List<Comment> top5Comments = tool.getTop5Comments(5);
-				// articleService.updateComments(article, top5Comments,
-				// commentService);
-				// }
-				new CommentThread(article, articleService, commentService).run();
-			}
+			Article article = articleService.queryById(article_id);
+			new CommentThread(article, articleService, commentService).run();
 			EasyUIResult easyUIResult = new EasyUIResult(commentService.articleHotCount(article_id),
 					commentService.queryByArticle(article_id));
 			return ResponseEntity.ok(easyUIResult);

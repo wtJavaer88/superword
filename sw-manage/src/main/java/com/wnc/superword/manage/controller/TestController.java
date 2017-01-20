@@ -4,9 +4,12 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.github.pagehelper.PageInfo;
 import com.wnc.news.api.mine.zhibo8.NewsExtract;
@@ -81,19 +84,24 @@ public class TestController {
 	}
 
 	@RequestMapping(value = "/comments")
-	public String comments(Model model) throws Exception {
+	public ResponseEntity<Void> comments(Model model, @RequestParam(value = "i", defaultValue = "1") Integer i)
+			throws Exception {
 		int page = 1;
 		final int rows = 100;
-		while (true) {
-			PageInfo<Article> queryList = articleService.queryNullComments(page, rows);
-			if (queryList == null || queryList.getSize() == 0) {
-				break;
+		try {
+			while (true) {
+				PageInfo<Article> queryList = articleService.queryLately(page, rows, i);
+				if (queryList == null || queryList.getSize() == 0) {
+					break;
+				}
+				articleCommentsTask.doTask(queryList.getList(), articleService, commentService);
+				page++;
 			}
-			articleCommentsTask.doTask(queryList.getList(), articleService, commentService);
-			page++;
+			return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
-
-		return "zb8";
+		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
 	}
 
 	@Autowired

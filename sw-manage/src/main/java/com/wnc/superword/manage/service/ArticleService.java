@@ -76,13 +76,16 @@ public class ArticleService extends BaseService<Article> {
 		return articleMapper.selectCountBySql(map);
 	}
 
-	public synchronized PageInfo<Article> queryNullComments(Integer page, Integer rows) {
+	public synchronized PageInfo<Article> queryLately(Integer page, Integer rows, int i) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			Example example = new Example(Article.class);
 			Criteria createCriteria = example.createCriteria();
-			createCriteria.andEqualTo("comments", "0");
+			String day = BasicDateUtil.getDateBeforeDayDateString(BasicDateUtil.getCurrentDateString(), i);
+			createCriteria.andGreaterThanOrEqualTo("day",
+					BasicDateUtil.getDataFromFormatString(day, "yyyyMMdd", "yyyy-MM-dd"));
 			example.setOrderByClause("news_time desc");
+
 			// 设置分页参数
 			PageHelper.startPage(page, rows);
 
@@ -192,6 +195,11 @@ public class ArticleService extends BaseService<Article> {
 				ArticleComment articleComment = CommentAdapter.getArticleComment(comment);
 				articleComment.setArticleId(article.getId());
 				articleComment.setCreateTime(BasicDateUtil.getCurrentDateTimeString());
+				if (commentService.isExistComment(articleComment)) {
+					Integer update = commentService.update(articleComment);
+					System.out.println("update.." + update + ".." + articleComment.getContent());
+					continue;
+				}
 				// System.out.println(articleComment);
 				commentService.save(articleComment);
 			}

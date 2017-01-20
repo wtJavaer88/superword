@@ -1,14 +1,18 @@
 package com.wnc.superword.manage.pojo.zb8;
 
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Table(name = "COMMENT")
 public class ArticleComment {
-	private String content;
+	@Id
+	private Long articleId;
+	@Id
 	private String userId;
+	@Id
+	private String content;
 	private int up;
 	private int down;
-	private Long articleId;
 	private int priority;// 评论的优先级(或者说等级),自定义排序时很重要
 	private String createTime;
 

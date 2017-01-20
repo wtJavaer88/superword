@@ -43,7 +43,7 @@ public class DictController {
 				findWord = new DicWord();
 				cn_mean = new CibaWordTranslate(word).getBasicInfo();
 			}
-			findWord.setCn_mean(cn_mean.replaceAll("([a-zA-Z]+\\. )", "</br>$1"));
+			findWord.setCn_mean("<p>" + cn_mean.replaceAll("([a-zA-Z]+\\. )", "</p><p>$1") + "</p>");
 			return ResponseEntity.status(HttpStatus.OK).body(findWord);
 		} catch (Exception e) {
 			findWord = new DicWord();
