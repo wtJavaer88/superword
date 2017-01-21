@@ -29,12 +29,12 @@
     margin-top:15px;
 }
 .word-play{
-    background:url(/images/voice.png) center left no-repeat;
+    background:center left no-repeat;
     background-size:cover;
 }
 .word-detail{
 	margin-left:10;
-    background:url(/images/detail.png) center left no-repeat;
+    background:center left no-repeat;
     background-size:cover;
 }
 .right-menu{

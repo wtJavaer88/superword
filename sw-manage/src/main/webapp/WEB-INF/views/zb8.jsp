@@ -6,36 +6,36 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>新闻管理系统</title>
 <link rel="stylesheet" type="text/css"
-	href="/js/jquery-easyui-1.4/themes/default/easyui.css" />
+	href="${pageContext.request.contextPath}/js/jquery-easyui-1.4/themes/default/easyui.css" />
 <link rel="stylesheet" type="text/css"
-	href="/js/jquery-easyui-1.4/themes/icon.css" />
+	href="${pageContext.request.contextPath}/js/jquery-easyui-1.4/themes/icon.css" />
 <link rel="stylesheet" type="text/css"
-	href="/css/jquery.multiselect.css" />
+	href="${pageContext.request.contextPath}/css/jquery.multiselect.css" />
 <link rel="stylesheet" type="text/css"
-	href="/css/jquery-ui.min.css" />
+	href="${pageContext.request.contextPath}/css/jquery-ui.min.css" />
 <link rel="stylesheet" type="text/css"
-	href="/css/jquery.ui.dialog.min.css" />
+	href="${pageContext.request.contextPath}/css/jquery.ui.dialog.min.css" />
 	
-<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/>
-<link rel="stylesheet" href="/css/superword.css" type="text/css"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/superword.css" type="text/css"/>
 
-<script type="text/javascript" src="/js/jquery-easyui-1.4/jquery.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-easyui-1.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="/js/common.js"></script>
-<script type="text/javascript" src="/js/jquery.ui.widget.js"></script>	
-<script type="text/javascript" src="/js/jquery-ui.min.js"></script>	
-<script type="text/javascript" src="/js/jquery.ui.dialog.min.js"></script>	
-<script type="text/javascript" src="/js/jquery-ui-1.9.2.custom.min.js"></script>	
-<script type="text/javascript" src="/js/jquery.nicescroll.js"></script>	
-<script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>	
-<script type="text/javascript" src="/js/jquery.multiselect.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/common.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.ui.widget.js"></script>	
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-ui.min.js"></script>	
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.ui.dialog.min.js"></script>	
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-ui-1.9.2.custom.min.js"></script>	
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.nicescroll.js"></script>	
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-migrate-1.2.1.min.js"></script>	
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.multiselect.js"></script>
 <script type="text/javascript"
-	src="/js/jquery-easyui-1.4/jquery.easyui.min.js"></script>
+	src="${pageContext.request.contextPath}/js/jquery-easyui-1.4/jquery.easyui.min.js"></script>
 <script type="text/javascript"
-	src="/js/jquery-easyui-1.4/locale/easyui-lang-zh_CN.js"></script>
-<script src="/js/layer/layer.js"></script>
-<script src="/js/superword.js"></script>
+	src="${pageContext.request.contextPath}/js/jquery-easyui-1.4/locale/easyui-lang-zh_CN.js"></script>
+<script src="${pageContext.request.contextPath}/js/layer/layer.js"></script>
+<script src="${pageContext.request.contextPath}/js/superword.js"></script>
 </head>
 <body>
 	<div class="form-horizontal row" style="padding:10px;margin-top:20px">
@@ -55,7 +55,7 @@
 	</div>
 	<div data-options="region:'north'" style="height:100px">
 		<table class="easyui-datagrid" id="articleList" title="直播吧新闻列表"
-			data-options="singleSelect:true,collapsible:true,pagination:true,url:'/rest/zb8/',method:'get',pageSize:15,toolbar:toolbar,pageList:[10,15,20],fitColumns:true">
+			data-options="singleSelect:true,collapsible:true,pagination:true,url:'${pageContext.request.contextPath}/rest/zb8/',method:'get',pageSize:15,toolbar:toolbar,pageList:[10,15,20],fitColumns:true">
 			<thead>
 				<tr>
 					<th data-options="field:'ck',checkbox:true"></th>
@@ -72,13 +72,14 @@
 		</table>
 	</div>
 	<div id="newsAdd" class="easyui-window" title="新增新闻"
-		data-options="modal:true,closed:true,iconCls:'icon-save',href:'/rest/news/add'"
+		data-options="modal:true,closed:true,iconCls:'icon-save',href:'${pageContext.request.contextPath}/rest/news/add'"
 		style="width: 400px; height: 300px; padding: 10px;">
 		The window content.
 	</div>
 	<div id="hot" class="hide-div">
 	</div>
 	<script type="text/javascript">
+		var domain='';
 		$(function () {  
 		    $("#articleList").datagrid({  
 		        //双击事件  
@@ -90,11 +91,13 @@
 		        		window.open(getSelectedFirstUrl()); 		        		
 		        }  
 		    });  
+		    domain = "${pageContext.request.contextPath}";
+		    console.log('domain:'+domain);
 		    $('#hot').html('');
 			$.ajax({
 				dataType : 'json',
 				type : 'get',
-				url : '/rest/club/keywords',
+				url : domain+'/rest/club/keywords',
 				data : {
 				},
 				success : function(result) {
@@ -187,7 +190,7 @@
 			return url;
 		}
 		function read(){
-        	window.open('/rest/zb8/view?id='+getSelectedFirstId());
+        	window.open('${pageContext.request.contextPath}/rest/zb8/view?id='+getSelectedFirstId());
 		}
 		
 		function getSelectedFirstId() {
@@ -255,7 +258,7 @@
 											if (r) {
 												$
 														.ajax({
-															url : "/rest/zb8?id="+id,
+															url : "${pageContext.request.contextPath}/rest/zb8?id="+id,
 															type : "DELETE",
 															dataType : "json", // 返回的数据类型为json类型
 															success : function(
@@ -288,7 +291,7 @@
 					text : '今日新闻',
 					iconCls : 'icon-read',
 					handler : function() {
-						$.get("/rest/zb8/today", function(result){
+						$.get("${pageContext.request.contextPath}/rest/zb8/today", function(result){
 						});
 						
 					}
@@ -297,7 +300,7 @@
 					text : '刷新评论',
 					iconCls : 'icon-read',
 					handler : function() {
-						$.get("/rest/comments", function(result){
+						$.get("${pageContext.request.contextPath}/rest/comments", function(result){
 							
 						});
 					}

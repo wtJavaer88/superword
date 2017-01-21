@@ -6,14 +6,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
 <title>${title}</title>  
 </head> 
-<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/>
-<link rel="stylesheet" href="/css/superword.css" type="text/css"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/superword.css" type="text/css"/>
 
-<script type="text/javascript" src="/js/jquery-1.11.1.js"></script>
-<script type="text/javascript" src="/js/layer.js"></script>
-<script type="text/javascript" src="/js/superword.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/layer.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/superword.js"></script>
 <script>
+var domain = "";
 $(function() {
+    domain = "${pageContext.request.contextPath}";
+    console.log('bg:'+$('#play').css('background-image'));
+    $('#play').css('background-image','url('+domain+'/images/voice.png)');
+    $('#detail').css('background-image','url('+domain+'/images/detail.png)');
 	var engContent = $('#maintext').text();
 	var chsContent = $('#maintext2').text();
 	var e_len = engContent.length;
@@ -29,7 +34,7 @@ $(function() {
 	</div>
 	<div id="word_window" style="display: none">
 		<div class="row myrow">
-			<div class="col-md-4 col-sm-4 col-xs-6">
+			<div class="col-md-6 col-sm-6 col-xs-6">
 	        	<p class="hot-comment redtext"  id="question_area"></p>
 			</div>
 	        <div class="col-md-4 col-sm-4 col-xs-6">
@@ -56,10 +61,4 @@ $(function() {
 	<div id="maintext2" class="content hide-div">
  		${message_chs}
 	</div>
-
-<style>
-.content p{
-    line-height: 25px;margin: 20px auto 0 auto;font-size: 20px;
-}
-</style>
 </body>

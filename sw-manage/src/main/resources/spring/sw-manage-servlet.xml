@@ -19,6 +19,8 @@
     <mvc:resources mapping="/js/**" location="/js/"/>  
     <mvc:resources mapping="/css/**" location="/css/"/>  
     <mvc:resources mapping="/images/**" location="/images/"/>
+    <mvc:resources mapping="/backup/**" location="/backup/"/>
+    <mvc:resources mapping="/download/**" location="/download/"/>
     <mvc:resources mapping="/mp3/**" location="/mp3/"/>  
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/"/>
@@ -27,8 +29,8 @@
 
 	<!-- 文件上传解析器 -->
 	 <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-	 	<!-- 限制文件的最大大小 -->
-	 	<property name="maxUploadSize" value="5242880"/>
+	 	<!-- 限制文件的最大大小 50M-->
+	 	<property name="maxUploadSize" value="52428800"/>
 	 </bean>
 	 
 </beans>
