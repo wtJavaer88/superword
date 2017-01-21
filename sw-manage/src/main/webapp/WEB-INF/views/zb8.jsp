@@ -63,8 +63,8 @@
 					<th data-options="field:'title',width:400">标题</th>
 					<th data-options="field:'url',width:150" hidden="true">网址</th>
 					<th data-options="field:'fromUrl',width:150">来源网址</th>
-					<th data-options="field:'comments',width:150">总评论数</th>
-					<th data-options="field:'hotComments',width:150">热评数</th>
+					<th data-options="field:'comments',width:150,sortable:true,sortOrder:'desc'">总评论数</th>
+					<th data-options="field:'hotComments',width:150,sortable:true,sortorder:'desc'">热评数</th>
 					<th data-options="field:'keyword',width:120">关键字</th>
 					<th data-options="field:'day',width:100">日期</th>
 				</tr>

@@ -33,14 +33,25 @@ public class ArticleService extends BaseService<Article> {
 	@Autowired
 	NewsWordsAnalyse newsWordsAnalyse;
 
-	public List<Article> queryList(Integer page, Integer rows, String day, String keyword, boolean is_translate) {
+	public List<Article> queryList(Integer page, Integer rows, String day, String keyword, boolean is_translate,
+			String sort, String order) {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			String whereSql = getWhereSql(day, keyword, is_translate);
-			Map map = new HashMap<>();
+			Map<String, Object> map = new HashMap<>();
 			map.put("start", (page - 1) * rows);
 			map.put("rows", rows);
 			map.put("whereSql", whereSql);
+			if (BasicStringUtil.isNotNullString(sort)) {
+				map.put("sort", getLowerSort(sort));
+			} else {
+				map.put("sort", "day");
+			}
+			if (BasicStringUtil.isNotNullString(order)) {
+				map.put("order", order);
+			} else {
+				map.put("order", "desc");
+			}
 			return this.articleMapper.listBySql(map);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -48,6 +59,17 @@ public class ArticleService extends BaseService<Article> {
 			DataSourceTypeManager.reset();
 		}
 		return null;
+	}
+
+	private Object getLowerSort(String sort) {
+		if (sort.toLowerCase().equals(sort)) {
+			return sort;
+		}
+		for (int i = 'A'; i <= 'Z'; i++) {
+			String c = "" + ((char) i);
+			sort = sort.replace(c, "_" + c.toLowerCase());
+		}
+		return sort;
 	}
 
 	private String getWhereSql(String day, String keyword, boolean is_translate) {

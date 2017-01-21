@@ -32,12 +32,14 @@ public class ArticleController {
 			@RequestParam(value = "rows", defaultValue = "10") Integer rows,
 			@RequestParam(value = "day", required = false) String day,
 			@RequestParam(value = "keyword", required = false) String keyword,
-			@RequestParam(value = "is_translate", required = false) boolean is_translate) {
+			@RequestParam(value = "is_translate", required = false) boolean is_translate,
+			@RequestParam(value = "sort", required = false) String sort,
+			@RequestParam(value = "order", required = false) String order) {
 		try {
 			if (keyword != null)
 				keyword = new String(keyword.getBytes("iso-8859-1"), "utf-8");
 			System.out.println("kw:" + keyword + " day:" + day);
-			List<Article> queryList = articleService.queryList(page, rows, day, keyword, is_translate);
+			List<Article> queryList = articleService.queryList(page, rows, day, keyword, is_translate, sort, order);
 			return ResponseEntity.ok(new EasyUIResult(articleService.getTotal(day, keyword, is_translate), queryList));
 		} catch (Exception e) {
 			e.printStackTrace();
