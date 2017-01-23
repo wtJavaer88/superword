@@ -5,6 +5,9 @@ news/target/
 sw-common/target/
 sw-manage/target/
 sw-manage/src/main/webapp/tmp/
+sw-manage/src/main/webapp/backup/
+sw-manage/src/main/webapp/download/
+sw-manage/src/main/webapp/mp3/
 sw-parent/target/
 translation/target/
 logs

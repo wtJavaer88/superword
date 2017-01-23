@@ -15,6 +15,7 @@ import com.github.pagehelper.PageInfo;
 import com.wnc.news.api.mine.zhibo8.NewsExtract;
 import com.wnc.news.api.mine.zhibo8.SportType;
 import com.wnc.news.api.mine.zhibo8.Zb8News;
+import com.wnc.superword.cloud.xinxin.service.FootStepService;
 import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
 import com.wnc.superword.manage.pojo.zb8.Article;
@@ -137,6 +138,17 @@ public class TestController {
 			e.printStackTrace();
 		}
 
+		return "zb8";
+	}
+
+	@Autowired
+	FootStepService footStepService;
+
+	@RequestMapping(value = "/fs")
+	public String s(Model model) {
+		System.out.println("#####");
+		System.out.println("#####" + footStepService.queryList(0, 10));
+		System.out.println("#####");
 		return "zb8";
 	}
 

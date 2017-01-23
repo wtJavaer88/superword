@@ -73,6 +73,7 @@ function init() {
 													});
 										});
 						$('#detail').click(function() {
+							var word = $('#question_area').text();
 							window.open("http://www.iciba.com/" + word);
 						});
 						document.getElementById("maintext").ondblclick = function(

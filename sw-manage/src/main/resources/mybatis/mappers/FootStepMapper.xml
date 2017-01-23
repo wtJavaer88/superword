@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wnc.superword.cloud.xinxin.mapper.FootStepMapper">
+	
+	<sql id="tableName">footsteps</sql>
+	<resultMap id="BaseResultMap" type="com.wnc.superword.cloud.xinxin.pojo.FootStepInfo" >
+	    <id column="id" property="id" jdbcType="INTEGER" />
+	    <result column="uuid" property="uuid" jdbcType="CHAR" />
+	    <result column="fs_desc" property="fsDesc" jdbcType="CHAR" />
+	    <result column="isDeleted" property="is_deleted" jdbcType="INTEGER" />
+	    <result column="day" property="day" jdbcType="INTEGER" />
+	    <result column="createTime" property="create_time" jdbcType="INTEGER" />
+	    <result column="updateTime" property="update_time" jdbcType="INTEGER" />
+	    <result column="updateBy" property="update_by" jdbcType="INTEGER" />
+	    <result column="createBy" property="create_by" jdbcType="INTEGER" />
+	    <result column="tagNames" property="tag_names" jdbcType="CHAR" />
+	    <collection column="uuid" property="medias"  javaType="List"  ofType="com.wnc.superword.cloud.xinxin.pojo.FsMedia" select="geItemsByUUId"/>
+	</resultMap>
+	
+	<select id="findAll" resultMap="BaseResultMap">
+		 select * from <include refid="tableName"></include>
+	</select>
+	
+	<select id="geItemsByUUId" resultType="com.wnc.superword.cloud.xinxin.pojo.FsMedia" parameterType="String">
+		 select * from fs_medias where fs_uuid=#{uuid}
+	</select>
+
+</mapper>

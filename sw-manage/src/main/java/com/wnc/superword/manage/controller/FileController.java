@@ -26,15 +26,17 @@ import com.wnc.tools.ZipUtils;
 public class FileController {
 
 	@RequestMapping(value = "mbupload", method = RequestMethod.POST)
-	public ResponseEntity<String> mbup(@RequestParam("userName") String userName,
-			@RequestParam("file") MultipartFile file, HttpServletRequest request) {
+	public ResponseEntity<String> mbup(@RequestParam("file") MultipartFile file, HttpServletRequest request) {
 		try {
 			if (file != null) {
 				String originalFilename = file.getOriginalFilename();
 				System.out.println("fileName:" + originalFilename);
-				String filepath = request.getSession().getServletContext().getRealPath("/") + "backup" + File.separator;
-				boolean saveFile = saveFile(file, filepath, originalFilename);
+				String filepath = request.getSession().getServletContext().getRealPath("/") + "backup" + File.separator
+						+ originalFilename;
+				boolean saveFile = saveFile(file, filepath);
 				if (saveFile) {
+					// List<String> readFrom = FileOp.readFrom(filepath);
+					// System.out.println(readFrom);
 					System.out.println("保存成功!");
 					return ResponseEntity.ok("1");
 				} else {
@@ -82,7 +84,7 @@ public class FileController {
 		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
 	}
 
-	private boolean saveFile(MultipartFile mpFile, String filePath, String fileName) {
+	private boolean saveFile(MultipartFile mpFile, String filePath) {
 		BufferedOutputStream bos = null;
 		FileOutputStream fos = null;
 		File file = null;
@@ -91,7 +93,7 @@ public class FileController {
 			if (!dir.exists() && dir.isDirectory()) {// 判断文件目录是否存在
 				dir.mkdirs();
 			}
-			file = new File(filePath + fileName);
+			file = new File(filePath);
 			fos = new FileOutputStream(file);
 			bos = new BufferedOutputStream(fos);
 			bos.write(mpFile.getBytes());

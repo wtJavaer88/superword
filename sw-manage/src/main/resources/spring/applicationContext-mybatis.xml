@@ -20,7 +20,7 @@
 	
 	<!-- 定义Mapper接口的扫描器 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.wnc.superword.manage.mapper"/>
+		<property name="basePackage" value="com.wnc.superword"/>
 	</bean>
 
 </beans>
