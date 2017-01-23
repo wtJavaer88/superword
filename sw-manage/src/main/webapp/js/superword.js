@@ -6,7 +6,7 @@ function init() {
 		case 96:
 			closeWindow();
 			break;
-		case 32:
+		case 13:
 			closeWindow();
 			showTranslate();
 			break;

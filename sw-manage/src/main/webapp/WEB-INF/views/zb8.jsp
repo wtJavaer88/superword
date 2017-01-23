@@ -63,10 +63,12 @@
 					<th data-options="field:'title',width:400">标题</th>
 					<th data-options="field:'url',width:150" hidden="true">网址</th>
 					<th data-options="field:'fromUrl',width:150">来源网址</th>
-					<th data-options="field:'comments',width:150,sortable:true,sortOrder:'desc'">总评论数</th>
-					<th data-options="field:'hotComments',width:150,sortable:true,sortorder:'desc'">热评数</th>
+					<th data-options="field:'comments',width:150,sortable:true">总评论数</th>
+					<th data-options="field:'hotComments',width:150,sortable:true">热评数</th>
 					<th data-options="field:'keyword',width:120">关键字</th>
-					<th data-options="field:'day',width:100">日期</th>
+					<th data-options="field:'day',width:100,sortable:true">日期</th>
+					<th data-options="field:'translated',hidden:true">关键字</th>
+					
 				</tr>
 			</thead>
 		</table>
@@ -84,15 +86,30 @@
 		    $("#articleList").datagrid({  
 		        //双击事件  
 		        onDblClickRow: function (index, row) {  
-		        	console.log(getSelectedFirstFromUrl());
 		        	if($('#is_translate').is(':checked'))
 		        		read();
 		        	else
 		        		window.open(getSelectedFirstUrl()); 		        		
-		        }  
-		    });  
+		        }, 
+			    onClickRow: function (index, row) {  
+		        	hideToolbar();
+		        	if(getSelectedValue('url')){
+			        	$('div.datagrid-toolbar a').eq(0).show();
+		        	}
+		        	if(getSelectedValue('fromUrl')){
+				    	$('div.datagrid-toolbar a').eq(1).show();
+		        	}
+				    $('div.datagrid-toolbar a').eq(2).show();
+		        	if(getSelectedValue('translated')){
+				    	$('div.datagrid-toolbar a').eq(3).show();
+		        	}
+		        	$('div.datagrid-toolbar a').eq(4).show();
+		        } 
+		    });
+		    
+		    hideToolbar();
+		    
 		    domain = "${pageContext.request.contextPath}";
-		    console.log('domain:'+domain);
 		    $('#hot').html('');
 			$.ajax({
 				dataType : 'json',
@@ -101,9 +118,7 @@
 				data : {
 				},
 				success : function(result) {
-					console.log(result);
 					$.each(result.rows, function(i, o) {
-						console.log('o::'+o);
 						$("#keyword").append("<option value='"+o+"'>"+o+"</option>");	
 					});
 					var multiselect = $("#keyword").multiselect(
@@ -133,19 +148,22 @@
 				$('#day').val(date.getFullYear()+"-"+m+"-"+d);
 			}
 		});
+		function hideToolbar(){
+			$('div.datagrid-toolbar a').eq(0).hide();
+		    $('div.datagrid-toolbar a').eq(1).hide();
+		    $('div.datagrid-toolbar a').eq(2).hide();
+		    $('div.datagrid-toolbar a').eq(3).hide();
+		    $('div.datagrid-toolbar a').eq(4).hide();
+		}
 		function doSearch(){
 				var arr = $("input[name='multiselect_keyword']");
-				console.log(arr.length);
 				var kw = '';
 				$.each(arr, function(i, o) {
 					var sel=$(o).attr('aria-selected');
-					console.log(sel);
 					if(sel == "true"){
-						console.log($(o).val());
 						kw=kw+$(o).val()+","
 					}
 				});
-				console.log('kw:  '+kw);
 				$('#articleList').datagrid('load',{
 					keyword: kw,
 					day: $('#day').val(),
@@ -171,57 +189,32 @@
 			ids = ids.join(",");
 			return ids;
 		}
-		function getSelectedFirstUrl() {
+		function getSelectedValue(key) {
 			var articleList = $("#articleList");
 			var sels = articleList.datagrid("getSelections");
-			var url = "";
+			var value = "";
 			if (sels.length>0) {
-				url=sels[0].url;
+				value=sels[0][key];
 			}
-			return url;
-		}
-		function getSelectedFirstFromUrl() {
-			var articleList = $("#articleList");
-			var sels = articleList.datagrid("getSelections");
-			var url = "";
-			if (sels.length>0) {
-				url=sels[0].fromUrl;
-			}
-			return url;
+			return value;
 		}
 		function read(){
-        	window.open('${pageContext.request.contextPath}/rest/zb8/view?id='+getSelectedFirstId());
+        	window.open('${pageContext.request.contextPath}/rest/zb8/view?id='+getSelectedValue('id'));
 		}
 		
-		function getSelectedFirstId() {
-			var articleList = $("#articleList");
-			var sels = articleList.datagrid("getSelections");
-			var id = 0;
-			if (sels.length>0) {
-				id=sels[0].id;
-			}
-			return id;
-		}
 		var toolbar = [
-				{
-					text : '新增',
-					iconCls : 'icon-add',
-					handler : function() {
-						$('#newsAdd').window('open');
-					}
-				},
 				{
 					text : '直播吧',
 					iconCls : 'icon-link-web',
 					handler : function() {
-						window.open(getSelectedFirstUrl()); 
+						window.open(getSelectedValue('url')); 
 					}
 				},
 				{
 					text : '原文',
 					iconCls : 'icon-link-web',
 					handler : function() {
-						window.open(getSelectedFirstFromUrl()); 
+						window.open(getSelectedValue('fromUrl')); 
 					}
 				},
 				'-',
@@ -229,12 +222,13 @@
 					text : '热评',
 					iconCls : 'icon-hot',
 					handler : function() {
-						hotCommentShow(getSelectedFirstId());
+						hotCommentShow(getSelectedValue('id'));
 					}
 				},
 				'-',
 				{
 					text : '阅读',
+					id:'tb_read',
 					iconCls : 'icon-read',
 					handler : function() {
 						read(); 
@@ -245,7 +239,7 @@
 					text : '删除',
 					iconCls : 'icon-cancel',
 					handler : function() {
-						var id = getSelectedFirstId();
+						var id = getSelectedValue('id');
 						if (id == 0) {
 							$.messager.alert('提示', '未选中新闻!');
 							return;
@@ -274,7 +268,6 @@
 															},
 															error : function(
 																	data) {
-																console.log(data);
 																$.messager
 																.alert(
 																		'提示',
@@ -287,11 +280,13 @@
 					}
 				},
 				'-',
+				'-',
 				{
 					text : '今日新闻',
 					iconCls : 'icon-read',
 					handler : function() {
 						$.get("${pageContext.request.contextPath}/rest/zb8/today", function(result){
+							$("#articleList").datagrid("reload");
 						});
 						
 					}
@@ -301,7 +296,7 @@
 					iconCls : 'icon-read',
 					handler : function() {
 						$.get("${pageContext.request.contextPath}/rest/comments", function(result){
-							
+							$("#articleList").datagrid("reload");
 						});
 					}
 				}

@@ -1,6 +1,9 @@
 package com.wnc.superword.manage.controller;
 
+import java.io.File;
 import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,14 +15,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.wnc.basic.BasicDateUtil;
+import com.wnc.basic.BasicFileUtil;
 import com.wnc.news.api.mine.zhibo8.NewsExtract;
 import com.wnc.news.api.mine.zhibo8.Zb8News;
+import com.wnc.string.PatternUtil;
 import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
 import com.wnc.superword.manage.pojo.zb8.Article;
 import com.wnc.superword.manage.pojo.zb8.Zb8NewsAdapter;
 import com.wnc.superword.manage.service.ArticleService;
 import com.wnc.utils.EasyUIResult;
+import com.wnc.utils.UrlPicDownloader;
 
 @RequestMapping("zb8")
 @Controller
@@ -48,7 +54,7 @@ public class ArticleController {
 	}
 
 	@RequestMapping(value = "/view")
-	public String view(Model model, @RequestParam(value = "id") Long id) {
+	public String view(Model model, @RequestParam(value = "id") Long id, HttpServletRequest request) {
 		Article article;
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
@@ -63,6 +69,10 @@ public class ArticleController {
 			model.addAttribute("from_url", article.getFromUrl());
 			model.addAttribute("id", article.getId());
 			model.addAttribute("head_pic", article.getThumbnail());
+
+			if (article.getChsContent() != null) {
+				model.addAttribute("message_chs", downloadZb8Pic(article.getChsContent(), request));
+			}
 			return "news_viewer";
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -72,6 +82,26 @@ public class ArticleController {
 		}
 
 		return null;
+	}
+
+	private String downloadZb8Pic(String chsContent, HttpServletRequest request) {
+		List<String> allPatternGroup = PatternUtil.getAllPatternGroup(chsContent, "<img .*?src=\"(.*?\\..*?)\"");
+		String svrDir = request.getSession().getServletContext().getRealPath("/") + "tmp" + File.separator;
+		String tmpPath = request.getSession().getServletContext().getContextPath() + "/tmp/";
+		for (String pic : allPatternGroup) {
+			System.out.println(pic);
+			try {
+				String target = svrDir + BasicFileUtil.getFileName(pic);
+				if (!BasicFileUtil.isExistFile(target)) {
+					UrlPicDownloader.download(pic, target);
+				}
+				chsContent = chsContent.replace(pic, tmpPath + BasicFileUtil.getFileName(pic));
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		return chsContent;
+
 	}
 
 	// 默认加载今天和昨天的新闻

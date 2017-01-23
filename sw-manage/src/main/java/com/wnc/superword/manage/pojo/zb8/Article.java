@@ -4,6 +4,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Table(name = "article")
 public class Article {
@@ -31,6 +32,9 @@ public class Article {
 	private int sportType;
 	private int comments;
 	private int hotComments;
+	// 是否有翻译,1是0否
+	@Transient
+	private int translated;
 
 	public Long getId() {
 		return id;
@@ -166,6 +170,14 @@ public class Article {
 
 	public void setUpdateTime(String updateTime) {
 		this.updateTime = updateTime;
+	}
+
+	public int getTranslated() {
+		return translated;
+	}
+
+	public void setTranslated(int translated) {
+		this.translated = translated;
 	}
 
 }

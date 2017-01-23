@@ -15,9 +15,11 @@
 		<result column="thumbnail" property="thumbnail" jdbcType="CHAR" />
 		<result column="comments" property="comments" jdbcType="INTEGER" />
 		<result column="hot_comments" property="hotComments" jdbcType="INTEGER" />
+		<result column="translated" property="translated" jdbcType="INTEGER" />
+		
 	</resultMap>
 	<select id="listBySql" resultMap="BaseResultMap" parameterType="map">
-		select * from article ${whereSql} order by ${sort} ${order} , day desc, from_url desc, news_time desc limit ${start},${rows}
+		select *,case when eng_content is null then 0 else 1 end as 'translated' from article ${whereSql} order by ${sort} ${order} , day desc, from_url desc, news_time desc limit ${start},${rows}
 	</select>
 	<select id="selectCountBySql" resultType="long" parameterType="map"
 		useCache="true">

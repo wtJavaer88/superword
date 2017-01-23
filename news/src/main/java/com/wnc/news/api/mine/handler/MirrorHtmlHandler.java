@@ -20,7 +20,9 @@ public class MirrorHtmlHandler implements HtmlHandler {
 				}
 			}
 			if (tag.equals("div") && (element.text().trim().length() > 0 || element.select("img").size() > 0)) {
-				elements.add(element);
+				if (!element.className().contains("mod-video")) {
+					elements.add(element);
+				}
 			}
 		}
 		return elements;
