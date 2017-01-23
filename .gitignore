@@ -4,6 +4,7 @@ ehthumbs.db
 news/target/
 sw-common/target/
 sw-manage/target/
+sw-manage/src/main/webapp/tmp/
 sw-parent/target/
 translation/target/
 logs
@@ -38,6 +39,8 @@ $RECYCLE.BIN/
 *.bak
 *.class
 *.mp3
+*.log
+
 *.tmp
 *.classpath
 # Files that might appear on external disk
