@@ -16,4 +16,8 @@ public class FsMediaService extends BaseService<FsMedia> {
 		fsMediaMapper.saveEntity(media);
 	}
 
+	public void deleteByUuid(String uuid) {
+		fsMediaMapper.deleteByUuid(uuid);
+	}
+
 }

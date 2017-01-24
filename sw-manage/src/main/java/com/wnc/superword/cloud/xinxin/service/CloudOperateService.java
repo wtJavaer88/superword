@@ -1,6 +1,8 @@
 package com.wnc.superword.cloud.xinxin.service;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -28,7 +30,7 @@ public class CloudOperateService extends BaseService<CloudOperate> {
 	CloudOperateMapper cloudOperateMapper;
 
 	@Transactional(propagation = Propagation.REQUIRED)
-	public void saveOperate(String json) {
+	public void saveUploadOperate(String json, String folderName) {
 		JSONObject jObject = JSONObject.parseObject(json);
 		String uploadTime = jObject.getString("upload_time");
 		String userId = jObject.getString("user_id");
@@ -45,19 +47,28 @@ public class CloudOperateService extends BaseService<CloudOperate> {
 			cloudOperate.setOperateType(1);
 			save(cloudOperate);
 			for (FootStepInfo footStepInfo : parseArray) {
-				System.out.println("uuid:" + footStepInfo.getUuid());
 				footStepInfo.setUploadTime(uploadTime);
+				System.out.println(footStepInfo);
 				footStepService.saveEntity(footStepInfo);
-				FsMedia record = new FsMedia();
-				record.setFsUuid(footStepInfo.getUuid());
-				fsMediaService.deleteByWhere(record);
-				for (FsMedia media : footStepInfo.getMedias()) {
 
+				fsMediaService.deleteByUuid(footStepInfo.getUuid());
+				for (FsMedia media : footStepInfo.getMedias()) {
+					media.setSaveFolder(folderName);
 					fsMediaService.saveEntity(media);
 				}
 			}
 		}
 
+	}
+
+	public void saveDownloadOperate(String user_id, String device_id, String beginTime, String endTime) {
+		CloudOperate cloudOperate = new CloudOperate();
+		cloudOperate.setBeginTime(beginTime);
+		cloudOperate.setEndTime(endTime);
+		cloudOperate.setUserId(user_id);
+		cloudOperate.setDeviceId(device_id);
+		cloudOperate.setOperateType(2);
+		save(cloudOperate);
 	}
 
 	public String queryUTime(String user_id, String device_id) {
@@ -88,9 +99,12 @@ public class CloudOperateService extends BaseService<CloudOperate> {
 		return "0000-00-00 00:00:00";
 	}
 
-	public List<String> downloadList(String user_id, String device_id) {
+	public List<FootStepInfo> downloadList(String user_id, String device_id) {
 		String queryDTime = queryDTime(user_id, device_id);
-
-		return null;
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("user_id", user_id);
+		map.put("device_id", device_id);
+		map.put("update_time", queryDTime);
+		return footStepService.findNeedDownList(map);
 	}
 }

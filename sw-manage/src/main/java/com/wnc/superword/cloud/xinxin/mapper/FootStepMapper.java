@@ -8,11 +8,9 @@ import com.wnc.superword.cloud.xinxin.pojo.FootStepInfo;
 
 public interface FootStepMapper extends Mapper<FootStepInfo> {
 
-	List<FootStepInfo> findAll();
-
 	void saveEntity(FootStepInfo entity);
 
-	List<FootStepInfo> queryList(Map<String, Object> map);
+	List<FootStepInfo> queryUndownload(Map<String, Object> map);
 
 	void updateByUUID(FootStepInfo entity);
 }

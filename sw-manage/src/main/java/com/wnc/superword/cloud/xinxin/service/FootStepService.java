@@ -20,12 +20,13 @@ public class FootStepService extends BaseService<FootStepInfo> {
 		FootStepInfo entity2 = new FootStepInfo();
 		entity2.setUuid(entity.getUuid());
 		if (queryListByWhere(entity2).size() > 0) {
+			System.out.println("查找到uuid" + entity.getUuid());
 			footStepMapper.updateByUUID(entity);
 		} else
 			footStepMapper.saveEntity(entity);
 	}
 
-	public List<FootStepInfo> queryList(Map<String, Object> map) {
-		return footStepMapper.queryList(map);
+	public List<FootStepInfo> findNeedDownList(Map<String, Object> map) {
+		return footStepMapper.queryUndownload(map);
 	}
 }

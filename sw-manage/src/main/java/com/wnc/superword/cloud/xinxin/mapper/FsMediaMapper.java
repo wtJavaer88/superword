@@ -7,4 +7,5 @@ public interface FsMediaMapper extends Mapper<FsMedia> {
 
 	void saveEntity(FsMedia media);
 
+	void deleteByUuid(String uuid);
 }

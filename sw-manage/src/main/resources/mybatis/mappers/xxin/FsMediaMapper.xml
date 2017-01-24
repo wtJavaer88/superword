@@ -5,7 +5,11 @@
 
 	<insert id="saveEntity" parameterType="com.wnc.superword.cloud.xinxin.pojo.FsMedia"     
 	        useGeneratedKeys="true" keyProperty="id">    
-	     insert into fs_medias(fs_uuid,media_fullpath,media_name,media_size,media_type,sn,create_time,is_deleted) 
-	     values(#{fsUuid},#{mediaFullpath},#{mediaName},#{mediaSize},#{mediaType},#{sn},#{createTime},#{isDeleted})    
+	     insert into fs_medias(fs_uuid,media_fullpath,media_name,media_size,media_type,sn,create_time,is_deleted,save_folder) 
+	     values(#{fsUuid},#{mediaFullpath},#{mediaName},#{mediaSize},#{mediaType},#{sn},#{createTime},#{isDeleted},#{saveFolder})    
 	</insert>   
+	
+	<delete id="deleteByUuid" parameterType="String">
+		delete from fs_medias where fs_uuid=#{uuid}
+	</delete>
 </mapper>

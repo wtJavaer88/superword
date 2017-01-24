@@ -48,14 +48,6 @@ public class FootStepInfo implements Serializable {
 		this.uuid = uuid;
 	}
 
-	public Integer isDeleted() {
-		return isDeleted;
-	}
-
-	public void setDeleted(Integer isDeleted) {
-		this.isDeleted = isDeleted;
-	}
-
 	public String getTagNames() {
 		return tagNames;
 	}
@@ -134,6 +126,22 @@ public class FootStepInfo implements Serializable {
 
 	public void setDeviceId(String deviceId) {
 		this.deviceId = deviceId;
+	}
+
+	public String getFsDesc() {
+		return fsDesc;
+	}
+
+	public void setFsDesc(String fsDesc) {
+		this.fsDesc = fsDesc;
+	}
+
+	public Integer getIsDeleted() {
+		return isDeleted;
+	}
+
+	public void setIsDeleted(Integer isDeleted) {
+		this.isDeleted = isDeleted;
 	}
 
 }

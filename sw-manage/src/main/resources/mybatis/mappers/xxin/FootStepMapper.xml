@@ -18,15 +18,13 @@
 	    <collection column="uuid" property="medias"  javaType="List"  ofType="com.wnc.superword.cloud.xinxin.pojo.FsMedia" select="geItemsByUUId"/>
 	</resultMap>
 	
-	<select id="queryList" resultMap="BaseResultMap">
+	<select id="queryUndownload" resultMap="BaseResultMap">
 		 select * from <include refid="tableName"></include> t
 		<where>	
-			<if test="update_time != null">t.created &gt; #{update_time}</if>
-			<if test="device_id != null">AND t.device_id = #{device_id}</if>
-			<if test="create_by != null">AND t.create_by = #{create_by}</if>
+			<if test="update_time != null">t.upload_time &gt; #{update_time}</if>
+			<if test="user_id != null">AND t.create_by = #{user_id}</if>
 		</where>
-		order by created desc
-		limit ${start},${size}
+		order by upload_time desc;
 	</select>
 	
 	<update id="updateByUUID" parameterType="com.wnc.superword.cloud.xinxin.pojo.FootStepInfo">

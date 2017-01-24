@@ -20,7 +20,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.alibaba.fastjson.JSONObject;
+import com.wnc.basic.BasicDateUtil;
 import com.wnc.basic.BasicFileUtil;
+import com.wnc.superword.cloud.xinxin.pojo.FootStepInfo;
+import com.wnc.superword.cloud.xinxin.pojo.FsMedia;
 import com.wnc.superword.cloud.xinxin.service.CloudOperateService;
 import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
@@ -50,7 +54,8 @@ public class CloudOperateController {
 					ZipUtils.upZipFile(new File(filepath), folder);
 					List<String> readFrom = FileOp.readFrom(folder + "data.json", "UTF-8");
 					if (readFrom.size() > 0) {
-						cloudOperateService.saveOperate(readFrom.get(0));
+						cloudOperateService.saveUploadOperate(readFrom.get(0),
+								originalFilename.replaceAll("\\.\\S+", ""));
 					}
 
 					return ResponseEntity.ok("1");
@@ -88,8 +93,10 @@ public class CloudOperateController {
 	@RequestMapping(value = "download", method = RequestMethod.POST)
 	public ResponseEntity<String> download(@RequestParam("user_id") String user_id,
 			@RequestParam("device_id") String device_id, HttpServletRequest request) {
+		String beginTime = BasicDateUtil.getCurrentDateTimeString();
 		try {
-			List<String> downloadList = cloudOperateService.downloadList(user_id, device_id);
+			DataSourceTypeManager.set(DataSourceType.DATASOURCE_XXIN);
+			List<FootStepInfo> downloadList = cloudOperateService.downloadList(user_id, device_id);
 			if (downloadList.size() > 0) {
 				long currentTimeMillis = System.currentTimeMillis();
 				String svrDownDir = request.getSession().getServletContext().getRealPath("/") + "download"
@@ -98,18 +105,41 @@ public class CloudOperateController {
 				String saveZipFile = svrDownDir + currentTimeMillis + ".zip";
 				String retzipFile = request.getSession().getServletContext().getContextPath() + "/download/"
 						+ currentTimeMillis + ".zip";
+				JSONObject jsonObject = new JSONObject();
+				jsonObject.put("user_id", user_id);
+				jsonObject.put("device_id", device_id);
+				String endTime = BasicDateUtil.getCurrentDateTimeString();
+				jsonObject.put("download_time", endTime);
+				jsonObject.put("data", downloadList);
 
+				String jsonFile = svrDownDir + "data.json";
+				BasicFileUtil.writeFileString(jsonFile, jsonObject.toString(), null, false);
 				List<File> resFileList = new ArrayList<>();
-				for (String string : downloadList) {
-					resFileList.add(new File(string));
+				resFileList.add(new File(jsonFile));
+
+				for (FootStepInfo fs : downloadList) {
+					for (FsMedia media : fs.getMedias()) {
+						String savedBackupFile = getSavedBackupFile(media.getSaveFolder(), media.getMediaName(),
+								request);
+						System.out.println("文件地址:" + savedBackupFile);
+						resFileList.add(new File(savedBackupFile));
+					}
 				}
 				ZipUtils.zipFiles(resFileList, new File(saveZipFile));
+				cloudOperateService.saveDownloadOperate(user_id, device_id, beginTime, endTime);
 				return ResponseEntity.ok(retzipFile);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
+		} finally {
+			DataSourceTypeManager.reset();
 		}
 		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+	}
+
+	public String getSavedBackupFile(String folderName, String fileName, HttpServletRequest request) {
+		return request.getSession().getServletContext().getRealPath("/") + "backup" + File.separator + folderName
+				+ File.separator + fileName;
 	}
 
 	private boolean saveFile(MultipartFile mpFile, String filePath) {

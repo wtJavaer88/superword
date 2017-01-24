@@ -25,6 +25,7 @@ public class FsMedia implements Serializable {
 	private Integer isDeleted;
 	private Integer sn;
 	private String createTime;
+	private String saveFolder;
 
 	public String getMediaName() {
 		return mediaName;
@@ -42,11 +43,11 @@ public class FsMedia implements Serializable {
 		this.mediaType = mediaType;
 	}
 
-	public long getMediaSize() {
+	public Long getMediaSize() {
 		return mediaSize;
 	}
 
-	public void setMediaSize(long mediaSize) {
+	public void setMediaSize(Long mediaSize) {
 		this.mediaSize = mediaSize;
 	}
 
@@ -103,5 +104,13 @@ public class FsMedia implements Serializable {
 
 	public void setSn(Integer sn) {
 		this.sn = sn;
+	}
+
+	public String getSaveFolder() {
+		return saveFolder;
+	}
+
+	public void setSaveFolder(String saveFolder) {
+		this.saveFolder = saveFolder;
 	}
 }
