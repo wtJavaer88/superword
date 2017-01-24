@@ -23,7 +23,7 @@ import com.wnc.superword.manage.pojo.zb8.Article;
 import com.wnc.superword.manage.pojo.zb8.ArticleComment;
 import com.wnc.superword.manage.pojo.zb8.CommentAdapter;
 import com.wnc.superword.manage.pojo.zb8.Zb8NewsAdapter;
-import com.wnc.superword.manage.util.NewsWordsAnalyse;
+import com.wnc.superword.manage.task.NewsWordsAnalyse;
 
 @Service
 public class ArticleService extends BaseService<Article> {

@@ -10,7 +10,6 @@ import com.wnc.superword.manage.db.DataSourceTypeManager;
 import com.wnc.superword.manage.pojo.zb8.Article;
 import com.wnc.superword.manage.pojo.zb8.Zb8NewsAdapter;
 import com.wnc.superword.manage.service.ArticleService;
-import com.wnc.superword.manage.util.NewsWordsAnalyse;
 
 public class ContentThread implements Runnable {
 	Article article;

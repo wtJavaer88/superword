@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 
 import com.wnc.superword.manage.pojo.zb8.Article;
 import com.wnc.superword.manage.service.ArticleService;
-import com.wnc.superword.manage.util.NewsWordsAnalyse;
 
 @Component
 public class HtmlContentTask {

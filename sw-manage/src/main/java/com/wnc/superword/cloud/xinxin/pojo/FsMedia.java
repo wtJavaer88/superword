@@ -2,9 +2,10 @@ package com.wnc.superword.cloud.xinxin.pojo;
 
 import java.io.Serializable;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.persistence.Transient;
 
 @Table(name = "fs_medias")
 public class FsMedia implements Serializable {
@@ -13,25 +14,17 @@ public class FsMedia implements Serializable {
 	 */
 	private static final long serialVersionUID = 8001226207947247024L;
 	@Id
-	private int id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
+
 	private String fsUuid;
 	private String mediaName;
-	private int mediapathId;
-	@Transient
 	private String mediaFullpath;
 	private String mediaType;
-	private long mediaSize;
-	private int isDeleted;
-	private int sn;
+	private Long mediaSize;
+	private Integer isDeleted;
+	private Integer sn;
 	private String createTime;
-
-	public int getMediapathId() {
-		return mediapathId;
-	}
-
-	public void setMediapathId(int mediapathId) {
-		this.mediapathId = mediapathId;
-	}
 
 	public String getMediaName() {
 		return mediaName;
@@ -73,27 +66,27 @@ public class FsMedia implements Serializable {
 		this.fsUuid = fsUuid;
 	}
 
-	public int getIsDeleted() {
+	public Integer getIsDeleted() {
 		return isDeleted;
 	}
 
-	public void setIsDeleted(int isDeleted) {
+	public void setIsDeleted(Integer isDeleted) {
 		this.isDeleted = isDeleted;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
 	@Override
 	public String toString() {
-		return "FsMedia [id=" + id + ", media_name=" + mediaName + ", media_fullpath=" + mediaFullpath + ", media_type="
-				+ mediaType + ", sn=" + sn + ", media_size=" + mediaSize + ", create_time=" + createTime
-				+ ", is_deleted=" + isDeleted + "]";
+		return "{id:\"" + id + "\", mediaName:\"" + mediaName + "\", mediaFullpath:\"" + mediaFullpath
+				+ "\", mediaType:\"" + mediaType + "\", sn:\"" + sn + "\", mediaSize:\"" + mediaSize
+				+ "\", createTime:\"" + createTime + "\", isDeleted:\"" + isDeleted + "\"}";
 	}
 
 	public String getMediaFullpath() {
@@ -104,11 +97,11 @@ public class FsMedia implements Serializable {
 		this.mediaFullpath = mediaFullpath;
 	}
 
-	public int getSn() {
+	public Integer getSn() {
 		return sn;
 	}
 
-	public void setSn(int sn) {
+	public void setSn(Integer sn) {
 		this.sn = sn;
 	}
 }

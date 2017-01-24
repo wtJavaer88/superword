@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wnc.superword.cloud.xinxin.mapper.FsMediaMapper">
+
+	<insert id="saveEntity" parameterType="com.wnc.superword.cloud.xinxin.pojo.FsMedia"     
+	        useGeneratedKeys="true" keyProperty="id">    
+	     insert into fs_medias(fs_uuid,media_fullpath,media_name,media_size,media_type,sn,create_time,is_deleted) 
+	     values(#{fsUuid},#{mediaFullpath},#{mediaName},#{mediaSize},#{mediaType},#{sn},#{createTime},#{isDeleted})    
+	</insert>   
+</mapper>

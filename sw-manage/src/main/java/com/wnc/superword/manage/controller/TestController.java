@@ -24,7 +24,7 @@ import com.wnc.superword.manage.service.ArticleService;
 import com.wnc.superword.manage.service.CommentService;
 import com.wnc.superword.manage.task.ArticleCommentsTask;
 import com.wnc.superword.manage.task.HtmlContentTask;
-import com.wnc.superword.manage.util.NewsWordsAnalyse;
+import com.wnc.superword.manage.task.NewsWordsAnalyse;
 
 import translate.site.baidu.BaiduWordTranslate;
 
@@ -147,7 +147,7 @@ public class TestController {
 	@RequestMapping(value = "/fs")
 	public String s(Model model) {
 		System.out.println("#####");
-		System.out.println("#####" + footStepService.queryList(0, 10));
+		// System.out.println("#####" + footStepService.queryList(0, 10));
 		System.out.println("#####");
 		return "zb8";
 	}

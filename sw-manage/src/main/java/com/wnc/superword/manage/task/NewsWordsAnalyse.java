@@ -1,4 +1,4 @@
-package com.wnc.superword.manage.util;
+package com.wnc.superword.manage.task;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,6 +15,7 @@ import com.wnc.news.api.mine.zhibo8.Zb8News;
 import com.wnc.string.PatternUtil;
 import com.wnc.superword.manage.pojo.News;
 import com.wnc.superword.manage.service.DictService;
+import com.wnc.superword.manage.util.PassedTopicCache;
 
 import word.Topic;
 

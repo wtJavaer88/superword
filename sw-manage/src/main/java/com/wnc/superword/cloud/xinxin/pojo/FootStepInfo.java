@@ -16,25 +16,27 @@ public class FootStepInfo implements Serializable {
 	 */
 	private static final long serialVersionUID = -3274963893488139409L;
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY, generator = "select max(ID)+1 from footsteps")
-	private int id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
 	private String uuid;
 	private String fsDesc;
-	private boolean isDeleted;
+	private Integer isDeleted;
 	private String tagNames;
 	private String day;
 	private String createTime;
 	private String updateTime;
+	private String uploadTime;
 	private String updateBy;
 	private String createBy;
+	private String deviceId;
 	@Transient
 	private List<FsMedia> medias;
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -46,11 +48,11 @@ public class FootStepInfo implements Serializable {
 		this.uuid = uuid;
 	}
 
-	public boolean isDeleted() {
+	public Integer isDeleted() {
 		return isDeleted;
 	}
 
-	public void setDeleted(boolean isDeleted) {
+	public void setDeleted(Integer isDeleted) {
 		this.isDeleted = isDeleted;
 	}
 
@@ -112,9 +114,26 @@ public class FootStepInfo implements Serializable {
 
 	@Override
 	public String toString() {
-		return "FootStepInfo [id=" + id + ", uuid=" + uuid + ", fs_desc=" + fsDesc + ", is_deleted=" + isDeleted
-				+ ", tag_names=" + tagNames + ", day=" + day + ", create_time=" + createTime + ", update_time="
-				+ updateTime + ", update_by=" + updateBy + ", create_by=" + createBy + ", medias=" + medias + "]";
+		return "{id:\"" + id + "\", uuid:\"" + uuid + "\",deviceId:\"" + deviceId + "\", fsDesc:\"" + fsDesc
+				+ "\", isDeleted:\"" + isDeleted + "\", tagNames:\"" + tagNames + "\", day:\"" + day
+				+ "\", createTime:\"" + createTime + "\", updateTime:\"" + updateTime + "\", updateBy:\"" + updateBy
+				+ "\", createBy:\"" + createBy + "\", medias:" + medias + "}";
+	}
+
+	public String getUploadTime() {
+		return uploadTime;
+	}
+
+	public void setUploadTime(String uploadTime) {
+		this.uploadTime = uploadTime;
+	}
+
+	public String getDeviceId() {
+		return deviceId;
+	}
+
+	public void setDeviceId(String deviceId) {
+		this.deviceId = deviceId;
 	}
 
 }

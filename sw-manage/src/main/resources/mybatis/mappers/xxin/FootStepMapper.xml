@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wnc.superword.cloud.xinxin.mapper.FootStepMapper">
+	<sql id="tableName">footsteps</sql>
+	<resultMap id="BaseResultMap" type="com.wnc.superword.cloud.xinxin.pojo.FootStepInfo" >
+	    <id column="id" property="id" jdbcType="INTEGER" />
+	    <result column="uuid" property="uuid" jdbcType="CHAR" />
+	    <result column="fs_desc" property="fsDesc" jdbcType="CHAR" />
+	    <result column="is_deleted" property="isDeleted" jdbcType="INTEGER" />
+	    <result column="day" property="day" jdbcType="INTEGER" />
+	    <result column="create_time" property="createTime" jdbcType="INTEGER" />
+	    <result column="update_time" property="updateTime" jdbcType="INTEGER" />
+	    <result column="update_by" property="updateBy" jdbcType="INTEGER" />
+	    <result column="create_by" property="createBy" jdbcType="INTEGER" />
+	    <result column="device_id" property="deviceId" jdbcType="CHAR" />
+	    <result column="tag_names" property="tagNames" jdbcType="CHAR" />
+	    <collection column="uuid" property="medias"  javaType="List"  ofType="com.wnc.superword.cloud.xinxin.pojo.FsMedia" select="geItemsByUUId"/>
+	</resultMap>
+	
+	<select id="queryList" resultMap="BaseResultMap">
+		 select * from <include refid="tableName"></include> t
+		<where>	
+			<if test="update_time != null">t.created &gt; #{update_time}</if>
+			<if test="device_id != null">AND t.device_id = #{device_id}</if>
+			<if test="create_by != null">AND t.create_by = #{create_by}</if>
+		</where>
+		order by created desc
+		limit ${start},${size}
+	</select>
+	
+	<update id="updateByUUID" parameterType="com.wnc.superword.cloud.xinxin.pojo.FootStepInfo">
+		update <include refid="tableName"></include> set fs_desc=#{fsDesc},is_deleted=#{isDeleted},day=#{day},update_time=#{updateTime},update_by=#{updateBy},
+		device_id=#{deviceId},tag_names=#{tagNames} where uuid=#{uuid}
+	</update>
+	
+	<select id="geItemsByUUId" resultType="com.wnc.superword.cloud.xinxin.pojo.FsMedia" parameterType="String">
+		 select * from fs_medias where fs_uuid=#{uuid}
+	</select>
+
+	<insert id="saveEntity" parameterType="com.wnc.superword.cloud.xinxin.pojo.FootStepInfo"     
+	        useGeneratedKeys="true" keyProperty="id">    
+	     insert into <include refid="tableName"></include>(uuid,day,fs_desc,is_deleted,tag_names,create_time,update_time,upload_time,create_by,update_by,device_id) 
+	     values(#{uuid},#{day},#{fsDesc},#{isDeleted},#{tagNames},#{createTime},#{updateTime},#{uploadTime},#{createBy},#{updateBy},#{deviceId})    
+	</insert>   
+</mapper>

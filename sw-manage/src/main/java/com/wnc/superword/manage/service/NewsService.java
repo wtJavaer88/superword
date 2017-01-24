@@ -12,7 +12,7 @@ import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
 import com.wnc.superword.manage.mapper.NewsMapper;
 import com.wnc.superword.manage.pojo.News;
-import com.wnc.superword.manage.util.NewsWordsAnalyse;
+import com.wnc.superword.manage.task.NewsWordsAnalyse;
 import com.wnc.utils.EasyUIResult;
 
 @Service

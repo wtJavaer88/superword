@@ -43,7 +43,7 @@
 	</bean>
 	
 	<!-- 扫描包 -->
-	<context:component-scan base-package="com.wnc.superword" />
+	<context:component-scan base-package="com.wnc.superword.**.service,com.wnc.superword.**.pojo,com.wnc.superword.**.task" />
 
 	<!-- 多数据源配置 -->
 	<bean id="ds_main" class="com.alibaba.druid.pool.DruidDataSource">
@@ -83,4 +83,32 @@
 		</property>
 		<property name="defaultTargetDataSource" ref="ds_main"></property>      <!-- 默认使用ds_main的数据源 -->
 	</bean>
+	
+	<!-- 配置事务管理器 -->
+
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="multipleDataSource" />
+	</bean>
+	<tx:annotation-driven transaction-manager="transactionManager" />
+	
+	<tx:advice id="transactionManagerAdivice"
+		transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="create*" propagation="REQUIRED" />
+			<tx:method name="insert*" propagation="REQUIRED" />
+			<tx:method name="save*" propagation="REQUIRED" />
+			<tx:method name="update*" propagation="REQUIRED" />
+			<tx:method name="edit*" propagation="REQUIRED" />
+			<tx:method name="delete*" propagation="REQUIRED" />
+			<tx:method name="remove*" propagation="REQUIRED" />
+			<tx:method name="add*" propagation="REQUIRED" />
+			<tx:method name="*" propagation="REQUIRED" read-only="true" />
+		</tx:attributes>
+	</tx:advice>
+	<aop:config>
+		<aop:pointcut id="tx"
+			expression="execution(public * com.wnc.superword.*.*.service.*.*(..))" /> <!--把事务控制在Service层 -->
+		<aop:advisor pointcut-ref="tx" advice-ref="transactionManagerAdivice" />
+	</aop:config>
 </beans>
