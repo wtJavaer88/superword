@@ -14,16 +14,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.wnc.basic.BasicDateUtil;
 import com.wnc.basic.BasicFileUtil;
-import com.wnc.news.api.mine.zhibo8.NewsExtract;
-import com.wnc.news.api.mine.zhibo8.Zb8News;
 import com.wnc.string.PatternUtil;
 import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
 import com.wnc.superword.manage.pojo.zb8.Article;
-import com.wnc.superword.manage.pojo.zb8.Zb8NewsAdapter;
 import com.wnc.superword.manage.service.ArticleService;
+import com.wnc.superword.manage.task.NewsSchedule;
 import com.wnc.utils.EasyUIResult;
 import com.wnc.utils.UrlPicDownloader;
 
@@ -104,37 +101,21 @@ public class ArticleController {
 
 	}
 
+	@Autowired
+	NewsSchedule newsSchedule;
+
 	// 默认加载今天和昨天的新闻
 	@RequestMapping(value = "/today")
 	public String zhibo8Today(Model model, @RequestParam(value = "i", defaultValue = "1") Integer i) throws Exception {
-		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
-		try {
-			String today = BasicDateUtil.getCurrentDateTimeString().substring(0, 10);
-			List<Zb8News> nbaNewsByDay = new NewsExtract().getNBANewsBeforeDay(today, i);
-			List<Zb8News> zuqiuNewsByDay = new NewsExtract().getNBANewsBeforeDay(today, i);
-			nbaNewsByDay.addAll(zuqiuNewsByDay);
-			// nbaNewsByDay = NewsFilter.filterOutSide(nbaNewsByDay);
-
-			List<Article> articlesFromZb8 = Zb8NewsAdapter.getArticlesFromZb8(nbaNewsByDay);
-			for (Article article : articlesFromZb8) {
-				System.out.println("文章网址:" + article.getUrl());
-				if (articleService.isExist(article.getUrl())) {
-					continue;
-				}
-				try {
-					articleService.decorateArticle(article);
-					articleService.save(article);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			DataSourceTypeManager.reset();
-		}
+		newsSchedule.news(i);
 		return "zb8";
+	}
+
+	@RequestMapping(value = "/comments")
+	public ResponseEntity<Void> comments(Model model, @RequestParam(value = "i", defaultValue = "1") Integer i)
+			throws Exception {
+		newsSchedule.comments(i);
+		return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
 	}
 
 	@RequestMapping(method = RequestMethod.DELETE)
