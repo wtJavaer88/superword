@@ -8,11 +8,13 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-easyui-1.4/jquery.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/webuploader/webuploader.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/layer.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/css/talk.css" />
 <link href="${pageContext.request.contextPath}/css/webuploader.css"
 	type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css" type="text/css"/>
 
 <title>Insert title here</title>
 </head>
@@ -309,12 +311,12 @@
 				</div>
 			</div>
 			<div id="brand-box">
-				<div class="tab-groups">
-					<span class="tab current J_tab" id="brand-tab">常见问题</span> <span
-						class="tab J_tab" id="order-tab">订单</span>
-				</div>
-				<div class="tab-content" style="height: 816px;">
-					<div class="tab-panel" data-target="brand-tab">
+				<ul id="myTab" class="nav nav-tabs">
+					<li class="active"><a href="#qustions" data-toggle="tab">常见问题</a></li>
+					<li><a href="#orders" data-toggle="tab">订单</a></li>
+				</ul>
+				<div  class="tab-content" style="height: 816px;">
+					<div id="qustions" class="tab-pane fade in active">
 						<div id="problem-list" style="height: 816px;">
 							<div class="list-cont" id="faq-list-1">
 								<div class="item">
@@ -338,7 +340,7 @@
 								<div class="item">
 									<div class="problem-word J_problem-word">
 										<div class="triggle triangle-right"></div>
-										订单已提交退货，退款什么时候能到账？
+										申请退货，退款什么时候能到账？
 									</div>
 									<div class="problem-answer">您好，关于退款到账时效的问题：
 										1、若您申请售后为“仅退款—未收到货”，仓库会在48小时内会核实处理；
@@ -609,8 +611,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="tab-panel" style="display: none"
-						data-target="order-tab">
+					<div id="orders" class="tab-pane fade">
 						<div id="order-list">
 							<script type="text/template" id="order_template">
                             {@each orders as order}
@@ -636,7 +637,41 @@
                                 </div>
                             </div>
                             {@/each}
-                        </script>
+                        	</script>
+                        	<div class="order-item">
+                                <div class="order-header">
+                                    <p>编号：1111</p>
+                                </div>
+                                <div class="order-content J_order-content" data-oid="2">
+                                    <span class="status">已完成</span>
+                                    <img class="order-image" data-oid="3" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="">
+
+                                    <div class="order-info">
+                                        <p class="one_float">共1件</p>
+                                        <p class="two_float">总计：<span class="price">￥100.00</span></p>
+                                    </div>
+                                </div>
+                                <div class="order-footer">
+                                    <p>下单时间：2222-12-22</p>
+                                </div>
+                            </div>
+                            <div class="order-item">
+                                <div class="order-header">
+                                    <p>编号：1111</p>
+                                </div>
+                                <div class="order-content J_order-content" data-oid="2">
+                                    <span class="status">已完成</span>
+                                    <img class="order-image" data-oid="3" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="">
+
+                                    <div class="order-info">
+                                        <p class="one_float">共1件</p>
+                                        <p class="two_float">总计：<span class="price">￥100.00</span></p>
+                                    </div>
+                                </div>
+                                <div class="order-footer">
+                                    <p>下单时间：2222-12-22</p>
+                                </div>
+                            </div>
 							<div class="no-order">
 								<div class="default-show">您最近没有订单哦~</div>
 							</div>
@@ -644,7 +679,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="model-layer"></div>
+			
 			<div class="customer-score" id="customer-score">
 				<div class="wrap">
 					<div class="title">你对当前客服人员的服务满意吗？</div>

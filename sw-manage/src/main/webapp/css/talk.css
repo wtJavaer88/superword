@@ -859,13 +859,12 @@ table {
     display: none;
     line-height: 16px;
     padding: 10px;
+    color: #0055ff;
     border-bottom: 1px solid #ddd;
     background: #f5f5f5;
 }
 #order-list {
-    overflow: auto;
     height: 100%;
-    position: relative;
 }
 #order-list::-webkit-scrollbar {
   width: 6px;
@@ -994,7 +993,7 @@ table {
     *left: 73px;
     bottom: 0;
     right: 0;
-    padding-top: 100px;
+    padding-top: 90px;
     background: url(http://b0.hucdn.com/party/default/upload_df4aa7c84d3f5cdf1b3796b07bda142f_105x83.png) no-repeat;
     text-align: center;
     color: #999;

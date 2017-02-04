@@ -12850,3 +12850,470 @@ java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_0
 2017-02-03 15:00:03,821 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
 2017-02-03 16:00:00,154 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
 2017-02-03 16:00:20,378 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-03 16:59:59,803 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-03 17:00:17,051 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-03 17:00:18,039 [taskExecutor-11] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/589445797f676.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/589445797f676_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 17:00:18,148 [taskExecutor-11] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/589445797f676.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/589445797f676_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 17:00:18,224 [taskExecutor-11] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/589445797f676.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/589445797f676_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 18:00:00,176 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-03 18:00:18,358 [pool-1-thread-1] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-02-03 18:00:18,359 [pool-1-thread-1] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-2} inited
+2017-02-03 18:00:21,881 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-03 18:00:22,788 [taskExecutor-7] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/589452466912b.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/589452466912b_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 18:00:22,793 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/58945274e4111.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/58945274e4111_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 18:00:22,816 [taskExecutor-4] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/589452ac2efad.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/589452ac2efad_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 18:00:22,910 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/58945274e4111.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/58945274e4111_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 18:00:22,914 [taskExecutor-7] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/589452466912b.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/589452466912b_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 18:00:22,926 [taskExecutor-4] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/589452ac2efad.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/589452ac2efad_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 18:00:23,021 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/58945274e4111.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/58945274e4111_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 18:00:23,063 [taskExecutor-7] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/589452466912b.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/589452466912b_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 18:00:23,074 [taskExecutor-4] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/589452ac2efad.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/589452ac2efad_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 19:00:00,006 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-03 19:00:11,672 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-03 19:59:59,844 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-03 20:00:16,404 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-03 21:00:00,261 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-03 21:00:05,497 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-03 21:00:06,142 [taskExecutor-19] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/58947e2baeba3.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/58947e2baeba3_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 21:00:06,217 [taskExecutor-19] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/58947e2baeba3.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/58947e2baeba3_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 21:00:06,289 [taskExecutor-19] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/58947e2baeba3.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/58947e2baeba3_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 21:00:06,364 [taskExecutor-19] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/58947e2baeba3.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/58947e2baeba3_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 21:00:06,513 [taskExecutor-19] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/58947e2baeba3.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/58947e2baeba3_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 21:00:06,661 [taskExecutor-19] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-03/58947e2baeba3.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_02/news/nba/58947e2baeba3_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-03 21:59:59,742 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-03 22:00:13,890 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-03 23:00:00,209 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-03 23:00:14,134 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 07:00:00,265 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 07:00:33,487 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 07:00:34,348 [taskExecutor-16] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58950995d5d3d.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58950995d5d3d_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 07:00:34,382 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58950aeea2d1f.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58950aeea2d1f_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 07:00:34,455 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58950aeea2d1f.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58950aeea2d1f_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 07:00:34,463 [taskExecutor-16] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58950995d5d3d.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58950995d5d3d_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 07:00:34,531 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58950aeea2d1f.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58950aeea2d1f_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 07:00:34,535 [taskExecutor-16] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58950995d5d3d.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58950995d5d3d_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 07:00:34,605 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58950aeea2d1f.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58950aeea2d1f_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 07:00:34,715 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58950aeea2d1f.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58950aeea2d1f_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 07:00:34,864 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58950aeea2d1f.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58950aeea2d1f_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 07:59:59,709 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 08:00:04,822 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 08:59:59,821 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 09:00:22,728 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 10:00:00,298 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 10:00:18,238 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 11:00:00,179 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 11:01:26,205 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 12:00:00,175 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 12:00:03,600 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 13:00:00,179 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 13:00:03,360 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 13:59:59,453 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 14:00:17,364 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 14:59:59,861 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 15:00:21,512 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 15:00:22,993 [taskExecutor-16] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58957b550eeda.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58957b550eeda_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 15:00:23,130 [taskExecutor-16] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58957b550eeda.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58957b550eeda_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 15:00:23,208 [taskExecutor-16] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58957b550eeda.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58957b550eeda_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 15:00:23,318 [taskExecutor-16] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58957b550eeda.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58957b550eeda_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 15:00:23,467 [taskExecutor-16] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58957b550eeda.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58957b550eeda_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 15:00:23,636 [taskExecutor-16] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-02-04/58957b550eeda.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_03/news/nba/58957b550eeda_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-04 15:59:59,823 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 16:00:19,039 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-02-04 16:59:59,823 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-02-04 17:00:22,913 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
