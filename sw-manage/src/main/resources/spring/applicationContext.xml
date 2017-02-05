@@ -66,7 +66,7 @@
 	</bean>
 	<bean id="ds_xxin" class="com.alibaba.druid.pool.DruidDataSource">
 		<property name="driverClassName" value="${jdbc.sqlite.driverClassName}" />
-		<property name="url" value="${jdbc.xxin.url}" />
+		<property name="url" value="${jdbc.xxin2.url}" />
 		<property name="username" value="${jdbc.sqlite.username}" />
 		<property name="password" value="${jdbc.sqlite.password}" />
 	</bean>

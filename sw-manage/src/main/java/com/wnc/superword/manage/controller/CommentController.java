@@ -29,7 +29,12 @@ public class CommentController {
 		DataSourceTypeManager.set(DataSourceType.DATASOURCE_ZB8);
 		try {
 			Article article = articleService.queryById(article_id);
-			new CommentThread(article, articleService, commentService).run();
+			try {
+				new CommentThread(article, articleService, commentService).run();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			EasyUIResult easyUIResult = new EasyUIResult(commentService.articleHotCount(article_id),
 					commentService.queryByArticle(article_id));
 			return ResponseEntity.ok(easyUIResult);

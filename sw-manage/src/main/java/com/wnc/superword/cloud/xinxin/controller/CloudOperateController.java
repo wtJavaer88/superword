@@ -28,6 +28,7 @@ import com.wnc.superword.cloud.xinxin.pojo.FsMedia;
 import com.wnc.superword.cloud.xinxin.service.CloudOperateService;
 import com.wnc.superword.manage.db.DataSourceType;
 import com.wnc.superword.manage.db.DataSourceTypeManager;
+import com.wnc.superword.manage.util.FileUtils;
 import com.wnc.tools.FileOp;
 import com.wnc.tools.ZipUtils;
 
@@ -122,6 +123,9 @@ public class CloudOperateController {
 						String savedBackupFile = getSavedBackupFile(media.getSaveFolder(), media.getMediaName(),
 								request);
 						System.out.println("文件地址:" + savedBackupFile);
+						if (FileUtils.isMedia(savedBackupFile)) {
+							resFileList.add(new File(savedBackupFile + ".jpg"));
+						}
 						resFileList.add(new File(savedBackupFile));
 					}
 				}
@@ -129,6 +133,7 @@ public class CloudOperateController {
 				cloudOperateService.saveDownloadOperate(user_id, device_id, beginTime, endTime);
 				return ResponseEntity.ok(retzipFile);
 			}
+			return ResponseEntity.ok("");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
