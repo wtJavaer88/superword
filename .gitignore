@@ -2,6 +2,7 @@
 Thumbs.db
 ehthumbs.db
 news/target/
+logs/
 sw-common/target/
 sw-manage/target/
 sw-manage/src/main/webapp/tmp/

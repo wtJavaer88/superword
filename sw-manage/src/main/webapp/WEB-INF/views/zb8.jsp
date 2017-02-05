@@ -295,7 +295,7 @@
 					text : '刷新评论',
 					iconCls : 'icon-read',
 					handler : function() {
-						$.get("${pageContext.request.contextPath}/rest/comments", function(result){
+						$.get("${pageContext.request.contextPath}/rest/zb8/comments", function(result){
 							$("#articleList").datagrid("reload");
 						});
 					}
