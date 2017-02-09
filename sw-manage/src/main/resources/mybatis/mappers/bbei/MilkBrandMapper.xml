@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wnc.superword.bbei.mapper.MilkBrandMapper">
+	<sql id="tableName">milk_brand</sql>
+
+	<insert id="saveEntity" parameterType="com.wnc.superword.bbei.pojo.MilkBrand"     
+	        useGeneratedKeys="true" keyProperty="id">
+	     insert into <include refid="tableName"></include>(name,pic,url) 
+	     values(#{name},#{pic},#{url})    
+	</insert>
+</mapper>

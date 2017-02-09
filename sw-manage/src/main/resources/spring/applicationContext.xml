@@ -66,6 +66,12 @@
 		<property name="username" value="${jdbc.sqlite.username}" />
 		<property name="password" value="${jdbc.sqlite.password}" />
 	</bean>
+	<bean id="ds_bbei" class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="driverClassName" value="${jdbc.sqlite.driverClassName}" />
+		<property name="url" value="${jdbc.bbei.url}" />
+		<property name="username" value="${jdbc.sqlite.username}" />
+		<property name="password" value="${jdbc.sqlite.password}" />
+	</bean>
 
 	<!-- 动态配置数据源 -->
 	<bean id="multipleDataSource" class="com.wnc.superword.manage.db.DynamicDataSource">
@@ -75,6 +81,7 @@
 				<entry value-ref="ds_dict" key="ds_dict"></entry>
 				<entry value-ref="ds_zb8" key="ds_zb8"></entry>
 				<entry value-ref="ds_xxin" key="ds_xxin"></entry>
+				<entry value-ref="ds_bbei" key="ds_bbei"></entry>
 			</map>
 		</property>
 		<property name="defaultTargetDataSource" ref="ds_main"></property>      <!-- 默认使用ds_main的数据源 -->

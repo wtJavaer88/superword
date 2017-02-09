@@ -1,14 +1,34 @@
 package com.wnc.superword.manage.controller;
 
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.wnc.superword.bbei.service.MilkBrandService;
+import com.wnc.superword.bbei.service.MilkService;
 
 import translate.site.baidu.BaiduWordTranslate;
 
 @Controller
 public class TestController {
+	@Autowired
+	MilkBrandService milkBrandService;
+	@Autowired
+	MilkService milkService;
+
+	@RequestMapping(value = "/downpics")
+	public String downpics(Model model) {
+		milkBrandService.downPics();
+		return "talk";
+	}
+
+	@RequestMapping(value = "/bb")
+	public String bb(Model model) {
+		milkBrandService.initData();
+		return "talk";
+	}
 
 	@RequestMapping(value = "/talk")
 	public String talk(Model model) {
