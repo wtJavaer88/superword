@@ -15218,3 +15218,885 @@ java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_02_0
 2017-02-09 11:40:45,184 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
 2017-02-09 11:40:46,196 [http-bio-8081-exec-4] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
 2017-02-09 11:40:46,217 [http-bio-8081-exec-4] [org.springframework.jdbc.support.SQLErrorCodesFactory]-[INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-02-12 21:29:50,831 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization started
+2017-02-12 21:29:51,036 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Feb 12 21:29:51 CST 2017]; root of context hierarchy
+2017-02-12 21:29:51,110 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext-mybatis.xml]
+2017-02-12 21:29:51,586 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext.xml]
+2017-02-12 21:29:52,454 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [jdbc.properties]
+2017-02-12 21:29:52,455 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [env.properties]
+2017-02-12 21:29:52,456 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [log4j.properties]
+2017-02-12 21:29:52,456 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [httpclient.properties]
+2017-02-12 21:29:52,458 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[WARN] Could not load properties from class path resource [httpclient.properties]: class path resource [httpclient.properties] cannot be opened because it does not exist
+2017-02-12 21:29:52,477 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-02-12 21:29:55,094 [localhost-startStop-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]-[INFO] Initializing ExecutorService  'taskExecutor'
+2017-02-12 21:29:56,117 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization completed in 5264 ms
+2017-02-12 21:29:57,460 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization started
+2017-02-12 21:29:57,472 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing WebApplicationContext for namespace 'sw-manage-servlet': startup date [Sun Feb 12 21:29:57 CST 2017]; parent: Root WebApplicationContext
+2017-02-12 21:29:57,474 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/sw-manage-servlet.xml]
+2017-02-12 21:29:57,851 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-02-12 21:30:01,393 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/download],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-02-12 21:30:01,394 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/queryUTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.queryUploadTime(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-02-12 21:30:01,394 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/mbupload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.mbup(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2017-02-12 21:30:01,425 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/image/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.cloud.xinxin.controller.UploadController.imageUpload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-02-12 21:30:01,427 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.delete(java.lang.Long)
+2017-02-12 21:30:01,427 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ArticleController.list(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)
+2017-02-12 21:30:01,428 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.view(org.springframework.ui.Model,java.lang.Long,javax.servlet.http.HttpServletRequest)
+2017-02-12 21:30:01,428 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/comments],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.comments(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-02-12 21:30:01,428 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/today],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.zhibo8Today(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-02-12 21:30:01,430 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.list(java.lang.Integer,java.lang.Integer)
+2017-02-12 21:30:01,430 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/keywords],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.keywords()
+2017-02-12 21:30:01,446 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/cache],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ClubController.wordMean(java.lang.String,java.lang.String,int)
+2017-02-12 21:30:01,447 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/comments/hot],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.CommentController.view(org.springframework.ui.Model,java.lang.Long)
+2017-02-12 21:30:01,448 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/mean],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<word.DicWord> com.wnc.superword.manage.controller.DictController.wordMean(org.springframework.ui.Model,java.lang.String)
+2017-02-12 21:30:01,449 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.DictController.HelloWorld(org.springframework.ui.Model)
+2017-02-12 21:30:01,451 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.NewsController.list(java.lang.Integer,java.lang.Integer)
+2017-02-12 21:30:01,451 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.view(org.springframework.ui.Model,java.lang.Long)
+2017-02-12 21:30:01,451 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/add],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.users(org.springframework.ui.Model)
+2017-02-12 21:30:01,452 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/getSingleNews],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Integer> com.wnc.superword.manage.controller.NewsController.getSingleNews(java.lang.String)
+2017-02-12 21:30:01,452 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.deleteNews(java.util.List<java.lang.Object>)
+2017-02-12 21:30:01,452 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.saveNews(com.wnc.superword.manage.pojo.News)
+2017-02-12 21:30:01,454 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.test(org.springframework.ui.Model) throws java.lang.Exception
+2017-02-12 21:30:01,454 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/bb],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.bb(org.springframework.ui.Model)
+2017-02-12 21:30:01,455 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.HelloWorld(org.springframework.ui.Model)
+2017-02-12 21:30:01,455 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/downpics],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.downpics(org.springframework.ui.Model)
+2017-02-12 21:30:01,455 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/talk],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.talk(org.springframework.ui.Model)
+2017-02-12 21:30:01,455 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/newslist],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.newslist(org.springframework.ui.Model)
+2017-02-12 21:30:01,456 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8news],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.zhibo8news(org.springframework.ui.Model)
+2017-02-12 21:30:01,456 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/word/mp3],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.WordController.scheduleDownload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession,java.lang.String)
+2017-02-12 21:30:01,720 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Sun Feb 12 21:29:57 CST 2017]; parent: Root WebApplicationContext
+2017-02-12 21:30:02,698 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Sun Feb 12 21:29:57 CST 2017]; parent: Root WebApplicationContext
+2017-02-12 21:30:02,870 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-02-12 21:30:02,875 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-02-12 21:30:02,880 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-02-12 21:30:02,885 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/backup/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-02-12 21:30:02,890 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/download/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2017-02-12 21:30:02,895 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/mp3/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2017-02-12 21:30:02,903 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/tmp/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2017-02-12 21:30:03,037 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization completed in 5577 ms
+2017-02-12 21:30:08,968 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-02-12 21:30:08,993 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
+2017-02-12 21:31:30,480 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-02-12 21:31:30,486 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-2} inited
+2017-02-12 21:32:08,753 [http-bio-8081-exec-4] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] http://www.si.com/nba/2017/02/08/nikola-jokic-denver-nuggets-the-joker-serbia-darko-milicic 网址解析失败!
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.ChunkedInputStream.fastRead(ChunkedInputStream.java:244)
+	at sun.net.www.http.ChunkedInputStream.read(ChunkedInputStream.java:689)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3335)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.jsoup.helper.DataUtil.readToByteBuffer(DataUtil.java:92)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:408)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:132)
+	at com.wnc.utils.JsoupHelper.getDocumentResult(JsoupHelper.java:16)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:34)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.controller.ArticleController.zhibo8Today(ArticleController.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-12 21:34:09,174 [http-bio-8081-exec-4] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] http://www.thescore.com/nba/news/1229814-nbpa-s-roberts-wants-melo-jackson-to-sit-down 网址解析失败!
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:377)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:132)
+	at com.wnc.utils.JsoupHelper.getDocumentResult(JsoupHelper.java:16)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:34)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.controller.ArticleController.zhibo8Today(ArticleController.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-12 21:35:27,172 [http-bio-8081-exec-4] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] http://www.si.com/nba/2017/02/10/kevin-durant-russell-westbrook-relationship-warriors-thunder 网址解析失败!
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.ChunkedInputStream.fastRead(ChunkedInputStream.java:244)
+	at sun.net.www.http.ChunkedInputStream.read(ChunkedInputStream.java:689)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3335)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.jsoup.helper.DataUtil.readToByteBuffer(DataUtil.java:92)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:408)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:132)
+	at com.wnc.utils.JsoupHelper.getDocumentResult(JsoupHelper.java:16)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:34)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.controller.ArticleController.zhibo8Today(ArticleController.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-12 21:36:59,588 [http-bio-8081-exec-4] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] http://www.thescore.com/nba/news/1229070-report-dolan-fires-security-chief-following-oakley-scuffle 网址解析失败!
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3335)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.jsoup.helper.DataUtil.readToByteBuffer(DataUtil.java:92)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:408)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:132)
+	at com.wnc.utils.JsoupHelper.getDocumentResult(JsoupHelper.java:16)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:34)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.controller.ArticleController.zhibo8Today(ArticleController.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 22:07:30,127 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization started
+2017-05-23 22:07:30,539 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing Root WebApplicationContext: startup date [Tue May 23 22:07:30 CST 2017]; root of context hierarchy
+2017-05-23 22:07:30,739 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext-mybatis.xml]
+2017-05-23 22:07:31,394 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext.xml]
+2017-05-23 22:07:33,140 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [jdbc.properties]
+2017-05-23 22:07:33,141 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [env.properties]
+2017-05-23 22:07:33,142 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [log4j.properties]
+2017-05-23 22:07:33,143 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [httpclient.properties]
+2017-05-23 22:07:33,144 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[WARN] Could not load properties from class path resource [httpclient.properties]: class path resource [httpclient.properties] cannot be opened because it does not exist
+2017-05-23 22:07:33,177 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-23 22:07:37,472 [localhost-startStop-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]-[INFO] Initializing ExecutorService  'taskExecutor'
+2017-05-23 22:07:39,378 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization completed in 9247 ms
+2017-05-23 22:07:40,812 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization started
+2017-05-23 22:07:40,827 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 22:07:40 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 22:07:40,830 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/sw-manage-servlet.xml]
+2017-05-23 22:07:41,588 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-23 22:07:42,744 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/download],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:07:42,746 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/queryUTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.queryUploadTime(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:07:42,747 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/mbupload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.mbup(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:07:42,748 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/image/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.cloud.xinxin.controller.UploadController.imageUpload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-23 22:07:42,752 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.delete(java.lang.Long)
+2017-05-23 22:07:42,753 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ArticleController.list(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)
+2017-05-23 22:07:42,753 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.view(org.springframework.ui.Model,java.lang.Long,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:07:42,753 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/comments],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.comments(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-23 22:07:42,754 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/today],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.zhibo8Today(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-23 22:07:42,756 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.list(java.lang.Integer,java.lang.Integer)
+2017-05-23 22:07:42,756 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/keywords],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.keywords()
+2017-05-23 22:07:42,756 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/cache],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ClubController.wordMean(java.lang.String,java.lang.String,int)
+2017-05-23 22:07:42,758 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/comments/hot],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.CommentController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-23 22:07:42,760 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/mean],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<word.DicWord> com.wnc.superword.manage.controller.DictController.wordMean(org.springframework.ui.Model,java.lang.String)
+2017-05-23 22:07:42,761 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.DictController.HelloWorld(org.springframework.ui.Model)
+2017-05-23 22:07:42,765 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.NewsController.list(java.lang.Integer,java.lang.Integer)
+2017-05-23 22:07:42,765 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-23 22:07:42,767 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/add],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.users(org.springframework.ui.Model)
+2017-05-23 22:07:42,767 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/getSingleNews],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Integer> com.wnc.superword.manage.controller.NewsController.getSingleNews(java.lang.String)
+2017-05-23 22:07:42,768 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.deleteNews(java.util.List<java.lang.Object>)
+2017-05-23 22:07:42,768 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.saveNews(com.wnc.superword.manage.pojo.News)
+2017-05-23 22:07:42,771 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.test(org.springframework.ui.Model) throws java.lang.Exception
+2017-05-23 22:07:42,771 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/bb],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.bb(org.springframework.ui.Model)
+2017-05-23 22:07:42,772 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.HelloWorld(org.springframework.ui.Model)
+2017-05-23 22:07:42,772 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/downpics],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.downpics(org.springframework.ui.Model)
+2017-05-23 22:07:42,772 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/talk],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.talk(org.springframework.ui.Model)
+2017-05-23 22:07:42,773 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/newslist],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.newslist(org.springframework.ui.Model)
+2017-05-23 22:07:42,773 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8news],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.zhibo8news(org.springframework.ui.Model)
+2017-05-23 22:07:42,774 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/word/mp3],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.WordController.scheduleDownload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession,java.lang.String)
+2017-05-23 22:07:43,203 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 22:07:40 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 22:07:44,441 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 22:07:40 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 22:07:44,786 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-05-23 22:07:44,799 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-05-23 22:07:44,808 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-05-23 22:07:44,817 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/backup/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-05-23 22:07:44,846 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/download/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2017-05-23 22:07:44,855 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/mp3/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2017-05-23 22:07:44,863 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/tmp/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2017-05-23 22:07:45,092 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization completed in 4280 ms
+2017-05-23 22:31:46,654 [http-bio-8081-exec-8] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-05-23 22:31:46,707 [http-bio-8081-exec-8] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
+2017-05-23 22:37:47,804 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-05-23 22:37:47,808 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-2} inited
+2017-05-23 22:38:25,925 [http-bio-8081-exec-4] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] 直播吧 网址解析失败!
+java.net.MalformedURLException: no protocol: 直播吧
+	at java.net.URL.<init>(URL.java:586)
+	at java.net.URL.<init>(URL.java:483)
+	at java.net.URL.<init>(URL.java:432)
+	at com.wnc.news.api.mine.zhibo8.WebSiteClassFactory.getHtmlClass(WebSiteClassFactory.java:76)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:29)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.controller.ArticleController.zhibo8Today(ArticleController.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 22:38:34,789 [http-bio-8081-exec-4] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] 直播吧 网址解析失败!
+java.net.MalformedURLException: no protocol: 直播吧
+	at java.net.URL.<init>(URL.java:586)
+	at java.net.URL.<init>(URL.java:483)
+	at java.net.URL.<init>(URL.java:432)
+	at com.wnc.news.api.mine.zhibo8.WebSiteClassFactory.getHtmlClass(WebSiteClassFactory.java:76)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:29)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.controller.ArticleController.zhibo8Today(ArticleController.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 22:39:12,500 [http-bio-8081-exec-4] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] 直播吧 网址解析失败!
+java.net.MalformedURLException: no protocol: 直播吧
+	at java.net.URL.<init>(URL.java:586)
+	at java.net.URL.<init>(URL.java:483)
+	at java.net.URL.<init>(URL.java:432)
+	at com.wnc.news.api.mine.zhibo8.WebSiteClassFactory.getHtmlClass(WebSiteClassFactory.java:76)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:29)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.controller.ArticleController.zhibo8Today(ArticleController.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 22:39:15,116 [http-bio-8081-exec-4] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] 直播吧 网址解析失败!
+java.net.MalformedURLException: no protocol: 直播吧
+	at java.net.URL.<init>(URL.java:586)
+	at java.net.URL.<init>(URL.java:483)
+	at java.net.URL.<init>(URL.java:432)
+	at com.wnc.news.api.mine.zhibo8.WebSiteClassFactory.getHtmlClass(WebSiteClassFactory.java:76)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:29)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.controller.ArticleController.zhibo8Today(ArticleController.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 22:43:37,441 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization started
+2017-05-23 22:43:37,643 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing Root WebApplicationContext: startup date [Tue May 23 22:43:37 CST 2017]; root of context hierarchy
+2017-05-23 22:43:37,739 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext-mybatis.xml]
+2017-05-23 22:43:38,078 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext.xml]
+2017-05-23 22:43:39,625 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [jdbc.properties]
+2017-05-23 22:43:39,627 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [env.properties]
+2017-05-23 22:43:39,631 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [log4j.properties]
+2017-05-23 22:43:39,633 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [httpclient.properties]
+2017-05-23 22:43:39,635 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[WARN] Could not load properties from class path resource [httpclient.properties]: class path resource [httpclient.properties] cannot be opened because it does not exist
+2017-05-23 22:43:39,669 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-23 22:43:43,584 [localhost-startStop-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]-[INFO] Initializing ExecutorService  'taskExecutor'
+2017-05-23 22:43:45,469 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization completed in 8026 ms
+2017-05-23 22:43:47,155 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization started
+2017-05-23 22:43:47,172 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 22:43:47 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 22:43:47,175 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/sw-manage-servlet.xml]
+2017-05-23 22:43:47,801 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-23 22:43:48,884 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/download],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:43:48,886 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/queryUTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.queryUploadTime(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:43:48,886 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/mbupload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.mbup(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:43:48,889 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/image/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.cloud.xinxin.controller.UploadController.imageUpload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-23 22:43:48,892 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.delete(java.lang.Long)
+2017-05-23 22:43:48,893 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ArticleController.list(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)
+2017-05-23 22:43:48,893 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.view(org.springframework.ui.Model,java.lang.Long,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:43:48,893 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/comments],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.comments(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-23 22:43:48,893 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/today],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.zhibo8Today(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-23 22:43:48,896 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.list(java.lang.Integer,java.lang.Integer)
+2017-05-23 22:43:48,898 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/keywords],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.keywords()
+2017-05-23 22:43:48,898 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/cache],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ClubController.wordMean(java.lang.String,java.lang.String,int)
+2017-05-23 22:43:48,901 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/comments/hot],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.CommentController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-23 22:43:48,905 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/mean],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<word.DicWord> com.wnc.superword.manage.controller.DictController.wordMean(org.springframework.ui.Model,java.lang.String)
+2017-05-23 22:43:48,907 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.DictController.HelloWorld(org.springframework.ui.Model)
+2017-05-23 22:43:48,909 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/mobile-page],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.MobileController.showMobile()
+2017-05-23 22:43:48,923 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.NewsController.list(java.lang.Integer,java.lang.Integer)
+2017-05-23 22:43:48,923 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-23 22:43:48,924 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/add],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.users(org.springframework.ui.Model)
+2017-05-23 22:43:48,924 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.deleteNews(java.util.List<java.lang.Object>)
+2017-05-23 22:43:48,925 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/getSingleNews],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Integer> com.wnc.superword.manage.controller.NewsController.getSingleNews(java.lang.String)
+2017-05-23 22:43:48,925 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.saveNews(com.wnc.superword.manage.pojo.News)
+2017-05-23 22:43:48,928 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.test(org.springframework.ui.Model) throws java.lang.Exception
+2017-05-23 22:43:48,929 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/bb],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.bb(org.springframework.ui.Model)
+2017-05-23 22:43:48,929 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.HelloWorld(org.springframework.ui.Model)
+2017-05-23 22:43:48,929 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/downpics],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.downpics(org.springframework.ui.Model)
+2017-05-23 22:43:48,929 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/talk],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.talk(org.springframework.ui.Model)
+2017-05-23 22:43:48,930 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/newslist],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.newslist(org.springframework.ui.Model)
+2017-05-23 22:43:48,930 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8news],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.zhibo8news(org.springframework.ui.Model)
+2017-05-23 22:43:48,933 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/word/mp3],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.WordController.scheduleDownload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession,java.lang.String)
+2017-05-23 22:43:49,700 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 22:43:47 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 22:43:51,096 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 22:43:47 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 22:43:51,553 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-05-23 22:43:51,562 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-05-23 22:43:51,574 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-05-23 22:43:51,587 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/backup/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-05-23 22:43:51,600 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/download/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2017-05-23 22:43:51,610 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/mp3/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2017-05-23 22:43:51,620 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/tmp/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2017-05-23 22:43:51,832 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization completed in 4677 ms
+2017-05-23 22:43:56,201 [http-bio-8081-exec-3] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-05-23 22:43:56,251 [http-bio-8081-exec-3] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
+2017-05-23 22:45:23,584 [http-bio-8081-exec-9] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-05-23 22:45:23,598 [http-bio-8081-exec-9] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-2} inited
+2017-05-23 22:53:22,448 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization started
+2017-05-23 22:53:22,857 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing Root WebApplicationContext: startup date [Tue May 23 22:53:22 CST 2017]; root of context hierarchy
+2017-05-23 22:53:23,229 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext-mybatis.xml]
+2017-05-23 22:53:23,562 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext.xml]
+2017-05-23 22:53:24,966 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [jdbc.properties]
+2017-05-23 22:53:24,968 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [env.properties]
+2017-05-23 22:53:24,970 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [log4j.properties]
+2017-05-23 22:53:24,971 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [httpclient.properties]
+2017-05-23 22:53:24,972 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[WARN] Could not load properties from class path resource [httpclient.properties]: class path resource [httpclient.properties] cannot be opened because it does not exist
+2017-05-23 22:53:25,013 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-23 22:53:30,012 [localhost-startStop-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]-[INFO] Initializing ExecutorService  'taskExecutor'
+2017-05-23 22:53:32,848 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization completed in 10395 ms
+2017-05-23 22:53:35,019 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization started
+2017-05-23 22:53:35,042 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 22:53:35 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 22:53:35,048 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/sw-manage-servlet.xml]
+2017-05-23 22:53:35,738 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-23 22:53:36,495 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/download],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:53:36,497 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/queryUTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.queryUploadTime(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:53:36,498 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/mbupload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.mbup(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:53:36,500 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/image/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.cloud.xinxin.controller.UploadController.imageUpload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-23 22:53:36,504 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.delete(java.lang.Long)
+2017-05-23 22:53:36,505 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ArticleController.list(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)
+2017-05-23 22:53:36,505 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.view(org.springframework.ui.Model,java.lang.Long,javax.servlet.http.HttpServletRequest)
+2017-05-23 22:53:36,505 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/comments],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.comments(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-23 22:53:36,505 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/today],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.zhibo8Today(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-23 22:53:36,510 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.list(java.lang.Integer,java.lang.Integer)
+2017-05-23 22:53:36,511 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/keywords],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.keywords()
+2017-05-23 22:53:36,512 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/cache],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ClubController.wordMean(java.lang.String,java.lang.String,int)
+2017-05-23 22:53:36,514 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/comments/hot],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.CommentController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-23 22:53:36,522 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.DictController.HelloWorld(org.springframework.ui.Model)
+2017-05-23 22:53:36,523 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/mean],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<word.DicWord> com.wnc.superword.manage.controller.DictController.wordMean(org.springframework.ui.Model,java.lang.String)
+2017-05-23 22:53:36,524 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/mobile-page],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.MobileController.showMobile()
+2017-05-23 22:53:36,532 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.NewsController.list(java.lang.Integer,java.lang.Integer)
+2017-05-23 22:53:36,533 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-23 22:53:36,535 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/add],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.users(org.springframework.ui.Model)
+2017-05-23 22:53:36,536 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.deleteNews(java.util.List<java.lang.Object>)
+2017-05-23 22:53:36,537 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/getSingleNews],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Integer> com.wnc.superword.manage.controller.NewsController.getSingleNews(java.lang.String)
+2017-05-23 22:53:36,537 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.saveNews(com.wnc.superword.manage.pojo.News)
+2017-05-23 22:53:36,543 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.test(org.springframework.ui.Model) throws java.lang.Exception
+2017-05-23 22:53:36,544 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/bb],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.bb(org.springframework.ui.Model)
+2017-05-23 22:53:36,544 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.HelloWorld(org.springframework.ui.Model)
+2017-05-23 22:53:36,545 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/downpics],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.downpics(org.springframework.ui.Model)
+2017-05-23 22:53:36,545 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/talk],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.talk(org.springframework.ui.Model)
+2017-05-23 22:53:36,545 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/newslist],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.newslist(org.springframework.ui.Model)
+2017-05-23 22:53:36,545 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8news],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.zhibo8news(org.springframework.ui.Model)
+2017-05-23 22:53:36,550 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/word/mp3],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.WordController.scheduleDownload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession,java.lang.String)
+2017-05-23 22:53:36,916 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 22:53:35 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 22:53:37,117 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 22:53:35 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 22:53:37,431 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-05-23 22:53:37,442 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-05-23 22:53:37,452 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-05-23 22:53:37,462 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/backup/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-05-23 22:53:37,472 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/download/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2017-05-23 22:53:37,482 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/mp3/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2017-05-23 22:53:37,493 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/tmp/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2017-05-23 22:53:37,771 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization completed in 2752 ms
+2017-05-23 22:54:32,324 [http-bio-8081-exec-1] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-05-23 22:54:32,421 [http-bio-8081-exec-1] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
+2017-05-23 22:59:59,692 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-05-23 23:00:06,948 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-05-23 23:03:50,936 [taskExecutor-6] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-22/5922363314947.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_21/news/nba/5922363314947_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:03:51,093 [taskExecutor-6] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-22/5922363314947.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_21/news/nba/5922363314947_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:03:51,206 [taskExecutor-6] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-22/5922363314947.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_21/news/nba/5922363314947_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-23 23:29:48,112 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-05-23 23:29:48,116 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-2} inited
+2017-05-23 23:45:52,321 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization started
+2017-05-23 23:45:52,876 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing Root WebApplicationContext: startup date [Tue May 23 23:45:52 CST 2017]; root of context hierarchy
+2017-05-23 23:45:53,072 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext-mybatis.xml]
+2017-05-23 23:45:53,475 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext.xml]
+2017-05-23 23:45:55,827 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [jdbc.properties]
+2017-05-23 23:45:55,829 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [env.properties]
+2017-05-23 23:45:55,829 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [log4j.properties]
+2017-05-23 23:45:55,829 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [httpclient.properties]
+2017-05-23 23:45:55,830 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[WARN] Could not load properties from class path resource [httpclient.properties]: class path resource [httpclient.properties] cannot be opened because it does not exist
+2017-05-23 23:45:55,849 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-23 23:46:00,362 [localhost-startStop-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]-[INFO] Initializing ExecutorService  'taskExecutor'
+2017-05-23 23:46:01,901 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization completed in 9503 ms
+2017-05-23 23:46:04,537 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization started
+2017-05-23 23:46:04,556 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 23:46:04 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 23:46:04,558 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/sw-manage-servlet.xml]
+2017-05-23 23:46:05,171 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-23 23:46:06,016 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/download],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-23 23:46:06,019 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/queryUTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.queryUploadTime(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-23 23:46:06,020 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/mbupload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.mbup(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2017-05-23 23:46:06,022 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/image/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.cloud.xinxin.controller.UploadController.imageUpload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-23 23:46:06,025 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.delete(java.lang.Long)
+2017-05-23 23:46:06,026 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ArticleController.list(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)
+2017-05-23 23:46:06,027 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.view(org.springframework.ui.Model,java.lang.Long,javax.servlet.http.HttpServletRequest)
+2017-05-23 23:46:06,027 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/comments],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.comments(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-23 23:46:06,027 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/today],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.zhibo8Today(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-23 23:46:06,030 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.list(java.lang.Integer,java.lang.Integer)
+2017-05-23 23:46:06,031 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/keywords],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.keywords()
+2017-05-23 23:46:06,059 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/cache],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ClubController.wordMean(java.lang.String,java.lang.String,int)
+2017-05-23 23:46:06,060 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/comments/hot],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.CommentController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-23 23:46:06,063 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/mean],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<word.DicWord> com.wnc.superword.manage.controller.DictController.wordMean(org.springframework.ui.Model,java.lang.String)
+2017-05-23 23:46:06,063 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.DictController.HelloWorld(org.springframework.ui.Model)
+2017-05-23 23:46:06,064 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/mobile-page/2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.MobileController.showMobile2()
+2017-05-23 23:46:06,065 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/mobile-page],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.MobileController.showMobile()
+2017-05-23 23:46:06,069 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.NewsController.list(java.lang.Integer,java.lang.Integer)
+2017-05-23 23:46:06,069 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-23 23:46:06,070 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.deleteNews(java.util.List<java.lang.Object>)
+2017-05-23 23:46:06,070 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/add],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.users(org.springframework.ui.Model)
+2017-05-23 23:46:06,070 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/getSingleNews],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Integer> com.wnc.superword.manage.controller.NewsController.getSingleNews(java.lang.String)
+2017-05-23 23:46:06,070 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.saveNews(com.wnc.superword.manage.pojo.News)
+2017-05-23 23:46:06,073 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.test(org.springframework.ui.Model) throws java.lang.Exception
+2017-05-23 23:46:06,073 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/bb],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.bb(org.springframework.ui.Model)
+2017-05-23 23:46:06,078 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.HelloWorld(org.springframework.ui.Model)
+2017-05-23 23:46:06,079 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/downpics],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.downpics(org.springframework.ui.Model)
+2017-05-23 23:46:06,079 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/talk],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.talk(org.springframework.ui.Model)
+2017-05-23 23:46:06,079 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/newslist],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.newslist(org.springframework.ui.Model)
+2017-05-23 23:46:06,079 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8news],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.zhibo8news(org.springframework.ui.Model)
+2017-05-23 23:46:06,081 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/word/mp3],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.WordController.scheduleDownload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession,java.lang.String)
+2017-05-23 23:46:06,601 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 23:46:04 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 23:46:06,866 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Tue May 23 23:46:04 CST 2017]; parent: Root WebApplicationContext
+2017-05-23 23:46:07,281 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-05-23 23:46:07,291 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-05-23 23:46:07,305 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-05-23 23:46:07,313 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/backup/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-05-23 23:46:07,322 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/download/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2017-05-23 23:46:07,332 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/mp3/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2017-05-23 23:46:07,347 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/tmp/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2017-05-23 23:46:07,641 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization completed in 3104 ms
+2017-05-23 23:59:53,101 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-05-23 23:59:53,147 [http-bio-8081-exec-4] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited

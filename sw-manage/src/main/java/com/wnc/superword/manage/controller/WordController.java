@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.wnc.basic.BasicFileUtil;
 import com.wnc.utils.UrlPicDownloader;
 
 import translate.site.iciba.CibaWordTranslate;
@@ -28,7 +29,11 @@ public class WordController {
 		try {
 			request.setCharacterEncoding("UTF-8");
 			// 获取文件的路径
-			String filepath = session.getServletContext().getRealPath("/") + "mp3\\" + word + ".mp3";
+			String folder = session.getServletContext().getRealPath("/") + "mp3\\";
+			String filepath = folder + word + ".mp3";
+			if (!BasicFileUtil.isExistFile(folder)) {
+				BasicFileUtil.makeDirectory(folder);
+			}
 			System.out.println(filepath);
 			File file = new File(filepath);
 			if (!file.exists()) {
