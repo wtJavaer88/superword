@@ -18,4 +18,14 @@ public class MobileController {
 		return "mobile2";
 	}
 
+	@RequestMapping(method = RequestMethod.GET, value = "/index")
+	public String index() {
+		return "index";
+	}
+
+	@RequestMapping(method = RequestMethod.GET, value = "/page-s")
+	public String search() {
+		return "page-s";
+	}
+
 }
