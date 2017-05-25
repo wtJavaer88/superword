@@ -15,7 +15,6 @@
 
 <div data-role="page" id="pageone">
   <div data-role="header">
-    <h1>欢迎来到我的主页</h1>
     <div data-role="navbar">
       <ul>
         <li><a href="/rest/mobile-page/index" data-icon="apple">推荐</a></li>
@@ -43,11 +42,10 @@
   </div>
 
   <div data-role="footer">
-    <h1>我的页脚</h1>
 	<div data-role="navbar">
       <ul>
         <li><a href="/rest/mobile-page/index" data-icon="home">首页</a></li>
-        <li><a onclick="toFrontPage()" data-icon="home">关于</a></li>
+        <li><a onclick="toFrontPage()" data-icon="info">关于</a></li>
       </ul>
     </div>
   </div> 
