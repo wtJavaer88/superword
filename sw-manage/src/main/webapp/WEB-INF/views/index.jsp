@@ -10,7 +10,8 @@
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/css/jqm-icon-pack-fa.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/beibei.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/js/jquery.browser.js">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/beibei-search-result.css">
+
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script
 	src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
@@ -33,11 +34,11 @@
 		</div>
 
 		<div data-role="main" class="ui-content">
-			<section class="item-list">
+			<section class="item-list row form-horizontal">
 			
 			<header class="list-header"><span class="title">今日特卖&nbsp;•&nbsp;每天早9点准时上新</span></header>
 			<div id="J_list-content" class="list-content">
-            <a href="//m.beibei.com/list/list.html?eventId=309816&amp;tabName=推荐" class="item-show" data-id="309816" data-title="达晶">
+            <a href="//m.beibei.com/list/list.html?eventId=309816&amp;tabName=推荐" class="item-show col-md-6 col-sm-12 col-xs-12" data-id="309816" data-title="达晶">
                 <div class="brand-info-wrapper">
                     <img style="transition: 0.3s; opacity: 1;" src="//b1.hucdn.com/upload/brand/1612/30/70222534290338_200x200.jpg" class="brand-logo lazy">
                     <span class="brand-name">达晶</span>
@@ -87,7 +88,7 @@
                 
                 </div>
             </a>
-            <a href="//m.beibei.com/list/list.html?eventId=306064&amp;tabName=推荐" class="item-show" data-id="306064" data-title="飞龙皇家">
+            <a href="//m.beibei.com/list/list.html?eventId=306064&amp;tabName=推荐" class="item-show col-md-6 col-sm-12 col-xs-12" data-id="306064" data-title="飞龙皇家">
                 <div class="brand-info-wrapper">
                     <img style="transition: 0.3s; opacity: 1;" src="//b1.hucdn.com/upload/brand/1703/13/17099774837170_200x200.jpg" class="brand-logo lazy">
                     <span class="brand-name">飞龙皇家</span>
@@ -137,7 +138,7 @@
                 
                 </div>
             </a>
-            <a href="//m.beibei.com/list/list.html?eventId=309979&amp;tabName=推荐" class="item-show" data-id="309979" data-title="曲妮">
+            <a href="//m.beibei.com/list/list.html?eventId=309979&amp;tabName=推荐" class="item-show col-md-6 col-sm-12 col-xs-12" data-id="309979" data-title="曲妮">
                 <div class="brand-info-wrapper">
                     <img style="transition: 0.3s; opacity: 1;" src="//b1.hucdn.com/upload/brand/1702/14/39198442314120_200x200.jpg" class="brand-logo lazy">
                     <span class="brand-name">曲妮</span>

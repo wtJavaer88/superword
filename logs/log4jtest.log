@@ -17201,3 +17201,358 @@ java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_2
 2017-05-25 23:49:54,941 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/mp3/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
 2017-05-25 23:49:54,951 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/tmp/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
 2017-05-25 23:49:55,233 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization completed in 2680 ms
+2017-05-26 19:36:44,120 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization started
+2017-05-26 19:36:44,393 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing Root WebApplicationContext: startup date [Fri May 26 19:36:44 CST 2017]; root of context hierarchy
+2017-05-26 19:36:44,612 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext-mybatis.xml]
+2017-05-26 19:36:45,143 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\projects\superword\sw-manage\target\classes\spring\applicationContext.xml]
+2017-05-26 19:36:46,582 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [jdbc.properties]
+2017-05-26 19:36:46,584 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [env.properties]
+2017-05-26 19:36:46,584 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [log4j.properties]
+2017-05-26 19:36:46,585 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [httpclient.properties]
+2017-05-26 19:36:46,587 [localhost-startStop-1] [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]-[WARN] Could not load properties from class path resource [httpclient.properties]: class path resource [httpclient.properties] cannot be opened because it does not exist
+2017-05-26 19:36:46,693 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-26 19:36:50,675 [localhost-startStop-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]-[INFO] Initializing ExecutorService  'taskExecutor'
+2017-05-26 19:36:53,122 [localhost-startStop-1] [org.springframework.web.context.ContextLoader]-[INFO] Root WebApplicationContext: initialization completed in 8983 ms
+2017-05-26 19:36:55,822 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization started
+2017-05-26 19:36:55,848 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[INFO] Refreshing WebApplicationContext for namespace 'sw-manage-servlet': startup date [Fri May 26 19:36:55 CST 2017]; parent: Root WebApplicationContext
+2017-05-26 19:36:55,851 [localhost-startStop-1] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [spring/sw-manage-servlet.xml]
+2017-05-26 19:36:56,614 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-26 19:36:57,724 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/download],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-26 19:36:57,729 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/mbupload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.mbup(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2017-05-26 19:36:57,730 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cloud/queryUTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.wnc.superword.cloud.xinxin.controller.CloudOperateController.queryUploadTime(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-26 19:36:57,733 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/image/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.cloud.xinxin.controller.UploadController.imageUpload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-26 19:36:57,737 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.delete(java.lang.Long)
+2017-05-26 19:36:57,738 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ArticleController.list(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String)
+2017-05-26 19:36:57,738 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.view(org.springframework.ui.Model,java.lang.Long,javax.servlet.http.HttpServletRequest)
+2017-05-26 19:36:57,739 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/comments],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ArticleController.comments(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-26 19:36:57,739 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8/today],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.ArticleController.zhibo8Today(org.springframework.ui.Model,java.lang.Integer) throws java.lang.Exception
+2017-05-26 19:36:57,741 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.list(java.lang.Integer,java.lang.Integer)
+2017-05-26 19:36:57,743 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/keywords],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.ClubController.keywords()
+2017-05-26 19:36:57,743 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/club/cache],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.ClubController.wordMean(java.lang.String,java.lang.String,int)
+2017-05-26 19:36:57,746 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/comments/hot],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.CommentController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-26 19:36:57,749 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/mean],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<word.DicWord> com.wnc.superword.manage.controller.DictController.wordMean(org.springframework.ui.Model,java.lang.String)
+2017-05-26 19:36:57,750 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/dict/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.DictController.HelloWorld(org.springframework.ui.Model)
+2017-05-26 19:36:57,752 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/mobile-page/index],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.MobileController.index()
+2017-05-26 19:36:57,753 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/mobile-page/page-s],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.MobileController.search()
+2017-05-26 19:36:57,753 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/mobile-page/2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.MobileController.showMobile2()
+2017-05-26 19:36:57,754 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/mobile-page],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.MobileController.showMobile()
+2017-05-26 19:36:57,758 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.wnc.utils.EasyUIResult> com.wnc.superword.manage.controller.NewsController.list(java.lang.Integer,java.lang.Integer)
+2017-05-26 19:36:57,759 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/view],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.view(org.springframework.ui.Model,java.lang.Long)
+2017-05-26 19:36:57,760 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.saveNews(com.wnc.superword.manage.pojo.News)
+2017-05-26 19:36:57,761 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.wnc.superword.manage.controller.NewsController.deleteNews(java.util.List<java.lang.Object>)
+2017-05-26 19:36:57,761 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/add],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.NewsController.users(org.springframework.ui.Model)
+2017-05-26 19:36:57,761 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/news/getSingleNews],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.Integer> com.wnc.superword.manage.controller.NewsController.getSingleNews(java.lang.String)
+2017-05-26 19:36:57,764 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.test(org.springframework.ui.Model) throws java.lang.Exception
+2017-05-26 19:36:57,764 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/bb],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.bb(org.springframework.ui.Model)
+2017-05-26 19:36:57,764 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/hello],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.HelloWorld(org.springframework.ui.Model)
+2017-05-26 19:36:57,765 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/downpics],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.downpics(org.springframework.ui.Model)
+2017-05-26 19:36:57,765 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/talk],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.talk(org.springframework.ui.Model)
+2017-05-26 19:36:57,765 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/newslist],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.newslist(org.springframework.ui.Model)
+2017-05-26 19:36:57,765 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/zb8news],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.TestController.zhibo8news(org.springframework.ui.Model)
+2017-05-26 19:36:57,767 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/word/mp3],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.wnc.superword.manage.controller.WordController.scheduleDownload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession,java.lang.String)
+2017-05-26 19:36:58,230 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Fri May 26 19:36:55 CST 2017]; parent: Root WebApplicationContext
+2017-05-26 19:36:58,429 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'sw-manage-servlet': startup date [Fri May 26 19:36:55 CST 2017]; parent: Root WebApplicationContext
+2017-05-26 19:36:58,735 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2017-05-26 19:36:58,750 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2017-05-26 19:36:58,761 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2017-05-26 19:36:58,769 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/backup/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2017-05-26 19:36:58,791 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/download/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2017-05-26 19:36:58,813 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/mp3/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2017-05-26 19:36:58,826 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/tmp/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2017-05-26 19:36:59,191 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'sw-manage': initialization completed in 3369 ms
+2017-05-26 20:00:00,113 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-05-26 20:00:03,115 [pool-1-thread-1] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-05-26 20:00:03,166 [pool-1-thread-1] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
+2017-05-26 20:00:48,009 [pool-1-thread-1] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] 直播吧 网址解析失败!
+java.net.MalformedURLException: no protocol: 直播吧
+	at java.net.URL.<init>(URL.java:586)
+	at java.net.URL.<init>(URL.java:483)
+	at java.net.URL.<init>(URL.java:432)
+	at com.wnc.news.api.mine.zhibo8.WebSiteClassFactory.getHtmlClass(WebSiteClassFactory.java:76)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:29)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.task.NewsSchedule.doJob(NewsSchedule.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 20:00:52,119 [pool-1-thread-1] [com.alibaba.druid.pool.DruidDataSource]-[ERROR] testWhileIdle is true, validationQuery not set
+2017-05-26 20:00:52,122 [pool-1-thread-1] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-2} inited
+2017-05-26 20:02:08,484 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-05-26 20:03:11,210 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592777da56043.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592777da56043_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 20:03:11,368 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592777da56043.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592777da56043_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 20:03:11,486 [taskExecutor-8] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592777da56043.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592777da56043_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:00,189 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-05-26 21:00:01,190 [pool-1-thread-1] [com.wnc.news.api.mine.zhibo8.HtmlContentHelper]-[ERROR] 直播吧 网址解析失败!
+java.net.MalformedURLException: no protocol: 直播吧
+	at java.net.URL.<init>(URL.java:586)
+	at java.net.URL.<init>(URL.java:483)
+	at java.net.URL.<init>(URL.java:432)
+	at com.wnc.news.api.mine.zhibo8.WebSiteClassFactory.getHtmlClass(WebSiteClassFactory.java:76)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.extractNewsContent(HtmlContentHelper.java:29)
+	at com.wnc.news.api.mine.zhibo8.HtmlContentHelper.initEngHtmlContent(HtmlContentHelper.java:24)
+	at com.wnc.superword.manage.service.ArticleService.decorateArticle(ArticleService.java:188)
+	at com.wnc.superword.manage.task.NewsSchedule.news(NewsSchedule.java:63)
+	at com.wnc.superword.manage.task.NewsSchedule.doJob(NewsSchedule.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:02,426 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-05-26 21:00:03,572 [taskExecutor-11] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592826c580c95.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592826c580c95_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:03,631 [taskExecutor-11] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592826c580c95.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592826c580c95_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:03,703 [taskExecutor-11] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592826c580c95.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592826c580c95_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:03,810 [taskExecutor-11] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592826c580c95.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592826c580c95_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:03,930 [taskExecutor-11] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592826c580c95.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592826c580c95_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:04,073 [taskExecutor-11] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592826c580c95.htm 获取评论总数失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592826c580c95_count.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getAllCommentsCount(Zb8CommentsUtil.java:90)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:56)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:57,135 [taskExecutor-20] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592777da56043.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592777da56043_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:57,291 [taskExecutor-20] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592777da56043.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592777da56043_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:00:57,416 [taskExecutor-20] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/592777da56043.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/592777da56043_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 21:59:59,953 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-05-26 22:00:02,943 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-05-26 22:00:04,561 [taskExecutor-19] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/59283242589bd.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/59283242589bd_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 22:00:04,782 [taskExecutor-19] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/59283242589bd.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/59283242589bd_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 22:00:04,846 [taskExecutor-19] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/59283242589bd.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/59283242589bd_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 23:00:00,055 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存新闻启动!
+2017-05-26 23:00:01,837 [pool-1-thread-1] [com.wnc.superword.manage.task.NewsSchedule]-[INFO] 缓存评论启动!
+2017-05-26 23:00:02,750 [taskExecutor-20] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/59283242589bd.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/59283242589bd_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getAllCommentCount(Zb8CommentsAnalyseTool.java:25)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 23:00:02,846 [taskExecutor-20] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/59283242589bd.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/59283242589bd_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:31)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-26 23:00:02,906 [taskExecutor-20] [com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool]-[INFO] http://news.zhibo8.cc/nba/2017-05-26/59283242589bd.htm 获取热评信息失败!
+java.io.IOException: 404 error loading URL http://cache.zhibo8.cc/json/2017_05_25/news/nba/59283242589bd_hot.htm
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:387)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:364)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:143)
+	at com.wnc.utils.JsoupHelper.getJsonResult(JsoupHelper.java:9)
+	at com.wnc.news.api.mine.zhibo8.Zb8CommentsUtil.getHotComments(Zb8CommentsUtil.java:36)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.checkComments(Zb8CommentsAnalyseTool.java:49)
+	at com.wnc.news.api.mine.zhibo8.comments_analyse.Zb8CommentsAnalyseTool.getHotCommentCount(Zb8CommentsAnalyseTool.java:20)
+	at com.wnc.superword.manage.task.CommentThread.run(CommentThread.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
