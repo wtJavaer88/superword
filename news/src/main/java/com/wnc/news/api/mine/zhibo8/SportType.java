@@ -1,7 +1,7 @@
 package com.wnc.news.api.mine.zhibo8;
 
 public enum SportType {
-	Zuqiu(1, "zuqiu"), NBA(2, "nba");
+	Soccer(1, "soccer"), Zuqiu(1, "zuqiu"), NBA(2, "nba");
 	int id;
 	String desc;
 

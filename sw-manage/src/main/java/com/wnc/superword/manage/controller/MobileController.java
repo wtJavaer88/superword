@@ -23,6 +23,11 @@ public class MobileController {
 		return "index";
 	}
 
+	@RequestMapping(method = RequestMethod.GET, value = "/index2")
+	public String index2() {
+		return "index2";
+	}
+
 	@RequestMapping(method = RequestMethod.GET, value = "/page-s")
 	public String search() {
 		return "page-s";

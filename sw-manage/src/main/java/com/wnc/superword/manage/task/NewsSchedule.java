@@ -50,7 +50,7 @@ public class NewsSchedule {
 		try {
 			String today = BasicDateUtil.getCurrentDateTimeString().substring(0, 10);
 			List<Zb8News> nbaNewsByDay = new NewsExtract().getNBANewsBeforeDay(today, i);
-			List<Zb8News> zuqiuNewsByDay = new NewsExtract().getNBANewsBeforeDay(today, i);
+			List<Zb8News> zuqiuNewsByDay = new NewsExtract().getZuqiuNewsBeforeDay(today, i);
 			nbaNewsByDay.addAll(zuqiuNewsByDay);
 
 			List<Article> articlesFromZb8 = Zb8NewsAdapter.getArticlesFromZb8(nbaNewsByDay);

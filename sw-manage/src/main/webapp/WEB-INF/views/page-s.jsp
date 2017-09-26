@@ -11,11 +11,16 @@
 	href="${pageContext.request.contextPath}/css/jqm-icon-pack-fa.css">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/css/bootstrap.min.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/css/beibei-search-result.css">
-
-<script src="${pageContext.request.contextPath}/js/jquery-1.11.1.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/js/beibei-app.js"></script>
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/css/beibei-all.css">
+	
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script
+	src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/js/beibei-app.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -32,11 +37,11 @@
 
 		<div data-role="main" class="ui-content">
 			<div data-role="fieldcontain">
-				<input data-type="search" name="search-restaurants" id="search" />
+				<input type="search" name="search-restaurants" id="search" />
 			</div>
 
-			<section id="J_Content" class="result-content J_fix_scroll row form-horizontal">
-				<a class="item col-md-6 col-sm-12 col-xs-12"
+			<section id="J_Content" class="result-content J_fix_scroll row">
+				<a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=19565632&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:19565632}">
 					<div class="item-img">
 						<img alt="双禹 7双装棉质触感春夏婴儿童袜0-8岁透气网眼袜"
@@ -54,7 +59,7 @@
 							</div>
 						</div>
 					</div>
-				</a> <a class="item"
+				</a> <a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=10399826&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:10399826}">
 					<div class="item-img">
 						<img alt="双禹 7双装全棉质缕空网眼男女儿童袜0-8岁限"
@@ -72,7 +77,7 @@
 							</div>
 						</div>
 					</div>
-				</a> <a class="item"
+				</a> <a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=10594908&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:10594908}">
 					<div class="item-img">
 						<img alt="双禹 7双装春夏婴儿袜子夏薄款儿童宝宝网眼袜"
@@ -90,7 +95,7 @@
 							</div>
 						</div>
 					</div>
-				</a> <a class="item"
+				</a> <a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=20505935&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:20505935}">
 					<div class="item-img">
 						<img alt="达人娃女童连裤袜打底裤白色丝袜夏季舞蹈袜"
@@ -108,7 +113,7 @@
 							</div>
 						</div>
 					</div>
-				</a> <a class="item"
+				</a> <a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=20907739&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:20907739}">
 					<div class="item-img">
 						<img alt="双禹 夏季网眼男女童袜薄款透气棉袜儿童袜 0-4-8-12岁 5双礼盒装"
@@ -126,7 +131,7 @@
 							</div>
 						</div>
 					</div>
-				</a> <a class="item"
+				</a> <a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=18802987&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:18802987}">
 					<div class="item-img">
 						<img alt="巴布豆女童天鹅绒连裤袜薄款弹力儿童舞蹈袜"
@@ -144,7 +149,7 @@
 							</div>
 						</div>
 					</div>
-				</a> <a class="item"
+				</a> <a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=5284943&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:5284943}">
 					<div class="item-img">
 						<img alt="双禹 夏季网眼男女童袜薄款透气棉袜儿童袜  5双礼盒装"
@@ -162,7 +167,7 @@
 							</div>
 						</div>
 					</div>
-				</a> <a class="item"
+				</a> <a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=20878175&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:20878175}">
 					<div class="item-img">
 						<img alt="【高弹力不勾丝超值】达人娃女童连裤袜丝袜夏季打底裤舞蹈袜"
@@ -180,7 +185,7 @@
 							</div>
 						</div>
 					</div>
-				</a> <a class="item"
+				</a> <a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=18635151&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:18635151}">
 					<div class="item-img">
 						<img alt="迪士尼儿童袜子棉袜宝宝袜子春夏秋女童丝袜"
@@ -198,7 +203,7 @@
 							</div>
 						</div>
 					</div>
-				</a> <a class="item"
+				</a> <a class="item col-md-4 col-sm-12 col-xs-12"
 					href="//m.beibei.com/detail/detail.html?iid=20751256&amp;beibeiapp_info={&quot;target&quot;:&quot;detail&quot;,&quot;iid&quot;:20751256}">
 					<div class="item-img">
 						<img alt="【4.9分好评】3条装 女童天鹅绒表演舞蹈白色连裤袜"

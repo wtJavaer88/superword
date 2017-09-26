@@ -7,19 +7,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet"
 	href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css">
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/css/jqm-icon-pack-fa.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/jqm-icon-pack-fa.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/beibei.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/css/beibei-search-result.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
 
-<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script
 	src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 	
-<script>
-	//alert('chrome? '+$.browser.chrome);
-	//alert('firefox? '+$.browser.mozilla);
-</script>
 </head>
 <body>
 	<div data-role="page" id="pageone">
@@ -34,10 +30,10 @@
 		</div>
 
 		<div data-role="main" class="ui-content">
-			<section class="item-list row form-horizontal">
+			<section class="item-list">
 			
 			<header class="list-header"><span class="title">今日特卖&nbsp;•&nbsp;每天早9点准时上新</span></header>
-			<div id="J_list-content" class="list-content">
+			<div id="J_list-content" class="list-content row form-horizontal">
             <a href="//m.beibei.com/list/list.html?eventId=309816&amp;tabName=推荐" class="item-show col-md-6 col-sm-12 col-xs-12" data-id="309816" data-title="达晶">
                 <div class="brand-info-wrapper">
                     <img style="transition: 0.3s; opacity: 1;" src="//b1.hucdn.com/upload/brand/1612/30/70222534290338_200x200.jpg" class="brand-logo lazy">

@@ -1,0 +1,27 @@
+.detail{
+	padding-top:.93866667rem;
+	width:200px
+}
+.discount {
+	padding-left:2.128rem;
+	padding-top:.128rem;
+	color:#999;
+	font-size:.55466667rem
+}
+.price-discount {
+	vertical-align:bottom;
+	letter-spacing:1px;
+	color:#ff4965;
+	font-size:.68266667rem
+}
+.price-discount span {
+	font-size:.55466667rem
+}
+.price-original {
+	margin-right:.1rem;
+	padding-top:.128rem;
+	margin-left:.2rem;
+	text-decoration:line-through;
+	color:#a4a4a4;
+	font-size:.55466667rem
+}
